@@ -102,19 +102,19 @@ jsfiddle
 | Week | Date | Topic | Assignment |
 | --- | --- | --- | --- |
 | 1  | Tues, 3 Sept  | Introduction | |
-| 1  | Thur, 5 Sept  | HTML: Basics ([Howe](https://learn.shayhowe.com/html-css/), Lesson 1/2) | HW 1<br/>Lab 0 |
+| 1  | Thur, 5 Sept  | HTML: Basics ([Howe](https://learn.shayhowe.com/html-css/), Lesson 1/2) | HW 1<br/>Lab 1 |
 | 2  | Tues, 10 Sept | CSS: Basics ([Howe](https://learn.shayhowe.com/html-css/), Lesson 3/4/5) | |
 | 2  | Thur, 12 Sept | HTML: Advanced ([Howe](https://learn.shayhowe.com/html-css/), Lesson 6-12)<br/>SEO: [backlinks](https://moz.com/learn/seo/backlinks), [Google SEO Page](https://support.google.com/webmasters/answer/7451184)   | |
 | 3  | Tues, 17 Sept | **NO CLASS** (Mike at [ECML-PKDD](http://ecmlpkdd2019.org/)) | |
 | 3  | Thur, 19 Sept | **NO CLASS** (Mike at [ECML-PKDD](http://ecmlpkdd2019.org/)) | |
-| 4  | Tues, 24 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3) | Lab 1  |
-| 4  | Thur, 26 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3) | Lab 2 <br/> [Quiz: data types](https://realpython.com/quizzes/python-data-types/)<br/>[Quiz: variables](https://realpython.com/quizzes/python-variables/)<br/>[Quiz: if](https://realpython.com/quizzes/python-conditional-statements/)<br/>[Quiz: operators](https://realpython.com/quizzes/python-operators-expressions/)  |
-| 5  | Tues, 1 Oct   | Python: Lists ([Sweigart](https://automatetheboringstuff.com/), Chapter 4) | Lab 3<br/>[Quiz: loops](https://realpython.com/quizzes/python-while-loop/)<br/>[Quiz: lists](https://realpython.com/quizzes/python-lists-tuples/) |
-| 5  | Thur, 3 Oct   | Python: Dictionaries ([Sweigart](https://automatetheboringstuff.com/), Chapter 5) | Lab 4<br/>HW 2<br/>[Quiz: dicts](https://realpython.com/quizzes/python-dicts/) |
-| 6  | Tues, 8 Oct   | Python: Strings ([Sweigart](https://automatetheboringstuff.com/), Chapter 6) | Lab 5<br/>[Quiz: strings](https://realpython.com/quizzes/python-strings/) | 
-| 6  | Thur, 10 Oct  | Python: Regular Expressions ([Sweigart](https://automatetheboringstuff.com/), Chapter 7) | Lab 6<br/>[Quiz: sets](https://realpython.com/quizzes/python-sets/) |
-| 7  | Tues, 15 Oct  | Python: Files ([Sweigart](https://automatetheboringstuff.com/), Chapter 8) | Lab 7<br/>[Quiz: files](https://realpython.com/quizzes/read-write-files-python/)<br/>HW 3 |
-| 7  | Thur, 17 Oct  | Python: Files 2 ([Sweigart](https://automatetheboringstuff.com/), Chapter 9) | Lab 8 <br/>[Quiz: lexical](https://realpython.com/quizzes/python-program-structure/)|
+| 4  | Tues, 24 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3) | Lab 2  |
+| 4  | Thur, 26 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3) | Lab 3 <br/> [Quiz: data types](https://realpython.com/quizzes/python-data-types/)<br/>[Quiz: variables](https://realpython.com/quizzes/python-variables/)<br/>[Quiz: if](https://realpython.com/quizzes/python-conditional-statements/)<br/>[Quiz: operators](https://realpython.com/quizzes/python-operators-expressions/)  |
+| 5  | Tues, 1 Oct   | Python: Lists ([Sweigart](https://automatetheboringstuff.com/), Chapter 4) | Lab 4<br/>[Quiz: loops](https://realpython.com/quizzes/python-while-loop/)<br/>[Quiz: lists](https://realpython.com/quizzes/python-lists-tuples/) |
+| 5  | Thur, 3 Oct   | Python: Dictionaries ([Sweigart](https://automatetheboringstuff.com/), Chapter 5) | Lab 5<br/>HW 2<br/>[Quiz: dicts](https://realpython.com/quizzes/python-dicts/) |
+| 6  | Tues, 8 Oct   | Python: Strings ([Sweigart](https://automatetheboringstuff.com/), Chapter 6) | Lab 6<br/>[Quiz: strings](https://realpython.com/quizzes/python-strings/) | 
+| 6  | Thur, 10 Oct  | Python: Regular Expressions ([Sweigart](https://automatetheboringstuff.com/), Chapter 7) | Lab 7<br/>[Quiz: sets](https://realpython.com/quizzes/python-sets/) |
+| 7  | Tues, 15 Oct  | Python: Files ([Sweigart](https://automatetheboringstuff.com/), Chapter 8) | Lab 8<br/>[Quiz: files](https://realpython.com/quizzes/read-write-files-python/)<br/>HW 3 |
+| 7  | Thur, 17 Oct  | Python: Files 2 ([Sweigart](https://automatetheboringstuff.com/), Chapter 9) | Lab 9 <br/>[Quiz: lexical](https://realpython.com/quizzes/python-program-structure/)|
 | 8  | Tues, 22 Oct  | **NO CLASS** (Fall Break) |
 | 8  | Thur, 24 Oct  | Python: Debugging ([Sweigart](https://automatetheboringstuff.com/), Chapter 10) | | 
 | 9  | Tues, 29 Oct  | Python: Web Scraping ([Sweigart](https://automatetheboringstuff.com/), Chapter 11) | HW 4 |
