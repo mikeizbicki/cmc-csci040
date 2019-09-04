@@ -89,14 +89,7 @@ How the internet works: https://thesquareplanet.com/blog/how-the-internet-works/
 
 Web architecture 101: https://engineering.videoblocks.com/web-architecture-101-a3224e126947
 
-Lab 01: Basic Math, Functions |
-Lab 02: Recursion | 
-Lab 03: Strings, Lists, Loops |
-Lab 04: Strings, Lists, Loops (x2) | 
-Lab 05: Tuples, List Comprehensions |
-Lab 06: Files | 
-Lab 07: Classes |
-Lab 08: Exceptions | 
+OPSEC: https://www.telegraph.co.uk/news/worldnews/northamerica/usa/11229241/FBIs-most-wanted-cyber-criminal-caught-out-by-pet-cat-password.html
 
 reddit jsonp: https://www.reddit.com/r/programming/comments/cxh3a/we_just_added_jsonp_to_reddits_json_api/
 
@@ -105,60 +98,11 @@ jsfiddle
 |-->
 
 
-<!--
-Basic Data Types
-https://realpython.com/python-data-types/
-
-Variables
-https://realpython.com/python-variables/
-
-
-Conditional Statements
-https://realpython.com/python-conditional-statements/
-
-Operators
-https://realpython.com/python-operators-expressions/
-
-
-
-While Loops
-https://realpython.com/python-while-loop/
-
-Lexical Structure
-https://realpython.com/python-program-structure/
-
-
-
-For Loops
-https://realpython.com/python-for-loop/
-
-Strings
-https://realpython.com/python-strings/
-
-
-Lists/Tuples
-https://realpython.com/python-lists-tuples/
-
-
-Dictionaries
-https://realpython.com/python-dicts/
-
-
-Sets
-https://realpython.com/python-sets/
-
-
-Input/Output
-https://realpython.com/python-input-output/
-
-File IO
-https://realpython.com/read-write-files-python/
--->
 
 | Week | Date | Topic | Assignment |
 | --- | --- | --- | --- |
 | 1  | Tues, 3 Sept  | Introduction | |
-| 1  | Thur, 5 Sept  | HTML: Basics ([Howe](https://learn.shayhowe.com/html-css/), Lesson 1/2) | HW 1 |
+| 1  | Thur, 5 Sept  | HTML: Basics ([Howe](https://learn.shayhowe.com/html-css/), Lesson 1/2) | HW 1<br/>Lab 0 |
 | 2  | Tues, 10 Sept | CSS: Basics ([Howe](https://learn.shayhowe.com/html-css/), Lesson 3/4/5) | |
 | 2  | Thur, 12 Sept | HTML: Advanced ([Howe](https://learn.shayhowe.com/html-css/), Lesson 6-12)<br/>SEO: [backlinks](https://moz.com/learn/seo/backlinks), [Google SEO Page](https://support.google.com/webmasters/answer/7451184)   | |
 | 3  | Tues, 17 Sept | **NO CLASS** (Mike at [ECML-PKDD](http://ecmlpkdd2019.org/)) | |
