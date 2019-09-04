@@ -37,7 +37,7 @@ Edit the contents of your webpage to meet the requirements of the grading rubric
 Your webpage must satisfy each checkbox below.
 Your grade will start at 10/10 points,
 and for each checkbox that you do not complete,
-you will lost 1 point.
+you will lose 1 point.
 If you complete all checkboxes, then you will get 10/10 points.
 
  - Your webpage must contain at least:
@@ -97,6 +97,11 @@ If you complete all checkboxes, then you will get 10/10 points.
      - [ ] score at least 90% on Google's [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=izbicki.me)
 
      - [ ] have at least two "follow backlinks" from other domains (other student's projects are okay)
+
+**NOTE:** 
+If you believe that one of these checkboxes is not appropriate for your webpage for some reason,
+send me an email explaining why,
+and I can grant you an exception.
 
 ### Extra Credit: Social Media Engagement
 
