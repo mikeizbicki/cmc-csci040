@@ -5,6 +5,8 @@ You will build a simple webpage and publish it to the internet.
 You get to choose any topic for the webpage (must be [SFW](https://en.wiktionary.org/wiki/SFW)!),
 and you can earn extra credit by having a large number of people visit your webpage.
 
+**Due:** Tuesday, 24 September, beginning of class
+
 **Estimated time to complete:** 5-10 hours
 
 **Primary learning objectives:**
