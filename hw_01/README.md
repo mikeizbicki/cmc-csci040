@@ -111,10 +111,7 @@ There is no explicit requirement that your webpage "look nice" or have "good con
 Instead, you can earn extra credit points by making your webpage look nice and have good content.
 
 In particular, you can get 1 pt of extra credit for each of the following tasks you complete.
-(Thus the maximum score on this assignment is 13/10.)
-
- - [ ] 
- Get at least 200 Facebook likes.
+(Thus the maximum score on this assignment is 12/10.)
 
  - [ ] 
 Post your site to reddit and get at least 100 upvotes.
