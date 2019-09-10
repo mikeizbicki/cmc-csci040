@@ -97,14 +97,14 @@ jsfiddle
 
 |-->
 
-
+<!-- Cheat Sheet: https://perso.limsi.fr/pointal/python:memento -->
 
 | Week | Date | Topic | Assignment |
 | --- | --- | --- | --- |
 | 1  | Tues, 3 Sept  | Introduction | |
-| 1  | Thur, 5 Sept  | HTML: Basics ([Howe](https://learn.shayhowe.com/html-css/), Lesson 1/2) | HW 1<br/>Lab 1 |
-| 2  | Tues, 10 Sept | CSS: Basics ([Howe](https://learn.shayhowe.com/html-css/), Lesson 3/4/5) | |
-| 2  | Thur, 12 Sept | HTML: Advanced ([Howe](https://learn.shayhowe.com/html-css/), Lesson 6-12)<br/>SEO: [backlinks](https://moz.com/learn/seo/backlinks), [Google SEO Page](https://support.google.com/webmasters/answer/7451184)   | |
+| 1  | Thur, 5 Sept  | HTML: Basics ([Howe](https://learn.shayhowe.com/html-css/), Lesson 1/2)<br/>CSS: Basics ([Howe](https://learn.shayhowe.com/html-css/), Lesson 3/4/5)  | HW 1<br/>Lab 1 |
+| 2  | Tues, 10 Sept | HTML: google analytics / chrome dev console <br/>SEO: [backlinks](https://moz.com/learn/seo/backlinks), [Google SEO Page](https://support.google.com/webmasters/answer/7451184)<br/>Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3)  | |
+| 2  | Thur, 12 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3) | |
 | 3  | Tues, 17 Sept | **NO CLASS** (Mike at [ECML-PKDD](http://ecmlpkdd2019.org/)) | |
 | 3  | Thur, 19 Sept | **NO CLASS** (Mike at [ECML-PKDD](http://ecmlpkdd2019.org/)) | |
 | 4  | Tues, 24 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3) | Lab 2  |
