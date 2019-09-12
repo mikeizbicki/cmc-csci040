@@ -127,7 +127,7 @@ def is_leap_year(n):
         >>> is_leap_year(2019)
         False
         >>> is_leap_year(2020)
-        True 
+        True
         >>> is_leap_year(2200)
         False
         >>> is_leap_year(2400)
