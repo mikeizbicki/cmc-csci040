@@ -60,13 +60,13 @@ def max_num_abs(a,b):
     '''
     this function returns the number with the highest absolute value
 
-        >>> max_num(4,5)
+        >>> max_num_abs(4,5)
         5
-        >>> max_num(4,5)
+        >>> max_num_abs(4,5)
         5
-        >>> max_num(-4,-5)
+        >>> max_num_abs(-4,-5)
         -5
-        >>> max_num(4,4)
+        >>> max_num_abs(4,4)
         4
     '''
     
@@ -75,15 +75,15 @@ def max_num_4(a,b,c,d):
     '''
     this function returns the maximum of a, b, c, and d
 
-        >>> max_num(1,2,3,4)
+        >>> max_num_4(1,2,3,4)
         4
-        >>> max_num(2,3,4,1)
+        >>> max_num_4(2,3,4,1)
         4
-        >>> max_num(3,4,1,2)
+        >>> max_num_4(3,4,1,2)
         4
-        >>> max_num(4,1,2,3)
+        >>> max_num_4(4,1,2,3)
         4
-        >>> max_num(10,1,2,3)
+        >>> max_num_4(10,1,2,3)
         10
     '''
     
