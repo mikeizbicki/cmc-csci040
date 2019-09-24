@@ -97,7 +97,7 @@ jsfiddle
 
 |-->
 
-<!-- Cheat Sheet: https://perso.limsi.fr/pointal/python:memento -->
+<!-- -->
 <!--
 [Quiz: if](https://realpython.com/quizzes/python-conditional-statements/)
 [Quiz: operators](https://realpython.com/quizzes/python-operators-expressions/)
@@ -110,7 +110,7 @@ jsfiddle
 | 2  | Thur, 12 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3) | Lab 2|
 | 3  | Tues, 17 Sept | **NO CLASS** (Mike at [ECML-PKDD](http://ecmlpkdd2019.org/)) | |
 | 3  | Thur, 19 Sept | **NO CLASS** (Mike at [ECML-PKDD](http://ecmlpkdd2019.org/)) | |
-| 4  | Tues, 24 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3) | Lab 3 <br/>[Quiz: data types](https://realpython.com/quizzes/python-data-types/) |
+| 4  | Tues, 24 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3)<br/>[Python cheat sheet](https://perso.limsi.fr/pointal/python:memento) | Lab 3 <br/>[Quiz: data types](https://realpython.com/quizzes/python-data-types/) |
 | 4  | Thur, 26 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3) | Lab 4 <br/>[Quiz: variables](https://realpython.com/quizzes/python-variables/)  |
 | 5  | Tues, 1 Oct   | Python: Lists ([Sweigart](https://automatetheboringstuff.com/), Chapter 4) | Lab 5<br/>[Quiz: loops](https://realpython.com/quizzes/python-while-loop/)<br/>[Quiz: lists](https://realpython.com/quizzes/python-lists-tuples/) |
 | 5  | Thur, 3 Oct   | Python: Dictionaries ([Sweigart](https://automatetheboringstuff.com/), Chapter 5) | Lab 6<br/>HW 2<br/>[Quiz: dicts](https://realpython.com/quizzes/python-dicts/) |
