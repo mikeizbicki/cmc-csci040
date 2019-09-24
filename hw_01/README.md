@@ -96,7 +96,7 @@ If you complete all checkboxes, then you will get 10/10 points.
 
  - Your domain must:
 
-     - [ ] score at least 90% on Google's [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=izbicki.me)
+     - [ ] score at least ~90%~ 50% on Google's [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=izbicki.me) (either the mobile or the desktop version is fine)
 
      - [ ] have at least two "follow backlinks" from other domains (other student's projects are okay)
 
