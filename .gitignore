@@ -4,3 +4,12 @@ __pycache__
 *.swo
 
 notes
+
+*.aux  
+*.log  
+*.out
+*.dvi
+*.fdb_latexmk
+*.fls
+
+.ipynb_checkpoints
