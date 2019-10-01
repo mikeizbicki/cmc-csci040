@@ -84,9 +84,9 @@ def last_three(lst):
         >>> last_three([0,1,2,3,4,5,6,7,8,9])
         [7, 8, 9]
         >>> last_three(['a','b','c','d'])
-        ['b','c','d']
+        ['b', 'c', 'd']
         >>> last_three([0,1])
-        [0,1]
+        [0, 1]
     '''
 
 
