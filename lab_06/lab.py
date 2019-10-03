@@ -70,7 +70,7 @@ def students_getting_an_a(d):
         >>> students_getting_an_a(math_grades)
         ['ada lovlace', 'albert einstein', 'leonhard euler', 'mike izbicki']
         >>> students_getting_an_a(english_grades)
-        ['emily dickenson', 'dorthy day', 'mike izbicki']
+        ['dorthy day', 'emily dickenson', 'mike izbicki']
         >>> students_getting_an_a(economics_grades)
         ['alan greenspan', 'karl marx']
     '''
