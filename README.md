@@ -6,7 +6,7 @@
 |-|-|
 | Name | Mike Izbicki (you can call me either Mike or Prof Izbicki) |
 | Email | mizbicki@cmc.edu |
-| Office | Adams 216 | 
+| Office | Adams 216 |
 | Office Hours | Tuesday/Thursday 2:40-4:10 or by appointment ([see my schedule](https://outlook.office365.com/owa/calendar/45eb28fd4e4f45f4b0d120d17676d937@ClaremontMcKenna.edu/a46ebec5e46b4328abcb964af38795935165582125062542146/calendar.html));<br/> if my door is open, feel free to come in |
 | Webpage | [izbicki.me](https://izbicki.me) |
 | Research | Machine Learning (see [izbicki.me/research.html](https://izbicki.me/research.html) for some past projects) |
@@ -81,7 +81,7 @@ You lose 10% on the assignment for each day late.
 If you have extenuating circumstances, contact me in advance of the due date and I may extend the due date for you.
 
 ## Schedule
-<!--Reading: 
+<!--Reading:
 
 Tim Berner's Lee https://www.w3.org/People/Berners-Lee/
 
@@ -113,13 +113,13 @@ jsfiddle
 | 4  | Tues, 24 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3)<br/>[Python cheat sheet](https://perso.limsi.fr/pointal/python:memento) | Lab 3 <br/>[Quiz: data types](https://realpython.com/quizzes/python-data-types/) |
 | 4  | Thur, 26 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3) | Lab 4 <br/>[Quiz: variables](https://realpython.com/quizzes/python-variables/)  |
 | 5  | Tues, 1 Oct   | Python: Lists ([Sweigart](https://automatetheboringstuff.com/), Chapter 4) | Lab 5<br/>In-class quiz: for loops<br/>[Quiz: lists](https://realpython.com/quizzes/python-lists-tuples/) |
-| 5  | Thur, 3 Oct   | Python: Dictionaries ([Sweigart](https://automatetheboringstuff.com/), Chapter 5) | Lab 6<br/>Lab 6b<br/>In-class quiz: while loops<br/>[Quiz: dicts](https://realpython.com/quizzes/python-dicts/) |
-| 6  | Tues, 8 Oct   | Python: Strings ([Sweigart](https://automatetheboringstuff.com/), Chapter 6) | Lab 7<br/>[Quiz: strings](https://realpython.com/quizzes/python-strings/) <br/>HW 2| 
+| 5  | Thur, 3 Oct   | Python: Dictionaries ([Sweigart](https://automatetheboringstuff.com/), Chapter 5)<br/>Python: Libraries ([Appendix of Sweigart](https://automatetheboringstuff.com/appendixa/) | Lab 6<br/>Lab 6b<br/>In-class quiz: while loops<br/>[Quiz: dicts](https://realpython.com/quizzes/python-dicts/) |
+| 6  | Tues, 8 Oct   | Python: Strings ([Sweigart](https://automatetheboringstuff.com/), Chapter 6) | Lab 7<br/>[Quiz: strings](https://realpython.com/quizzes/python-strings/) <br/>HW 2|
 | 6  | Thur, 10 Oct  | Python: Regular Expressions ([Sweigart](https://automatetheboringstuff.com/), Chapter 7) | Lab 8<br/>[Quiz: sets](https://realpython.com/quizzes/python-sets/) |
 | 7  | Tues, 15 Oct  | Python: Files ([Sweigart](https://automatetheboringstuff.com/), Chapter 8) | Lab 9<br/>[Quiz: files](https://realpython.com/quizzes/read-write-files-python/)<br/>HW 3 |
 | 7  | Thur, 17 Oct  | Python: Files 2 ([Sweigart](https://automatetheboringstuff.com/), Chapter 9) | Lab 10 <br/>[Quiz: lexical](https://realpython.com/quizzes/python-program-structure/)|
 | 8  | Tues, 22 Oct  | **NO CLASS** (Fall Break) |
-| 8  | Thur, 24 Oct  | Python: Debugging ([Sweigart](https://automatetheboringstuff.com/), Chapter 10) | | 
+| 8  | Thur, 24 Oct  | Python: Debugging ([Sweigart](https://automatetheboringstuff.com/), Chapter 10) | |
 | 9  | Tues, 29 Oct  | Python: Web Scraping ([Sweigart](https://automatetheboringstuff.com/), Chapter 11) | HW 4 |
 | 9  | Thur, 31 Oct  | Python: Time ([Sweigart](https://automatetheboringstuff.com/), Chapter 15) | |
 | 10 | Tues, 5 Nov   | **NO CLASS** (Mike at [CIKM](http://www.cikm2019.net/)) | |
