@@ -1,0 +1,152 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage[shortlabels]{enumitem}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = black, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor    = blue  %Colour of citations
+}
+
+\usepackage{listings}
+\lstset{language=Python} %,numbers=left}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathbb R}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\newcommand{\trans}[1]{{#1}^{T}}
+\newcommand{\loss}{\ell}
+\newcommand{\w}{\mathbf w}
+\newcommand{\mle}[1]{\hat{#1}_{\textit{mle}}}
+\newcommand{\map}[1]{\hat{#1}_{\textit{map}}}
+\newcommand{\normal}{\mathcal{N}}
+\newcommand{\x}{\mathbf x}
+\newcommand{\y}{\mathbf y}
+\newcommand{\ltwo}[1]{\lVert {#1} \rVert}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    {
+\Large
+In-class Quiz 3 
+}
+
+    \vspace{0.1in}
+CSCI040, Computing for the Web
+
+    \vspace{0.1in}
+\end{center}
+
+\vspace{0.25in}
+\noindent
+\textbf{Total Score:} ~~~~~~~~~~~~~~~/10
+
+\vspace{0.5in}
+\noindent
+\textbf{Name:} (2pt)
+
+\noindent
+\rule{\textwidth}{0.1pt}
+\vspace{0.25in}
+
+\begin{problem}
+    (2pt)
+    The following code (circle one)
+    
+    \vspace{0.25in}
+    \hspace{0.5in}terminates successfully
+    \hspace{1in}runs forever
+    \hspace{1in}generates an error
+    \vspace{0.25in}
+
+    \noindent
+    If the code runs successfully, what is the value of the lst variable after being run?
+\end{problem}
+\begin{lstlisting}
+    lst=[]
+    lst+=1
+    lst+=2
+    lst+=3
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    (2pt)
+    The following code (circle one)
+    
+    \vspace{0.25in}
+    \hspace{0.5in}terminates successfully
+    \hspace{1in}runs forever
+    \hspace{1in}generates an error
+    \vspace{0.25in}
+
+    \noindent
+    If the code runs successfully, what is the value of the lst variable after being run?
+\end{problem}
+\begin{lstlisting}
+    lst=[1,2,3]
+    lst=[min(lst)]
+\end{lstlisting}
+\vspace{2in}
+\newpage
+\begin{problem}
+    (2pt)
+    The following code (circle one)
+    
+    \vspace{0.25in}
+    \hspace{0.5in}terminates successfully
+    \hspace{1in}runs forever
+    \hspace{1in}generates an error
+    \vspace{0.25in}
+
+    \noindent
+    If the code runs successfully, what is the value of the lst variable after being run?
+\end{problem}
+\begin{lstlisting}
+    lst=['this','is','a','list']
+    for i in range(1):
+        lst[i]=i
+        
+\end{lstlisting}
+\vspace{3.5in}
+
+\begin{problem}
+    (2pt)
+    The following code (circle one)
+    
+    \vspace{0.25in}
+    \hspace{0.5in}terminates successfully
+    \hspace{1in}runs forever
+    \hspace{1in}generates an error
+    \vspace{0.25in}
+
+    \noindent
+    If the code runs successfully, what is the value of the lst variable after being run?
+\end{problem}
+\begin{lstlisting}
+    lst=['this','is','a','list']
+    while len(lst)>2:
+        del lst[0]
+\end{lstlisting}
+\vspace{1.5in}
+
+\end{document}
+
+
