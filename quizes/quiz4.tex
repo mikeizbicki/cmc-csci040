@@ -1,0 +1,168 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage[shortlabels]{enumitem}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = black, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor    = blue  %Colour of citations
+}
+
+\usepackage{listings}
+\lstset{language=Python} %,numbers=left}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathbb R}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\newcommand{\trans}[1]{{#1}^{T}}
+\newcommand{\loss}{\ell}
+\newcommand{\w}{\mathbf w}
+\newcommand{\mle}[1]{\hat{#1}_{\textit{mle}}}
+\newcommand{\map}[1]{\hat{#1}_{\textit{map}}}
+\newcommand{\normal}{\mathcal{N}}
+\newcommand{\x}{\mathbf x}
+\newcommand{\y}{\mathbf y}
+\newcommand{\ltwo}[1]{\lVert {#1} \rVert}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    {
+\Large
+In-class Quiz 4
+}
+
+    \vspace{0.1in}
+CSCI040, Computing for the Web
+
+    \vspace{0.1in}
+\end{center}
+
+\vspace{0.25in}
+\noindent
+\textbf{Total Score:} ~~~~~~~~~~~~~~~/10
+
+\vspace{0.5in}
+\noindent
+\textbf{Name:} (2pt)
+
+\noindent
+\rule{\textwidth}{0.1pt}
+\vspace{0.25in}
+
+\begin{problem}
+    (2pt)
+    The following code (circle one)
+    
+    \vspace{0.25in}
+    \hspace{0.5in}terminates successfully
+    \hspace{1in}runs forever
+    \hspace{1in}generates an error
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates successfully, what is the output of the code?
+    If the code runs forever or generates an error, explain why.
+\end{problem}
+\begin{lstlisting}
+    d={}
+    i=0
+    while i>5 and i<10:
+        d[i]='test'
+        i+=1
+    print('d[9]=',d[9])
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    (2pt)
+    The following code (circle one)
+    
+    \vspace{0.25in}
+    \hspace{0.5in}terminates successfully
+    \hspace{1in}runs forever
+    \hspace{1in}generates an error
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates successfully, what is the output of the code?
+    If the code runs forever or generates an error, explain why.
+\end{problem}
+\begin{lstlisting}
+     d={}
+     d.append('1','a')
+     d.append('2','b')
+     d.append('2','c')
+     print(d['1'])
+\end{lstlisting}
+\vspace{2in}
+\newpage
+     \noindent
+     The following two problems assume that the following dictionary is defined.
+     \begin{lstlisting}
+     grades={
+         'alice':{'hw1':99,'hw2':88},
+         'bob':{'hw1':82,'hw2':91},
+     }
+     \end{lstlisting}
+\begin{problem}
+    (2pt)
+    The following code (circle one)
+    
+    \vspace{0.25in}
+    \hspace{0.5in}terminates successfully
+    \hspace{1in}runs forever
+    \hspace{1in}generates an error
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates successfully, what is the output of the code?
+    If the code runs forever or generates an error, explain why.
+\end{problem}
+\begin{lstlisting}
+    for v in grades.values():
+        print(v['hw1'])
+\end{lstlisting}
+\vspace{2.5in}
+
+\begin{problem}
+    (2pt)
+    The following code (circle one)
+    
+    \vspace{0.25in}
+    \hspace{0.5in}terminates successfully
+    \hspace{1in}runs forever
+    \hspace{1in}generates an error
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates successfully, what is the output of the code?
+    If the code runs forever or generates an error, explain why.
+\end{problem}
+\begin{lstlisting}
+    grades['charlie']=[('hw1',88),('hw2',72)]
+    i=0
+    while i<len(grades):
+        print(grades[i])
+\end{lstlisting}
+\vspace{1.5in}
+
+\end{document}
+
+
