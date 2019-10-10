@@ -4,6 +4,7 @@ __pycache__
 *.swo
 
 notes
+*.key
 
 *.aux  
 *.log  
