@@ -130,15 +130,15 @@ def how_many_claremonts_in_url(url):
     HINT:
     use the requests library 
 
-        >>> how_many_claremonts_in_url('https://www.cmc.edu')
+        how_many_claremonts_in_url('https://www.cmc.edu')
         13
-        >>> how_many_claremonts_in_url('https://www.hmc.edu')
+        how_many_claremonts_in_url('https://www.hmc.edu')
         2
-        >>> how_many_claremonts_in_url('https://www.pitzer.edu')
+        how_many_claremonts_in_url('https://www.pitzer.edu')
         6
-        >>> how_many_claremonts_in_url('https://www.pomona.edu')
+        how_many_claremonts_in_url('https://www.pomona.edu')
         5
-        >>> how_many_claremonts_in_url('https://www.scripps.edu')
+        how_many_claremonts_in_url('https://www.scripps.edu')
         0
     '''
 
