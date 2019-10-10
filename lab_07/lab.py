@@ -34,24 +34,6 @@ def is_palindrome_number(n):
         False
     '''
 
-def extract_TLD(domain):
-    '''
-    a domain name consists of a series of characters separated by periods;
-    the series of letters after the last period is called the top level domain (TLD);
-    this function returns the TLD of the input domain
-
-        >>> extract_TLD('www.google.com')
-        'com'
-        >>> extract_TLD('izbicki.me')
-        'me'
-        >>> extract_TLD('www.rodong.rep.kp')
-        'kp'
-        >>> extract_TLD('www.ci.claremont.ca.us')
-        'us'
-        >>> extract_TLD('research.pizza')
-        'pizza'
-    '''
-
 def string_contains_url(s):
     '''
     A URL is any string that starts with either "http://" or "https://",
@@ -70,6 +52,24 @@ def string_contains_url(s):
         True
         >>> string_contains_url('HTTP://SIMPSONSWORLD.COM IS THE BEST. WEBSITE. EVER.')
         True
+    '''
+
+def extract_TLD(domain):
+    '''
+    a domain name consists of a series of characters separated by periods;
+    the series of letters after the last period is called the top level domain (TLD);
+    this function returns the TLD of the input domain
+
+        >>> extract_TLD('www.google.com')
+        'com'
+        >>> extract_TLD('izbicki.me')
+        'me'
+        >>> extract_TLD('www.rodong.rep.kp')
+        'kp'
+        >>> extract_TLD('www.ci.claremont.ca.us')
+        'us'
+        >>> extract_TLD('research.pizza')
+        'pizza'
     '''
 
 def remove_duplicate_words(s):
