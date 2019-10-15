@@ -24,9 +24,6 @@ def extract_emails(url):
         >>> extract_emails('https://www.cmc.edu/government')
         []
     '''
-    r=requests.get(url)
-    emails=re.compile(r'[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+')
-    return list(set(emails.findall(r.text)))
 
 
 ################################################################################
