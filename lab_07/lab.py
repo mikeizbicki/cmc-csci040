@@ -128,7 +128,7 @@ def how_many_claremonts_in_url(url):
     returns the number of times the string 'Claremont' appears in the webpage specified by url
 
     HINT:
-    use the requests library 
+    use the requests library
 
         how_many_claremonts_in_url('https://www.cmc.edu')
         13
