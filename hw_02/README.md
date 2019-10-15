@@ -1,6 +1,6 @@
 # Homework 2: Webpage Analyzer
 
-**Due:** Thursday, Oct 17 at the start of class
+**Due:** Thursday, ~~Oct 17~~ Oct 24 at the start of class
 
 **Description:** 
 You will write a program that downloads an HTML webpage,
