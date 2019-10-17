@@ -117,7 +117,7 @@ jsfiddle
 | 6  | Tues, 8 Oct   | Python: Strings ([Sweigart](https://automatetheboringstuff.com/), Chapter 6) | Lab 7<br/>[Quiz: strings](https://realpython.com/quizzes/python-strings/)<br/>In-class quiz: lists |
 | 6  | Thur, 10 Oct  | [The beautiful soup library](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | HW 2 |
 | 7  | Tues, 15 Oct  | ~~Python: Regular Expressions ([Sweigart](https://automatetheboringstuff.com/), Chapter 7)~~<br/>[The requests library](https://realpython.com/python-requests/)<br/>Python: Files 1/2 ([Sweigart](https://automatetheboringstuff.com/), Chapter 8,9) | Lab 8<br/>Lab 9 (extra credit)<br/>[Quiz: files](https://realpython.com/quizzes/read-write-files-python/)<br/>~~HW 3~~ |
-| 7  | Thur, 17 Oct  | Python: Files 1/2 ([Sweigart](https://automatetheboringstuff.com/), Chapter 8,9) | Lab 10 <!--<br/>[Quiz: lexical](https://realpython.com/quizzes/python-program-structure/)-->|
+| 7  | Thur, 17 Oct  | Python: Files 1/2 ([Sweigart](https://automatetheboringstuff.com/), Chapter 8,9) | Lab 10 <br/>~~Quiz: lexical~~|
 | 8  | Tues, 22 Oct  | **NO CLASS** (Fall Break) |
 | 8  | Thur, 24 Oct  | Python: Debugging ([Sweigart](https://automatetheboringstuff.com/), Chapter 10) | |
 | 9  | Tues, 29 Oct  | Python: Web Scraping ([Sweigart](https://automatetheboringstuff.com/), Chapter 11) | HW 4 |
