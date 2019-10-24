@@ -37,7 +37,8 @@ def copy_file(src,dest):
     try:
         with open(src,'r') as f_src:
             with open(dest,'x') as f_dest:
-                f_dest.write(f_src.read())
+                text=f_src.read()
+                f_dest.write(text)
     except FileNotFoundError:
         print('src file does not exist')
     except FileExistsError:

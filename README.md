@@ -119,9 +119,9 @@ jsfiddle
 | 7  | Tues, 15 Oct  | ~~Python: Regular Expressions ([Sweigart](https://automatetheboringstuff.com/), Chapter 7)~~<br/>[The requests library](https://realpython.com/python-requests/)<br/>Python: Files 1/2 ([Sweigart](https://automatetheboringstuff.com/), Chapter 8,9) | Lab 8<br/>Lab 9 (extra credit)<br/>[Quiz: files](https://realpython.com/quizzes/read-write-files-python/)<br/>~~HW 3~~ |
 | 7  | Thur, 17 Oct  | Python: Files 1/2 ([Sweigart](https://automatetheboringstuff.com/), Chapter 8,9) | Lab 10 <br/>~~Quiz: lexical~~|
 | 8  | Tues, 22 Oct  | **NO CLASS** (Fall Break) |
-| 8  | Thur, 24 Oct  | Python: Debugging ([Sweigart](https://automatetheboringstuff.com/), Chapter 10) | |
-| 9  | Tues, 29 Oct  | Python: Web Scraping ([Sweigart](https://automatetheboringstuff.com/), Chapter 11) | HW 4 |
-| 9  | Thur, 31 Oct  | Python: Time ([Sweigart](https://automatetheboringstuff.com/), Chapter 15) | |
+| 8  | Thur, 24 Oct  | ~~Python: Debugging ([Sweigart](https://automatetheboringstuff.com/), Chapter 10)~~<br/>[JSON Files](https://realpython.com/python-json/) | Lab 11 |
+| 9  | Tues, 29 Oct  | [Matplotlib](https://realpython.com/python-matplotlib-guide/) | HW 4 |
+| 9  | Thur, 31 Oct  | Python: Web Scraping ([Sweigart](https://automatetheboringstuff.com/), Chapter 11) | |
 | 10 | Tues, 5 Nov   | **NO CLASS** (Mike at [CIKM](http://www.cikm2019.net/)) | |
 | 10 | Thur, 7 Nov   | **NO CLASS** (Mike at [CIKM](http://www.cikm2019.net/)) | |
 | 11 | Tues, 12 Nov  | Python: Email/SMS ([Sweigart](https://automatetheboringstuff.com/), Chapter 16) | HW 5 |
