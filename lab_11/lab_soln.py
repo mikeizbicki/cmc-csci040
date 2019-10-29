@@ -1,6 +1,7 @@
-import json
+#!/bin/env python3
 
 # load the files
+import json
 filenames=[
     'condensed_2009.json',
     'condensed_2010.json',
@@ -22,17 +23,14 @@ print('len(tweets)=',len(tweets))
 
 # count the occurrences of each tweet
 counts={
-    #'obama':0,
-    #'trump':0,
-    #'daca':0,
-    #'wall':0,
+    'obama':0,
+    'trump':0,
+    'daca':0,
+    'wall':0,
     'russia':0,
     'mexico':0,
-    'china':0,
-    'usa':0,
-    'u.s.a.':0
-    #'fake news':0,
-    #'mainstream media':0,
+    'fake news':0,
+    'mainstream media':0,
     }
 for tweet in tweets:
     for phrase in counts.keys():
@@ -44,31 +42,3 @@ print('counts=',counts)
 print('percentage of tweets using phrase:')
 for k in sorted(counts.keys()):
     print(k.rjust(18), ':', '%05.2f'%(100*counts[k]/len(tweets)))
-
-# plot results
-import matplotlib.pyplot as plt
-fig, ax = plt.subplots()
-#x=['trump','obama','mexico','russia']
-#x=[1,0,2,3]
-x=counts.keys()
-y=counts.values()
-#y=[counts['obama'],counts['trump'],counts['mexico'],counts['russia']]
-ax.bar(x,y)
-#plt.xticks(x,['obama','trump','mexico','russia'])
-#plt.show()
-plt.savefig('trump_bar.png')
-
-# obama tracking code
-# obama_counts[2019]=45
-obama_counts={}
-
-for tweet in tweets:
-    year=tweet['created_at'][-4:]
-    if 'obama' in tweet['text'].lower():
-        if year in obama_counts:
-            obama_counts[year]+=1
-        else:
-            obama_counts[year]=1
-
-from pprint import pprint
-pprint(obama_counts)
