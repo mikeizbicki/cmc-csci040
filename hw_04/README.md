@@ -21,11 +21,11 @@ You will perform a simple data visualization on a dataset of your choice and cre
 
     1. http://data.un.org/
 
-  You may use any dataset of your choosing, but if you work closely with another student, you must not use the same datasets as that student.
+   You may use any dataset of your choosing, but if you work closely with another student, you must not use the same datasets as that student.
 
-  Some datasets are in CSV format instead of JSON format.
-  CSV files are even easier to work with than JSON files,
-  and [the book has a whole chapter of examples](https://automatetheboringstuff.com/chapter14/).
+   Some datasets are in CSV format instead of JSON format.
+   CSV files are even easier to work with than JSON files,
+   and [the book has a whole chapter of examples](https://automatetheboringstuff.com/chapter14/).
 
 1. Generate two plots, one from each of your datasets.  
    Your plots may be any type of plot that is appropriate for your data (e.g. line chart, bar chart, scatter chart, etc.),
