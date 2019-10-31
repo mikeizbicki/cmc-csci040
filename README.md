@@ -121,7 +121,7 @@ jsfiddle
 | 8  | Tues, 22 Oct  | **NO CLASS** (Fall Break) |
 | 8  | Thur, 24 Oct  | ~~Python: Debugging ([Sweigart](https://automatetheboringstuff.com/), Chapter 10)~~<br/>[JSON Files](https://realpython.com/python-json/) | Lab 11 |
 | 9  | Tues, 29 Oct  | [Matplotlib](https://realpython.com/python-matplotlib-guide/) | HW 4 |
-| 9  | Thur, 31 Oct  | Python: Web Scraping ([Sweigart](https://automatetheboringstuff.com/), Chapter 11) | |
+| 9  | Thur, 31 Oct  | Python: Web Scraping ([Sweigart](https://automatetheboringstuff.com/), Chapter 11) | Lab 12 |
 | 10 | Tues, 5 Nov   | **NO CLASS** (Mike at [CIKM](http://www.cikm2019.net/)) | |
 | 10 | Thur, 7 Nov   | **NO CLASS** (Mike at [CIKM](http://www.cikm2019.net/)) | |
 | 11 | Tues, 12 Nov  | Python: Email/SMS ([Sweigart](https://automatetheboringstuff.com/), Chapter 16) | HW 5 |
