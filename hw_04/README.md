@@ -64,4 +64,6 @@ Your HTML page is worth 20 pts.
 1. You can receive 5pts of extra credit if you use the mpld3 extension to matplotlib to generate interactive html plots and include those in your webpage.
 See the [mpld3 examples library](https://mpld3.github.io/examples/index.html) for examples of how to do this.
 
+1. You can receive an additional 5pts of extra credit if you scrape data from a webpage (other than ebay) for graphing.
+In your HTML, you should then provide a link to the webpage that you scraped and a short (1-2 sentence) explanation of how you used bs4 to scrape the data (i.e. which tags/classes did you look for to extract information from).
 
