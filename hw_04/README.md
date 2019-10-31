@@ -31,6 +31,7 @@ You will perform a simple data visualization on a dataset of your choice and cre
    Your plots may be any type of plot that is appropriate for your data (e.g. line chart, bar chart, scatter chart, etc.),
    but least one of your plots must contain two data sources (e.g. two different lines in a line graph, two different sets of bars in a bar chart).
    The plots should have properly labeled x and y axes, and a legend (only needed for the plot containing multiple data sources).
+   Additionally, the tick labels for both the x and y axes should appear in a reasonable order (e.g. sorted).
    See the [matplotlib samples library](https://matplotlib.org/3.1.1/tutorials/introductory/sample_plots.html) for examples of well formatted plots.
 
    Two examples of acceptable plots are:
