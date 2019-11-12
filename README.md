@@ -124,17 +124,24 @@ jsfiddle
 | 9  | Thur, 31 Oct  | Python: Web Scraping ([Sweigart](https://automatetheboringstuff.com/), Chapter 11) | Lab 12 |
 | 10 | Tues, 5 Nov   | **NO CLASS** (Mike at [CIKM](http://www.cikm2019.net/)) | |
 | 10 | Thur, 7 Nov   | **NO CLASS** (Mike at [CIKM](http://www.cikm2019.net/)) | |
+| 11 | Tues, 12 Nov  | Python: reddit ([praw tutorial](https://praw.readthedocs.io/en/latest/getting_started/quick_start.html)) | |
+| 11 | Thur, 14 Nov  | Python: reddit ([praw tutorial](https://praw.readthedocs.io/en/latest/getting_started/quick_start.html)) | HW 5 |
+| 12 | Tues, 19 Nov  | Python: other libraries | |
+| 12 | Thur, 21 Nov  | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)) | |
+| 13 | Tues, 26 Nov  | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)) | HW 6 |
+| 13 | Thur, 28 Nov  | **NO CLASS** (Thanksgiving) |  |
+| 14 | Tues, 3 Dec   | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)) | |
+| 14 | Thur, 5 Dec   | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)) | |
+| 15 | Tues, 10 Dec  | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world))| |
+| 15 | Thur, 12 Dec  | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world))| |
+
+<!--
 | 11 | Tues, 12 Nov  | Python: Email/SMS ([Sweigart](https://automatetheboringstuff.com/), Chapter 16) | HW 5 |
 | 11 | Thur, 14 Nov  | Python: Unicode (Python docs, [Unicode HOWTO](https://docs.python.org/3/howto/unicode.html)) | |
 | 12 | Tues, 19 Nov  | Javascript: Basics ([w3schools, JavaScript](https://www.w3schools.com/js/default.asp) | HW 6 |
 | 12 | Thur, 21 Nov  | Javascript: DOM ([w3schools, DOM](https://www.w3schools.com/js/js_htmldom.asp)) |
 | 13 | Tues, 26 Nov  | Javascript: BOM ([w3schools, BOM](https://www.w3schools.com/js/js_window.asp)) | |
-| 13 | Thur, 28 Nov  | **NO CLASS** (Thanksgiving) |  |
-| 14 | Tues, 3 Dec   | Javascript: AJAX ([w3schools, AJAX](https://www.w3schools.com/js/js_ajax_intro.asp)) | |
-| 14 | Thur, 5 Dec   | Python: Flask ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)) | HW 7 |
-| 15 | Tues, 10 Dec  | Python: Flask ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world))| |
-| 15 | Thur, 12 Dec  | Python: Flask ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world))| |
-
+-->
 <!--
 Python libraries:
 * newspaper3k
