@@ -47,6 +47,7 @@ for k in sorted(counts.keys()):
 
 # plot results
 import matplotlib.pyplot as plt
+plt.rcParams.update({'font.size': 22})
 fig, ax = plt.subplots()
 #x=['trump','obama','mexico','russia']
 #x=[1,0,2,3]
@@ -57,6 +58,7 @@ ax.bar(x,y)
 #plt.xticks(x,['obama','trump','mexico','russia'])
 #plt.show()
 plt.savefig('trump_bar.png')
+#plt.show()
 
 # obama tracking code
 # obama_counts[2019]=45
@@ -72,3 +74,15 @@ for tweet in tweets:
 
 from pprint import pprint
 pprint(obama_counts)
+
+fig, ax = plt.subplots()
+x=obama_counts.keys()
+y=obama_counts.values()
+x2=[]
+y2=[]
+for key in sorted(obama_counts.keys()):
+    x2.append(key)
+    y2.append(obama_counts[key])
+ax.plot(x2,y2)
+#ax.plot(sorted(x),sorted(y))
+plt.show()
