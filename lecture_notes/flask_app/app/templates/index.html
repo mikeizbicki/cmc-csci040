@@ -1,0 +1,11 @@
+<html>
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Main Page</h2>
+{% if user %}
+<p>Welcome, {{ user }} to CS40!</p>
+{% else %}
+<p>Welcome to CS40!</p>
+{% endif %}
+{% endblock %}
