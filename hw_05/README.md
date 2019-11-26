@@ -59,12 +59,7 @@ The following task is worth up to 25 points:
 
 ## Submission
 
-Upload your `bot.py` file to sakai. 
+Upload your `bot.py` file to sakai and a link to your project webpage.
 Be sure to remove your password information from the file before uploading.
 **If you don't, you will lose -30 points.**
 
-In the textbox, enter
-
-1. the name of your bot,
-1. a list of which tasks above you completed, and
-1. what you believe your grade should be.
