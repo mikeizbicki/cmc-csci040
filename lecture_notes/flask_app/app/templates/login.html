@@ -2,6 +2,27 @@
 
 {% block content %}
 <h2>Login</h2>
+<form method=post>
+{% if successful %}
+<p>Login successful!</p>
+{% else %}
+{% if bad_userpass %}
+<p> ERROR: bad username or password
+</p>
+{% endif %}
+<p>
+Username:
+<input type=text name=user>
+</p>
+<p>
+Password:
+<input type=password name=password>
+</p>
+<p>
+<input type=submit>
+</p>
+</form>
+{% endif %}
 {% endblock %}
 
 
