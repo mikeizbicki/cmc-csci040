@@ -56,3 +56,15 @@ The following task is worth up to 25 points:
 1. Have the responses of your bot somehow depend on what the comment you are replying to is saying.  For example, if you are writing a bot that supports Trump, you might detect if the previous comment talks about Bernie Sanders.  If it does, you might reply `Bernie sucks, Trump is better.`  Alternatively, you might detect that the previous comment mentioned Trump with a negative sentiment and reply `I disagree, Trump is actually really great.`  The amount of extra credit you get for this will vary depending on the creativity of your idea.
 
 **You can suggest other ways to get extra credit as well, and I'll almost certainly say yes.**
+
+## Submission
+
+Upload your `bot.py` file to sakai. 
+Be sure to remove your password information from the file before uploading.
+**If you don't, you will lose -30 points.**
+
+In the textbox, enter
+
+1. the name of your bot,
+1. a list of which tasks above you completed, and
+1. what you believe your grade should be.
