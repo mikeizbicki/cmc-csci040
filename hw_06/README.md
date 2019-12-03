@@ -35,6 +35,8 @@ Each of these menu items is worth 20 points, for a total of 80 points.
 
 The assignment is out of 100 points, and to get the remaining 20 points you must complete some of the extra credit.
 
+If I can hack your webpage using an [HTML injection attack](https://www.softwaretestinghelp.com/html-injection-tutorial/), then you will lose -20 points.
+
 ## Extra credit
 
 You can get 5pts extra credit if you:
@@ -56,6 +58,8 @@ You can get 10pts of extra credit if you:
 1. add user profile pages that a user can edit to provide a description about themselves and other users can view this page
 
 1. assign each user a unique image, and have that image appear with each post
+
+1. use the `flask-login` package and password hashing (as described in the [Flask Mega-Tutorial Section V](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins)) to make your login system more secure
 
 You can get 20pts of extra credit if you:
 

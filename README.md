@@ -130,8 +130,8 @@ jsfiddle
 | 12 | Thur, 21 Nov  | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)) | |
 | 13 | Tues, 26 Nov  | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)) | |
 | 13 | Thur, 28 Nov  | **NO CLASS** (Thanksgiving) |  |
-| 14 | Tues, 3 Dec   | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)) | HW 6 |
-| 14 | Thur, 5 Dec   | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)) | |
+| 14 | Tues, 3 Dec   | Python: [database CRUD operations](https://www.tutorialsteacher.com/python/database-crud-operation-in-python) | HW 6 |
+| 14 | Thur, 5 Dec   | Python: [database CRUD operations](https://www.tutorialsteacher.com/python/database-crud-operation-in-python) | Lab 14 |
 | 15 | Tues, 10 Dec  | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world))| |
 | 15 | Thur, 12 Dec  | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world))| |
 
