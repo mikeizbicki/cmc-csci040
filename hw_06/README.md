@@ -14,18 +14,26 @@ Wednesday, 18 December
 
 ## Grading rubric
 
-Your webpage must have a route that accomplishes each of the following tasks:
+Your webpage must have a menu with 4 items, each item corresponding to a route in your flask app.
+The required items/routes you must implement are:
 
-1. Create user account (make sure to prevent users from creating accounts that already exist)
 1. Log in 
+    1. this item should only be visible if the user is not logged in
+    1. you must display appropriate error messages if the user enters an incorrect name/password
+1. Create new user accounts
+    1. this item should only be visible if the user is not logged in
+    1. if the user attempts to create an account that already exists, they should get an error message 
 1. Create a message
-1. View all messages (the messages should be ordered chronologically and each message should include the user account that created it, the time of creation, and the message contents)
+    1. this item should only be visible if the user is logged in
+    1. the user must be able to enter whatever message body they want, but you should also store the username that created a message and the time the message was created
+1. View all messages 
+    1. this menu item should appear whether the user is logged in or not
+    1. the messages should be ordered chronologically with the most recent message at the top
+    1. each message should include the user account that created it, the time of creation, and the message contents
 
 Each of these tasks is worth 20 points, for a total of 80 points.
 
-An additional 10 points is for your webpage appropriately using css and html for styling.
-
-The assignment is out of 100 points, and to get the remaining 10 points you must complete some of the extra credit.
+The assignment is out of 100 points, and to get the remaining 20 points you must complete some of the extra credit.
 
 ## Extra credit
 
@@ -55,7 +63,7 @@ You can get 20pts of extra credit if you:
 
 1. add the ability to reply to other user's messages (the replies must display in a threaded fashion similar to twitter or reddit)
 
-1. support multiple languages
+1. support switching the language of your interface
 
 1. implement any of the above features using AJAX
 
