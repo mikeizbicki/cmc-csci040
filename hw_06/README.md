@@ -41,6 +41,10 @@ You can get 5pts extra credit if you:
 
 1. can access your twitter clone from other computers (see for example https://stackoverflow.com/questions/7023052/configure-flask-dev-server-to-be-visible-across-the-network)
 
+1. populate your twitter clone with at least 10 user accounts, each with 10 random messages 
+
+You can get 10pts of extra credit if you:
+
 1. can delete individual messages
 
 1. can edit messages after they've been created
@@ -49,13 +53,9 @@ You can get 5pts extra credit if you:
 
 1. can change the password after creating an account
 
-You can get 10pts of extra credit if you:
+1. add user profile pages that a user can edit to provide a description about themselves and other users can view this page
 
-1. populate your twitter clone with at least 50 user accounts and 1000 messages
-
-1. add user profile pages that a user can edit to provide a description about themselves
-
-1. assign each user an avatar, and have that avatar appear with each post
+1. assign each user a unique image, and have that image appear with each post
 
 You can get 20pts of extra credit if you:
 
