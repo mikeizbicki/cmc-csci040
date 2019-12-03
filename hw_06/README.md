@@ -31,7 +31,7 @@ The required items/routes you must implement are:
     1. the messages should be ordered chronologically with the most recent message at the top
     1. each message should include the user account that created it, the time of creation, and the message contents
 
-Each of these tasks is worth 20 points, for a total of 80 points.
+Each of these menu items is worth 20 points, for a total of 80 points.
 
 The assignment is out of 100 points, and to get the remaining 20 points you must complete some of the extra credit.
 
