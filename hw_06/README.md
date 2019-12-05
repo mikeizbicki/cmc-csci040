@@ -43,7 +43,7 @@ You can get 5pts extra credit if you:
 
 1. can access your twitter clone from other computers (see for example https://stackoverflow.com/questions/7023052/configure-flask-dev-server-to-be-visible-across-the-network)
 
-1. populate your twitter clone with at least 10 user accounts, each with 10 random messages 
+1. populate your twitter clone with at least 20 user accounts, each with 20 random messages 
 
 You can get 10pts of extra credit if you:
 
