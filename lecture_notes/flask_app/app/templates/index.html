@@ -4,7 +4,28 @@
 <h2>Main Page</h2>
 {% if user %}
 <p>Welcome, {{ user }} to CS40!</p>
+
+<h3>The Current Messages</h3>
+
+<table>
+<tr>
+<th>Sender</th>
+<th>Message</th>
+<th>Timestamp</th>
+</tr>
+{% for message in messages %}
+<tr>
+<td>{{ message.sender }}</td>
+<td>{{ message.message }}</td>
+<td>{{ message.timestamp }}</td>
+</tr>
+{% endfor %}
+</table>
 {% else %}
-<p>Welcome to CS40!</p>
+<p>
+Welcome to CS40!
+You must login to see the messages.
+</p>
 {% endif %}
+
 {% endblock %}
