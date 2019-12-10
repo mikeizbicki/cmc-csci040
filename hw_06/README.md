@@ -17,8 +17,8 @@ Wednesday, 18 December
 Your webpage must have a menu with 4 items, each item corresponding to a route in your flask app.
 The required items/routes you must implement are:
 
-1. Log in 
-    1. this item should only be visible if the user is not logged in
+1. Log in / out
+    1. if the user is already logged in, then you should display a log out button; otherwise, display a log in button
     1. you must display appropriate error messages if the user enters an incorrect name/password
 1. Create new user accounts
     1. this item should only be visible if the user is not logged in
