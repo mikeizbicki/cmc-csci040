@@ -27,7 +27,6 @@ The required items/routes you must implement are:
     1. this item should only be visible if the user is logged in
     1. the user must be able to enter whatever message body they want, but you should also store the username that created a message and the time the message was created
 1. View all messages 
-    1. this menu item should appear whether the user is logged in or not
     1. the messages should be ordered chronologically with the most recent message at the top
     1. each message should include the user account that created it, the time of creation, and the message contents
 
