@@ -1,9 +1,9 @@
 # HW 6: Creating a twitter clone
 
-**Description:** 
+**Description:**
 You will create a twitter clone using the Flask web framework.
 
-**Due:** 
+**Due:**
 Wednesday, 18 December
 
 **Learning objectives:**
@@ -22,11 +22,12 @@ The required items/routes you must implement are:
     1. you must display appropriate error messages if the user enters an incorrect name/password
 1. Create new user accounts
     1. this item should only be visible if the user is not logged in
-    1. if the user attempts to create an account that already exists, they should get an error message 
+    1. if the user attempts to create an account that already exists, they should get an appropriate error message
+    1. the user should be prompted to enter their password twice, and you need to check that both versions of the password match
 1. Create a message
     1. this item should only be visible if the user is logged in
     1. the user must be able to enter whatever message body they want, but you should also store the username that created a message and the time the message was created
-1. View all messages 
+1. View all messages
     1. the messages should be ordered chronologically with the most recent message at the top
     1. each message should include the user account that created it, the time of creation, and the message contents
 
@@ -42,7 +43,7 @@ You can get 5pts extra credit if you:
 
 1. can access your twitter clone from other computers (see for example https://stackoverflow.com/questions/7023052/configure-flask-dev-server-to-be-visible-across-the-network)
 
-1. populate your twitter clone with at least 20 user accounts, each with 20 random messages 
+1. populate your twitter clone with at least 20 user accounts, each with 20 random messages
 
 You can get 10pts of extra credit if you:
 
