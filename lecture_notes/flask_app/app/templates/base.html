@@ -7,8 +7,12 @@
 <h1>CS40 Twitter Clone</h1>
 <ul>
 <li><a href='/'>Main Page</a></li>
-<li><a href='/login'>Login Page</a></li>
+{% if user %}
 <li><a href='/logout'>Logout Page</a></li>
+{% else %}
+<li><a href='/login'>Login Page</a></li>
+<li><a href='/create_user'>Create User Account</a></li>
+{% endif %}
 <!--<li><a href='/trump'>Trump's Page</a></li>
 <li><a href='/sanders'>Sanders's Page</a></li>-->
 </ul>

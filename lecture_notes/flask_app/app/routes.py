@@ -61,11 +61,26 @@ def logout():
 # http://localhost:5000/login
 @app.route('/login', methods=['GET','POST'])
 def login():
-    # keys = usernames, values = passwords
-    login_credentials={
+    # STEP 1: get usernames/passwords from the db
+    connection = sqlite3.connect(
+        'twitter_clone.db'
+        )
+    cursor = connection.cursor()
+    sql = '''
+        SELECT username,password FROM users;
+    '''
+    res = cursor.execute(sql)
+    rows = res.fetchall()
+    login_credentials = {}
+    for row in rows:
+        login_credentials[row[0]] = row[1]
+
+    login_credentials_static={
         'Trump':'12345',
         'Sanders':'password'
     }
+
+    # STEP 2: generate the HTML for the login
     if request.cookies.get('username') is not None:
         return 'You are logged in as: '+request.cookies.get('username')
 
@@ -81,7 +96,8 @@ def login():
         #    )
         res = make_response(render_template(
                 'login.html',
-                successful=True
+                successful=True,
+                user=username
                 ))
         res.set_cookie('username',username)
         return res
@@ -96,8 +112,57 @@ def login():
         else:
             return render_template(
                 'login.html',
-                bad_userpass=True
+                    bad_userpass=True
                 )
+
+@app.route('/create_user',methods=['GET','POST'])
+def create_user():
+    username=request.form.get('user')
+    password=request.form.get('password')
+    password_reenter=request.form.get('password_reenter')
+
+    if username is None:
+        # display the page as normal
+        return render_template(
+            'create_user.html'
+            )
+    if password.lower() == password:
+        return render_template(
+            'create_user.html',
+            password_not_strong=True
+            )
+    if password == password_reenter:
+        connection = sqlite3.connect(
+            'twitter_clone.db'
+            )
+        cursor = connection.cursor()
+        sql = '''
+            INSERT INTO users(username,password)
+            VALUES (?,?);
+        '''
+        try:
+            res = cursor.execute(sql,[username,password])
+            connection.commit()
+        except sqlite3.IntegrityError:
+            return render_template(
+                'create_user.html',
+                integrity_error=True
+                )
+
+        # create the user
+        # handle user already taken
+        return render_template(
+            'create_user.html',
+            created_user=True
+            )
+    else:
+        # display error message that passwords
+        # do not match
+        return render_template(
+            'create_user.html',
+            passwords_do_not_match=True
+            )
+
 
 @app.route('/static/<path:path>')
 def style(path):

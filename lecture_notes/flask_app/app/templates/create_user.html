@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Create User Account</h2>
+
+{% if passwords_do_not_match %}
+ERROR: passwords do not match
+{% endif %}
+
+{% if password_not_strong %}
+ERROR: password must contain an uppercase letter
+{% endif %}
+
+{% if integrity_error %}
+ERROR: username already exists, pick another
+{% endif %}
+
+{% if created_user %}
+SUCCESS! You created a user account :)
+{% endif %}
+
+<form method=post>
+<p>
+Username:
+<input type=text name=user>
+</p>
+<p>
+Password:
+<input type=password name=password>
+</p>
+<p>
+Re-enter password:
+<input type=password name=password_reenter>
+</p>
+<p>
+<input type=submit>
+</p>
+</form>
+{% endblock %}
