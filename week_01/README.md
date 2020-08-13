@@ -1,0 +1,108 @@
+# Week 01: Front-end web development
+
+*Monday:* Course Intro
+
+*Wednesday:* HTML
+
+1. Prelecture videos:
+
+    1. [Inside a google data center](https://www.youtube.com/watch?v=XZmGGAbHqa0)
+
+    1. (Optional) [Inside a Facebook data center](https://www.youtube.com/watch?v=_r97qdyQtIk)
+
+    1. (Optional) [Inside Amazon web services (AWS)](https://www.youtube.com/watch?v=94PO2-TL4Vs)
+
+    1. [How the web works - the big picture](https://www.youtube.com/watch?v=hJHvdBlSxug)
+
+        Key terms:
+
+        * Browser
+        * Server
+        * URL
+        * Domain
+        * IP Address
+        * DNS
+        * HTML
+        * CSS
+        * Javascript
+        * HTTP
+        * HTTPS
+
+    1. (Optional) [https://www.youtube.com/watch?v=Kg0Q_YaQ3Gk](Three types of web development)
+
+        Key terms:
+
+        * Static websites
+        * Static site generator
+        * Dynamic websites
+        * Single page apps
+
+
+1. Prelecture tasks:
+
+    1. [Install VSCode](https://code.visualstudio.com/Download)
+
+    1. [Install Firefox](https://www.mozilla.org/en-US/exp/firefox/new/)
+
+    1. Install and enable the following firefox plugins:
+
+        1. [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+
+        1. [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+
+        1. (Optional) [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
+
+           This is a more advanced extension that gives fine-grained control over
+
+**Thursday:**
+
+1. Prelecture videos:
+    
+    1. [What is github?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
+
+    1. [The rise of open-source software](https://www.youtube.com/watch?v=SpeDK1TPbew)
+
+    1. (optional) [Understanding GitHub Issues](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
+
+    1. [Quick Google Analytics introduction](https://www.youtube.com/watch?v=RL61v47WyHs)
+
+## Lab
+
+The goal of this lab is to publish a simple webpage online so that others can view it.
+This is the first step in completing [HW 1](/hw_01/).
+
+Instructions:
+
+1. If you do not already have a GitHub account,
+   then [create one](https://github.com/join?source=header-home).
+   You may choose any username that you like,
+   and you should choose the free account option.
+
+   Job applications commonly ask for GitHub profiles,
+   so you should pick something professional that you would want to share with them.
+
+1. [Follow these directions](https://pages.github.com/) to create a GitHub Pages webpage.
+   In the step marked `?` (after step `1` and before step `2`),
+   select `I don't know` for `What git client are you using?`.
+   This will give you instructions on how to install the GitHub Desktop program for your operating system.
+
+1. [Follow these instructions](https://support.google.com/analytics/answer/1008015?hl=en) to create a Google Analytics account and add Google Analytics to your webpage.
+
+   NOTE: 
+   
+   1. Installing Google Analytics to your webpage will require copy-and-pasting the `<script>` tag into your `index.html` file,
+      and then going through the process of uploading your `index.html` file to github using GitHub Desktop.
+
+   1. Google Analytics does NOT work when you have uBlock Origin or uMatrix activated.
+      To ensure that Google Analytics is correctly working,
+      you should temporarily disable these plugins.
+      Then, you can visit your google analytics page to see that it registers you as a visitor.
+
+1. [Follow these instructions](https://developers.facebook.com/docs/plugins/like-button/) to create a Facebook Like button for your webpage.
+
+   Like with Google Analytics, Facebook Like buttons do not work when the adblock plugins are enabled.
+
+1. Get at least 5 other students from class to like your webpage.
+   You can use the zoom chat or the GitHub issues to communicate with the other students.
+
+1. Upload the url to your completed webpage to sakai.
