@@ -1,7 +1,7 @@
 # Homework 0: Building a webpage
 
 <center>
-<img width='100%' src=computer_problems.png />
+<img width='100%' src=webbish-web-design-comic.gif />
 </center>
 
 **Description:** 

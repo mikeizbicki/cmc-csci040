@@ -1,7 +1,7 @@
 ## CSCI040: ~Computing for the Web~ Introduction to Hacking
 
 <center>
-<img width='100%' src=img/hacker-way.jpg />
+<img width='100%' src=hacker-way.jpg />
 </center>
 
 Important links:

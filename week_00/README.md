@@ -1,7 +1,7 @@
-# Week 01: Front-end web development
+# Week 00: Front-end web development
 
 <center>
-<img width='100%' src=dt160320.jpg />
+<img width='100%' src=ft111002-foxtrot-comics-bill-amend-html-tag-jason-marcus-sunday-comic-strip.png />
 </center>
 
 *Monday:* Course Intro
@@ -83,8 +83,12 @@
 
 ## Lab
 
+<center>
+<img width='100%' src=dt160320.jpg />
+</center>
+
 The goal of this lab is to publish a simple webpage online so that others can view it.
-This is the first step in completing [HW 1](/hw_01/).
+This is the first step in completing [hw\_00](/hw_00/).
 
 Instructions:
 
