@@ -1,10 +1,16 @@
 # Week 01: Front-end web development
 
+<center>
+<img width='100%' src=dt160320.jpg />
+</center>
+
 *Monday:* Course Intro
 
 *Wednesday:* HTML
 
 1. Prelecture videos:
+
+    1. [Data Science: Reality vs Expectations](https://www.youtube.com/watch?v=8LucP1wiX1g)
 
     1. [Inside a google data center](https://www.youtube.com/watch?v=XZmGGAbHqa0)
 
@@ -37,14 +43,14 @@
         * Dynamic websites
         * Single page apps
 
-
 1. Prelecture tasks:
 
     1. [Install VSCode](https://code.visualstudio.com/Download)
 
     1. [Install Firefox](https://www.mozilla.org/en-US/exp/firefox/new/)
+       (Chome/Safari/Internet Explorer are not acceptable alternatives for this class.)
 
-    1. Install and enable the following firefox plugins:
+    1. Install and enable the following Firefox plugins:
 
         1. [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
@@ -53,6 +59,15 @@
         1. (Optional) [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
 
            This is a more advanced extension that gives fine-grained control over
+
+    1. If you do not already have a GitHub account,
+       then [create one](https://github.com/join).
+
+       You may choose any username that you like.
+       Job applications commonly ask for GitHub profiles,
+       so you should pick something professional that you would want to share with them.
+
+       When prompted for the account type, choose the free account option.
 
 **Thursday:**
 
@@ -72,14 +87,6 @@ The goal of this lab is to publish a simple webpage online so that others can vi
 This is the first step in completing [HW 1](/hw_01/).
 
 Instructions:
-
-1. If you do not already have a GitHub account,
-   then [create one](https://github.com/join?source=header-home).
-   You may choose any username that you like,
-   and you should choose the free account option.
-
-   Job applications commonly ask for GitHub profiles,
-   so you should pick something professional that you would want to share with them.
 
 1. [Follow these directions](https://pages.github.com/) to create a GitHub Pages webpage.
    In the step marked `?` (after step `1` and before step `2`),

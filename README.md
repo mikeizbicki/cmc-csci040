@@ -17,7 +17,7 @@ Important links:
 | Name | Mike Izbicki (call me Mike) |
 | Email | mizbicki@cmc.edu |
 | Office | Adams 216 |
-| Office Hours | Tuesday/Thursday 2:40-4:10 or by appointment ([see my schedule](https://outlook.office365.com/owa/calendar/45eb28fd4e4f45f4b0d120d17676d937@ClaremontMcKenna.edu/a46ebec5e46b4328abcb964af38795935165582125062542146/calendar.html)) |
+| Office Hours | MW 3:45-4:00 or by appointment ([see my schedule](https://outlook.office365.com/owa/calendar/45eb28fd4e4f45f4b0d120d17676d937@ClaremontMcKenna.edu/a46ebec5e46b4328abcb964af38795935165582125062542146/calendar.html)) |
 | Webpage | https://izbicki.me |
 | Research | Machine Learning (see [izbicki.me/research.html](https://izbicki.me/research.html) for some past projects) |
 | Fun Facts | grew up in San Clemente, CA (1 hr south of Claremont)<br/>7 years in the navy, worked on nuclear submarines and at NSA<br/>left Navy as a [conscientious objector](https://www.nytimes.com/2011/02/23/nyregion/23objector.html)<br/>phd/postdoc at UC Riverside<br/>taught in DPRK |
@@ -117,12 +117,12 @@ This will be a hard class, but a low-stress class.
 
     |     | Points | Project                 |
     | --- | ------ | ----------------------- |
-    | 1   | 10     | Building a Webpage      |
-    | 2   | 15     | Wikipedia data analysis |
-    | 3   | 15     | Data visualization      |
-    | 4   | 20     | Reddit propaganda bot   |
-    | 5   | 15     | Scraping ebay           |
-    | 6   | 25     | Twitter clone           |
+    | 0   | 10     | Building a Webpage      |
+    | 1   | 15     | Wikipedia data analysis |
+    | 2   | 15     | Data visualization      |
+    | 3   | 20     | Reddit propaganda bot   |
+    | 4   | 15     | Scraping ebay           |
+    | 5   | 25     | Twitter clone           |
 
     There's also fewer projects than in CS5/CS51.
     Those courses have 1 project per week.
@@ -184,48 +184,48 @@ If you have extenuating circumstances, contact me in advance of the due date and
 
 | Week | Date        | Topic                                                |
 | ---- | ----------- | ---------------------------------------------------- |
-| 1    | Mon, Aug 24 | Course intro                                         |
-| 1    | Wed, Aug 26 | Web 1.0: HTML                                        |
-| 1    | Thu, Aug 27 | **Lab:** GitHub                                      |
-| 2    | Mon, Aug 31 | Web 1.0: CSS                                         |
-| 2    | Wed, Sep 2  | Web 1.0: SEO                                         |
-| 2    | Thu, Sep 3  | **Lab:** Google Analytics                            |
-| 3    | Mon, Sep 7  | Python: control flow                                 | <!-- Labor day -->
-| 3    | Wed, Sep 9  | Python: control flow                                 |
-| 3    | Thu, Sep 10 | **Lab:** SMS/Twilio                                  |
-| 4    | Mon, Sep 14 | Python: lists                                        |
-| 4    | Wed, Sep 16 | Python: dictionaries                                 |
-| 4    | Thu, Sep 17 | **Lab:** basic algorithms/data structures            |
-| 5    | Mon, Sep 21 | Python: strings                                      |
-| 5    | Wed, Sep 23 | Python: files                                        | <!-- low grade notice -->
-| 5    | Thu, Sep 24 | **Lab:** markdown to html converter                  |
-| 6    | Mon, Sep 28 | Python: JSON                                         |
-| 6    | Wed, Sep 30 | Python: matplotlib                                   |
-| 6    | Thu, Oct 1  | **Lab:** Analyzing Trump's tweets                    |
-| 7    | Mon, Oct 5  | Python: reddit                                       |
-| 7    | Wed, Oct 7  | Python: reddit                                       |
-| 7    | Thu, Oct 8  | **Lab:** Generating propaganda                       |
-| 8    | Mon, Oct 12 | Python: reddit                                       |
-| 8    | Wed, Oct 14 | Python: reddit                                       |
-| 8    | Thu, Oct 15 | **Lab:** RedditBots                                  |
-| 9    | Mon, Oct 19 | Python: web scraping                                 |
-| 9    | Wed, Oct 21 | Python: web scraping                                 |
-| 9    | Thu, Oct 22 | **Lab:** Requests                                    |
-| 10   | Mon, Oct 26 | Python: multilingual support (Unicode)               |
-| 10   | Wed, Oct 28 | Python: multilingual support (Unicode)               | <!-- Halloween -->
-| 10   | Thu, Oct 29 | **Lab:** machine translation                         |
-| 11   | Mon, Nov 2  | Web 2.0: SQL                                         |
+| 0    | Mon, Aug 24 | Course intro                                         |
+| 0    | Wed, Aug 26 | Web 1.0: HTML                                        |
+| 0    | Thu, Aug 27 | **Lab:** GitHub                                      |
+| 1    | Mon, Aug 31 | Web 1.0: CSS                                         |
+| 1    | Wed, Sep 2  | Web 1.0: SEO                                         |
+| 1    | Thu, Sep 3  | **Lab:** Google Analytics                            |
+| 2    | Mon, Sep 7  | Python: control flow                                 | <!-- Labor day -->
+| 2    | Wed, Sep 9  | Python: control flow                                 |
+| 2    | Thu, Sep 10 | **Lab:** SMS/Twilio                                  |
+| 3    | Mon, Sep 14 | Python: lists                                        |
+| 3    | Wed, Sep 16 | Python: dictionaries                                 |
+| 3    | Thu, Sep 17 | **Lab:** basic algorithms/data structures            |
+| 4    | Mon, Sep 21 | Python: strings                                      |
+| 4    | Wed, Sep 23 | Python: files                                        | <!-- low grade notice -->
+| 4    | Thu, Sep 24 | **Lab:** markdown to html converter                  |
+| 5    | Mon, Sep 28 | Python: JSON                                         |
+| 5    | Wed, Sep 30 | Python: matplotlib                                   |
+| 5    | Thu, Oct 1  | **Lab:** Analyzing Trump's tweets                    |
+| 6    | Mon, Oct 5  | Python: reddit                                       |
+| 6    | Wed, Oct 7  | Python: reddit                                       |
+| 6    | Thu, Oct 8  | **Lab:** Generating propaganda                       |
+| 7    | Mon, Oct 12 | Python: reddit                                       |
+| 7    | Wed, Oct 14 | Python: reddit                                       |
+| 7    | Thu, Oct 15 | **Lab:** RedditBots                                  |
+| 8    | Mon, Oct 19 | Python: web scraping                                 |
+| 8    | Wed, Oct 21 | Python: web scraping                                 |
+| 8    | Thu, Oct 22 | **Lab:** Requests                                    |
+| 9    | Mon, Oct 26 | Python: multilingual support (Unicode)               |
+| 9    | Wed, Oct 28 | Python: multilingual support (Unicode)               | <!-- Halloween -->
+| 9    | Thu, Oct 29 | **Lab:** machine translation                         |
+| 10   | Mon, Nov 2  | Web 2.0: SQL                                         |
 | --   | Tue, Nov 3  | **US Elections**                                     |
-| 11   | Wed, Nov 4  | Web 2.0: SQL                                         |
-| 11   | Thu, Nov 5  | **Lab:** SQL                                         |
-| 12   | Mon, Nov 9  | Web 2.0: Flask                                       |
-| 12   | Wed, Nov 11 | Web 2.0: Flask                                       |
-| 12   | Thu, Nov 12 | **Lab:** Dynamic webpages                            |
-| 13   | Mon, Nov 16 | Web 2.0: Flask                                       |
-| 13   | Wed, Nov 18 | Web 2.0: Flask                                       |
-| 13   | Thu, Nov 19 | **Lab:** AJAX                                        |
-| 14   | Mon, Nov 23 | Web 2.0: Flask                                       |
-| 14   | Tue, Nov 24 | **Lab:** Twitter                                     |
+| 10   | Wed, Nov 4  | Web 2.0: SQL                                         |
+| 10   | Thu, Nov 5  | **Lab:** SQL                                         |
+| 11   | Mon, Nov 9  | Web 2.0: Flask                                       |
+| 11   | Wed, Nov 11 | Web 2.0: Flask                                       |
+| 11   | Thu, Nov 12 | **Lab:** Dynamic webpages                            |
+| 12   | Mon, Nov 16 | Web 2.0: Flask                                       |
+| 12   | Wed, Nov 18 | Web 2.0: Flask                                       |
+| 12   | Thu, Nov 19 | **Lab:** AJAX                                        |
+| 13   | Mon, Nov 23 | Web 2.0: Flask                                       |
+| 13   | Tue, Nov 24 | **Lab:** Twitter                                     |
 
 <!--Reading:
 
@@ -358,7 +358,7 @@ https://www.iafrikan.com/2019/09/02/south-africa-mass-surveillance-spying-unders
 
 ## Collaboration Policy
 
-You are encouraged to discuss all labs, projects, and quizzes with other students,
+You are encouraged to discuss all labs and projects with other students,
 subject to the following constraints:
 
 1. you must be the person typing in all code for your assignments, and
@@ -366,6 +366,15 @@ subject to the following constraints:
 
 You may use any online resources you like as references.
 
+**WARNING:**
+All material in this class is cumulative.
+If you work "too closely" with another student on an assignment,
+you won't understand how to complete subsequent assignments,
+and you will quickly fall behind.
+You should view collaboration as a way to improve your understanding,
+not as a way to do less work.
+
+**You are ultimately responsible for ensuring you learn the material!**
 
 <!--
 ## Self Grading
