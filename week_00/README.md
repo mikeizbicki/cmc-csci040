@@ -34,7 +34,7 @@
         * HTTP
         * HTTPS
 
-    1. (Optional) [https://www.youtube.com/watch?v=Kg0Q_YaQ3Gk](Three types of web development)
+    1. (Optional) [Three types of web development](https://www.youtube.com/watch?v=Kg0Q_YaQ3Gk)
 
         Key terms:
 
@@ -45,7 +45,7 @@
 
 1. Prelecture tasks:
 
-    1. [Install VSCode](https://code.visualstudio.com/Download)
+    1. [Install VSCode](https://code.visualstudio.com/Download) (or if you don't want Microsoft tracking you, install the open source version [VSCodium](https://vscodium.com/))
 
     1. [Install Firefox](https://www.mozilla.org/en-US/exp/firefox/new/)
        (Chome/Safari/Internet Explorer are not acceptable alternatives for this class.)
@@ -56,9 +56,8 @@
 
         1. [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
 
-        1. (Optional) [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
-
-           This is a more advanced extension that gives fine-grained control over
+        1. (Optional) [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/).
+           This is a more advanced extension that gives fine-grained control over what gets blocked.
 
     1. If you do not already have a GitHub account,
        then [create one](https://github.com/join).
