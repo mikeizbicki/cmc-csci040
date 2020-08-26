@@ -115,14 +115,14 @@ This will be a hard class, but a low-stress class.
 
 1. The projects are designed to be fun, real-world projects:
 
-    |     | Points | Project                 |
-    | --- | ------ | ----------------------- |
-    | 0   | 10     | Building a Webpage      |
-    | 1   | 15     | Wikipedia data analysis |
-    | 2   | 15     | Data visualization      |
-    | 3   | 20     | Reddit propaganda bot   |
-    | 4   | 15     | Scraping ebay           |
-    | 5   | 25     | Twitter clone           |
+    |     | Points | Project                 | Due Date         |
+    | --- | ------ | ----------------------- | ---------------- |
+    | 0   | 10     | Building a Webpage      | Sunday, 6 Sep    |
+    | 1   | 15     | Wikipedia data analysis | Sunday, 27 Sep   |
+    | 2   | 15     | Data visualization      | Sunday, 11 Oct   |
+    | 3   | 20     | Reddit propaganda bot   | Sunday, 25 Oct   |
+    | 4   | 15     | Scraping ebay           | Sunday, 1 Nov    |
+    | 5   | 25     | Twitter clone           | Sunday, 6 Dec    |
 
     There's also fewer projects than in CS5/CS51.
     Those courses have 1 project per week.
