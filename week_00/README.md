@@ -128,7 +128,8 @@ Instructions:
 
    1. Don't forget to upload with GitHub Desktop!
 
-1. Get at least 5 other students from class to like your webpage.
+1. Get at least 5 other students from class to like your webpage on Facebook,
+   and 5 other students to "star" your webpage's repo on GitHub.
    You can use the zoom chat or the GitHub issues to communicate with the other students.
 
 1. Upload the url to your completed webpage to sakai.
