@@ -74,7 +74,9 @@
     
     1. [What is github?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 
-    1. [The rise of open-source software](https://www.youtube.com/watch?v=SpeDK1TPbew)
+    1. [The rise of open source software](https://www.youtube.com/watch?v=SpeDK1TPbew)
+
+    1. "Creative Commons" is a type of open source license for non-code (books, webpages, music, images, etc.).  Watch [this video explaining Creative Commons licences](https://www.youtube.com/watch?v=4ZvJGV6YF6Y)
 
     1. (optional) [Understanding GitHub Issues](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
 
@@ -96,12 +98,22 @@ Instructions:
    select `I don't know` for `What git client are you using?`.
    This will give you instructions on how to install the GitHub Desktop program for your operating system.
 
+1. [Follow these directions](https://creativecommons.org/choose/) to include a creative commons license on your webpage.
+   You may select any version of the license.
+
+   NOTE: 
+   
+   1. This requires that you add a snippet of HTML to your webpage.
+      (I recommend the very bottom, but any location is fine.)
+      Whenever you modify your webpage,
+      you will have to go through the process of uploading your files to github using GitHub Desktop again.
+
 1. [Follow these instructions](https://support.google.com/analytics/answer/1008015?hl=en) to create a Google Analytics account and add Google Analytics to your webpage.
 
    NOTE: 
    
-   1. Installing Google Analytics to your webpage will require copy-and-pasting the `<script>` tag into your `index.html` file,
-      and then going through the process of uploading your `index.html` file to github using GitHub Desktop.
+   1. Once again, you must modify your HTML in order to insert the required `<script>` tag into your webpage.
+      Everytime you modify your webpage, you must go through the process of uploading with GitHub Desktop.
 
    1. Google Analytics does NOT work when you have uBlock Origin or uMatrix activated.
       To ensure that Google Analytics is correctly working,
@@ -111,6 +123,10 @@ Instructions:
 1. [Follow these instructions](https://developers.facebook.com/docs/plugins/like-button/) to create a Facebook Like button for your webpage.
 
    Like with Google Analytics, Facebook Like buttons do not work when the adblock plugins are enabled.
+
+   NOTE:
+
+   1. Don't forget to upload with GitHub Desktop!
 
 1. Get at least 5 other students from class to like your webpage.
    You can use the zoom chat or the GitHub issues to communicate with the other students.
