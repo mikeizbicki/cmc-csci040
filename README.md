@@ -189,7 +189,7 @@ If you have extenuating circumstances, contact me in advance of the due date and
 | 0    | Thu, Aug 27 | **Lab:** GitHub                                      |
 | 1    | Mon, Aug 31 | Web 1.0: CSS                                         |
 | 1    | Wed, Sep 2  | Web 1.0: SEO                                         |
-| 1    | Thu, Sep 3  | **Lab:** Google Analytics                            |
+| 1    | Thu, Sep 3  | **Lab:** Removing web ads                            |
 | 2    | Mon, Sep 7  | Python: control flow                                 | <!-- Labor day -->
 | 2    | Wed, Sep 9  | Python: control flow                                 |
 | 2    | Thu, Sep 10 | **Lab:** SMS/Twilio                                  |
