@@ -49,8 +49,6 @@ If you complete all checkboxes, then you will get 10/10 points.
 
      - [ ] contain a "follow" link to Mike Izbicki's personal webpage (https://izbicki.me)
 
-     - [ ] contain a Facebook like button (follow the directions [here](https://developers.facebook.com/docs/plugins/like-button/))
-
      - [ ] contain either an unordered or ordered list (`<ul>` or `<ol>`) with at least 3 list items (`<li>`)
 
  - Every HTML file must:
@@ -70,6 +68,8 @@ If you complete all checkboxes, then you will get 10/10 points.
      - [ ] contain at least 1 `<span>` tag styled using CSS
 
      - [ ] use the `<link>` tag to include the CSS file
+
+     - [ ] contain a Facebook like button and have at least 5 likes
 
      - [ ] contain a Google Analytics tracker using the `<script>` tag
 
