@@ -9,9 +9,9 @@
 <center>
 <img width='60%' src=Strip-High-Level-CSS-english650-final-1.jpg />
 <br/>
+<!--
 <img width='60%' src=Strip-CSS-respect-650-finalenglish1.jpg />
 <br/>
-<!--
 <img width='60%' src=Strip-Vengeance-de-codeur-650-finalenglish.jpg />
 <br/>
 <img width='60%' src=Strip-Vengeance-de-codeur-650-finalenglish.jpg />
