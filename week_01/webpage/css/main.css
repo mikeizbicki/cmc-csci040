@@ -28,6 +28,19 @@ li {
     padding: 10px;
 }
 
+span.webpage{
+    color: #89703e;
+}
+
+div.pdivclass {
+    color: red;
+}
+
+/* part after # is called the id */
+a#myid {
+    color: black;
+}
+
 /* menu is a class or "true class" */
 a.menu {
     color: white;
@@ -36,6 +49,7 @@ a.menu {
 /* :hover is a pseudo-class */
 li:hover {
     background-color: cyan;
+    color: red;
 }
 
 /*
