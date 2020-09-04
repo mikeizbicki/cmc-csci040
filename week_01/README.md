@@ -40,8 +40,7 @@
 
 1. Select a high profile Twitter user.
    Use Firefox's developer console to edit one of their tweets to say something they would never say.
-   Take a screenshot and post the screenshot to GitHub Issues.
-   (I will create the issues link at the beginning of lab.)
+   Take a screenshot and post the screenshot to GitHub Issues here: https://github.com/mikeizbicki/cmc-csci040/issues/11
 
 1. How to remove ads/popups/other crap from websites:
 
@@ -59,7 +58,7 @@
     1. Take a screenshot of the cleaned up webpage,
        and submit the screenshot to sakai.
 
-1. That's it!
-   You can use the rest of the lab time to work on the homework.
+1. Once you've finished with the above two tasks, you're done with the lab.
+   Feel free to log off zoom, or if you can also use the rest of the lab time to work on the homework.
 
    **HINT:** Now would be a good time to arrange with other students in the class to share backlinks to each other's websites!
