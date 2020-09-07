@@ -1,8 +1,44 @@
 #!/bin/python
 
 '''
-Lab instructions: complete each function so that all doctests pass.
+Lab instructions: 
+Complete each function below so that all doctests pass.
+You can run the doctess with the command
+
+$ python3 -m doctest --verbose lab.py
+
+Once all doctests pass, upload the output of the above command to sakai.
 '''
+
+
+def hypotenuse(a,b):
+    '''
+    returns c = square root of a squared plus b squared
+
+        >>> hypotenuse(3.0,4.0)
+        5.0
+        >>> hypotenuse(12.0,5.0)
+        13.0
+    '''
+
+
+def is_even(n):
+    '''
+    Returns True if n is even and False if n is odd
+
+    HINT: Use the modulus operator %
+
+        >>> is_even(0)
+        True
+        >>> is_even(1)
+        False
+        >>> is_even(2000)
+        True
+        >>> is_even(-8)
+        True
+        >>> is_even(-9)
+        False
+    '''
 
 
 def absolute_value(n):
@@ -17,17 +53,6 @@ def absolute_value(n):
         5.5
         >>> absolute_value(-5.5)
         5.5
-    '''
-    
-
-def hypotenuse(a,b):
-    '''
-    returns c = square root of a squared plus b squared
-
-        >>> hypotenuse(3.0,4.0)
-        5.0
-        >>> hypotenuse(12.0,5.0)
-        13.0
     '''
     
 
@@ -81,7 +106,7 @@ def max_num_abs(a,b):
         >>> max_num_abs(4,4)
         4
     '''
-    
+
 
 def num_digits(n):
     '''
@@ -104,26 +129,7 @@ def num_digits(n):
 
     HINT: convert the number into a string and use the length of the string
     '''
-
-
-def is_even(n):
-    '''
-    Returns True if n is even and False if n is odd
-
-    HINT: Use the modulus operator %
-
-        >>> is_even(0)
-        True
-        >>> is_even(1)
-        False
-        >>> is_even(2000)
-        True
-        >>> is_even(-8)
-        True
-        >>> is_even(-9)
-        False
-    '''
-
+    
 
 def is_leap_year(n):
     '''
@@ -171,13 +177,34 @@ def factorial(n):
     '''
 
 
+def is_perfect_square(n):
+    '''
+    Returns true if n is is the product of two integers.
+
+    HINT: use a for loop
+
+        >>> is_perfect_square(1)
+        True
+        >>> is_perfect_square(2)
+        False
+        >>> is_perfect_square(4)
+        True
+        >>> is_perfect_square(97)
+        False
+        >>> is_perfect_square(0)
+        True
+        >>> is_perfect_square(-144)
+        False
+    '''
+
+
 def is_prime(n):
     '''
     Returns true if n is prime, and false otherwise
     Recall that a prime number is divisible only by itself and 1,
     and by convention 1 is not considered to be a prime number.
 
-    HINT: use a for loop
+    HINT: use a for loop to check if every number between 2 and n-1 divides n
 
         >>> is_prime(1)
         False
@@ -194,6 +221,35 @@ def is_prime(n):
     '''
 
 
-# DO NOT MODIFY BELOW THIS LINE
-import doctest
-doctest.testmod(verbose=True)
+def fibonacci(n):
+    '''
+    Recall that the fibonacci numbers are calculated by the following formula:
+
+    fibonacci(0) = 0
+    fibonacci(1) = 1
+    fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)
+
+    This function computes the fubonacci numbers.
+
+        >>> fibonacci(0)
+        0
+        >>> fibonacci(1)
+        1
+        >>> fibonacci(2)
+        1
+        >>> fibonacci(3)
+        2
+        >>> fibonacci(4)
+        3
+        >>> fibonacci(5)
+        5
+        >>> fibonacci(6)
+        8
+        >>> fibonacci(7)
+        13
+        >>> fibonacci(1000)
+        43466557686937456435688527675040625802564660517371780402481729089536555417949051890403879840079255169295922593080322634775209689623239873322471161642996440906533187938298969649928516003704476137795166849228875
+
+    HINT:
+    Use a for loop from 0 to n, and store the values of the last two iterations in variables.
+    '''
