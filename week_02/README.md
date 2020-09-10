@@ -205,6 +205,6 @@ For each failing test case, you will lose 1 point.
 To submit your lab,
 run the command
 ```
-$ python3 -m doctest lab.py
+$ python3 -m doctest --verbose lab.py
 ```
 and copy/paste the output into sakai.
