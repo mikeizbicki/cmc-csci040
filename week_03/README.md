@@ -1,7 +1,7 @@
 # Week 03: Python lists and dictionaries
 
 <center>
-<img width='80%' src=computer_problems.png />
+<img width='80%' src=phd113007s1.gif />
 </center>
 
 **Monday:** 
