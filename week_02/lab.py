@@ -114,6 +114,8 @@ def num_digits(n):
     Note that a negative sign does not count as a digit,
     only numbers do.
 
+    HINT: convert the number into a string and use the length of the string
+
         >>> num_digits(5)
         1
         >>> num_digits(10)
@@ -126,8 +128,6 @@ def num_digits(n):
         1
         >>> num_digits(-10)
         2
-
-    HINT: convert the number into a string and use the length of the string
     '''
     
 
@@ -206,9 +206,10 @@ def is_prime(n):
 def is_perfect_square(n):
     '''
     Returns true if n is is the product of two integers.
+    Recall that a number n is a perfect square if there exists an integer i such that i*i==n.
 
     HINT: 
-    Use a for loop
+    Use a for loop to check each number i between 0 and n.
 
         >>> is_perfect_square(1)
         True
@@ -227,13 +228,15 @@ def is_perfect_square(n):
 
 def fibonacci(n):
     '''
+    Returns the nth fibonacci number.
     Recall that the fibonacci numbers are calculated by the following formula:
 
-    fibonacci(0) = 0
-    fibonacci(1) = 1
-    fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)
+        fibonacci(0) = 0
+        fibonacci(1) = 1
+        fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)
 
-    This function computes the fibonacci numbers.
+    HINT:
+    Use a for loop from 0 to n, and store the values of the last two iterations in variables.
 
         >>> fibonacci(0)
         0
@@ -253,7 +256,4 @@ def fibonacci(n):
         13
         >>> fibonacci(1000)
         43466557686937456435688527675040625802564660517371780402481729089536555417949051890403879840079255169295922593080322634775209689623239873322471161642996440906533187938298969649928516003704476137795166849228875
-
-    HINT:
-    Use a for loop from 0 to n, and store the values of the last two iterations in variables.
     '''
