@@ -13,7 +13,7 @@ Once all doctests pass, upload the output of the above command to sakai.
 
 def hypotenuse(a,b):
     '''
-    returns c = square root of a squared plus b squared
+    Returns c = square root of a squared plus b squared
 
         >>> hypotenuse(3.0,4.0)
         5.0
@@ -43,7 +43,7 @@ def is_even(n):
 
 def absolute_value(n):
     '''
-    this function returns the absolute value of n
+    Returns the absolute value of n
 
         >>> absolute_value(5)
         5
@@ -58,7 +58,7 @@ def absolute_value(n):
 
 def max_num(a,b):
     '''
-    this function returns the maximum of a and b
+    Returns the maximum of a and b
 
         >>> max_num(4,5)
         5
@@ -73,7 +73,7 @@ def max_num(a,b):
 
 def max_num_4(a,b,c,d):
     '''
-    this function returns the maximum of a, b, c, and d
+    Returns the maximum of a, b, c, and d
 
     HINT:
     use the `max_num` function to find the maximum of a and b;
@@ -95,7 +95,7 @@ def max_num_4(a,b,c,d):
 
 def max_num_abs(a,b):
     '''
-    this function returns the number with the highest absolute value
+    Returns the number with the highest absolute value
 
         >>> max_num_abs(4,5)
         5
@@ -157,10 +157,12 @@ def is_leap_year(n):
 
 def factorial(n):
     '''
-    Calculates the factorial of n.
+    Returns the factorial of n.
     Recall that the factorial of n is defined to be: 1*2*3*...*(n-1)*n 
 
-    HINT: use a for loop
+    HINT: 
+    Use a for loop from 1 to n.
+    On each iteration, multiple the current result by the current iteration number.
 
         >>> factorial(1)
         1
@@ -177,34 +179,14 @@ def factorial(n):
     '''
 
 
-def is_perfect_square(n):
-    '''
-    Returns true if n is is the product of two integers.
-
-    HINT: use a for loop
-
-        >>> is_perfect_square(1)
-        True
-        >>> is_perfect_square(2)
-        False
-        >>> is_perfect_square(4)
-        True
-        >>> is_perfect_square(97)
-        False
-        >>> is_perfect_square(0)
-        True
-        >>> is_perfect_square(-144)
-        False
-    '''
-
-
 def is_prime(n):
     '''
-    Returns true if n is prime, and false otherwise
+    Returns true if n is prime, and false otherwise.
     Recall that a prime number is divisible only by itself and 1,
     and by convention 1 is not considered to be a prime number.
 
-    HINT: use a for loop to check if every number between 2 and n-1 divides n
+    HINT: 
+    Use a for loop to check if every number between 2 and n-1 divides n
 
         >>> is_prime(1)
         False
@@ -221,6 +203,28 @@ def is_prime(n):
     '''
 
 
+def is_perfect_square(n):
+    '''
+    Returns true if n is is the product of two integers.
+
+    HINT: 
+    Use a for loop
+
+        >>> is_perfect_square(1)
+        True
+        >>> is_perfect_square(2)
+        False
+        >>> is_perfect_square(4)
+        True
+        >>> is_perfect_square(97)
+        False
+        >>> is_perfect_square(0)
+        True
+        >>> is_perfect_square(-144)
+        False
+    '''
+
+
 def fibonacci(n):
     '''
     Recall that the fibonacci numbers are calculated by the following formula:
@@ -229,7 +233,7 @@ def fibonacci(n):
     fibonacci(1) = 1
     fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)
 
-    This function computes the fubonacci numbers.
+    This function computes the fibonacci numbers.
 
         >>> fibonacci(0)
         0
