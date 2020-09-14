@@ -4,6 +4,9 @@
 <img width='80%' src=phd113007s1.gif />
 </center>
 
+**Quiz:**
+The completed `quiz.pdf` should be submitted to sakai by Friday at midnight.
+
 **Monday:** 
 
 1. We will cover [Chapter 4 - Lists](https://automatetheboringstuff.com/2e/chapter4/) of the book.
