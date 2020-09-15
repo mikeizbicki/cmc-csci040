@@ -64,6 +64,123 @@ def min_of_digits(n):
 
 
 ################################################################################
+# PART Ib:
+# You can get 2 points of extra credit on the lab if you complete the 3 functions in this section.
+# You must complete all 3 functions in order to get the extra credit.
+################################################################################
+
+"""
+def box(n):
+    '''
+    prints an nxn box of *
+
+    HINT: use nested for loops
+
+        >>> box(0)
+        >>> box(1)
+        *
+        >>> box(2)
+        **
+        **
+        >>> box(5)
+        *****
+        *****
+        *****
+        *****
+        *****
+        >>> box(15)
+        ***************
+        ***************
+        ***************
+        ***************
+        ***************
+        ***************
+        ***************
+        ***************
+        ***************
+        ***************
+        ***************
+        ***************
+        ***************
+        ***************
+        ***************
+    '''
+
+def checkers(n):
+    '''
+    prints a "checkers board," which is an nxn box where every other element is a space
+
+    HINT: use nested for loops
+
+        >>> checkers(0)
+        >>> checkers(1)
+        *
+        >>> checkers(2)
+        * 
+         *
+        >>> checkers(5)
+        * * *
+         * * 
+        * * *
+         * * 
+        * * *
+        >>> checkers(15)
+        * * * * * * * *
+         * * * * * * * 
+        * * * * * * * *
+         * * * * * * * 
+        * * * * * * * *
+         * * * * * * * 
+        * * * * * * * *
+         * * * * * * * 
+        * * * * * * * *
+         * * * * * * * 
+        * * * * * * * *
+         * * * * * * * 
+        * * * * * * * *
+         * * * * * * * 
+        * * * * * * * *
+    '''
+
+def outline(n):
+    '''
+    prints the outline of a box, leaving the middle empty
+
+    HINT: use nested for loops
+
+        >>> outline(0)
+        >>> outline(1)
+        *
+        >>> outline(2)
+        **
+        **
+        >>> outline(5)
+        *****
+        *   *
+        *   *
+        *   *
+        *****
+        >>> outline(15)
+        ***************
+        *             *
+        *             *
+        *             *
+        *             *
+        *             *
+        *             *
+        *             *
+        *             *
+        *             *
+        *             *
+        *             *
+        *             *
+        *             *
+        ***************
+    '''
+"""
+
+
+################################################################################
 # PART II:
 # These functions require you to use python lists.
 ################################################################################
@@ -190,7 +307,8 @@ math_grades={
         'hypatia':75,
         'emmy noether':86,
         'leonhard euler':92,
-        'albert einstein':95,
+        'grigori perelman':95,
+        'alexander grothendieck':95,
         'shelton cooper':72,
         'ada lovlace':96,
         }
@@ -198,6 +316,7 @@ math_grades={
 english_grades={
         'emily dickenson':92,
         'edgar allan poe':88,
+        'william shakespeare':84,
         'robert frost':83,
         'dorthy day':95,
         'douglas adams':42,
@@ -206,7 +325,6 @@ english_grades={
         }
 
 economics_grades={
-        'john maynard keynes':82,
         'christine lagarde':85,
         'alan greenspan':92,
         'adam smith':88,
@@ -215,6 +333,7 @@ economics_grades={
         'pierre-joseph proudhon':95,
         }
 
+# implement the functions below
 
 def get_number_of_students_in_class(d):
     '''
