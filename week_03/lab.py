@@ -250,9 +250,7 @@ def second_largest(lst):
         >>> second_largest(list(range(0,100)))
         98
         >>> second_largest([10])
-        None
         >>> second_largest([])
-        None
     '''
 
 
