@@ -310,7 +310,7 @@ math_grades={
         'grigori perelman':95,
         'alexander grothendieck':95,
         'shelton cooper':72,
-        'ada lovlace':96,
+        'ada lovelace':96,
         }
 
 english_grades={
@@ -346,6 +346,7 @@ def get_number_of_students_in_class(d):
         >>> get_number_of_students_in_class(economics_grades)
         6
     '''
+    return len(d)
 
 
 def student_with_highest_grade(d):
