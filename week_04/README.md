@@ -1,4 +1,4 @@
-# Week 04: Python strings and files
+# Week 04: Python strings, regular expressions, and files
 
 <center>
 <img width='80%' src=Strips-Le-dernier-des-vrais-codeurs-650-finalenglsih.jpg />
@@ -39,7 +39,13 @@ The completed `quiz.pdf` should be submitted to sakai by Friday at midnight.
 
 **Thursday:**
 
-1. There is no prelab work.
+1. Prelab videos:
+    
+    <!--
+    1. Corey Schafer's [`if __name__ == '__main__'`](https://www.youtube.com/watch?v=sugvnHA7ElY)
+    -->
+
+    1. Johnny Metz's [Argparse Tutorial](https://www.youtube.com/watch?v=cdblJqEUDNo)
 
 ## Lab
 
