@@ -392,7 +392,7 @@ def students_getting_an_a(d):
     and this can be achieved by using the list.sort() method.
 
         >>> students_getting_an_a(math_grades)
-        ['ada lovlace', 'alexander grothendieck', 'grigori perelman', 'leonhard euler']
+        ['ada lovelace', 'alexander grothendieck', 'grigori perelman', 'leonhard euler']
         >>> students_getting_an_a(english_grades)
         ['dorthy day', 'emily dickenson']
         >>> students_getting_an_a(economics_grades)
