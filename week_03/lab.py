@@ -16,7 +16,7 @@ Once all doctests pass, upload the output of the above command to sakai.
 # These functions review the control flow and math operations from last week
 ################################################################################
 
-
+"""
 def sum_of_digits(n):
     '''
     Calculates the sum of each of the digits in the input number n.
@@ -61,7 +61,7 @@ def min_of_digits(n):
         >>> min_of_digits(9999999949999)
         4
     '''
-
+"""
 
 ################################################################################
 # PART Ib:
@@ -185,7 +185,7 @@ def outline(n):
 # These functions require you to use python lists.
 ################################################################################
 
-
+"""
 def filter_even(lst):
     '''
     returns a list with all the even elements removed
@@ -199,7 +199,7 @@ def filter_even(lst):
         >>> filter_even([20,13,4,16,8,19,10])
         [13, 19]
     '''
-
+"""
 
 def print_list(lst):
     '''
@@ -219,7 +219,29 @@ def print_list(lst):
         'test'
     '''
 
+    """
+    string = ''
+    #for x in lst:
+    for i in range(len(lst)):
+        #string += str(x)
+        string += str(lst[i])
+        if i < len(lst)-1:
+            string += ', '
+        if i == len(lst)-2:
+            string += 'and '
+    return string
+    """
+    print("'", end='')
+    for i in range(len(lst)):
+        print(lst[i], end='')
+        if i < len(lst)-1:
+            print(', ', end='')
+        if i == len(lst) - 2:
+            print('and ', end='')
+    print("'")
+            
 
+"""
 def bigger_than_10(lst):
     '''
     returns the number of elements in the list bigger than 10
@@ -370,7 +392,7 @@ def students_getting_an_a(d):
     and this can be achieved by using the list.sort() method.
 
         >>> students_getting_an_a(math_grades)
-        ['ada lovlace', 'albert einstein', 'grigori perelman', 'leonhard euler']
+        ['ada lovlace', 'alexander grothendieck', 'grigori perelman', 'leonhard euler']
         >>> students_getting_an_a(english_grades)
         ['dorthy day', 'emily dickenson']
         >>> students_getting_an_a(economics_grades)
@@ -456,3 +478,4 @@ def most_retweeted(lst):
         >>> most_retweeted(trump_tweets[:5])
         '947592785519173637'
     '''
+"""
