@@ -19,6 +19,9 @@ def compile_headers(line):
     This is the simplest function to implement,
     because headers only use hashtags at the beginning of the text.
 
+    HINT:
+    Use the `.startswith` string method to check if the line starts with hashtags.
+
     >>> compile_headers('# This is the main header')
     '<h1> This is the main header</h1>'
     >>> compile_headers('## This is a sub-header')
@@ -40,6 +43,10 @@ def compile_headers(line):
 def compile_italic_star(line):
     '''
     Italics require carefully tracking the beginning and ending positions of the text to be replaced.
+
+    HINT:
+    In class, we created several different versions of the delete_HTML function.
+    These functions provide the pattern that you'll apply to all the remaining functions in this homework.
 
     >>> compile_italic_star('*This is italic!* This is not italic.')
     '<i>This is italic!</i> This is not italic.'
