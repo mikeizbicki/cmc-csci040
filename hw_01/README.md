@@ -13,7 +13,9 @@ if you take the CS36: Fundamentals of Data Science, then all your homeworks will
 and for my own personal blog at [izbicki.me](https://izbicki.me), I use Markdown to write all my posts.
 GitHub uses [GitHub flavored markdown](https://guides.github.com/features/mastering-markdown/) for all `README.md` files and for all issues.
 
-**Due:** ~~Sunday, 26 September, midnight~~ Wednesday, 30 September, midnight
+**Due:** 
+~~Sunday, 26 September, midnight~~
+Wednesday, 30 September, midnight
 
 **Learning objectives:**
 
@@ -38,7 +40,10 @@ $ python3 markdown_compiler.py --input_file=README.md --add_css
 ```
 each of these commands will generate a new file called `README.html`.
 Open this file in firefox and take a screenshot.
-Upload both screenshots to sakai.
+Notice that adding the `--add_css` flag to the command line adds css code to the webpage that modifies how the page gets rendered.
+This is one advantage of using markdown over straight HTML for webpage generation:
+we can easily generate many different looking webpages from the same markdown content.
+Once you've generated your screenshots, upload both of them to sakai.
 
 ## Grading Rubric
 
@@ -46,6 +51,7 @@ There are 9 functions for you to implement with doctests.
 Each function is worth 1.5 points.
 
 The remaining 1.5 points are for your two screenshots.
+This tests that you understand how to run the program from the command line with different parameters and view the results in firefox.
 
 ### Extra Credit: Multi-line markdown features
 
