@@ -82,7 +82,7 @@ and so if you run the command
 $ python3 -m youtube_dl https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 then the script will download WarGames onto your computer.
-If those links don't get WarGames vidoe for you, then [click here](#rickrolled) for debugging.
+If those links don't get WarGames video for you, then [click here](#rickrolled) for debugging help.
 
 Scripts generally provide detailed help that tells you how to use the command if you pass the `--help` flag.
 If you run
@@ -90,14 +90,6 @@ If you run
 $ python3 -m youtube_dl --help
 ```
 you can see that `youtube_dl` has many options for things like setting the audio/video quality of the download, downloading entire playlists, and using web proxies for the download.
-
-###### Rickrolled
-
-You've been [rickrolled](https://en.wikipedia.org/wiki/Rickrolling).
-The actual WarGames movie is legally available on YouTube at this link: https://www.youtube.com/watch?v=HNLQ-O-Qx3Y .
-If you visit this link with firefox and uBlock Origin enabled,
-then you can watch the movie for free without ads.
-If you download it with `youtube-dl`, then you can watch it locally on your own computer without ads.
 
 <!--
 1. Corey Schafer's [`if __name__ == '__main__'`](https://www.youtube.com/watch?v=sugvnHA7ElY)
@@ -110,3 +102,44 @@ Complete the `lab.py` file and submit your doctests to sakai.
 ### Lab Submission
 
 Upload your rickroll video to sakai.
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+###### Rickrolled
+
+You've been [rickrolled](https://en.wikipedia.org/wiki/Rickrolling).
+The actual WarGames movie is legally available on YouTube at this link: https://www.youtube.com/watch?v=HNLQ-O-Qx3Y .
+If you visit this link with firefox and uBlock Origin enabled,
+then you can watch the movie for free without ads.
+If you download it with `youtube-dl`, then you can watch it locally on your own computer without ads.
