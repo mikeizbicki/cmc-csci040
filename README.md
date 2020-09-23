@@ -118,7 +118,7 @@ This will be a hard class, but a low-stress class.
     |     | Points | Project                 | Due Date         |
     | --- | ------ | ----------------------- | ---------------- |
     | 0   | 10     | Building a Webpage      | Sunday, 6 Sep    |
-    | 1   | 15     | Wikipedia data analysis | Sunday, 27 Sep   |
+    | 1   | 15     | Markdown compiler       | Sunday, 27 Sep   |
     | 2   | 15     | Data visualization      | Sunday, 11 Oct   |
     | 3   | 20     | Reddit propaganda bot   | Sunday, 25 Oct   |
     | 4   | 15     | Scraping ebay           | Sunday, 1 Nov    |
