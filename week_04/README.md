@@ -46,7 +46,7 @@ There are two parts for this lab.
 
 ### Part I: Markdown
 
-*This part of the lab requires posting to github using markdown formatting.  The instructions will be posted on Thursday.*
+Visit [Issue #41](https://github.com/mikeizbicki/cmc-csci040/issues/41) and follow the instructions there.
 
 ### Part II: `youtube-dl`
 
