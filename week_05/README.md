@@ -13,6 +13,10 @@ Prelecture videos:
 
 1. Corey Schafer's [Working with JSON Data using the json Module](https://www.youtube.com/watch?v=9N6a-VLBa2I)
 
+<center>
+<img width='80%' src=google.png />
+</center>
+
 **Wednesday:**
 We will cover the matplotlib library.
 The textbook does not have a chapter on using the matplotlib library,
