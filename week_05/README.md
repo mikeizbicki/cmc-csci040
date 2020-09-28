@@ -1,13 +1,11 @@
 # Week 05: Analyzing data with JSON and Matplotlib
 
 <center>
-<img width='80%' src=Strips-Le-dernier-des-vrais-codeurs-650-finalenglsih.jpg />
+<img width='80%' src=programming-libraries-comic.png />
 </center>
 
-<!--
 **Quiz:**
 The completed `quiz.pdf` should be submitted to sakai by Friday at midnight.
--->
 
 **Monday:** We will cover [Chapter 16 - Working with CSV Files and JSON Data](http://automatetheboringstuff.com/2e/chapter16/) of the book.
 

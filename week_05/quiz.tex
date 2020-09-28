@@ -1,0 +1,190 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage[shortlabels]{enumitem}
+\usepackage[normalem]{ulem}
+\usepackage{courier}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = black, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor    = blue  %Colour of citations
+}
+
+\usepackage{listings}
+\lstset{language=Python} %,numbers=left}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathbb R}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\newcommand{\trans}[1]{{#1}^{T}}
+\newcommand{\loss}{\ell}
+\newcommand{\w}{\mathbf w}
+\newcommand{\mle}[1]{\hat{#1}_{\textit{mle}}}
+\newcommand{\map}[1]{\hat{#1}_{\textit{map}}}
+\newcommand{\normal}{\mathcal{N}}
+\newcommand{\x}{\mathbf x}
+\newcommand{\y}{\mathbf y}
+\newcommand{\ltwo}[1]{\lVert {#1} \rVert}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    {
+\Large
+Week 5 Quiz
+}
+
+    \vspace{0.1in}
+    CSCI040: \sout{Computing for the Web} Introduction to Hacking
+
+    \vspace{0.1in}
+\end{center}
+
+\vspace{0.15in}
+%\noindent
+%\textbf{Total Score:} ~~~~~~~~~~~~~~~/10
+%
+%\vspace{0.5in}
+%\noindent
+%\textbf{Name:} (5pt)
+%
+%\noindent
+%\rule{\textwidth}{0.1pt}
+%\vspace{0.25in}
+
+\noindent\textbf{Instructions.}
+\begin{enumerate}
+\item
+Complete each problem without using the computer.  
+You may use your Python cheat sheet or any other class notes,
+but you may not type the expressions into Python.
+There is no time limit, but I designed the quiz to be completed in about 10 minutes.
+\emph{You are encouraged to work with other students.}
+\item
+After you have completed each problem, you will grade your own quiz.
+To do this, type the code into an interactive Python session,
+and compare the result the Python gives you with the result that you wrote down.
+If they match, you get 2 points on the problem,
+if they don't match, you get 1 point on the problem.
+\item
+Scan your quiz and upload it to sakai.
+In the text submission, write the score that you achieved.
+\end{enumerate}
+\vspace{0.15in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}generates an error
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code runs successfully, what is the output?
+\end{problem}
+\begin{lstlisting}
+    as = [1, 2, 3, 4, 5]
+    bs = '12345'
+    print(as[-1] == bs[-1])
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}generates an error
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code runs successfully, what is the output?
+\end{problem}
+\begin{lstlisting}
+    as = [1, 2, 3, 4, 5]
+    for i in range(len(as)):
+        if as[i] == 4:
+            print('i=',i)
+\end{lstlisting}
+\vspace{1.5in}
+
+\newpage
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}generates an error
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code runs successfully, what is the output?
+\end{problem}
+\begin{lstlisting}
+    as = [[1, 2], [3, 4, 5]]
+    print(as[-1][-2])
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}generates an error
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code runs successfully, what is the output?
+\end{problem}
+\begin{lstlisting}
+    as = [[1, 2], [3, 4, 5]]
+    for a in as:
+        for x in a:
+            if x > 2:
+                print('x=',x)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}generates an error
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code runs successfully, what is the output?
+\end{problem}
+\begin{lstlisting}
+    as = [[1, 2], [3, 4, 5]]
+    while len(as) > 1:
+        as[0] = 'break'
+    print(as)
+\end{lstlisting}
+\vspace{1.5in}
+
+\end{document}
