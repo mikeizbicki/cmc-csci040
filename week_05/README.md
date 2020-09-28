@@ -29,7 +29,12 @@ Prelecture videos:
 
 There is no prelab work.
 
-<!--
 ## Lab
 
--->
+There are two parts to this week's lab.
+
+1. Part I is worth 10 points, like normal.
+   The instructions for part 1 are contained in the `lab_part1.py` file.
+
+2. Part II is worth only 3 points, and is "optional" in the sense that if you choose not to complete it then it will have a negligible impact on your final grade.
+   In this part of the lab, you will complete the doctests in `lab_part2.py` just like normal.
