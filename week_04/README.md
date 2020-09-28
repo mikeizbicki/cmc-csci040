@@ -82,7 +82,11 @@ and so if you run the command
 $ python3 -m youtube_dl https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 then the script will download WarGames onto your computer.
-If those links don't get WarGames video for you, then [click here](#rickrolled) for debugging help.
+If you get an error about a failed SSL certificate, then add the `--no-check-certificate` option to the command above.
+
+After you download the video, play it on your local computer.
+Notice that it's not actually the WarGames movie.
+[Click here](#rickrolled) for an explanation.
 
 Scripts generally provide detailed help that tells you how to use the command if you pass the `--help` flag.
 If you run
