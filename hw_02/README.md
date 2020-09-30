@@ -10,8 +10,8 @@ Sunday, 10 October, midnight
 
 **Learning objectives:**
 
-1. complete a python project on your own
-1. integrate python knowledge with HTML knowledge
+1. complete a python project entirely on your own
+1. integrate python knowledge with HTML/Markdown knowledge
 1. understand how python allows more advanced data analysis than tools like excel
 
 ## Instructions
