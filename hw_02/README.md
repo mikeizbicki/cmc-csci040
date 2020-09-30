@@ -31,13 +31,20 @@ Sunday, 10 October, midnight
    CSV files are even easier to work with than JSON files,
    and [the book has a whole chapter of examples](https://automatetheboringstuff.com/chapter14/).
 
-1. Generate two plots, one from each of your datasets.
+1. Generate two plots, one from each of your datasets, satisfying the following requirements:
 
-   Your plots may be any type of plot that is appropriate for your data (e.g. line chart, bar chart, scatter chart, etc.),
-   but least one of your plots must contain two data sources (e.g. two different lines in a line graph, two different sets of bars in a bar chart).
-   The plots should have properly labeled x and y axes, and a legend (only needed for the plot containing multiple data sources).
-   Additionally, the tick labels for both the x and y axes should appear in a reasonable order (e.g. sorted),
-   and they must be legible.
+    1. You may select any time of plot that you want (e.g., line, bar, scatter, etc.),
+       but you must select two different plots.
+
+    1. At least one of your plots must contain two different data sources.
+       (For example, two different lines in a line graph, 
+       or two different sets of bars in a bar chart).
+
+    1. The plots should have properly labeled x and y axes, and a legend (only needed for the plot containing multiple data sources).
+
+    1. The tic labels for both the x and y axes should appear in a reasonable order (e.g. sorted),
+       and they must be legible.
+
    See the [matplotlib samples library](https://matplotlib.org/3.1.1/tutorials/introductory/sample_plots.html) for examples of well formatted plots.
 
    Two examples of acceptable plots are:
