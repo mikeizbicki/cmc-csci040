@@ -31,7 +31,8 @@ Sunday, 10 October, midnight
    CSV files are even easier to work with than JSON files,
    and [the book has a whole chapter of examples](https://automatetheboringstuff.com/chapter14/).
 
-1. Generate two plots, one from each of your datasets.  
+1. Generate two plots, one from each of your datasets.
+
    Your plots may be any type of plot that is appropriate for your data (e.g. line chart, bar chart, scatter chart, etc.),
    but least one of your plots must contain two data sources (e.g. two different lines in a line graph, two different sets of bars in a bar chart).
    The plots should have properly labeled x and y axes, and a legend (only needed for the plot containing multiple data sources).
@@ -49,10 +50,27 @@ Sunday, 10 October, midnight
 
    <img src=trump.png>
 
-1. Generate a webpage in HTML that displays both of your plots.
-   The webpage should:
+1. Create a new github repository for this project,
+   and get at least 5 stars for your repo.
+   Inside the repo there should be:
 
-    1. Use appropriate tile, h1, and p tags (you may use other tags to arrange the layout, but are not required to)
+   1. The two image files that contain your plots
+
+   1. The python file that generates the plots
+
+   1. Any JSON/CSV files needed to reproduce the plots
+
+   1. A `README.md` markdown file that describes your project.
+
+1. Inside your `README.md` file, you should:
+
+    1. Use appropriate markdown formatting.
+
+        1. Use an h1 header (`#`) at the top of the file
+
+        1. Use either an h2 header (`##`) or bold (`**`) to create titles for your plots
+
+        1. Ensure that the text is broken up into reasonably sized paragraphs
     
     1. For each plot: 
     
@@ -60,10 +78,9 @@ Sunday, 10 October, midnight
 
         1. The description should include a link to the original data source
 
-    1. Also include a link to this project webpage on your webpage
+    1. Include a link to this project webpage
 
-1. Upload your webpage to github.
-   Upload a link to your webpage and your python code for generating the plots to sakai.
+1. Upload a link to your github repo to sakai.
 
 ## Grading rubric
 
@@ -71,7 +88,9 @@ Each plot is worth 4 pts.
 
 Your HTML page is worth 2 pts.
 
+<!--
 ## Extra credit
 
 You can receive 1 point of extra credit if you use the mpld3 extension to matplotlib to generate interactive html plots and include those in your webpage.
 See the [mpld3 examples library](https://mpld3.github.io/examples/index.html) for examples of how to do this.
+-->
