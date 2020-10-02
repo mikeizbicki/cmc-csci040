@@ -1,7 +1,7 @@
 # Week 06: Reddit Bots I
 
 <center>
-<img width='80%' src=duty_calls.png />
+<img width='50%' src=duty_calls.png />
 </center>
 
 **Quiz:**
