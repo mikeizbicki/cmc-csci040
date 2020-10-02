@@ -19,6 +19,8 @@ Readings about bots online:
 
 * [Who’s a Bot? Who’s Not?](https://www.nytimes.com/2020/06/16/science/social-media-bots-kazemi.html)
 
+* [Social Media Bots are Damaging our Democracy](https://www.engadget.com/2019-08-15-social-media-bots-are-damaging-our-democracy.html)
+
 Example useful reddit bots:
 
 * https://www.reddit.com/r/Christianity/comments/irsxys/biblequotebot_is_beta/
