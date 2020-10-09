@@ -2,6 +2,10 @@ import praw
 
 # login to reddit with your bot's credentials;
 # recall that this requires creating a praw.ini file
+# 
+# WARNING:
+# If you include any credential information in your final submission,
+# you will receive NEGATIVE POINTS on your lab!!!
 reddit = praw.Reddit('bot')
 
 # connect to the reddit submission

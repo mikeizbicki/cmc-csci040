@@ -100,7 +100,7 @@ There is no prelab work.
 
 ```
 ========================================
-Top level comment statistics
+top level comments
 ========================================
 Total comments = 617
 Deleted comments = 11
@@ -125,7 +125,7 @@ Comments per user =
  'plagiarism-bot': 1}
 
 ========================================
-All comment statistics
+all comments
 ========================================
 Total comments = 4211
 Deleted comments = 218
@@ -156,3 +156,6 @@ Comments per user =
 ### Submission
 
 Upload **both** the `bot_stats.py` file and the output of running the file to sakai.
+
+**WARNING:**
+If you include any credential information in your submission, you will receive NEGATIVE POINTS on the lab!!!
