@@ -4,9 +4,9 @@
 <img width='80%' src=cartoon.png />
 </center>
 
+<!--
 **Quiz:**
 No quiz this week :)
-<!--
 The completed `quiz.pdf` should be submitted to sakai by Friday at midnight.
 -->
 
