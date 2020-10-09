@@ -1,7 +1,7 @@
-# Week 06: Reddit Bots I
+# Week 07: Reddit Bots II
 
 <center>
-<img width='50%' src=cartoon.png />
+<img width='80%' src=cartoon.png />
 </center>
 
 **Quiz:**
