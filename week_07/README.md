@@ -18,6 +18,8 @@ Required readings:
 
 * The GPT-2 model for generating text: https://www.theguardian.com/technology/2019/jul/04/ai-fake-text-gpt-2-concerns-false-information
 
+* The GPT-3 model according to the student life: https://tsl.news/opinion-openai-gpt3-language-model/
+
 * Documenting the tactics of an anti-net neutrality bot campaign: https://hackernoon.com/more-than-a-million-pro-repeal-net-neutrality-comments-were-likely-faked-e9f0e3ed36a6
 
 Optional readings:
