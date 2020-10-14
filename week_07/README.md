@@ -48,6 +48,37 @@ Optional readings:
 
 There is no prelab work.
 
-<!--
 ## Lab
+
+In this lab you will create functions for randomly generating comments.
+The instructions are in the `lab.py` file.
+
+<!--
+presidential_candidates = {
+    'Alliance Party'            : 'Roque De La Fuente',
+    'Democratic Party'          : 'Joe Biden',
+    'Green Party'               : 'Howie Hawkins',
+    'Independent'               : 'Kanye West',
+    'Libertarian Party'         : 'Jo Jorgensen',
+    'Peace and Freedom Party'   : 'Gloria La Riva',
+    'Republican Party'          : 'Donald Trump',
+    }
+
+vicepresidential_candidates = {
+    'Alliance Party'            : 'Darcy Richardson',
+    'Democratic Party'          : 'Kamala Harris',
+    'Green Party'               : 'Angela Nicole Walker',
+    'Independent'               : 'Michelle Tidball',
+    'Libertarian Party'         : 'Spike Cohen',
+    'Peace and Freedom Party'   : 'Sunil Freeman',
+    'Republican Party'          : 'Mike Pence',
+}
+
+issues = ['education', 'the economy', 'foreign policy', 'the border wall', 'coronavirus', 'covid-19', 'healthcare', 'mexico', 'syria', 'iran', 'north korea', 'nuclear weapons', 'diplomacy', 'inflation', 'wall street', 'corruption', 'black lives matter', 'protests', 'riots', 'vote fraud', 'abortion', 'climate change', 'student loan debt', 'gun control', 'immigration', 'impeachment', 'unions']
+
+def comment_pro(party):
+
+def comment_anti(party):
+
+
 -->
