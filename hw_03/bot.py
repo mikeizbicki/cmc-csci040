@@ -68,7 +68,7 @@ while True:
     # your bot will behave differently depending on whether it's posted a comment or not
     has_not_commented = len(not_my_comments) == len(all_comments)
 
-    if not has_commented:
+    if has_not_commented:
         # FIXME (task 2)
         # if you have not made any comment in the thread, then post a top level comment
         #
@@ -81,7 +81,7 @@ while True:
         # you've already replied to
         # HINT:
         # there are many ways to accomplish this, but my solution uses two nested for loops
-        # the outer for loop loops over has_not_comments,
+        # the outer for loop loops over not_my_comments,
         # and the inner for loop loops over all the replies of the current comment from the outer loop,
         # and then an if statement checks whether the comment is authored by you or not
         comments_without_replies = []
