@@ -46,9 +46,9 @@ I recommend reviewing the following video before class:
 
 1. CSS Selectors review: https://www.youtube.com/watch?v=dcCCOiQ1ZuM
 
-**Thursday:** Lab.
+You can use the following tutorial for more details about the `bs4` library:
 
-There is no prelab work.
+1. https://realpython.com/beautiful-soup-web-scraper-python/
 
 ## Lab
 
