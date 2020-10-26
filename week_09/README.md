@@ -32,6 +32,12 @@ Legality:
 
 1. https://en.wikipedia.org/wiki/Web_scraping#Legal_issues
 
+How HTTP headers are used to track you online
+
+1. https://panopticlick.eff.org/
+
+1. https://amiunique.org/faq
+
 **Wednesday:**
 We will go over the beautiful soup (`bs4`) library.
 In order to use this library, you need to understand css selectors.
