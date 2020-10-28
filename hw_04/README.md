@@ -41,6 +41,8 @@ Create a github repo that:
 
     1. what your search term is
 
+    1. a link to the course project
+
 Submit your assignment by uploading a link to the github repo to sakai
 
 ## Grading rubric
