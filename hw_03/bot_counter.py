@@ -2,7 +2,7 @@ import praw
 
 # FIXME:
 # edit this line to contain your bot's username
-username = 'Li_bot_cs40'
+username = ''
 
 # FIXME:
 # the praw instance needs access to a valid praw.ini file 
