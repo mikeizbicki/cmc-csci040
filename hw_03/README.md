@@ -58,7 +58,7 @@ The following tasks are worth 1 point each:
 
 1. If your bot writes more than 500 comments, you get this extra credit
 
-1. If your bot writes more than 2000 comments, you get this extra credit
+1. If your bot writes more than 1000 comments, you get this extra credit
 
 The following tasks are worth 2 points each:
 
