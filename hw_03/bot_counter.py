@@ -2,7 +2,7 @@ import praw
 
 # FIXME:
 # edit this line to contain your bot's username
-username = 'botdessert'
+username = 'Li_bot_cs40'
 
 # FIXME:
 # the praw instance needs access to a valid praw.ini file 
@@ -18,10 +18,13 @@ print("len(comments)=",len(comments))
 top_level_comments = []
 replies = []
 for comment in comments:
-    if type(comment.parent()) is praw.models.Submission:
-        top_level_comments.append(comment)
-    else:
-        replies.append(comment)
+    try:
+        if type(comment.parent()) is praw.models.Submission:
+            top_level_comments.append(comment)
+        else:
+            replies.append(comment)
+    except AttributeError:
+        pass
 print("len(top_level_comments)=",len(top_level_comments))
 print("len(replies)=",len(replies))
 
@@ -38,8 +41,11 @@ print("len(valid_top_level_comments)=",len(valid_top_level_comments))
 # calculate the number of replies that are not replying to themselves
 not_self_replies = []
 for reply in replies:
-    if reply.parent().author.name!=username:
-        not_self_replies.append(reply)
+    try:
+        if reply.parent().author.name!=username:
+            not_self_replies.append(reply)
+    except AttributeError:
+        pass
 print("len(not_self_replies)=",len(not_self_replies))
 
 # calculate the number of valid replies;
@@ -47,11 +53,17 @@ print("len(not_self_replies)=",len(not_self_replies))
 # and that are not duplicate replies to the same parent comment
 parents = []
 for reply in not_self_replies:
-    parents.append(reply.parent().id)
+    try:
+        parents.append(reply.parent().id)
+    except AttributeError:
+        pass
 valid_replies = []
 for reply in not_self_replies:
-    if parents.count(reply.parent().id) == 1:
-        valid_replies.append(reply)
+    try:
+        if parents.count(reply.parent().id) == 1:
+            valid_replies.append(reply)
+    except AttributeError:
+        pass
 print("len(valid_replies)=",len(valid_replies))
 
 # the total number of valid comments is the number of valid top level comments 
