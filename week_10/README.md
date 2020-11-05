@@ -75,4 +75,7 @@ Create 2 python files:
    HINT:
    This file follows the format of the `wednesday_access.py` file from the lecture notes.
 
+Run your `create_db.py` file to generate your `database.db` file,
+then run your `access_db.py` file to check that the `create_db.py` file was created successfully.
+
 Submit your 2 python files and your db file to sakai.
