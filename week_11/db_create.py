@@ -5,7 +5,7 @@
 import sqlite3
 
 # connect to the database
-con = sqlite3.connect('wednesday.db')
+con = sqlite3.connect('twitter_clone.db')
 cur = con.cursor()
 
 # create the users table
