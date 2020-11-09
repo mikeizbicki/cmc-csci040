@@ -1,0 +1,156 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage[shortlabels]{enumitem}
+\usepackage[normalem]{ulem}
+\usepackage{courier}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = black, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor    = blue  %Colour of citations
+}
+
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\lstset{
+    language=SQL
+    ,basicstyle=\ttfamily
+    ,morekeywords={TEXT}
+    %,numbers=left}
+    }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathbb R}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\newcommand{\trans}[1]{{#1}^{T}}
+\newcommand{\loss}{\ell}
+\newcommand{\w}{\mathbf w}
+\newcommand{\mle}[1]{\hat{#1}_{\textit{mle}}}
+\newcommand{\map}[1]{\hat{#1}_{\textit{map}}}
+\newcommand{\normal}{\mathcal{N}}
+\newcommand{\x}{\mathbf x}
+\newcommand{\y}{\mathbf y}
+\newcommand{\ltwo}[1]{\lVert {#1} \rVert}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    {
+\Large
+Week 11 Quiz
+}
+
+    \vspace{0.1in}
+    CSCI040: \sout{Computing for the Web} Introduction to Hacking
+
+    \vspace{0.1in}
+\end{center}
+
+\vspace{0.15in}
+%\noindent
+%\textbf{Total Score:} ~~~~~~~~~~~~~~~/10
+%
+%\vspace{0.5in}
+%\noindent
+%\textbf{Name:} (5pt)
+%
+%\noindent
+%\rule{\textwidth}{0.1pt}
+%\vspace{0.25in}
+
+\noindent\textbf{Instructions.}
+Use the SQL CREATE/INSERT instructions below to answer the questions.
+There is no self-grading of this quiz,
+simply upload your completed quiz to sakai.
+
+\noindent
+\rule{\textwidth}{1pt}
+\begin{lstlisting}
+CREATE TABLE messages (
+    id INTEGER PRIMARY KEY,
+    sender_id INTEGER NOT NULL,
+    message TEXT NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+    );
+INSERT INTO users (username, password, age) VALUES 
+    ('trump', '12345', 74),
+    ('biden', 'password', 77),
+    ('evan', 'asd9uh9893dsdASDas-d', 2),
+    ('mike', '#FJASSIDasdjasudha8081hdasd', 35),
+    ('kristen', 'asdiahisda89283d92uqwudausd98', NULL);
+
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY,
+    username TEXT NOT NULL UNIQUE,
+    password TEXT NOT NULL,
+    age INTEGER
+    );
+INSERT INTO messages (sender_id, message) VALUES 
+    (1, 'I''m a baby.'),
+    (2, 'I''m a baby.'),
+    (3, 'I''m a toddler.'),
+    (3, 'My daddy is the best.'),
+    (3, 'I love you, I love everyone :)');
+\end{lstlisting}
+\rule{\textwidth}{1pt}
+
+\begin{problem}
+    What is the output of the following SQL query?
+    \begin{lstlisting}
+    SELECT age,username FROM users WHERE username='trump';
+    \end{lstlisting}
+    \vspace{1in}
+\end{problem}
+
+\begin{problem}
+    What is the output of the following SQL query?
+    \begin{lstlisting}
+    SELECT username FROM users WHERE age>2;
+    \end{lstlisting}
+    \vspace{1in}
+\end{problem}
+
+\newpage
+\begin{problem}
+    What is the output of the following SQL query?
+    \begin{lstlisting}
+    SELECT message FROM messages WHERE sender_id==3;
+    \end{lstlisting}
+    \vspace{2in}
+\end{problem}
+
+\begin{problem}
+    What is the output of the following SQL queries?
+    \begin{lstlisting}
+    UPDATE users SET password='test';
+    SELECT username FROM users WHERE password=='test';
+    \end{lstlisting}
+    \vspace{2in}
+\end{problem}
+
+\begin{problem}
+    What is the output of the following SQL queries?
+    \begin{lstlisting}
+    UPDATE users SET age=35 WHERE age IS NULL;
+    SELECT username FROM users WHERE age==35;
+    \end{lstlisting}
+    \vspace{2in}
+\end{problem}
+
+\end{document}
