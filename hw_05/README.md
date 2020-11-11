@@ -35,8 +35,9 @@ Your webpage must have a menu with links to the following pages:
 1. Create a message
     1. this item should only be visible if the user is logged in
     1. the user must be able to enter whatever message body they want, but you should also store the username that created a message and the time the message was created
-1. View all messages
+1. Home
     1. this item should always be visible, whether the user is logged in or not logged in
+    1. displays all the messages in the system
     1. the messages should be ordered chronologically with the most recent message at the top
     1. each message should include the user account that created it, the time of creation, and the message contents
 
