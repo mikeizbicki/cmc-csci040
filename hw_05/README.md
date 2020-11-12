@@ -68,7 +68,12 @@ You can get 2pts of extra credit if you:
 
 1. assign each user a unique image, and have that image appear with each post
 
+1. add a json endpoint for your messages route that returns the list of messages in json format instead of HTML format
+
 You can get 4pts of extra credit if you:
+
+1. display only 50 messages at a time in the messages route,
+   and include a button at the bottom to go to the "next" and "previous" messages
 
 1. can reset a user's password by sending an email with a new password
 
