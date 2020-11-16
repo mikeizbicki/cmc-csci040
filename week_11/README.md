@@ -25,7 +25,7 @@ It should have 5 routes:
 1. `/`
 1. `/login`
 1. `/logout`
-1. `/create_account`
+1. `/create_message`
 1. `/create_user`
 Each route should have a corresponding html webpage in the `templates` folder,
 and each of these html templates should extend a `base.html` template that contains the menu for your webpage.
