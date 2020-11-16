@@ -82,11 +82,11 @@ simply upload your completed quiz to sakai.
 \noindent
 \rule{\textwidth}{1pt}
 \begin{lstlisting}
-CREATE TABLE messages (
+CREATE TABLE users (
     id INTEGER PRIMARY KEY,
-    sender_id INTEGER NOT NULL,
-    message TEXT NOT NULL,
-    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+    username TEXT NOT NULL UNIQUE,
+    password TEXT NOT NULL,
+    age INTEGER
     );
 INSERT INTO users (username, password, age) VALUES 
     ('trump', '12345', 74),
@@ -95,11 +95,11 @@ INSERT INTO users (username, password, age) VALUES
     ('mike', '#FJASSIDasdjasudha8081hdasd', 35),
     ('kristen', 'asdiahisda89283d92uqwudausd98', NULL);
 
-CREATE TABLE users (
+CREATE TABLE messages (
     id INTEGER PRIMARY KEY,
-    username TEXT NOT NULL UNIQUE,
-    password TEXT NOT NULL,
-    age INTEGER
+    sender_id INTEGER NOT NULL,
+    message TEXT NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
     );
 INSERT INTO messages (sender_id, message) VALUES 
     (1, 'I''m a baby.'),
