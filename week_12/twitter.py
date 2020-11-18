@@ -1,16 +1,30 @@
 import sqlite3
-from flask import Flask, render_template, send_from_directory
+from flask import Flask, render_template, send_from_directory, request, make_response
 app = Flask(__name__)
+
+def is_logged_in(cur, username, password):
+    sql = '''
+        SELECT username,password FROM users where username=? and password=?;
+    '''
+    cur.execute(sql, (username,password))
+    rows = cur.fetchall()
+
+    if len(list(rows))==0:
+        return False
+    else:
+        return True
 
 @app.route('/')
 def root():
-    return render_template('index.html')
 
-@app.route('/home')
-def home():
-    logged_in=True
-    username='mike'
+    # generate a list of messages manually for debugging
+    messages = [
+        { 'text' : "I'm a baby", 'username':'Evan'},
+        { 'text' : "I'm a baby", 'username':'Biden'},
+        { 'text' : "I'm a baby", 'username':'Trump'},
+    ]
 
+    # generate a list of messages from the db
     con = sqlite3.connect('twitter_clone.db')
     cur = con.cursor()
     sql = '''
@@ -29,28 +43,102 @@ def home():
             username = username_row[0]
         messages.append({
             'text' : row[1],
-            'username' : username #row[0]
+            'username' : username
         })
 
-    '''
-    messages = [
-        { 'text' : "I'm a baby", 'username':'Evan'},
-        { 'text' : "I'm a baby", 'username':'Biden'},
-        { 'text' : "I'm a baby", 'username':'Trump'},
-    ]
-    '''
+    # render the webpage
+    #logged_in=True
+    #username=request.cookies.get('username')
+    #if logged_in:
 
-    if logged_in:
+    #logged_in = request.cookies.get('username')
+    # check whether the username/password is correct in the db
+    con = sqlite3.connect('twitter_clone.db')
+    cur = con.cursor()
+    
+    login_successful = is_logged_in(
+        cur=cur,
+        username=request.cookies.get('username'),
+        password=request.cookies.get('password'),
+    )
+
+    if login_successful:
         return render_template(
-            'home.html',
-            username=username,
+            'root.html',
+            username=request.cookies.get('username'),
             messages=messages
             )
     else:
         return render_template(
-            'home.html',
+            'root.html',
             messages=messages
             )
+
+
+@app.route('/login', methods=['get','post'])
+def login():
+    #if request.args.get('username'):
+    if request.form.get('username'):
+        
+        # check whether the username/password is correct in the db
+        
+        con = sqlite3.connect('twitter_clone.db')
+        cur = con.cursor()
+        login_successful = is_logged_in(
+            cur=cur,
+            username=request.form.get('username'),
+            password=request.form.get('password'),
+        )
+        """
+        sql = '''
+            SELECT username,password FROM users where username=? and password=?;
+        '''
+        cur.execute(sql, (request.form.get('username'), request.form.get('password')))
+        rows = cur.fetchall()
+
+        if len(list(rows))==0:
+            login_successful=False
+        else:
+            login_successful=True
+            """
+
+
+        # check the database to see if their login credentials are correct
+        #username = 'mike'
+        #password = '12345'
+        #if request.args.get('username')==username and request.args.get('password')==password:  
+        #if request.form.get('username')==username and request.form.get('password')==password:  
+        if login_successful:
+            # set the cookie value
+            res = make_response(render_template(
+                'login.html',
+                login_successful=True,
+                username=request.form.get('username')
+                ))
+            #res.set_cookie('username',request.args.get('username'))
+            res.set_cookie('username',request.form.get('username'))
+            res.set_cookie('password',request.form.get('password'))
+            return res
+        else:
+            return render_template(
+                'login.html',
+                login_unsuccessful=True
+                )
+    else:
+        return render_template(
+                'login.html',
+                login_default=True
+                )
+
+
+@app.route('/logout')
+def logout():
+    res = make_response(render_template(
+        'logout.html',
+        ))
+    res.set_cookie('username','',expires=0)
+    res.set_cookie('password','',expires=0)
+    return res
 
 @app.route('/user/<username>')
 def user(username):
@@ -58,6 +146,7 @@ def user(username):
         'user.html',
         username=username
         )
+
 
 @app.route('/static/<path>')
 def static_directory(path):

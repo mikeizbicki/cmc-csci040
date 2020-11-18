@@ -4,8 +4,10 @@
 {% endblock %}
 
 {% block content %}
-        <p>Welcome {{username}} :)</p>
-
+        {% if username %}
+        You are logged in as: {{username}}
+        {% endif %}
+        
         <table>
             <tr><td>username</td><td>message</td></tr>
         {% for message in messages %}
