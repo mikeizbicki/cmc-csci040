@@ -1,4 +1,4 @@
-# Week 11: Flask II
+# Week 12: Flask II
 
 <center>
 <img width='80%' src=lkiuta60nio31.jpg />
@@ -19,29 +19,10 @@ The main references will still be the following two links:
 
 ## Lab
 
-Will be posted before Thursday.
-
-<!--
-For this lab, you should create a simple flask app similar to the app you will create for homework.
-It should have 5 routes:
-1. `/`
-1. `/login`
-1. `/logout`
-1. `/create_message`
-1. `/create_user`
-Each route should have a corresponding html webpage in the `templates` folder,
-and each of these html templates should extend a `base.html` template that contains the menu for your webpage.
-
-All of your routes should have an `<h2>` tag that identifies which route you have selected.
-Your `/` route should display all of the messages currently contained in your database file.
-
-Your python file should also contain a route for static web resources served from the `static` folder.
-In this folder, you should create a file `style.css` that contains the style sheets for your webpage.
-I recommend you spend some time formatting the CSS so that the webpage looks nice;
-this will make working on the project more fun,
-and it will get you extra credit on the final homework.
+For this lab, you extend the flask app that you created last week to support login/logout functionality.
+You should fully implement the `/login` and `/logout` routes,
+and the menu should change depending on whether the user is logged in or out.
 
 **Submission:**
-Since there's a lot of files, I'm NOT requiring that you upload them all to sakai.
-Instead, take a screenshot of your `/` route as displayed in firefox and upload that to sakai.
--->
+Upload your completed python file to sakai.
+You do not need to upload your templates or any other files that are needed for your code to run correctly.
