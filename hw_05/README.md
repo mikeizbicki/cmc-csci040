@@ -63,11 +63,11 @@ You can get 2pts of extra credit if you:
 
 1. can change the password after creating an account
 
-1. add user profile pages that a user can edit to provide a description about themselves and other users can view this page
-
 1. assign each user a unique image, and have that image appear with each post (see, for example, https://robohash.org/)
 
 1. add a json endpoint for your messages route that returns the list of messages in json format instead of HTML format
+
+1. add user profile pages that a user can edit to provide a description about themselves and other users can view this page
 
 1. can access your twitter clone from other computers (see for example https://stackoverflow.com/questions/7023052/configure-flask-dev-server-to-be-visible-across-the-network); if you complete this extra credit, I will have to be able to connect directly from my own computer, which may require you to also figure out things related to your own network's configuration
 
