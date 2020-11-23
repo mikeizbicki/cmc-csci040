@@ -75,6 +75,7 @@ You can get 4pts of extra credit if you:
 
 1. display only 50 messages at a time in the messages route,
    and include a button at the bottom to go to the "next" and "previous" messages
+   (to get this extra credit, you must use the SQL [`limit`/`offset` commands to do the filtering](https://www.techonthenet.com/sql/select_limit.php))
 
 1. can reset a user's password by sending an email with a new password
 
@@ -90,6 +91,10 @@ You can get 6pts of extra credit if:
 
 1. your webpage uses AJAX to dynamically change content on the page for all of your implemented features
    (partial credit will be awarded if some features work)
+
+HINT:
+
+1. [The Flask MegaTutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) covers how to implement all of these features in a twitter clone project.  If you fully work through this tutorial, you would get all of the extra credits.
 
 ## Submission
 
