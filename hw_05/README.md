@@ -101,4 +101,4 @@ HINT:
 You will demo your project to me over zoom.
 This should take 5-10 minutes.
 
-Details will be announced later.
+See [Issue 69](https://github.com/mikeizbicki/cmc-csci040/issues/69) for details.
