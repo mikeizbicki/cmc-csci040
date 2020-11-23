@@ -53,8 +53,6 @@ You can get 2pts of extra credit if you:
 
 1. create a nicely themed webpage with HTML/CSS (this is the only subjective criteria)
 
-1. can access your twitter clone from other computers (see for example https://stackoverflow.com/questions/7023052/configure-flask-dev-server-to-be-visible-across-the-network)
-
 1. populate your twitter clone with at least 20 user accounts, each with 20 random messages (for 400 messages total)
 
 1. can delete individual messages
@@ -67,9 +65,11 @@ You can get 2pts of extra credit if you:
 
 1. add user profile pages that a user can edit to provide a description about themselves and other users can view this page
 
-1. assign each user a unique image, and have that image appear with each post
+1. assign each user a unique image, and have that image appear with each post (see, for example, https://robohash.org/)
 
 1. add a json endpoint for your messages route that returns the list of messages in json format instead of HTML format
+
+1. can access your twitter clone from other computers (see for example https://stackoverflow.com/questions/7023052/configure-flask-dev-server-to-be-visible-across-the-network); if you complete this extra credit, I will have to be able to connect directly from my own computer, which may require you to also figure out things related to your own network's configuration
 
 You can get 4pts of extra credit if you:
 
@@ -85,7 +85,7 @@ You can get 4pts of extra credit if you:
 
 1. support switching the language of your interface
 
-1. use the `flask-login` package and password hashing (as described in the [Flask Mega-Tutorial Section V](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins)) to make your login system more secure
+1. use the `flask-login` package and password hashing to make your login system more secure
 
 You can get 6pts of extra credit if:
 
