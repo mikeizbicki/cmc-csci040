@@ -9,9 +9,9 @@
         {% endblock %}
         <ul>
             <li><a href='/'>visit the root</a></li>
+            <li><a href='/home'>visit the home</a></li>
             {% if username %}
             <li><a href='/logout'>logout</a></li>
-            <li><a href='/delete_account'>delete account</a></li>
             {% else %}
             <li><a href='/login'>login</a></li>
             {% endif %}

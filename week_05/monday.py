@@ -1,4 +1,4 @@
-with open('monday.json','r') as input_file:
+with open('data/condensed_2009.json','r') as input_file:
     text = input_file.read()
 
 text = '''

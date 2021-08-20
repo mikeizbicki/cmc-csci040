@@ -32,6 +32,7 @@ def delete_HTML(text):
             new_text += text[i]
     """
 
+    '''
     # have to repeat this multiple times
     #while there are html tags in text:
     #while '<' in text:
@@ -40,6 +41,13 @@ def delete_HTML(text):
             start_of_tag = text.find('<')
             end_of_tag = text.find('>')
             text = text[:start_of_tag] + text[end_of_tag+1:]
+    '''
+
+    #while there is still html to remove:
+    if '<' in text:
+        start_of_tag = text.find('<')
+        end_of_tag = text.find('>')
+        text = text[:start_of_tag] + text[end_of_tag+1:]
 
     return text
 

@@ -19,6 +19,7 @@ def how_many_claremonts_in_str(s):
         >>> how_many_claremonts_in_str('Claremont. Claremont. Claremont. Claremont!')
         4
     '''
+    return s.lower().count('claremont')
 
 
 def how_many_claremonts_in_url(url):
@@ -44,3 +45,6 @@ def how_many_claremonts_in_url(url):
         >>> how_many_claremonts_in_url('https://www.scripps.edu')
         0
     '''
+    import requests
+    r = requests.get(url)
+    return how_many_claremonts_in_str(r.text)

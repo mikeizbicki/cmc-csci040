@@ -2,6 +2,7 @@
 INSTRUCTIONS: Implement each function below so that the doctests all pass.
 '''
 
+"""
 def is_palindrome(s):
     '''
     returns True if a string is the same read forwards and backwards, False otherwise
@@ -81,7 +82,7 @@ def extract_TLD(domain):
         'pizza'
     '''
 
-
+"""
 def remove_duplicate_words(s):
     '''
     This function performs a basic grammar check by removing duplicate words in a string.
@@ -100,6 +101,9 @@ def remove_duplicate_words(s):
         >>> remove_duplicate_words('nothing needs to change about this sentence')
         'nothing needs to change about this sentence'
     '''
+    a = s.split()
+    b = remove_duplicates_from_list(a)
+    return ' '.join(b)
 
 
 def remove_duplicates_from_list(lst):
@@ -124,7 +128,17 @@ def remove_duplicates_from_list(lst):
         []
     '''
 
+    new_list = []
+    for i in range(len(lst)):
+        if i < len(lst)-1:
+            if lst[i] != lst[i+1]:
+                string += 'a'
+                new_list.append(lst[i])
+        else:
+            new_list.append(lst[i])
+    return new_list
 
+"""
 def how_many_claremonts_in_str(s):
     '''
     returns the number of times the string 'Claremont' appears in s
@@ -141,3 +155,4 @@ def how_many_claremonts_in_str(s):
         >>> how_many_claremonts_in_str('Claremont. Claremont. Claremont. Claremont!')
         4
     '''
+"""

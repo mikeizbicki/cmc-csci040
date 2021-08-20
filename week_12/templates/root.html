@@ -9,9 +9,9 @@
         {% endif %}
         
         <table>
-            <tr><td>username</td><td>message</td></tr>
+            <tr><td>message id</td><td>username</td><td>message</td></tr>
         {% for message in messages %}
-        <tr><td>{{message.username}}</td><td>{{ message.text }}</td></tr>
+        <tr><td>{{message.id}}</td><td> {{message.username}} </td><td>{{ message.text }}</td><td>{% if username==message.username %}<a href='/delete_message/{{message.id}}'>delete message</a>{% endif %}</td></tr>
         {% endfor %}
         </table>
 {% endblock %}

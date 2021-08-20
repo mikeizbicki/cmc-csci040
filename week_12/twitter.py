@@ -6,13 +6,25 @@ def is_logged_in(cur, username, password):
     sql = '''
         SELECT username,password FROM users where username=? and password=?;
     '''
-    cur.execute(sql, (username,password))
+    #sql = '''
+    #    SELECT username,password FROM users where username='''+username+' and '+'pasword='+password+'''
+    #'''
+    cur.execute(sql, (username,password,))
     rows = cur.fetchall()
 
     if len(list(rows))==0:
         return False
     else:
         return True
+
+@app.route('/.json')
+def root_json():
+    messages = [
+        { 'text' : "I'm a baby", 'username':'Evan'},
+        { 'text' : "I'm a baby", 'username':'Biden'},
+        { 'text' : "I'm a baby", 'username':'Trump'},
+    ]
+    return json.dumps(messages)
 
 @app.route('/')
 def root():
@@ -28,7 +40,7 @@ def root():
     con = sqlite3.connect('twitter_clone.db')
     cur = con.cursor()
     sql = '''
-        SELECT sender_id,message FROM messages;
+        SELECT sender_id,message,id FROM messages;
     '''
     cur.execute(sql)
     rows = cur.fetchall()
@@ -43,7 +55,8 @@ def root():
             username = username_row[0]
         messages.append({
             'text' : row[1],
-            'username' : username
+            'username' : username,
+            'id' : row[2]
         })
 
     # render the webpage
@@ -139,6 +152,33 @@ def logout():
     res.set_cookie('username','',expires=0)
     res.set_cookie('password','',expires=0)
     return res
+
+@app.route('/delete_message/<id>')
+def delete_message(id):
+    con = sqlite3.connect('twitter_clone.db')
+    cur = con.cursor()
+    if is_logged_in(
+        cur=cur,
+        username=request.cookies.get('username'),
+        password=request.cookies.get('password'),
+    ):
+        # get username from the cookies
+        sql='''
+        DELETE FROM messages WHERE id=?;
+        '''
+        cur.execute(sql, (id,))
+        con.commit()
+    return 'message deleted'
+
+
+@app.route('/delete_user')
+def delete_user():
+    # get username from the cookies
+    sql='''
+    DELETE FROM users WHERE username=?;
+    '''
+    cur.execute(sql, (username,))
+    con.commit()
 
 @app.route('/user/<username>')
 def user(username):

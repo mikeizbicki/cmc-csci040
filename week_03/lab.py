@@ -16,7 +16,6 @@ Once all doctests pass, upload the output of the above command to sakai.
 # These functions review the control flow and math operations from last week
 ################################################################################
 
-"""
 def sum_of_digits(n):
     '''
     Calculates the sum of each of the digits in the input number n.
@@ -61,7 +60,13 @@ def min_of_digits(n):
         >>> min_of_digits(9999999949999)
         4
     '''
-"""
+    minimum = 10
+    while n>0:
+        #minimum += n%10
+        if n%10 < minimum:
+            minimum = n%10
+        n //= 10
+    return minimum
 
 ################################################################################
 # PART Ib:

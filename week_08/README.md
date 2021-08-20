@@ -129,6 +129,33 @@ https://apps.nsa.gov/iaarchive/library/reports/unicode-security-risks.cfm
 >>> len('Ϊ́')
 3
 ```
+
+
+
+# if there's any chance of using foreign characters in a string,
+# then you must normalize the string before doing comparisons
+
+>>> unicodedata.normalize('NFC', u'\u0061\u0301')
+u'\xe1'
+>>> unicodedata.normalize('NFD', u'\u00e1')
+u'a\u0301'
+
+
+>>> import unicodedata
+>>> char = "á"
+>>> len(char)
+1
+>>> [ unicodedata.name(c) for c in char ]
+['LATIN SMALL LETTER A WITH ACUTE']
+
+But now:
+
+>>> char = "á"
+>>> len(char)
+2
+>>> [ unicodedata.name(c) for c in char ]
+['LATIN SMALL LETTER A', 'COMBINING ACUTE ACCENT']
+
 -->
 
 **Thursday:** Lab.

@@ -34,17 +34,40 @@ def generate_text():
 
 def post_text(s):
     choice = random.choice(['toplevel','reply'])
+    choice = 'reply'
+    submission = reddit.submission(url='https://www.reddit.com/r/csci040/comments/j9vb5b/the_2020_election_bot_debate_thread/?')
+    
     if choice=='toplevel':
         print('toplevel')
-        submission = reddit.submission(url='https://www.reddit.com/r/csci040/comments/j9vb5b/the_2020_election_bot_debate_thread/?')
         submission.reply(s)
     else:
+        comment = random.choice(submission.comments.list())
         print('reply')
-        comment = reddit.comment(url='https://www.reddit.com/r/csci040/comments/j9vb5b/the_2020_election_bot_debate_thread/g8ms0z0/')
+        #comment = reddit.comment(url='https://www.reddit.com/r/csci040/comments/j9vb5b/the_2020_election_bot_debate_thread/g8ms0z0/')
         comment.reply(s)
 
 
-for i in range(10):
+
+
+
+
+def post_funny_reply():
+    submission = reddit.submission(url='https://www.reddit.com/r/csci040/comments/j9vb5b/the_2020_election_bot_debate_thread/?')
+    comments = list(submission.comments.list())
+
+    good_comments = []
+    for comment in comments:
+        if 'cs40-bot2' not in str(comment.author):
+            good_comments.append(comment)
+
+    comment = random.choice(good_comments)
+    print('reply to: ', comment.author, comment.body)
+    #comment = reddit.comment(url='https://www.reddit.com/r/csci040/comments/j9vb5b/the_2020_election_bot_debate_thread/g8ms0z0/')
+    comment.reply(random.choice(['hi there :)','good bot','great bot','great job!']))
+    comment.upvote()
+
+
+for i in range(100):
     '''
     post_text(generate_text())
     time.sleep(5)
@@ -55,7 +78,7 @@ for i in range(10):
 
     # if there is no error when running post_text
     try:
-        post_text(generate_text())
+        post_funny_reply()
     
     # else (meaning there is an error)
     except praw.exceptions.APIException:
@@ -67,7 +90,8 @@ for i in range(10):
         print('starting to sleep')
         time.sleep(5)
         print('done sleeping')
-    
+
+
 
 
 # try/except block to handle exceptions gracefully

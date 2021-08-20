@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-# line 1 is called the shebang
-
 '''
 This script converts markdown documents into HTML documents.
 '''
@@ -21,9 +19,6 @@ def compile_headers(line):
     This is the simplest function to implement,
     because headers only use hashtags at the beginning of the text.
 
-    HINT:
-    Use the `.startswith` string method to check if the line starts with hashtags.
-
     >>> compile_headers('# This is the main header')
     '<h1> This is the main header</h1>'
     >>> compile_headers('## This is a sub-header')
@@ -39,49 +34,27 @@ def compile_headers(line):
     >>> compile_headers('      # this is not a header')
     '      # this is not a header'
     '''
+    if line[:6]=='######':
+        new_line = '<h6>' + line[6:] + '</h6>'
+    elif line[:5]=='#####':
+        new_line = '<h5>' + line[5:] + '</h5>'
+    elif line[:4]=='####':
+        new_line = '<h4>' + line[4:] + '</h4>'
+    elif line[:3]=='###':
+        new_line = '<h3>' + line[3:] + '</h3>'
+    elif line[:2]=='##':
+        new_line = '<h2>' + line[2:] + '</h2>'
+    elif line[:1]=='#':
+        new_line = '<h1>' + line[1:] + '</h1>'
+    else:
+        new_line = line
+    return new_line
 
-    '''
-    for i in range(1,7):
-        if line.startswith('#'*i+' '):
-            line = '<h'+str(i)+'>'+line[i:]+'</h'+str(i)+'>'
-    '''
-    
-    if line.startswith('######'):
-        line = '<h6>'+line[6:]+'</h6>'
-    if line.startswith('#####'):
-        line = '<h5>'+line[5:]+'</h5>'
-    if line.startswith('####'):
-        line = '<h4>'+line[4:]+'</h4>'
-    if line.startswith('###'):
-        line = '<h3>'+line[3:]+'</h3>'
 
-    if line.startswith('# '):
-        line = '<h1>'+line[1:]+'</h1>'
-    if line.startswith('##'):
-        line = '<h2>'+line[2:]+'</h2>'
-        
-    '''
-    if line.startswith('## '):
-        line = '<h2>'+line[2:]+'</h2>'
-    if line.startswith('### '):
-        line = '<h3>'+line[3:]+'</h3>'
-    if line.startswith('#### '):
-        line = '<h4>'+line[4:]+'</h4>'
-    if line.startswith('##### '):
-        line = '<h5>'+line[5:]+'</h5>'
-    if line.startswith('###### '):
-        line = '<h6>'+line[6:]+'</h6>'
-    '''
-    return line
-
-"""
 def compile_italic_star(line):
     '''
     Italics require carefully tracking the beginning and ending positions of the text to be replaced.
-
-    HINT:
-    In class, we created several different versions of the delete_HTML function.
-    These functions provide the pattern that you'll apply to all the remaining functions in this homework.
+    We will do this example in class.
 
     >>> compile_italic_star('*This is italic!* This is not italic.')
     '<i>This is italic!</i> This is not italic.'
@@ -89,14 +62,34 @@ def compile_italic_star(line):
     '<i>This is italic!</i>'
     >>> compile_italic_star('This is *italic*!')
     'This is <i>italic</i>!'
-    >>> compile_italic_star('This is *italic*, and this is *italic*!')
-    'This is <i>italic</i>, and this is <i>italic</i>!'
     >>> compile_italic_star('This is not *italic!')
     'This is not *italic!'
     >>> compile_italic_star('*')
     '*'
     '''
-    return line
+
+    #tokens = line.split('*')
+    #for i in range(len(tokens)//2-1):
+        #tokens[i*2+1] = '<i>'+tokens[i*2+1]+'</i>'
+        ##tokens[i*4+1] = '<i>'
+        ##tokens[i*4+3] = '</i>'
+    #return ''.join(tokens) 
+
+    start_index = None
+    end_index = None
+    for i in range(len(line)):
+        if line[i]=='*':
+            if start_index is None:
+                start_index = i
+            elif end_index is None:
+                end_index = i
+
+    if start_index is not None and end_index is not None:
+        new_line = line[:start_index] + '<i>' + line[start_index+1:end_index] + '</i>' + line[end_index+1:]
+    else:
+        new_line = line
+
+    return new_line
 
 
 def compile_italic_underscore(line):
@@ -110,14 +103,26 @@ def compile_italic_underscore(line):
     '<i>This is italic!</i>'
     >>> compile_italic_underscore('This is _italic_!')
     'This is <i>italic</i>!'
-    >>> compile_italic_underscore('This is _italic_, and this is _italic_!')
-    'This is <i>italic</i>, and this is <i>italic</i>!'
     >>> compile_italic_underscore('This is not _italic!')
     'This is not _italic!'
     >>> compile_italic_underscore('_')
     '_'
     '''
-    return line
+    start_index = None
+    end_index = None
+    for i in range(len(line)):
+        if line[i]=='_':
+            if start_index is None:
+                start_index = i
+            elif end_index is None:
+                end_index = i
+
+    if start_index is not None and end_index is not None:
+        new_line = line[:start_index] + '<i>' + line[start_index+1:end_index] + '</i>' + line[end_index+1:]
+    else:
+        new_line = line
+
+    return new_line
 
 
 def compile_strikethrough(line):
@@ -132,14 +137,26 @@ def compile_strikethrough(line):
     '<ins>This is strikethrough!</ins>'
     >>> compile_strikethrough('This is ~~strikethrough~~!')
     'This is <ins>strikethrough</ins>!'
-    >>> compile_strikethrough('This is ~~strikethrough~~, and this is ~~strikethrough~~!')
-    'This is <ins>strikethrough</ins>, and this is <ins>strikethrough</ins>!'
     >>> compile_strikethrough('This is not ~~strikethrough!')
     'This is not ~~strikethrough!'
     >>> compile_strikethrough('~~')
     '~~'
     '''
-    return line
+    start_index = None
+    end_index = None
+    for i in range(len(line)-1):
+        if line[i]=='~' and line[i+1]=='~':
+            if start_index is None:
+                start_index = i
+            elif end_index is None:
+                end_index = i
+
+    if start_index is not None and end_index is not None:
+        new_line = line[:start_index] + '<ins>' + line[start_index+2:end_index] + '</ins>' + line[end_index+2:]
+    else:
+        new_line = line
+
+    return new_line
 
 
 def compile_bold_stars(line):
@@ -152,14 +169,26 @@ def compile_bold_stars(line):
     '<b>This is bold!</b>'
     >>> compile_bold_stars('This is **bold**!')
     'This is <b>bold</b>!'
-    >>> compile_bold_stars('This is **bold**, and this is **bold**!')
-    'This is <b>bold</b>, and this is <b>bold</b>!'
     >>> compile_bold_stars('This is not **bold!')
     'This is not **bold!'
     >>> compile_bold_stars('**')
     '**'
     '''
-    return line
+    start_index = None
+    end_index = None
+    for i in range(len(line)-1):
+        if line[i]=='*' and line[i+1]=='*':
+            if start_index is None:
+                start_index = i
+            elif end_index is None:
+                end_index = i
+
+    if start_index is not None and end_index is not None:
+        new_line = line[:start_index] + '<b>' + line[start_index+2:end_index] + '</b>' + line[end_index+2:]
+    else:
+        new_line = line
+
+    return new_line
 
 
 def compile_bold_underscore(line):
@@ -172,14 +201,52 @@ def compile_bold_underscore(line):
     '<b>This is bold!</b>'
     >>> compile_bold_underscore('This is __bold__!')
     'This is <b>bold</b>!'
-    >>> compile_bold_underscore('This is __bold__, and this is __bold__!')
-    'This is <b>bold</b>, and this is <b>bold</b>!'
     >>> compile_bold_underscore('This is not __bold!')
     'This is not __bold!'
     >>> compile_bold_underscore('__')
     '__'
     '''
-    return line
+    
+    '''
+    start_index = None
+    end_index = None
+    for i in range(len(line)-1):
+        if line[i]=='_' and line[i+1]=='_':
+            if start_index is None:
+                start_index = i
+            elif end_index is None:
+                end_index = i
+
+    if start_index is not None and end_index is not None:
+        new_line = line[:start_index] + '<b>' + line[start_index+2:end_index] + '</b>' + line[end_index+2:]
+    else:
+        new_line = line
+
+    return new_line
+    '''
+
+    inside_underscore = False
+    new_line = ''
+    for i in range(len(line)-1):
+        if line[i]=='_' and line[i+1]=='_':
+            if inside_underscore == False:
+                inside_underscore = True
+                new_line += '<b>'
+            else:
+                inside_underscore = False
+                new_line += '</b>'
+        new_line += line[i]
+
+    return new_line
+
+
+
+
+
+
+
+
+
 
 
 def compile_code(line):
@@ -197,12 +264,27 @@ def compile_code(line):
     '<code>1+2</code>'
     >>> compile_code('This example has html within the code: `<b>bold!</b>`')
     'This example has html within the code: <code>&lt;b&gt;bold!&lt;/b&gt;</code>'
-    >>> compile_code('This example has html both <b>inside</b> and <b>outside</b> of the code: `<b>bold!</b>`')
-    'This example has html both <b>inside</b> and <b>outside</b> of the code: <code>&lt;b&gt;bold!&lt;/b&gt;</code>'
     >>> compile_code('This example has a math formula in the  code: `1 + 2 < 4`')
     'This example has a math formula in the  code: <code>1 + 2 &lt; 4</code>'
     '''
-    return line
+    start_index = None
+    end_index = None
+    for i in range(len(line)):
+        if line[i]=='`':
+            if start_index is None:
+                start_index = i
+            elif end_index is None:
+                end_index = i
+
+    if start_index is not None and end_index is not None:
+        mid_string = line[start_index+1:end_index] 
+        mid_string = mid_string.replace('<', '&lt;')
+        mid_string = mid_string.replace('>', '&gt;')
+        new_line = line[:start_index] + '<code>' + mid_string + '</code>' + line[end_index+1:]
+    else:
+        new_line = line
+
+    return new_line
 
 
 def compile_links(line):
@@ -219,6 +301,16 @@ def compile_links(line):
     >>> compile_links('this is wrong: [course webpage](https://github.com/mikeizbicki/cmc-csci040')
     'this is wrong: [course webpage](https://github.com/mikeizbicki/cmc-csci040'
     '''
+    left_square = line.find('[')
+    right_square = line.find(']')
+    left_paren = line.find('(')
+    right_paren = line.find(')')
+
+    if left_square >= 0 and right_square >= 0 and left_paren >= 0 and right_paren >= 0:
+        if left_square < right_square == left_paren-1 < right_paren:
+            new_line = line[:left_square]+'<a href="'+line[left_paren+1:right_paren]+'">'+line[left_square+1:right_square]+'</a>'+line[right_paren+1:]
+            return new_line
+
     return line
 
 
@@ -234,6 +326,16 @@ def compile_images(line):
     >>> compile_images('This is an image of Mike Izbicki: ![Mike Izbicki](https://avatars1.githubusercontent.com/u/1052630?v=2&s=460)')
     'This is an image of Mike Izbicki: <img src="https://avatars1.githubusercontent.com/u/1052630?v=2&s=460" alt="Mike Izbicki" />'
     '''
+    left_square = line.find('[')
+    right_square = line.find(']')
+    left_paren = line.find('(')
+    right_paren = line.find(')')
+
+    if left_square >= 0 and right_square >= 0 and left_paren >= 0 and right_paren >= 0:
+        if left_square < right_square == left_paren-1 < right_paren and line[left_square-1]=='!':
+            new_line = line[:left_square-1]+'<img src="'+line[left_paren+1:right_paren]+'" alt="'+line[left_square+1:right_square]+'" />'+line[right_paren+1:]
+            return new_line
+
     return line
 
 
@@ -323,4 +425,3 @@ if __name__=='__main__':
     # write the output file
     with open(args.input_file[:-2]+'html', 'w') as f:
         f.write(html)
-"""

@@ -7,6 +7,7 @@ body {
     /*color: red;*/
     background-color: gray;
     width: 1000px; /* many units for width */
+    color: green;
 }
 
 h1 {
@@ -23,9 +24,13 @@ li {
     display: inline-block;
     width: 21%;
     background-color: black;
-    color: white;
+    color: rgb(158, 150, 150);
     margin: 0px;
     padding: 10px;
+}
+
+h2 {
+    color: red;
 }
 
 span.webpage{

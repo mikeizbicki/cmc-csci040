@@ -395,3 +395,66 @@ I've tried to design the course to be as accessible as possible for people with 
 If you need any further accommodations, please ask.
 
 I want you to succeed and I'll make every effort to ensure that you can.
+
+<!--
+
+More patterns:
+
+students struggle with nested lists/dictionaries; do more examples early on
+
+dictionary pattern where we have a list of items,
+and we use dictionary keys as the items and values as the counts
+
+dictionary/json pprint
+
+wait for dictionaries with JSON?  students have a LOT of trouble with dictionary indexing
+
+students don't understand functions and the difference of return/print
+
+for loop flags; the reddit assignment looping to see if a comment has a reply needs a boolean flag; we should visit this patter earlier in the class
+
+difference between pass vs continue
+
+list like objects especially with praw not giving lists back
+
+str(comment.author)
+
+for comment in comments:
+    do comment
+comment
+
+for word in string is wrong
+
+if list == 0 instead of len(list)==0
+
+
+for comment.reply in comments.reply
+
+
+random.choice([])
+
+
+blah(
+    username=xxx
+)
+print(username) # generates an error
+
+
+students don't understand the ? syntax in sql do quiz wth '?' vs ? and other insert syntax variations with python; last quiz was just sql, which wasn't enough; need for con.commit() and cur.fetchall()
+
+insert into users (username,password) values (username=?,password=?);
+
+
+students forget that you need parenthesis to call a function
+con.commit
+vs
+con.commit()
+
+
+
+
+request.form.get('message')
+select message from messages;
+message  <<-- students don't understand why you can't refer to just message in python
+
+-->
