@@ -45,6 +45,14 @@
 
 1. Prelecture tasks:
 
+    NOTE:
+    Throughout this course we will be installing lots of software.
+    You are welcome to use lab computers, but most students choose to use your own laptops.
+    Unlike in other classes, all of the software we use is open source, so you can freely download it on your own machine and keep access to it after the semester/graduation.
+    Due to security reasons, this software cannot be preinstalled on the lab machines,
+    and so you must install it yourself for each computer that you choose to use.
+    If you change computers, you will have to reinstall the needed software.
+
     1. [Install VSCode](https://code.visualstudio.com/Download) (or if you don't want Microsoft tracking you, install the open source version [VSCodium](https://vscodium.com/))
 
     1. [Install Firefox](https://www.mozilla.org/en-US/exp/firefox/new/)

@@ -17,20 +17,29 @@ Important links:
 | Name | Mike Izbicki (call me Mike) |
 | Email | mizbicki@cmc.edu |
 | Office | Adams 216 |
-| Office Hours | MW 3:45-4:00 or by appointment ([see my schedule](https://outlook.office365.com/owa/calendar/45eb28fd4e4f45f4b0d120d17676d937@ClaremontMcKenna.edu/a46ebec5e46b4328abcb964af38795935165582125062542146/calendar.html)) |
+| Office Hours | TBD ([see my schedule](https://outlook.office365.com/owa/calendar/45eb28fd4e4f45f4b0d120d17676d937@ClaremontMcKenna.edu/a46ebec5e46b4328abcb964af38795935165582125062542146/calendar.html)) |
 | Webpage | https://izbicki.me |
 | Research | Machine Learning (see [izbicki.me/research.html](https://izbicki.me/research.html) for some past projects) |
-| Fun Facts | grew up in San Clemente, CA (1 hr south of Claremont)<br/>7 years in the navy, worked on nuclear submarines and at NSA<br/>left Navy as a [conscientious objector](https://www.nytimes.com/2011/02/23/nyregion/23objector.html)<br/>phd/postdoc at UC Riverside<br/>taught in DPRK |
+
+Fun facts:
+1. grew up in San Clemente (~1 hr south of Claremont)
+1. 7 years in the navy
+    1. nuclear submarine officer, personally converted >10g of uranium into pure energy
+    1. worked at National Security Agency (NSA)
+    1. left Navy as a [conscientious objector](https://www.nytimes.com/2011/02/23/nyregion/23objector.html)
+1. phd/postdoc at UC Riverside
+1. taught in [DPRK (i.e. North Korea)](https://pust.co)
+1. currently on paternity leave
 
 ## About the Course
 
 **General Information:**
 
-1. There are no prerequisites for this course,
-   but students who have taken calculus find this course easier.
+1. There are no prerequisites for this course.
 
 1. This course fulfills the math general ed requirements for CMC students.
-   But, most students find it much harder than taking MATH30 (Calculus I).
+   But, most students find it much harder than taking MATH030 (Calculus I).
+   If you haven't taken calculus, expect that you will have to put in about twice the amount of work on this class than you would to take calculus and get the same grade.
 
 1. This course is similar to [CS5 at Harvey Mudd](https://www.cs.hmc.edu/twiki/bin/view/CS5) or [CS51 at Pomona](http://www.cs.pomona.edu/~tzuyi/Classes/sp18/cs051p/).
     1. If you have already taken either of those courses,
@@ -43,11 +52,19 @@ Important links:
         1. and computer science sequence.
     1. This course is more practical than the Mudd/Pomona courses.
 
+1. This course is especially designed to connect computer science to non-STEM subjects like
+    1. economics,
+    1. government,
+    1. literature, and
+    1. history.
+
+1. This course cannot be taken CR/NC.
+
 **Primary Learning Objectives:**
 
 1. **Automate boring tasks** <-- this is a hacker's primary goal
 1. Create static and dynamic web pages
-1. Understand the basics of:
+1. Understand the basics of many programming languages:
     1. HTML
     1. CSS
     1. JavaScript
@@ -61,18 +78,27 @@ Important links:
 
 1. Introduction to "hacker culture" and open source software
 1. Understand basic:
-    1. ["front end" and "back end" development](https://www.coursereport.com/blog/front-end-development-vs-back-end-development-where-to-start)
+    1. internet infrastructure
+    1. ["front end" versus "back end" development](https://www.coursereport.com/blog/front-end-development-vs-back-end-development-where-to-start)
     1. [test driven development](https://streamhacker.com/2009/02/05/test-driven-development-in-python/)
     1. [accessible development](https://www.w3.org/standards/webdesign/accessibility)
-    1. internet infrastructure
+        1. disabilities (~8% of males are red-green colorblind)
+        1. non-English / non-American users of software
     1. web security
+        1. technical details (you will learn to commit fraud in this class!)
+        1. social implications
+        1. governmen policy
+    <!--
     1. [search engine optimization](https://moz.com/beginners-guide-to-seo)
-1. Use Python libraries
+    -->
+1. Use real-world programming tools
+    1. Python libraries actually in use at FAANG companies
+    1. GitHub
 
 **Textbook:**
 
 All of our textbooks are [free as in beer](https://en.wiktionary.org/wiki/free_as_in_beer).
-Some of them are [free as in speach](https://en.wiktionary.org/wiki/free_as_in_speech).
+Some of them are [free as in speech](https://en.wiktionary.org/wiki/free_as_in_speech).
 
 1. Shay Howe's [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/).
 1. Al Sweigart's [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/).
@@ -84,45 +110,46 @@ Hackers believe in the free exchange of information and often use the following 
 1. https://sci-hub.tw
 1. https://thepiratebay.org
 
-But most of the people who use these sites are [script kiddies](https://en.wikipedia.org/wiki/Script_kiddie)
+But most of the people who use these sites are [script kiddies](https://en.wikipedia.org/wiki/Script_kiddie).
 
 **Grades:**
 
-Your grades will be calculated according to the following tables.
+| category                      | points/assignment | approximate percentage |
+| ----------------------------- | ----------------- | ---- |
+| labs (weekly)                 | 5pts              | 20%  |
+| quizzes (weekly)              | 10-20pts          | 40%  |
+| projects (every 2-3 weeks)    | 10-30pts          | 40%  |
 
-| Category          | Percent |
-| ----------------- | ------- |
-| Projects          | 50      |
-| Labs              | 30      |
-| Quizzes           | 20      |
+This will be a low-stress but very challenging class.
 
-This will be a hard class, but a low-stress class.
-
-1. The material is intrinsically hard.
-   That's why we have an extra 2 hour lab period per week compared to most classes.
-
-1. The course is low-stress because you have full control over what your grade will be:
+1. The course is low-stress because you have full control over what your grade will be.
+    1. **No midterm/final exam.**
+       Weekly quizzes ensure you don't fall behind on material, and if you bomb a quiz it's not a big deal.
     1. Weekly labs are automatically graded by Python.
-    1. You will grade your own quizzes.
+       Keep working on them until you get 100%.
     1. Projects have TONs of extra credit opportunities.
        In the past, I've had students end the course with a 150%,
        and I've had other students choose not to complete certain projects because they would get an A without completing them.
 
-1. Historically, the average student needs to spend about 10 hours per week (including class time) to get an A.
-   About 25% of students will either:
-   spend 15-20 hours per week and get an A,
-   or spend 10 hours per week and get a B/C.
+1. The material is intrinsically *very* hard.
+    1. That's why CS/DS majors get paid so much money... there's not many people willing to work hard enough to master these concepts.
+    1. That's why we have an extra lab session each week (and so 50% more in-person instruction time).
+       Also take advantage of office hours and the QCL.
+    1. Historically, the average student needs to spend about 10 hours per week outside of class to get an A.
+       About 50% of students will either:
+       spend 15-20 hours per week and get an A,
+       or spend 10 hours per week and get a B/C.
 
 1. The projects are designed to be fun, real-world projects:
 
-    |     | Points | Project                 | Due Date         |
-    | --- | ------ | ----------------------- | ---------------- |
-    | 0   | 10     | Building a Webpage      | Sunday, 6 Sep    |
-    | 1   | 15     | Markdown compiler       | Sunday, 27 Sep   |
-    | 2   | 15     | Data visualization      | Sunday, 11 Oct   |
-    | 3   | 20     | Reddit propaganda bot   | Sunday, 25 Oct   |
-    | 4   | 15     | Scraping ebay           | Sunday, 1 Nov    |
-    | 5   | 25     | Twitter clone           | Sunday, 6 Dec    |
+    |     | Project                 | Due Date will be no earlier than |
+    | --- | ----------------------- | ---------------- |
+    | 0   | Building a Webpage      | Sunday, 12 Sep   |
+    | 1   | Markdown compiler       | Sunday, 03 Oct   |
+    | 2   | Data visualization      | Sunday, 11 Oct   |
+    | 3   | Reddit propaganda bot   | Sunday, 24 Oct   |
+    | 4   | Scraping ebay           | Sunday, 07 Nov   |
+    | 5   | Twitter clone           | Sunday, 12 Dec   |
 
     There's also fewer projects than in CS5/CS51.
     Those courses have 1 project per week.
@@ -166,7 +193,7 @@ In order to earn an A/A- in the class, you must also complete one of the followi
        This is a documentary about Edward Snowden and the hacking that the NSA does.
        There's also a live-action movie called [Snowden](https://www.amazon.com/Snowden-Joseph-Gordon-Levitt/dp/B01LWYVHKV) that you could also choose to watch.
 
-    1. Zero Days - Security Leaks for Scale (available for free on [youtube](https://www.youtube.com/watch?v=4BTTiWkdT8Q))
+    1. Zero Days - Security Leaks for Sale (available for free on [youtube](https://www.youtube.com/watch?v=4BTTiWkdT8Q))
 
     <!--
     1. Season 1 of Hunted, [available online](https://www.channel4.com/programmes/hunted/on-demand/60136-001).
@@ -175,8 +202,8 @@ In order to earn an A/A- in the class, you must also complete one of the followi
 
 **Late Work Policy:**
 
-You lose 10% on labs/projects for each day late.
-Quizzes may not be submitted late.
+You lose 20% on labs/projects for each day late.
+It is still typically better to submit a correct assignment late than an incorrect one early.
 
 If you have extenuating circumstances, contact me in advance of the due date and I may extend the due date for you.
 
@@ -184,48 +211,54 @@ If you have extenuating circumstances, contact me in advance of the due date and
 
 | Week | Date        | Topic                                                |
 | ---- | ----------- | ---------------------------------------------------- |
-| 0    | Mon, Aug 24 | Course intro                                         |
-| 0    | Wed, Aug 26 | Web 1.0: HTML                                        |
-| 0    | Thu, Aug 27 | **Lab:** GitHub                                      |
-| 1    | Mon, Aug 31 | Web 1.0: CSS                                         |
-| 1    | Wed, Sep 2  | Web 1.0: SEO                                         |
-| 1    | Thu, Sep 3  | **Lab:** Removing web ads                            |
-| 2    | Mon, Sep 7  | Python: control flow                                 | <!-- Labor day -->
-| 2    | Wed, Sep 9  | Python: control flow                                 |
-| 2    | Thu, Sep 10 | **Lab:** SMS/Twilio                                  |
-| 3    | Mon, Sep 14 | Python: lists                                        |
-| 3    | Wed, Sep 16 | Python: dictionaries                                 |
-| 3    | Thu, Sep 17 | **Lab:** basic algorithms/data structures            |
-| 4    | Mon, Sep 21 | Python: strings                                      |
-| 4    | Wed, Sep 23 | Python: files                                        | <!-- low grade notice -->
-| 4    | Thu, Sep 24 | **Lab:** markdown to html converter                  |
-| 5    | Mon, Sep 28 | Python: JSON                                         |
-| 5    | Wed, Sep 30 | Python: matplotlib                                   |
-| 5    | Thu, Oct 1  | **Lab:** Analyzing Trump's tweets                    |
-| 6    | Mon, Oct 5  | Python: reddit                                       |
-| 6    | Wed, Oct 7  | Python: reddit                                       |
-| 6    | Thu, Oct 8  | **Lab:** Generating propaganda                       |
-| 7    | Mon, Oct 12 | Python: reddit                                       |
-| 7    | Wed, Oct 14 | Python: reddit                                       |
-| 7    | Thu, Oct 15 | **Lab:** RedditBots                                  |
-| 8    | Mon, Oct 19 | Python: web scraping                                 |
-| 8    | Wed, Oct 21 | Python: web scraping                                 |
-| 8    | Thu, Oct 22 | **Lab:** Requests                                    |
-| 9    | Mon, Oct 26 | Python: multilingual support (Unicode)               |
-| 9    | Wed, Oct 28 | Python: multilingual support (Unicode)               | <!-- Halloween -->
-| 9    | Thu, Oct 29 | **Lab:** machine translation                         |
-| 10   | Mon, Nov 2  | Web 2.0: SQL                                         |
-| --   | Tue, Nov 3  | **US Elections**                                     |
-| 10   | Wed, Nov 4  | Web 2.0: SQL                                         |
-| 10   | Thu, Nov 5  | **Lab:** SQL                                         |
-| 11   | Mon, Nov 9  | Web 2.0: Flask                                       |
-| 11   | Wed, Nov 11 | Web 2.0: Flask                                       |
-| 11   | Thu, Nov 12 | **Lab:** Dynamic webpages                            |
-| 12   | Mon, Nov 16 | Web 2.0: Flask                                       |
-| 12   | Wed, Nov 18 | Web 2.0: Flask                                       |
-| 12   | Thu, Nov 19 | **Lab:** AJAX                                        |
-| 13   | Mon, Nov 23 | Web 2.0: Flask                                       |
-| 13   | Tue, Nov 24 | **Lab:** Twitter                                     |
+| 0    | Mon, 30 Aug | Course intro                                         |
+| 0    | Wed, 01 Sep | Web 1.0: HTML                                        |
+| 0    | Fri, 03 Sep | *Lab:* GitHub                                        |
+| 1    | Mon, 06 Sep | **NOCLASS: Labor Day**                               |
+| 1    | Wed, 08 Sep | Web 1.0: CSS                                         |
+| 1    | Fri, 10 Sep | *Lab:* Removing web ads                              |
+| 2    | Mon, 13 Sep | Python: control flow                                 | <!-- last day to add -->
+| 2    | Wed, 15 Sep | Python: control flow                                 |
+| 2    | Fri, 17 Sep | *Lab:* SMS/Twilio                                    |
+| 3    | Mon, 20 Sep | Python: lists                                        |
+| 3    | Wed, 22 Sep | Python: dictionaries                                 |
+| 3    | Fri, 24 Sep | *Lab:* basic algorithms/data structures              |
+| 4    | Mon, 27 Sep | Python: strings                                      |
+| 4    | Wed, 29 Sep | Python: files                                        |
+| 4    | Fri, 01 Oct | *Lab:* markdown to html converter                    |
+| 5    | Mon, 04 Oct | Python: JSON                                         |
+| 5    | Wed, 06 Oct | Python: matplotlib                                   | <!-- low grade notice -->
+| 5    | Fri, 08 Oct | *Lab:* Analyzing Trump's tweets                      |
+| 6    | Mon, 11 Oct | Python: reddit                                       |
+| 6    | Wed, 13 Oct | Python: reddit                                       |
+| 6    | Fri, 15 Oct | *Lab:* Generating propaganda                         |
+| 7    | Mon, 18 Oct | **NOCLASS: fall break**                              |
+| 7    | Wed, 20 Oct | Python: reddit                                       |
+| 7    | Fri, 22 Oct | *Lab:* RedditBots                                    |
+| 8    | Mon, 25 Oct | Python: web scraping                                 |
+| 8    | Wed, 27 Oct | Python: web scraping                                 |
+| 8    | Fri, 29 Oct | *Lab:* Requests                                      | <!-- Halloween -->
+| 9    | Mon, 01 Nov | Python: multilingual support (Unicode)               |
+| 9    | Wed, 03 Nov | Python: multilingual support (Unicode)               |
+| 9    | Fri, 05 Nov | *Lab:* machine translation                           |
+| 10   | Mon, 08 Nov | Web 2.0: SQL                                         |
+| 10   | Wed, 10 Nov | Web 2.0: SQL                                         |
+| 10   | Fri, 12 Nov | *Lab:* SQL                                           |
+| 11   | Mon, 15 Nov | Web 2.0: Flask                                       |
+| 11   | Wed, 17 Nov | Web 2.0: Flask                                       |
+| 11   | Fri, 19 Nov | *Lab:* Dynamic webpages                              | <!-- last day to withdraw with a W -->
+| 12   | Mon, 22 Nov | Web 2.0: Flask                                       |
+| 12   | Wed, 24 Nov | **NOCLASS: Thanksgiving**                            |
+| 12   | Fri, 26 Nov | **NOCLASS: Thanksgiving**                            |
+| 13   | Mon, 29 Nov | Web 2.0: Flask                                       |
+| 13   | Wed, 01 Dec | Web 2.0: Flask                                       |
+| 13   | Fri, 03 Dec | *Lab:*  AJAX                                         |
+| 13   | Mon, 06 Dec | Web 2.0: Flask                                       |
+| 13   | Wed, 08 Dec | Web 2.0: Flask                                       |
+| 13   | Fri, 10 Dec | *Lab:* Final project                                 |
+
+**No Final Exam.**
+Final project will be due during exam week.
 
 <!--Reading:
 
@@ -375,6 +408,11 @@ You should view collaboration as a way to improve your understanding,
 not as a way to do less work.
 
 **You are ultimately responsible for ensuring you learn the material!**
+
+## COVID-19 Policies
+
+I want to respect everyone's various comfort levels with COVID exposure.
+You will not be required to work closely with other students, but it's strongly encouraged that you do so.
 
 <!--
 ## Self Grading
