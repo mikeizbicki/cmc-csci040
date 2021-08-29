@@ -6,8 +6,6 @@
 
 Important links:
 
-1. [How to Become a Hacker](http://www.catb.org/esr/faqs/hacker-howto.html)
-
 1. [What Hackers get Payed](https://www.levels.fyi/comp.html?track=Data%20Scientist)
 
 ## About the Instructor
@@ -76,7 +74,8 @@ Fun facts:
 
 **Secondary Learning Objectives:**
 
-1. Introduction to "hacker culture" and open source software
+1. Introduction to [hacker culture](http://www.catb.org/esr/faqs/hacker-howto.html) and [open source software](https://opensource.com/resources/what-open-source)
+
 1. Understand basic:
     1. internet infrastructure
     1. ["front end" versus "back end" development](https://www.coursereport.com/blog/front-end-development-vs-back-end-development-where-to-start)
@@ -253,9 +252,9 @@ If you have extenuating circumstances, contact me in advance of the due date and
 | 13   | Mon, 29 Nov | Web 2.0: Flask                                       |
 | 13   | Wed, 01 Dec | Web 2.0: Flask                                       |
 | 13   | Fri, 03 Dec | *Lab:*  AJAX                                         |
-| 13   | Mon, 06 Dec | Web 2.0: Flask                                       |
-| 13   | Wed, 08 Dec | Web 2.0: Flask                                       |
-| 13   | Fri, 10 Dec | *Lab:* Final project                                 |
+| 14   | Mon, 06 Dec | Web 2.0: Flask                                       |
+| 14   | Wed, 08 Dec | Web 2.0: Flask                                       |
+| 14   | Fri, 10 Dec | *Lab:* Final project                                 |
 
 **No Final Exam.**
 Final project will be due during exam week.
@@ -409,10 +408,12 @@ not as a way to do less work.
 
 **You are ultimately responsible for ensuring you learn the material!**
 
+<!--
 ## COVID-19 Policies
 
 I want to respect everyone's various comfort levels with COVID exposure.
 You will not be required to work closely with other students, but it's strongly encouraged that you do so.
+-->
 
 <!--
 ## Self Grading
