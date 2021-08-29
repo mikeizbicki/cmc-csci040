@@ -60,12 +60,15 @@
 
     1. Install and enable the following Firefox plugins:
 
-        1. [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+        1. [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) for blocking ads.
 
-        1. [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+            1. uBlock Origin is widely considered by hackers to be the best existing adblocker.
+                Other adblockers either sell your browsing info to advertisers or allow advertisers to pay to have their ads not blocked.
 
-        1. (Optional) [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/).
-           This is a more advanced extension that gives fine-grained control over what gets blocked.
+            1. It is possible to use uBlock Origin from chrome, but chrome has some anti-adblocker technology built into it that makes it less effective.
+                If you're interested in technical details about why this is the case, see https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox .
+
+        1. [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/) reduces how much online web companies can track you.
 
     1. If you do not already have a GitHub account,
        then [create one](https://github.com/join).
@@ -76,7 +79,7 @@
 
        When prompted for the account type, choose the free account option.
 
-**Thursday:**
+**Friday:**
 
 1. Prelecture videos:
     
@@ -84,9 +87,10 @@
 
     1. [The rise of open source software](https://www.youtube.com/watch?v=SpeDK1TPbew)
 
-    1. "Creative Commons" is a type of open source license for non-code (books, webpages, music, images, etc.).  Watch [this video explaining Creative Commons licences](https://www.youtube.com/watch?v=4ZvJGV6YF6Y)
+    1. "Creative Commons" is a type of open source license for non-code (books, webpages, music, images, etc.).
+        Watch [this video explaining Creative Commons licences](https://www.youtube.com/watch?v=4ZvJGV6YF6Y)
 
-    1. (optional) [Understanding GitHub Issues](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
+    1. [Understanding GitHub Issues](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
 
     1. [Quick Google Analytics introduction](https://www.youtube.com/watch?v=RL61v47WyHs)
 

@@ -9,12 +9,12 @@ You will build a simple webpage and publish it to the internet.
 You get to choose any topic for the webpage (must be [SFW](https://en.wiktionary.org/wiki/SFW)!),
 and you can earn extra credit by having a large number of people visit your webpage.
 
-**Due:** Sunday, 6 September, midnight
+**Due:** Sunday, 12 September, midnight
 
 **Primary learning objectives:**
 
-1. demonstrate a basic knowledge of HTML, CSS, and JavaScript
-1. follow directions in introductory tutorials geared for computer programmers
+1. develop a basic knowledge of HTML, CSS, and JavaScript
+1. be able to follow directions in introductory tutorials geared for computer programmers
 
 **Secondary learning objectives:**
 
@@ -109,7 +109,7 @@ In particular, you can get 1 pt of extra credit by completing either of the foll
  - [ ] 
     Get more than 1000 unique visitors to your webpage in a single 48 hour period, as shown by your Google Analytics tracker.
 
-For any of these extra credit tasks, feel free to get creative and use whatever "black hat" techniques you can think of.
+For any of these extra credit tasks, feel free to get creative and use whatever [black hat](https://blog.hubspot.com/marketing/black-hat-seo) techniques you can think of.
 
 ## Submission
 
@@ -118,4 +118,3 @@ Upload the URL of your webpage to sakai.
 If you also completed extra credit,
 take a screenshot proving you completed the extra credit,
 and upload that to sakai.
-
