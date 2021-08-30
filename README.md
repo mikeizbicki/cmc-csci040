@@ -8,6 +8,8 @@ Important links:
 
 1. [What Hackers get Payed](https://www.levels.fyi/comp.html?track=Data%20Scientist)
 
+1. [Tech employers illegally collude to reduce salaries](https://en.wikipedia.org/wiki/High-Tech_Employee_Antitrust_Litigation)
+
 ## About the Instructor
 
 |||
@@ -36,6 +38,7 @@ Fun facts:
 1. There are no prerequisites for this course.
 
 1. This course fulfills the math general ed requirements for CMC students.
+
    But, most students find it much harder than taking MATH030 (Calculus I).
    If you haven't taken calculus, expect that you will have to put in about twice the amount of work on this class than you would to take calculus and get the same grade.
 
@@ -50,11 +53,11 @@ Fun facts:
         1. and computer science sequence.
     1. This course is more practical than the Mudd/Pomona courses.
 
-1. This course is especially designed to connect computer science to non-STEM subjects like
-    1. economics,
-    1. government,
-    1. literature, and
-    1. history.
+       This course is especially designed to connect computer science to non-STEM subjects like
+        1. economics,
+        1. government,
+        1. literature, and
+        1. history.
 
 1. This course cannot be taken CR/NC.
 
@@ -78,8 +81,9 @@ Fun facts:
 
 1. Understand basic:
     1. internet infrastructure
-    1. ["front end" versus "back end" development](https://www.coursereport.com/blog/front-end-development-vs-back-end-development-where-to-start)
-    1. [test driven development](https://streamhacker.com/2009/02/05/test-driven-development-in-python/)
+    1. common programming jargon
+        1. ["front end" versus "back end" development](https://www.coursereport.com/blog/front-end-development-vs-back-end-development-where-to-start)
+        1. [test driven development](https://streamhacker.com/2009/02/05/test-driven-development-in-python/)
     1. [accessible development](https://www.w3.org/standards/webdesign/accessibility)
         1. disabilities (~8% of males are red-green colorblind)
         1. non-English / non-American users of software
@@ -87,6 +91,7 @@ Fun facts:
         1. technical details (you will learn to commit fraud in this class!)
         1. social implications
         1. governmen policy
+        1. legal issues
     <!--
     1. [search engine optimization](https://moz.com/beginners-guide-to-seo)
     -->
