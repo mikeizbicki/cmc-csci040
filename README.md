@@ -224,6 +224,10 @@ subject to the following constraints:
 
 You may use any online resources you like as references.
 
+Basically, I'm trusting you all to be adults.
+You are ultimately responsible for ensuring you learn the material!
+So do what will help you learn best.
+
 *WARNING:*
 All material in this class is cumulative.
 If you work "too closely" with another student on an assignment,
@@ -231,8 +235,6 @@ you won't understand how to complete subsequent assignments,
 and you will quickly fall behind.
 You should view collaboration as a way to improve your understanding,
 not as a way to do less work.
-
-*You are ultimately responsible for ensuring you learn the material!*
 
 **COVID-19 Policy:**
 
