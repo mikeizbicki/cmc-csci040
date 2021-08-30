@@ -211,7 +211,8 @@ It is still typically better to submit a correct assignment late than an incorre
 
 If you have extenuating circumstances, contact me in advance of the due date and I may extend the due date for you.
 
-If you collaborate with other students or visit the QCL for help with an assignment, you get an automatic 2 day extension.
+If you collaborate with other students or visit the QCL for help with an assignment,
+you get an automatic 2 day extension on any lab or project.
 
 **Collaboration Policy:**
 
