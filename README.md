@@ -122,7 +122,7 @@ But most of the people who use these sites are [script kiddies](https://en.wikip
 | ----------------------------- | ----------------- | ---- |
 | labs (weekly)                 | 5pts              | 20%  |
 | quizzes (weekly)              | 10-20pts          | 40%  |
-| projects (every 2-3 weeks)    | 10-30pts          | 40%  |
+| projects (every 2-3 weeks)    | 10-40pts          | 40%  |
 
 This will be a low-stress but very challenging class.
 
@@ -211,6 +211,42 @@ It is still typically better to submit a correct assignment late than an incorre
 
 If you have extenuating circumstances, contact me in advance of the due date and I may extend the due date for you.
 
+If you collaborate with other students or visit the QCL for help with an assignment, you get an automatic 2 day extension.
+
+**Collaboration Policy:**
+
+You are encouraged to discuss all labs and projects with other students,
+subject to the following constraints:
+
+1. you must be the person typing in all code for your assignments, and
+1. you must not copy another student's code.
+
+You may use any online resources you like as references.
+
+*WARNING:*
+All material in this class is cumulative.
+If you work "too closely" with another student on an assignment,
+you won't understand how to complete subsequent assignments,
+and you will quickly fall behind.
+You should view collaboration as a way to improve your understanding,
+not as a way to do less work.
+
+*You are ultimately responsible for ensuring you learn the material!*
+
+**COVID-19 Policy:**
+
+I want to respect everyone's various comfort levels with COVID exposure.
+Therefore:
+    1. you will be encouraged to work closely with other students in this class,
+    1. but you will not be required to work too closely (for example by sharing computers)
+
+If you are quarantined and cannot come to class:
+
+1. you are excused from the quizzes you miss and won't have to retake them;
+
+1. you are still responsible for turning in labs/projects on time;
+
+    1. unless you are also ill, then I will grant an appropriate extension
 ## Schedule
 
 | Week | Date        | Topic                                                |
@@ -393,32 +429,6 @@ https://news.ycombinator.com/item?id=20861729
 https://www.iafrikan.com/2019/09/02/south-africa-mass-surveillance-spying-undersea-fiber-cables/
 -->
 
-## Collaboration Policy
-
-You are encouraged to discuss all labs and projects with other students,
-subject to the following constraints:
-
-1. you must be the person typing in all code for your assignments, and
-1. you must not copy another student's code.
-
-You may use any online resources you like as references.
-
-**WARNING:**
-All material in this class is cumulative.
-If you work "too closely" with another student on an assignment,
-you won't understand how to complete subsequent assignments,
-and you will quickly fall behind.
-You should view collaboration as a way to improve your understanding,
-not as a way to do less work.
-
-**You are ultimately responsible for ensuring you learn the material!**
-
-<!--
-## COVID-19 Policies
-
-I want to respect everyone's various comfort levels with COVID exposure.
-You will not be required to work closely with other students, but it's strongly encouraged that you do so.
--->
 
 <!--
 ## Self Grading
