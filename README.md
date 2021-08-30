@@ -240,8 +240,9 @@ not as a way to do less work.
 
 I want to respect everyone's various comfort levels with COVID exposure.
 Therefore:
-    1. you will be encouraged to work closely with other students in this class,
-    1. but you will not be required to work too closely (for example by sharing computers)
+
+1. you will be encouraged to work closely with other students in this class,
+1. but you will not be required to work too closely (for example by sharing computers).
 
 If you are quarantined and cannot come to class:
 
