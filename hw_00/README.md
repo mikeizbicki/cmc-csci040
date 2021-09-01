@@ -89,6 +89,8 @@ If you complete all checkboxes, then you will get 10/10 points.
 
      - [ ] have at least two "follow backlinks" from other domains (other student's projects are okay)
 
+     - [ ] be archived by the Internet Archive; see instructions [here](https://www.bitsgalore.org/2014/08/02/How-to-save-a-web-page-to-the-Internet-Archive) for submitting your webpage
+
 **NOTE:** 
 If you believe that one of these checkboxes is not appropriate for your webpage for some reason,
 post an issue to github and I may grant you an exception.
@@ -113,7 +115,9 @@ For any of these extra credit tasks, feel free to get creative and use whatever 
 
 ## Submission
 
-Upload the URL of your webpage to sakai.
+You must upload two URLs to sakai:
+1. the URL to your webpage
+1. the URL to the Internet Archive's copy of your webpage
 
 If you also completed extra credit,
 take a screenshot proving you completed the extra credit,
