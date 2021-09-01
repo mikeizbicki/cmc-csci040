@@ -204,6 +204,8 @@ In order to earn an A/A- in the class, you must also complete one of the followi
        This is a reality TV show about how your cellphones and web browsing traffic can let people track you.
     -->
 
+See [Issue #79](https://github.com/mikeizbicki/cmc-csci040/issues/79) for instructions on how to get credit for completing these readings / viewings.
+
 **Late Work Policy:**
 
 You lose 20% on labs/projects for each day late.
