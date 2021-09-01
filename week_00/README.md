@@ -10,7 +10,7 @@
 
 1. Prelecture videos:
 
-    1. [Data Science: Reality vs Expectations](https://www.youtube.com/watch?v=8LucP1wiX1g)
+    1. ~~[Data Science: Reality vs Expectations](https://www.youtube.com/watch?v=8LucP1wiX1g)~~ video no longer available
 
     1. [Inside a google data center](https://www.youtube.com/watch?v=XZmGGAbHqa0)
 
