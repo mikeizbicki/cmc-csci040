@@ -4,9 +4,9 @@
 <img width='100%' src=ft111002-foxtrot-comics-bill-amend-html-tag-jason-marcus-sunday-comic-strip.png />
 </center>
 
-*Monday:* Course Intro
+**Monday:** Course Intro
 
-*Wednesday:* HTML
+**Wednesday:** HTML
 
 1. Prelecture videos:
 
