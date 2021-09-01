@@ -79,6 +79,16 @@
 
        When prompted for the account type, choose the free account option.
 
+1. Cheatsheets
+
+    In this class, you are encouraged to use cheatsheets for all labs, homeworks, and quizzes.
+    Quizzes will be open note.
+
+    1. [HTML Cheatsheet 1](html-cheatsheet.pdf)
+    1. [HTML Cheatsheet 2](htmlcheatsheet.pdf)
+    1. [CSS Cheatsheet](css-cheatsheet.pdf)
+    1. [URL Cheatsheet](Anatomy-of-a-URL-cheat-sheet_170316_122433.png)
+
 **Friday:**
 
 1. Prelecture videos:
