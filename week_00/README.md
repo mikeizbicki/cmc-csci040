@@ -106,7 +106,7 @@ This is the first step in completing [hw\_00](/hw_00/).
 Instructions:
 
 1. Ensure that you have pressed the "watch" button at the top of this webpage.
-   Read and follow the instructions in [Issue #1: the meet and greet thread](https://github.com/mikeizbicki/cmc-csci040/issues/1).
+   Read and follow the instructions in [Issue #78: the meet and greet thread](https://github.com/mikeizbicki/cmc-csci040/issues/78).
 
 1. [Follow these directions](https://pages.github.com/) to create a GitHub Pages webpage.
    In the step marked `?` (after step `1` and before step `2`),
@@ -130,9 +130,9 @@ Instructions:
    1. Once again, you must modify your HTML in order to insert the required `<script>` tag into your webpage.
       Everytime you modify your webpage, you must go through the process of uploading with GitHub Desktop.
 
-   1. Google Analytics does NOT work when you have uBlock Origin or uMatrix activated.
+   1. Google Analytics does NOT work when you have uBlock Origin activated.
       To ensure that Google Analytics is correctly working,
-      you should temporarily disable these plugins.
+      you should temporarily disable uBlock Origin.
       Then, you can visit your google analytics page to see that it registers you as a visitor.
 
 1. [Follow these instructions](https://developers.facebook.com/docs/plugins/like-button/) to create a Facebook Like button for your webpage.
@@ -142,6 +142,7 @@ Instructions:
    NOTE:
 
    1. Don't forget to upload with GitHub Desktop!
+        Facebook's like button and google analytics will both be broken if your webpage is only served "locally" from your own computer and not from a web server like github.
 
 1. Get at least 5 other students from class to like your webpage on Facebook,
    and 5 other students to "star" your webpage's repo on GitHub.
