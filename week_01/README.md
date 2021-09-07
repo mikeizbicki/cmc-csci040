@@ -1,6 +1,6 @@
 # Week 01: More front-end web development
 
-<img width='60%' src=Strip-Vengeance-de-codeur-650-finalenglish.jpg />
+<img width='40%' src=Strip-Vengeance-de-codeur-650-finalenglish.jpg />
 
 **Wednesday:** Cascading Style Sheets (CSS)
 
@@ -16,23 +16,21 @@
     There's a LOT more to front-end dev that we're not covering (we're only doing like 10% of Shay Howe's book),
     and backend devs tend to not know much about frontend dev...
 
-    <img width='60%' src=Strip-High-Level-CSS-english650-final-1.jpg />
-    <br/>
-    <img width='60%' src=Strip-CSS-respect-650-finalenglish1.jpg />
+    <img width='40%' src=Strip-High-Level-CSS-english650-final-1.jpg />
+    &nbsp;
+    <img width='40%' src=Strip-CSS-respect-650-finalenglish1.jpg />
 
 ## Lab
 
-<center>
-<img width='100%' src=comic14.gif />
-</center>
+<img src=photoshop.jpg>
 
-1. Prelab videos:
+Prelab videos:
 
-    1. Matt Cutts was formerly the head of Google's web spam team,
-       and now runs the United States Digital Service (a recently created branch of the US government).
-       Watch his video on [How Google Search Works](https://www.youtube.com/watch?v=KyCYyoGusqs).
+1. Matt Cutts was formerly the head of Google's web spam team,
+   and now runs the United States Digital Service (a recently created branch of the US government).
+   Watch his video on [How Google Search Works](https://www.youtube.com/watch?v=KyCYyoGusqs).
 
-    1. (optional) [Whitehat vs blackhat SEO](https://www.youtube.com/watch?v=jOSz-uutUfc)
+1. (optional) [Whitehat vs blackhat SEO](https://www.youtube.com/watch?v=jOSz-uutUfc)
 
 Instructions:
 
@@ -61,3 +59,6 @@ Instructions:
    or if you can also use the rest of the lab time to work on the homework.
 
    **HINT:** Now would be a good time to arrange with other students in the class to share backlinks to each other's websites!
+
+    <img width='100%' src=comic14.gif />
+
