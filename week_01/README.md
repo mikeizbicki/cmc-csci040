@@ -1,6 +1,6 @@
 # Week 01: More front-end web development
 
-<img width='40%' src=Strip-Vengeance-de-codeur-650-finalenglish.jpg />
+<img width='50%' src=Strip-Vengeance-de-codeur-650-finalenglish.jpg />
 
 **Wednesday:** Cascading Style Sheets (CSS)
 
@@ -16,13 +16,15 @@
     There's a LOT more to front-end dev that we're not covering (we're only doing like 10% of Shay Howe's book),
     and backend devs tend to not know much about frontend dev...
 
+    <!--
     <img width='40%' src=Strip-High-Level-CSS-english650-final-1.jpg />
     &nbsp;
-    <img width='40%' src=Strip-CSS-respect-650-finalenglish1.jpg />
+    -->
+    <img width='50%' src=Strip-CSS-respect-650-finalenglish1.jpg />
 
 ## Lab
 
-<img src=photoshop.jpg>
+<img width=40% src=photoshop.jpg>
 
 Prelab videos:
 
