@@ -17,7 +17,7 @@ Important links:
 | Name | Mike Izbicki (call me Mike) |
 | Email | mizbicki@cmc.edu |
 | Office | Adams 216 |
-| Office Hours | TBD ([see my schedule and email me for an appointment](https://outlook.office365.com/owa/calendar/45eb28fd4e4f45f4b0d120d17676d937@ClaremontMcKenna.edu/a46ebec5e46b4328abcb964af38795935165582125062542146/calendar.html)) |
+| Office Hours | see [#85](https://github.com/mikeizbicki/cmc-csci040/issues/85) |
 | Zoom Link | https://cmc-its.zoom.us/j/644800111 |
 | Webpage | https://izbicki.me |
 | Research | Machine Learning (see [izbicki.me/research.html](https://izbicki.me/research.html) for some past projects) |
