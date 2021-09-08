@@ -53,6 +53,8 @@ If you complete all checkboxes, then you will get 10/10 points.
 
      - [ ] contain a table with at least 3 rows and 3 columns
 
+        <img src=googling.jpg>
+
  - Every HTML file must:
 
      - [ ] have an appropriate `<title>` tag
