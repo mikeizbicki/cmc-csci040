@@ -53,8 +53,6 @@ If you complete all checkboxes, then you will get 10/10 points.
 
      - [ ] contain a table with at least 3 rows and 3 columns
 
-        <img src=googling.jpg>
-
  - Every HTML file must:
 
      - [ ] have an appropriate `<title>` tag
@@ -98,6 +96,14 @@ If you complete all checkboxes, then you will get 10/10 points.
 **NOTE:** 
 If you believe that one of these checkboxes is not appropriate for your webpage for some reason,
 post an issue to github and I may grant you an exception.
+
+**NOTE:**
+We will not cover in class how to do all of these steps.
+You will have to use google/the textbook to figure out some of them for yourself.
+No programmer 100% understands HTML or CSS, and so everyone relies on google while coding.
+The purpose of making you do things not covered in class is to get you practice relying on external resources.
+
+<img src=googling.jpg width=300px>
 
 ### Extra Credit: Social Media Engagement
 
