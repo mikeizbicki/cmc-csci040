@@ -45,11 +45,13 @@ If you complete all checkboxes, then you will get 10/10 points.
 
      - [ ] be named `index.html`
 
-     - [ ] contain a "follow" link to the course webpage (https://github.com/mikeizbicki/cmc-csci040)
-
-     - [ ] contain a "follow" link to Mike Izbicki's personal webpage (https://izbicki.me)
+     - [ ] contain a "follow" link to the course webpage (https://github.com/mikeizbicki/cmc-csci040) and a "follow" link to Mike Izbicki's personal webpage (https://izbicki.me)
+     
+        I want that sweet, sweet pagerank...
 
      - [ ] contain either an unordered or ordered list (`<ul>` or `<ol>`) with at least 3 list items (`<li>`)
+
+     - [ ] contain a table with at least 3 rows and 3 columns
 
  - Every HTML file must:
 
@@ -81,7 +83,7 @@ If you complete all checkboxes, then you will get 10/10 points.
 
      - [ ] use the [:hover selector](https://www.w3schools.com/cssref/sel_hover.asp) on at least one tag
 
-     - [ ] define at least 2 [class selectors](https://www.w3schools.com/cssref/sel_class.asp)
+     - [ ] define at least 2 [class selectors](https://www.w3schools.com/cssref/sel_class.asp) and 1 [id selector](https://www.w3schools.com/cssref/sel_id.asp)
 
      - [ ] use the [@media rule](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) to modify some attribute for small screen sizes
 
