@@ -98,8 +98,9 @@ If you believe that one of these checkboxes is not appropriate for your webpage 
 post an issue to github and I may grant you an exception.
 
 **NOTE:**
-We will not cover in class how to do all of these steps.
-You will have to use google/the textbook to figure out some of them for yourself.
+We did not cover in class how to complete the *italicized* steps above,
+and this was intentional.
+You will have to use google/the textbook to figure these out for yourself.
 No programmer 100% understands HTML or CSS, and so everyone relies on google while coding.
 The purpose of making you do things not covered in class is to get you practice relying on external resources.
 
