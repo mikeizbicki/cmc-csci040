@@ -37,7 +37,7 @@ If you complete all checkboxes, then you will get 10/10 points.
 
      - [ ] 3 HTML files
 
-     - [ ] 1 CSS file
+     - [ ] *1 CSS file*
 
      - [ ] 3 images
 
@@ -51,13 +51,13 @@ If you complete all checkboxes, then you will get 10/10 points.
 
      - [ ] contain either an unordered or ordered list (`<ul>` or `<ol>`) with at least 3 list items (`<li>`)
 
-     - [ ] contain a table with at least 3 rows and 3 columns
+     - [ ] *contain a table with at least 3 rows and 3 columns*
 
  - Every HTML file must:
 
-     - [ ] have an appropriate `<title>` tag
+     - [ ] *have an appropriate `<title>` tag*
 
-     - [ ] have an appropriate `<meta description=...>` tag ([see this tutorial on meta description](https://moz.com/learn/seo/meta-description) and [this tutorial on other meta tags](https://moz.com/blog/the-ultimate-guide-to-seo-meta-tags))
+     - [ ] *have an appropriate `<meta description=...>` tag ([see this tutorial on meta description](https://moz.com/learn/seo/meta-description) and [this tutorial on other meta tags](https://moz.com/blog/the-ultimate-guide-to-seo-meta-tags))*
 
      - [ ] have an appropriate `<h1>` tag
 
@@ -65,11 +65,11 @@ If you complete all checkboxes, then you will get 10/10 points.
 
      - [ ] contain at least three paragraphs of text using `<p>` tags
 
-     - [ ] contain at least 3 `<div>` tags styled using CSS
+     - [ ] *contain at least 3 `<div>` tags styled using CSS*
 
      - [ ] contain at least 1 `<span>` tag styled using CSS
 
-     - [ ] use the `<link>` tag to include the CSS file
+     - [ ] *use the `<link>` tag to include the CSS file*
 
      - [ ] contain a Facebook like button and have at least 5 likes
 
@@ -81,17 +81,17 @@ If you complete all checkboxes, then you will get 10/10 points.
 
      - [ ] set the color of `<a>` tags
 
-     - [ ] use the [:hover selector](https://www.w3schools.com/cssref/sel_hover.asp) on at least one tag
+     - [ ] use the [:hover pseudoclass](https://www.w3schools.com/cssref/sel_hover.asp) on at least one tag
 
      - [ ] define at least 2 [class selectors](https://www.w3schools.com/cssref/sel_class.asp) and 1 [id selector](https://www.w3schools.com/cssref/sel_id.asp)
 
-     - [ ] use the [@media rule](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) to modify some attribute for small screen sizes
+     - [ ] *use the [@media rule](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) to modify some attribute for small screen sizes*
 
  - Your domain must:
 
      - [ ] have at least two "follow backlinks" from other domains (other student's projects are okay)
 
-     - [ ] be archived by the Internet Archive; see instructions [here](https://www.bitsgalore.org/2014/08/02/How-to-save-a-web-page-to-the-Internet-Archive) for submitting your webpage
+     - [ ] *be archived by the Internet Archive; see instructions [here](https://www.bitsgalore.org/2014/08/02/How-to-save-a-web-page-to-the-Internet-Archive) for submitting your webpage*
 
 **NOTE:** 
 If you believe that one of these checkboxes is not appropriate for your webpage for some reason,

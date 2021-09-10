@@ -40,23 +40,22 @@ Instructions:
    Use Firefox's developer console to edit one of their tweets to say something they would never say.
    Take a screenshot and post the screenshot to GitHub Issues here: https://github.com/mikeizbicki/cmc-csci040/issues/#86 
 
-<!--
-1. How to remove ads/popups/other crap from websites:
+1. (Optional) How to remove ads/popups/other crap from websites:
 
-    1. Visit [this webpage](https://www.wired.com/story/when-it-comes-to-gorillas-google-photos-remains-blind/).
-       Use firefox's developer console to delete the paywall (both the popup and the gray background).
-
-    1. Refresh the webpage.
-       (Notice that the popup has returned.)
+    1. uBlock Origin internally uses css selectors to block ads on webpages.
+       It contains a large list of these selectors that have been manually curated,
+       and all elements on a page that match one of these selectors will be removed from the webpage.
+       In this portion of the lab, you will explore how to create these rules for yourself to block content on a webpage.
+       
+    1. First, you'll need to find a webpage that has content on it that you want to block.
+       I recommend using https://nytimes.com and blocking the blue login buttons on the top-right of the screen.
+       (Because this is a popular webpage, there are already rules for blocking all the ads and paywall popups,
+       so we can't add rules for these.)
 
     1. Follow the instructions on [this webpage](https://www.ghacks.net/2017/02/21/ublock-origin-how-to-remove-any-element-from-a-page-permanently/) to create a rule for blocking the popup permanently with uBlock Origin. 
 
-    1. Refresh the webpage.
-       (If you've done everything corrently, the popup has not returned.)
-
-    1. Take a screenshot of the cleaned up webpage,
-       and submit the screenshot to sakai.
--->
+    1. If you'd like to learn more details about the rules uBlock Origin uses,
+       you can visit [this webpage](https://adblockplus.org/filter-cheatsheet#elementhideemulation).
 
 1. Once you've finished with the required tasks, you're done with the lab.
    Feel free to leave,
