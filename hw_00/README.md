@@ -41,7 +41,7 @@ If you complete all checkboxes, then you will get 10/10 points.
 
      - [ ] 3 images
 
- - The main HTML file must:
+ - At least one HTML file must:
 
      - [ ] be named `index.html`
 
