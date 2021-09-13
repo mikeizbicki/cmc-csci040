@@ -226,6 +226,9 @@ After this week, you should understand all the jokes in the following memes.
 
 ## Lab
 
+TBA
+
+<!--
 The file `lab.py` contains several incomplete functions that you must write.
 Each function has several test cases provided in the docstring,
 and currently all of these test cases are failing.
@@ -241,7 +244,6 @@ $ python3 -m doctest --verbose lab.py
 ```
 and copy/paste the output into sakai.
 
-<!--
 <img src=comment_tests.jpg width=400px>
 -->
 
