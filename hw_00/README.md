@@ -41,7 +41,7 @@ If you complete all checkboxes, then you will get 10/10 points.
 
      - [ ] 3 images
 
- - The main HTML file must:
+ - At least one HTML file must:
 
      - [ ] be named `index.html`
 
@@ -71,7 +71,7 @@ If you complete all checkboxes, then you will get 10/10 points.
 
      - [ ] *use the `<link>` tag to include the CSS file*
 
-     - [ ] contain a Facebook like button and have at least 5 likes
+     - [ ] contain a Facebook like button (at least one of these like buttons must have >5 likes)
 
      - [ ] contain a Google Analytics tracker using the `<script>` tag
 
