@@ -8,12 +8,27 @@
 
 1. We will cover chapters 0-3 of Al Sweigart's [Automate the Borting Stuff](https://automatetheboringstuff.com/).
 
-1. Download and install the latest version of python for your system from https://python.org/downloads/ .
+    1. HTML/CSS are **markup** languages;
+        you specify WHAT you want done, and firefox figures out HOW.
+
+       Python is a **procedural** language;
+        you directly specify HOW to do something.
+
+    1. Python is much more powerful.
+
+    1. Most people find python MUCH harder than HTML/CSS.
+        If you don't have prior programming experience,
+        expect the next 2 weeks to be very difficult.
+        Make good use of the student tutors and office hours.
+
+1. Important resources:
+
+    1. Download and install the latest version of python for your system from https://python.org/downloads/ .
 
     1. You can use https://pythontutor.com to visualize what python is doing "step-by-step".
 
-1. I will distribute the [Python cheat sheet](https://perso.limsi.fr/pointal/python:memento) in class.
-   I recommend having this paper with you at all of our lectures and whenever you are coding in python.
+    1. I will distribute the [Python cheat sheet](https://perso.limsi.fr/pointal/python:memento) in class.
+       I recommend having this paper with you at all of our lectures and whenever you are coding in python.
 
 <!--
 [Monte Python and the Holy Grail (Top 5 best scenes)](https://www.youtube.com/watch?v=886hNDgwfMk)
@@ -190,6 +205,24 @@
         1. keyword arguments
 
         1. `print`'s `end` and `sep` keyword arguments
+
+## Memes
+
+After this week, you should understand all the jokes in the following memes.
+
+<img src=bool.jpg width=400px>
+
+<img src=comment_tests.jpg width=400px>
+
+<img src=float.jpg width=400px>
+
+<img src=float2.jpg width=400px>
+
+<img src=float2.jpg width=400px>
+
+<img src=if.jpg width=400px>
+
+<img src=not_equals.jpg width=400px>
 
 ## Lab
 
