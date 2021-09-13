@@ -210,17 +210,17 @@
 
 After this week, you should understand all the jokes in the following memes.
 
-<img src=bool.jpg width=400px>
+<img src=float2.jpg width=400px>
 
-<img src=comment_tests.jpg width=400px>
+<hr>
 
 <img src=float.jpg width=400px>
 
-<img src=float2.jpg width=400px>
-
-<img src=float2.jpg width=400px>
+<hr>
 
 <img src=if.jpg width=400px>
+
+<hr>
 
 <img src=not_equals.jpg width=400px>
 
@@ -240,3 +240,8 @@ run the command
 $ python3 -m doctest --verbose lab.py
 ```
 and copy/paste the output into sakai.
+
+<!--
+<img src=comment_tests.jpg width=400px>
+-->
+
