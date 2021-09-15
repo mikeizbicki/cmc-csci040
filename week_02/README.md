@@ -226,9 +226,6 @@ After this week, you should understand all the jokes in the following memes.
 
 ## Lab
 
-TBA
-
-<!--
 The file `lab.py` contains several incomplete functions that you must write.
 Each function has several test cases provided in the docstring,
 and currently all of these test cases are failing.
@@ -244,6 +241,19 @@ $ python3 -m doctest --verbose lab.py
 ```
 and copy/paste the output into sakai.
 
+**NOTE:**
+Modifying the test cases in any way will result in a -10 on the assignment.
+(That is, you'll actually lose points for submitting it.)
+This is not an academic integrity punishment,
+because it's easy to accidentally modify these test cases.
+Instead, the purpose of this penalty is to help you internalize the importance of good test cases.
+Test cases are the only evidence we have that our program works correctly,
+and if we destroy that evidence on accident,
+then our program will do very bad things.
+Billions of dollars have been lost, and people have died due to accidentally deleted test cases.
+
+**tl;dr**
+Don't be Scumbag Steve.
+
 <img src=comment_tests.jpg width=400px>
--->
 
