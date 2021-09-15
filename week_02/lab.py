@@ -13,6 +13,9 @@ NOTE:
 Each problem should be relatively straightforward and take less than 10 minutes.
 If you're spending more than 10 minutes on a problem,
 then you should stop and seek help.
+
+NOTE:
+Your grade for all labs will be equal to max(0, 5 - number of failing test cases)
 '''
 
 
