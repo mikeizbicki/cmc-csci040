@@ -53,15 +53,15 @@ def is_odd(n):
     '''
     Return True if n is odd and False if n is even.
 
-    >>> is_even(0)
+    >>> is_odd(0)
     False
-    >>> is_even(1)
-    True 
-    >>> is_even(2000)
+    >>> is_odd(1)
+    True
+    >>> is_odd(2000)
     False
-    >>> is_even(-8)
+    >>> is_odd(-8)
     False
-    >>> is_even(-9)
+    >>> is_odd(-9)
     True
     '''
 
