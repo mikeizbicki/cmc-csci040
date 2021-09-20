@@ -1,7 +1,7 @@
 # Week 03: Python containers (lists and dictionaries)
 
 <center>
-<img width=400px src=phd113007s1.gif />
+<img width=800px src=phd113007s1.gif />
 </center>
 
 **Monday:** 
