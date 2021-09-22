@@ -78,13 +78,13 @@ def filter_odd(xs):
     HINT:
     Use the accumulator pattern with a for loop.
 
-    >>> filter_even([1,3,5])
+    >>> filter_odd([1,3,5])
     []
-    >>> filter_even([2,4,6])
+    >>> filter_odd([2,4,6])
     [2, 4, 6]
-    >>> filter_even([4,5,6,7])
+    >>> filter_odd([4,5,6,7])
     [4, 6]
-    >>> filter_even([20,13,4,16,8,19,10])
+    >>> filter_odd([20,13,4,16,8,19,10])
     [20, 4, 16, 8, 10]
     '''
 
