@@ -1,6 +1,29 @@
 '''
 This file contains Wednesday's lecture notes.
 
+================================================================================
+
+Labs/quizes are entered into sakai.
+
+- Quiz average: 8.5  (up from 7.0 last week!)
+  - Many very low grades (<5)
+  - re-evaluate your study techniques
+  - all material is fair game for future quizzes
+
+- Lab:
+  - most students got 5/5
+  - 7 students received a 0/5; common problems include
+    - no submission
+    - submitting the lab.py file instead of the doctests
+    - not submitting the entire doctest output
+      (often caused by an infinite loop in the num_digits function)
+  - if you received a 0, please resubmit
+    I will waive the late penalty for this lab
+
+- Current overall average grade: 88.3
+
+================================================================================
+
 As a reminder, we've now seen 4 ways to run python:
     1. pythontutor.com
     2. $ python3 filename.py            # the "triangle button"
