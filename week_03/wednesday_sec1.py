@@ -52,12 +52,13 @@ import math
 def largest(xs):
     '''
     Return the largest element in the input list.
-    If the list has less no elements, return None.
+    If the list has no elements, return None.
 
     HINT:
-    There are two ways to solve this problem.
-    You can either use a for loop,
-    or you can sort the list and then use indexes.
+    There are three ways to solve this problem:
+    1. use a for loop + if statement
+    2. sort the list and use list subscripting
+    3. use a built-in function
 
     >>> largest([1,2,3])
     3
@@ -68,6 +69,26 @@ def largest(xs):
     >>> largest([10])
     10
     >>> largest([])
+    '''
+
+
+def largest_index(xs):
+    '''
+    Return the index of the largest element in the input list.
+    If the list has no elements, return None.
+
+    HINT:
+    The sorting/built-in function approach will not work on this function.
+
+    >>> largest_index([1,2,3])
+    2
+    >>> largest_index([99,-56,80,100,90])
+    4
+    >>> largest_index(list(range(0,100)))
+    99
+    >>> largest_index([10])
+    0
+    >>> largest_index([])
     '''
 
 
