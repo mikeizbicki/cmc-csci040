@@ -3,7 +3,7 @@ This file contains Wednesday's lecture notes.
 
 ================================================================================
 
-Labs/quizes are entered into sakai.
+Labs/quizzes are entered into sakai.
 
 - Quiz average: 8.5  (up from 7.0 last week!)
   - Many very low grades (<5)
