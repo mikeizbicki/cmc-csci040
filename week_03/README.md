@@ -130,7 +130,35 @@
 
 ## Lab
 
-TBA
-<!--
 Complete the `lab.py` file and submit your doctests to sakai.
+
+<!--
+def min_of_digits(n):
+    '''
+    Return the smallest digit in the input number n.
+
+    HINT:
+    This function uses the same while loop pattern as sum_of_digits.
+
+    >>> min_of_digits(1)
+    1
+    >>> min_of_digits(57)
+    5
+    >>> min_of_digits(75)
+    5
+    >>> min_of_digits(571)
+    1
+    >>> min_of_digits(1234567890)
+    0
+    >>> min_of_digits(9999999949999)
+    4
+    '''
+    minimum = 10
+    while n>0:
+        if n%10 < minimum:
+            minimum = n%10
+        n //= 10
+    return minimum
+
+
 -->
