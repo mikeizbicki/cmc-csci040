@@ -6,8 +6,8 @@ This file contains Wednesday's lecture notes.
 Labs/quizzes are entered into sakai.
 
 - Quiz average: 8.5  (up from 7.0 last week!)
-  - Many very low grades (<5)
-  - re-evaluate your study techniques
+  - 6 students with score <= 5
+  - if that's you, re-evaluate your study techniques
   - all material is fair game for future quizzes
 
 - Lab:
