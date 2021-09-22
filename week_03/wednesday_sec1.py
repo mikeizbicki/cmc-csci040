@@ -71,6 +71,27 @@ def largest(xs):
     >>> largest([])
     '''
 
+    '''
+    if len(xs) == 0:
+        return None
+    biggest = 0
+    for x in xs:
+        if x > biggest:
+            biggest = x
+    return biggest
+    '''
+
+    '''
+    if len(xs) == 0:
+        return None
+    xs.sort()
+    return xs[-1]
+    '''
+
+    if len(xs) == 0:
+        return None
+    return max(xs)
+
 
 def largest_index(xs):
     '''
@@ -83,13 +104,26 @@ def largest_index(xs):
     >>> largest_index([1,2,3])
     2
     >>> largest_index([99,-56,80,100,90])
-    4
+    3
     >>> largest_index(list(range(0,100)))
     99
     >>> largest_index([10])
     0
     >>> largest_index([])
+    >>> largest_index([-4,-5,-8])
+    0
     '''
+    if len(xs) == 0:
+        return None
+    biggest = -math.inf
+    biggest_index = None      # keep track of the index in a new variable
+    #for x in xs:
+    for i in range(len(xs)):  # loops over indexes instead of values
+        x = xs[i]
+        if x > biggest:
+            biggest = xs[i]
+            biggest_index = i
+    return biggest_index
 
 
 def filter_odd(xs):
@@ -108,7 +142,12 @@ def filter_odd(xs):
     >>> filter_odd([20,13,4,16,8,19,10])
     [20, 4, 16, 8, 10]
     '''
-
+    accumulator = []
+    for x in xs:
+        if x%2 == 0:
+            accumulator.append(x)
+            # add x to accumulator
+    return accumulator
 
 ################################################################################
 # dictionaries
@@ -118,10 +157,10 @@ def filter_odd(xs):
 # You shouldn't modify these dictionaries,
 # they are used in the doctests for the functions below.
 math_grades={
-        'donald knuth':85,
-        'hypatia':75,
-        'emmy noether':86,
-        'leonhard euler':92,
+        'donald knuth':85,    # left of : is the key
+        'hypatia':75,         # right of : is the value
+        'emmy noether':86,    # each line is a (key,value) pair, and these pairs are separated by commas
+        'leonhard euler':92,  # each (key,value) pair is "like" an item in a list
         'grigori perelman':95,
         'alexander grothendieck':95,
         'shelton cooper':72,
@@ -159,6 +198,15 @@ def lowest_grade(d):
     >>> lowest_grade(economics_grades)
     79
     '''
+    lowest = math.inf
+    # for x in xs: looping over a list; you get the values of the list
+    # equivalent to the 
+    #    for i in range(len(xs)) for lists
+    for key in d:
+        grade = d[key]
+        if grade < lowest:
+            lowest = grade
+    return lowest
 
 
 def student_with_lowest_grade(d):
@@ -172,3 +220,14 @@ def student_with_lowest_grade(d):
     >>> student_with_lowest_grade(economics_grades)
     'kristalina georgieva'
     '''
+    lowest = math.inf
+    lowest_index = None
+    # for x in xs: looping over a list; you get the values of the list
+    # equivalent to the 
+    #    for i in range(len(xs)) for lists
+    for key in d:
+        grade = d[key]
+        if grade < lowest:
+            lowest = grade
+            lowest_index = key
+    return lowest_index

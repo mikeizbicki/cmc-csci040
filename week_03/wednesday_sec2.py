@@ -83,7 +83,7 @@ def largest_index(xs):
     >>> largest_index([1,2,3])
     2
     >>> largest_index([99,-56,80,100,90])
-    4
+    3
     >>> largest_index(list(range(0,100)))
     99
     >>> largest_index([10])
