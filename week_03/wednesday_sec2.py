@@ -71,6 +71,25 @@ def largest(xs):
     >>> largest([])
     '''
 
+    '''
+    if len(xs) == 0:  # xs == []
+        return None
+    biggest = 0
+    for x in xs:
+        if x > biggest:
+            biggest = x
+    return biggest
+    '''
+    '''
+    if len(xs) == 0:  # xs == []
+        return None
+    xs.sort()
+    return xs[-1]
+    '''
+    if len(xs) == 0:  # xs == []
+        return None
+    return max(xs)
+
 
 def largest_index(xs):
     '''
@@ -90,7 +109,17 @@ def largest_index(xs):
     0
     >>> largest_index([])
     '''
-
+    if len(xs) == 0:  # xs == []
+        return None
+    biggest = 0
+    biggest_index = None
+    #for x in xs:
+    for i in range(len(xs)):
+        x = xs[i]
+        if x > biggest:
+            biggest = x
+            biggest_index = i
+    return biggest_index
 
 def filter_odd(xs):
     '''
@@ -108,6 +137,13 @@ def filter_odd(xs):
     >>> filter_odd([20,13,4,16,8,19,10])
     [20, 4, 16, 8, 10]
     '''
+    accumulator = []
+    for x in xs:
+        if x%2 == 0:
+            accumulator.append(x)
+        # apend to the accumulator if our condition is satisfied
+    return accumulator
+    # always avoid actually removing something
 
 
 ################################################################################
@@ -118,8 +154,8 @@ def filter_odd(xs):
 # You shouldn't modify these dictionaries,
 # they are used in the doctests for the functions below.
 math_grades={
-        'donald knuth':85,
-        'hypatia':75,
+        'donald knuth':85,  # key:value,  key:value, key:value
+        'hypatia':75,       # (key,value) pair is "like" an item in a list
         'emmy noether':86,
         'leonhard euler':92,
         'grigori perelman':95,
@@ -148,6 +184,7 @@ economics_grades={
         'pierre-joseph proudhon':95,
         }
 
+
 def lowest_grade(d):
     '''
     Return the largest value.
@@ -159,6 +196,13 @@ def lowest_grade(d):
     >>> lowest_grade(economics_grades)
     79
     '''
+    lowest = 999
+    for k in d:
+        # k is the key
+        # get the value with d[k]
+        if d[k] < lowest:
+            lowest = d[k]
+    return lowest
 
 
 def student_with_lowest_grade(d):
@@ -172,3 +216,12 @@ def student_with_lowest_grade(d):
     >>> student_with_lowest_grade(economics_grades)
     'kristalina georgieva'
     '''
+    lowest = 999
+    lowest_index = None  # lowest_key, for dictionaries the "index" is always called "key"
+    for k in d:
+        # k is the key
+        # get the value with d[k]
+        if d[k] < lowest:
+            lowest = d[k]
+            lowest_index = k
+    return lowest_index
