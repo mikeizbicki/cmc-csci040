@@ -24,7 +24,8 @@ Recommended (intermediate-level) videos:
 1. Corey Schafer's [String Formatting](https://www.youtube.com/watch?v=vTX3IwquFkc)
 
 **Wednesday:**
-We will cover Unicode, which is the international standard for storing non-English text.
+We will begin covering Unicode, which is the international standard for storing non-English text.
+Likely, we will continue talking about Unicode next week.
 
 1. Python is famous for it's good, native Unicode support.
     Other languages like C/C++/Java it's technically possible to use Unicode correctly, but it's much more difficult.
