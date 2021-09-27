@@ -1,8 +1,6 @@
 # Week 04: Text data
 
-<center>
-<img width='80%' src=Strips-Le-dernier-des-vrais-codeurs-650-finalenglsih.jpg />
-</center>
+![This commic is a joke about error message in python.](4rules.jpg)
 
 **Monday:**
 We will cover [Chapter 6 - Strings](https://automatetheboringstuff.com/2e/chapter6/).
