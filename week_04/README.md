@@ -71,14 +71,16 @@ You can find an explanation of this comic at https://www.explainxkcd.com/wiki/in
 
 ## Lab
 
-TBA
-<!--
 There are two parts for this lab.
 
 ### Part I: Markdown
 
-Visit [Issue #41](https://github.com/mikeizbicki/cmc-csci040/issues/41) and follow the instructions there.
+Visit [Issue #104](https://github.com/mikeizbicki/cmc-csci040/issues/104) and follow the instructions there.
 
+### Part II: TBA
+
+
+<!--
 ### Part II: `youtube-dl`
 
 One of the benefits of python is that it is easy to download and run programs (called scripts) that other people have written.
