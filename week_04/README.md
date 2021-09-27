@@ -47,7 +47,7 @@ Likely, we will continue talking about Unicode next week.
 
 Non-decimal number systems
 
-1. https://www.youtube.com/watch?v=ZL-LhaaMTTE
+1. https://www.youtube.com/watch?v=ZL-LhaaMTTE (**watch this before class on wednesday**)
 
 Unicode support in python
 
