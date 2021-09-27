@@ -126,13 +126,11 @@ $ python3 -m youtube_dl --help
 ```
 you can see that `youtube_dl` has many options for things like setting the audio/video quality of the download, downloading entire playlists, and using web proxies for the download.
 
-<!--
 1. Corey Schafer's [`if __name__ == '__main__'`](https://www.youtube.com/watch?v=sugvnHA7ElY)
 
 ## Lab
 
 Complete the `lab.py` file and submit your doctests to sakai.
--->
 
 ### Lab Submission
 
