@@ -1,0 +1,195 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage[shortlabels]{enumitem}
+\usepackage[normalem]{ulem}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = black, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor    = blue  %Colour of citations
+}
+
+\usepackage{listings}
+\lstset{language=Python} %,numbers=left}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathbb R}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\newcommand{\trans}[1]{{#1}^{T}}
+\newcommand{\loss}{\ell}
+\newcommand{\w}{\mathbf w}
+\newcommand{\mle}[1]{\hat{#1}_{\textit{mle}}}
+\newcommand{\map}[1]{\hat{#1}_{\textit{map}}}
+\newcommand{\normal}{\mathcal{N}}
+\newcommand{\x}{\mathbf x}
+\newcommand{\y}{\mathbf y}
+\newcommand{\ltwo}[1]{\lVert {#1} \rVert}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    {
+\Large
+    Week 05 Practice Quiz (Version II)
+}
+
+    \vspace{0.1in}
+    CSCI040: \sout{Computing for the Web} Introduction to Hacking
+
+    \vspace{0.1in}
+\end{center}
+
+
+\vspace{0.15in}
+\noindent
+\textbf{Total Score:} ~~~~~~~~~~~~~~~/10
+
+\vspace{0.5in}
+\noindent
+\textbf{Printed Name:}
+
+\noindent
+\rule{\textwidth}{0.1pt}
+\vspace{0.25in}
+
+\noindent
+\textbf{Collaboration Policy:}
+\begin{enumerate}
+    \item You MAY use any printed or handwritten notes.
+    \item You MAY NOT use a computer or any other electronic device.
+    \item You MAY NOT discuss this quiz with another human being who has not completed the quiz.
+        This includes:
+        \begin{enumerate}
+            \item collaborating during the quiz, and
+            \item telling a student in a different section the quiz was easy/hard.
+        \end{enumerate}
+\end{enumerate}
+
+\vspace{0.15in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = 'hello world'
+print(s[:-6])
+\end{lstlisting}
+\vspace{1in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = 'hello'
+xs = ['h', 'e', 'l', 'l', 'o']
+b = s[-2:] == xs[-2:]
+print('b=', b)
+
+# think about: b = s[-2] == xs[-2]
+\end{lstlisting}
+\vspace{1.5in}
+
+\newpage
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = 'python is awesome'
+s.replace('python', 'everything')
+print('s=', s)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = 'python  is\tawesome'
+t = s.split(' ')
+u = t[1]
+print('u=', u)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = 'python\nis\tawesome'
+t = s.split()
+u = ' '.join(t)
+print('u=', u)
+\end{lstlisting}
+\vspace{1.5in}
+
+\newpage
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = 'guido von rossum'
+i = s.find('G')
+t = s[:i]
+print('t=',t)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+b = "\"" > '\n':
+print('b=', b)
+
+# You're responsible for knowing \' \" \n \t \r
+\end{lstlisting}
+\vspace{1.5in}
+
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = 'Guido von rossum'
+xs = s.split()
+xs.sort()
+print('xs=', xs)
+\end{lstlisting}
+\vspace{1.5in}
+
+
+\newpage
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+    print(0o110)
+\end{lstlisting}
+\vspace{1.5in}
+
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+    s = '\x57o\x72L\x44'
+    print('s=', s)
+\end{lstlisting}
+\vspace{1.5in}
+\end{document}
