@@ -74,6 +74,8 @@ and so if you run the command
 $ python3 -m youtube_dl https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 then the script will download WarGames onto your computer.
+Depending on your computer's configuration, you may get some error messages with the above command.
+If you get an error about the url not being found, you need to put the url in single quotation marks (`'`).
 If you get an error about a failed SSL certificate, then add the `--no-check-certificate` option to the command above.
 
 After you download the video, play it on your local computer.
