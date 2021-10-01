@@ -91,7 +91,7 @@ you can see that `youtube_dl` has many options for things like setting the audio
 
 ### Lab Submission
 
-Upload your downloaded video to sakai.
+Upload your downloaded rickroll video to sakai.
 
 <br/>
 <br/>
