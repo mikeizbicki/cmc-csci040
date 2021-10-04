@@ -77,7 +77,7 @@ accents_2c = 'a\U00000301'
 # normal form decomposed (NFD) ungroups graphemes into as many characters as possible
 
 import unicodedata
-accents_3 = unicodedata.normalize('NKC', accents_1)
+accents_3 = unicodedata.normalize('NFC', accents_1)
 
 # Example: Vietnamese
 

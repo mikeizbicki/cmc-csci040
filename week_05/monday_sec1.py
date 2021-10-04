@@ -52,6 +52,8 @@ empty = '​​​​​​​​​​​​​​​​​​​​​​​�
 accents_1 = 'á'
 accents_2 = 'á'
 
+# len() function displays the number of characters, not the number of graphemes
+
 # Equality in python (and all programming languages) is not based on grapheme-equivalence;
 # it is based on character-equivalence
 
@@ -59,10 +61,10 @@ accents_2 = 'á'
 # ord() converts from `str` to the code point
 # chr() converts from the code point to `str`
 
-accents_1a = '\xe1'
-accents_1b = '\u00e1'
-accents_1c = '\U000000e1'
-accents_2b = 'a\u0301'
+accents_1a = '\xe1'         # \x has range from 0 - 255
+accents_1b = '\u00e1'       # \u has range from 0 - 65535
+accents_1c = '\U000000e1'   # \U can store from 0 - 4 billion  character, grapheme same, notation is different
+accents_2b = 'a\u0301'      # has same grapheme, different characters
 accents_2c = 'a\U00000301'
 
 # NOTE:
@@ -77,7 +79,7 @@ accents_2c = 'a\U00000301'
 # normal form decomposed (NFD) ungroups graphemes into as many characters as possible
 
 import unicodedata
-accents_3 = unicodedata.normalize('NKC', accents_1)
+#accents_3 = unicodedata.normalize('NFC', accents_1)
 
 # Example: Vietnamese
 
@@ -123,9 +125,16 @@ korean_alphabet_DPRK = ['ㄱ', 'ㄴ', 'ㄷ', 'ㄲ', 'ㄸ']
 # - a byte is the fundamental unit of information in computer science
 # - 8 bits is large enough to store ASCII values (end hence english values, but nothing more)
 
+# a document with 1000 english characters; that means 1000 ASCII values => 1000 bytes
+
 # The `byte` type looks like strings but starts with a `b`
 
+normal_strings = 'they just \n have quotes'
+raw_strings = r'quotes that \n start with r' # ignores escape characters
+
 example = b'this is a `byte`'
+
+# everytime you load a file in python, you are always reading bytes
 
 # NOTE:
 # The type `byte` in python stores more than one byte!
