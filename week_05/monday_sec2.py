@@ -2,24 +2,28 @@
 # Language issues
 ###############################################################################
 
-# differences between languages
+# foreign language text can be included into `str`s
 
 english = 'Computer programming is the best!!!'
-english2 = 'Computer programming is the best！！！'
-
 chinese = '计算机编程是最好的！！！'
-
 korean = '컴퓨터 프로그래밍이 최고입니다 !!!'
-컴퓨터 = 'this is a variable'
-
 vietnamese = 'lập trình máy tính là tốt nhất !!!'
-
 arabic = '!‏برمجة الكمبيوتر هي الأفضل!‏!‏'
 
-# character weirdness
+# you can have the same string with multiple languages inside
+
+combined = 'Computer 计算机 هي الأفضل tốt nhất !!!'
+
+# variables can be named using any language
+
+컴퓨터 = 'this is a variable'
+
+# emojis work fine
 
 emoji1 = '😊'
 emoji2 = '💩'
+
+# some things are weird
 
 german = 'Strauß'
 
@@ -151,3 +155,24 @@ bytes5 = 'hello world'.encode('ascii')
 
 # PRINCIPLE 3:
 # Whenever you are working with bytes, you must know "meta" information about the encoding.
+
+# Unfortunately, not all encodings support all languages/characters.
+# Any encoding that begins with "utf" is safe for unicode characters.
+
+chinese_bytes1 = '计算机编程是最好的！！！'.encode('utf-8')
+chinese_bytes2 = '计算机编程是最好的！！！'.encode('utf-16')
+chinese_bytes3 = '计算机编程是最好的！！！'.encode('utf-32')
+#chinese_bytes4 = '计算机编程是最好的！！！'.encode('iso-8859-1')
+#chinese_bytes5 = '计算机编程是最好的！！！'.encode('ascii')
+
+# The len() reports how many bytes a `byte` consumes.
+
+len(chinese_bytes1)
+len(chinese_bytes2)
+len(chinese_bytes3)
+
+# PRINCIPLE 4:
+# Some encodings are better for some languages than others.
+
+# UTF-8 prioritizes English, but it has become the default encoding for most languages.
+# This makes a lot of Asians upset because they "waste" lots of disk space/bandwidth.
