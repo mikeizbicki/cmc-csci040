@@ -69,7 +69,99 @@ Prelecture videos:
 
 1. Corey Schafer's [Error Handling Try/Except](https://www.youtube.com/watch?v=NIWwJbo-9_8)
 
+**Facebook in the news:**
+
+1. Leaks
+    1. Facebook Whistleblower Leaks Thousands of Pages of Incriminating Internal Docs: https://news.ycombinator.com/item?id=28761294
+    1. Mark's response: https://news.ycombinator.com/item?id=28767700
+
+1. Outage
+    1. All Facebook properties were down for about 6-14 hours on Tuesday
+    1. Estimated lost revenue is $90 million https://www.managementstudyguide.com/economic-impact-of-facebook-outage.htm
+    1. Stock price fell 2% => Mark lost $7 billion dollars in value
+
+How does an outage like this happen?
+
+1. Map of Facebook datacenters: https://baxtel.com/data-centers/facebook
+
+1. Submarine cables:
+
+    1. map: https://www.submarinecablemap.com/
+
+    1. cables can get physically disconnected:
+
+        1. images: https://www.google.com/search?q=submarine+cable+laying&tbm=isch
+
+        1. sharks: https://slate.com/technology/2014/08/shark-attacks-threaten-google-s-undersea-internet-cables-video.html
+
+    1. Aside: NSA wire tapping of cables:
+
+        1. (1971-1981) Operation Ivy Bells: https://en.wikipedia.org/wiki/Operation_Ivy_Bells
+
+        1. (2003-) Room 641A: https://en.wikipedia.org/wiki/Room_641A
+
+        1. (2008-) PRISM: https://en.wikipedia.org/wiki/PRISM_(surveillance_program)
+
+        1. (2015-) NSA's Utah Datacenter: https://nsa.gov1.info/utah-data-center/
+
+    1. Incidents:
+
+        1. Syria internet blackout: https://www.washingtonpost.com/news/worldviews/wp/2013/05/08/how-did-syria-cut-off-the-entire-country-from-the-internet/
+
+            1. Telecommunications without borders helps Syria overcome the blackouts: https://www.tsfi.org/en/our-missions/disaster-response/syria-crisis
+
+            1. Syrian blackout caused by the NSA according to Snowden: https://www.theguardian.com/world/2014/aug/13/snowden-nsa-syria-internet-outage-civil-war
+
+        1. Vietnam has regular internet outages due to cable breakages: https://saigoneer.com/saigon-technology/11885-sharks,-anchors-red-tape-why-it-takes-forever-to-fix-vietnam-s-broken-internet-cables
+
+1. In Facebook's case, the cables got "logically" disconnected
+
+    1. Every computer on the internet has an IP address, and all communication on the internet is between IP addresses
+
+       Find yours here: https://whatismyipaddress.com/
+
+       DNS associates a domain name with an IP address for convenience
+
+       | domain | ip address |
+       | ------ | ---------- |
+       | facebook.com | 157.240.11.35 |
+       | google.com | 142.250.68.14 |
+
+       IP addresses are 4 byte numbers
+
+       1. Each number between the `.` is 1 byte
+
+       1. 1 byte stores numbers between 0-255
+
+       1. 4 bytes stores numbers up to 4.2 billion
+
+       1. Bad News: there's not enough IP addresses for everyone in the world!
+
+           1. Most of you are probably using multiple IP addresses (phone, laptop, etc.)
+
+           1. IP addresses are expensive: https://ipv4marketgroup.com/ipv4-pricing/
+
+    1. To send a message from your computer to Facebook, your computer sends information through many different computers called "routers"
+
+        1. CISCO is the most famous company for making routers: https://www.cisco.com/c/en/us/products/routers/index.html#~products
+
+        1. Each router has a big internal table of which IP addresses correspond to which physical connections
+
+        1. A protocol called BGP (Border Gateway Protocol) is how routers communicate which IPs are in which locations
+
+        1. Facebook misconfigured their BGP settings, telling all the routers in the world that their IPs no longer exist
+
+        1. So every router stopped sending traffic to facebook IPs
+
+1. Fully understanding all these details requires multiple graduate-level networking courses
+
 ## Lab
+
+### Part I:
+
+Please complete the following survey about how class is going so far: https://docs.google.com/forms/d/1Weuolk5Q9RsmqVFiF8Qgbc1cd_LQNiKMY-RYAq1SPlg
+
+### Part II:
 
 TBA
 

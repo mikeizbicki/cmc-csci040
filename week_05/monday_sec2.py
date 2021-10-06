@@ -25,7 +25,7 @@ emoji2 = '💩'
 
 # some things are weird
 
-german = 'Strauß'
+german = 'Strauß' # the len() can change between upper/lowercase strings
 
 numbers = '৪৭' # In Tamil ৪ = 4 , ৭ = 7
 
@@ -50,7 +50,7 @@ empty = '​​​​​​​​​​​​​​​​​​​​​​​�
 # and the same grapheme can be written in different ways
 
 accents_1 = 'á'
-accents_2 = 'á'
+accents_2 = 'á' # len = 2
 
 # Equality in python (and all programming languages) is not based on grapheme-equivalence;
 # it is based on character-equivalence
@@ -69,7 +69,7 @@ accents_2c = 'a\U00000301'
 # We cannot use the `\x` notation to write the character '\u0301'.
 # \x only supports code points from 0-255 (1 byte);
 # \u supports code points from 0-65335 (2 bytes);
-# \U supports all code points (4 bytes);
+# \U supports all code points 4.2 billion (4 bytes);
 
 
 # character normalization = represent the graphemes in a standard way
@@ -78,6 +78,7 @@ accents_2c = 'a\U00000301'
 
 import unicodedata
 accents_3 = unicodedata.normalize('NFC', accents_1)
+accents_4 = unicodedata.normalize('NFC', accents_2)
 
 # Example: Vietnamese
 
@@ -102,6 +103,7 @@ basmala = '﷽'   # "In the name of Allah"
 # Recall that sorting in python is done ASCII-betically for English text
 # For non-English text, we sort "Unicode"-betically, or by the Unicode code points of text
 
+# code point of a char is the number that ord gives you
 korean_alphabet_ROK = ['ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ']
 korean_alphabet_DPRK = ['ㄱ', 'ㄴ', 'ㄷ', 'ㄲ', 'ㄸ']
 
@@ -120,8 +122,10 @@ korean_alphabet_DPRK = ['ㄱ', 'ㄴ', 'ㄷ', 'ㄲ', 'ㄸ']
 # Background:
 # - a bit is a 0 or a 1
 # - one byte is 8 bits
-# - a byte is the fundamental unit of information in computer science
+# - a byte is the fundamental unit of information in computer science (gigabyte = 1 billion bytes; mega= 1 million; kilo 1000)
 # - 8 bits is large enough to store ASCII values (end hence english values, but nothing more)
+
+# if I have a document with 1000 English characters => 1000 bytes
 
 # The `byte` type looks like strings but starts with a `b`
 
@@ -139,6 +143,9 @@ example = b'this is a `byte`'
 #  File "<stdin>", line 1
 # SyntaxError: bytes can only contain ASCII literal characters.
 
+# information is always stored as bytes on a harddrive/internet connection/etc
+# we must convert between str/bytes to move information out of python
+
 # In order to store non-English text, we need an "encoding" which maps bytes to characters
 # .encode() converts from `str` to `byte`
 # .decode() converts from `byte` to `str`
@@ -147,11 +154,16 @@ example = b'this is a `byte`'
 # This is a "variable-length" encoding, which means it uses a different number of bytes for each character
 # UTF-8 is popular because it "agrees" with ASCII
 
-bytes1 = 'hello world'.encode('utf-8')
+bytes1 = 'hello world'.encode('utf-8')   # has the nice property that for English letters, ASCII values are represented exactly with the ASCII decimal value
 bytes2 = 'hello world'.encode('utf-16')
 bytes3 = 'hello world'.encode('utf-32')
 bytes4 = 'hello world'.encode('iso-8859-1')
 bytes5 = 'hello world'.encode('ascii')
+
+# why do we have so many encodings?
+# 2 answers: 
+# 1) historical
+# 2) UTF-XXX is generic for everything; but will use more space on some languages
 
 # PRINCIPLE 3:
 # Whenever you are working with bytes, you must know "meta" information about the encoding.
