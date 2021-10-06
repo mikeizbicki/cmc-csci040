@@ -1,16 +1,16 @@
-1. lab/quiz grades
-    1. not updated yet due to 2FA issues, sorry
+
+
+1. grades updated in sakai
+    1. quiz average: 7.9
+    1. overall average: 88.6
 
 1. next week:
     1. review quiz
     1. lab (survey + doctests) due Tuesday/Thursday instead of Sunday/Tuesday
     1. hw due
 
-1. news
-    1. facebook
-    1. phrack
-    1. youtube-dl legal case
+1. news: facebook downtime + intro to how internet works
 
-1. working with files
+1. ~~working with files~~
     1. relative vs absolute paths
     1. python's `open` function
