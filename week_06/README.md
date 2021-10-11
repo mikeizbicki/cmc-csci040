@@ -1,9 +1,6 @@
 # Week 06: Files (for real this time!) + JSON + Matplotlib
 
 <img width=600px src=programming.jpg>
-<br>
-
-<img width=600px src=states-of-a-programmer.png>
 
 **Monday:**
 We will cover [Chapter 9 - Reading and Writing Files](https://automatetheboringstuff.com/2e/chapter9/) of the book,
@@ -22,6 +19,8 @@ Key concepts:
 1. working directory
 
 1. terminal commands: `cd`, `ls`, `pwd`
+
+<img width=600px src=states-of-a-programmer.png>
 
 **Wednesday:**
 We will cover [Chapter 16 - Working with CSV Files and JSON Data](http://automatetheboringstuff.com/2e/chapter16/) of the book.
