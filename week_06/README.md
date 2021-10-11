@@ -12,7 +12,7 @@ Prelecture videos:
 
 1. Corey Schafer's [Error Handling Try/Except](https://www.youtube.com/watch?v=NIWwJbo-9_8)
 
-Minimal required knowledge:
+Minimal required knowledge (in addition to the cheatsheet):
 
 1. paths are how we specify the location of files
 
