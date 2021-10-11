@@ -1,9 +1,9 @@
 # Week 06: Files (for real this time!) + JSON + Matplotlib
 
-<img width=600px programming.jpg>
+<img width=600px src=programming.jpg>
 <br>
 
-<img width=600px states-of-a-programmer.png>
+<img width=600px src=states-of-a-programmer.png>
 
 **Monday:**
 We will cover [Chapter 9 - Reading and Writing Files](https://automatetheboringstuff.com/2e/chapter9/) of the book,
