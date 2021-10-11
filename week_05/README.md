@@ -166,6 +166,8 @@ How does an outage like this happen?
 
 Please complete the following survey about how class is going so far: https://docs.google.com/forms/d/1Weuolk5Q9RsmqVFiF8Qgbc1cd_LQNiKMY-RYAq1SPlg
 
+The survey is 100% anonymous, and it will help me adjust the course moving forward.
+
 ### Part II
 
 Complete the doctests in the `lab.py` and upload the results to sakai.
