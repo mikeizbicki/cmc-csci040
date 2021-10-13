@@ -93,7 +93,7 @@ Sunday, 24 October, midnight
 
 Each plot is worth 6 points.
 
-Your HTML page is worth 3 points.
+Your github repo is worth 3 points.
 
 <!--
 ## Extra credit
