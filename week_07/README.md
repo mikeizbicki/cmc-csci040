@@ -15,7 +15,7 @@ Fall break, no class
 
 Prelecture video:
 
-    1. Corey Shafer's comprehension tutorial: https://www.youtube.com/watch?v=3dt4OGnU5sM
+1. Corey Shafer's comprehension tutorial: https://www.youtube.com/watch?v=3dt4OGnU5sM
 
 ## Lab
 
