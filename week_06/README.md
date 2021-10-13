@@ -84,6 +84,8 @@ Minimal required knowledge (in addition to the cheatsheet):
 **Wednesday:**
 We will cover [Chapter 16 - Working with CSV Files and JSON Data](http://automatetheboringstuff.com/2e/chapter16/) of the book.
 
+<img src=json.jpg width=600px>
+
 Prelecture videos:
 
 1. Corey Schafer's [Working with JSON Data using the json Module](https://www.youtube.com/watch?v=9N6a-VLBa2I)
@@ -93,7 +95,7 @@ The textbook does not have a chapter on using the matplotlib library,
 but the library itself has a great set of tutorials that you can use as a reference:
 https://matplotlib.org/3.3.1/tutorials/index.html
 
-<img width=600px src=programming-libraries-comic.png />
+<img width=800px src=programming-libraries-comic.png />
 
 Prelecture videos:
 

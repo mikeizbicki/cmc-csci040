@@ -16,8 +16,6 @@ Sunday, 24 October, midnight
 
 ## Instructions
 
-<img src=json.jpg width=600px>
-
 1. Find two datasets that are interesting to you, and download them.
    Good places to look for datasets include:
 
