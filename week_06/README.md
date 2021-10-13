@@ -105,4 +105,17 @@ Prelecture videos:
 
 ## Lab
 
-TBA
+There are two lab assignments this week.
+The first is mandatory, the second is optional and extra credit.
+
+Because of Fall Break, the lab date for both labs is NOT Sunday, but Tuesday at midnight.
+If you collaborate, you can have an extension until Thursday.
+
+### Lab 1
+
+The instructions for part 1 are contained in the `lab_part1.py` file.
+
+### Lab 2
+
+This lab is worth 2 points of extra credit.
+In this part of the lab, you will complete the doctests in `lab_part2.py` just like normal.
