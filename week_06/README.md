@@ -117,7 +117,10 @@ If you collaborate, you can have an extension until Thursday.
 
 ### Lab 1
 
-The instructions for part 1 are contained in the `lab_part1.py` file.
+In this lab, you will extend the tweets analysis you did in week 03's lab to work with ALL of Trump's tweets. 
+Follow the instructions in the `lab_part1.py` file.
+
+You may also be interested in reading [this analysis of Trump's tweets](http://varianceexplained.org/r/trump-tweets/) which exploits metainformation in the tweet JSON object to determine which tweets were sent by Trump and which by his staff.
 
 ### Lab 2
 
