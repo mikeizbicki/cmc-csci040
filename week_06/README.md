@@ -105,8 +105,10 @@ Prelecture videos:
 
 ## Lab
 
-There are two lab assignments this week.
-The first is mandatory, the second is optional and extra credit.
+There are two lab assignments this week,
+each with their own submission on sakai.
+The first is mandatory, but has an extra credit option so you may earn 6/5 on the lab.
+The second is optional and worth 2 points of extra credit.
 
 Because of Fall Break, the lab date for both labs is NOT Sunday, but Tuesday at midnight.
 If you collaborate, you can have an extension until Thursday.
@@ -118,4 +120,6 @@ The instructions for part 1 are contained in the `lab_part1.py` file.
 ### Lab 2
 
 This lab is worth 2 points of extra credit.
-In this part of the lab, you will complete the doctests in `lab_part2.py` just like normal.
+To earn the extra credit, complete the doctests in `lab_part2.py` just like normal.
+You must pass all of the doctests to earn the extra credit,
+and no partial credit will be awarded.
