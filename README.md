@@ -151,9 +151,9 @@ This will be a low-stress but very challenging class.
     | --- | ----------------------- | ---------------- |
     | 0   | Building a Webpage      | Sunday, 12 Sep   |
     | 1   | Markdown compiler       | Sunday, 03 Oct   |
-    | 2   | Data visualization      | Sunday, 11 Oct   |
-    | 3   | Reddit propaganda bot   | Sunday, 24 Oct   |
-    | 4   | Scraping ebay           | Sunday, 07 Nov   |
+    | 2   | Data visualization      | Sunday, 10 Oct   |
+    | 3   | Scraping ebay           | Sunday, 24 Oct   |
+    | 4   | Reddit propaganda bot   | Sunday, 07 Nov   |
     | 5   | Twitter clone           | Sunday, 12 Dec   |
 
     There's also fewer projects than in CS5/CS51.
@@ -458,6 +458,24 @@ If you need any further accommodations, please ask.
 I want you to succeed and I'll make every effort to ensure that you can.
 
 <!--
+
+change the requirements of hw_00 to have:
+- a legitimate title bar and consistent formatting between pages
+- no broken links
+- no inline styles/no style tags
+- no broken html tags like "html>"
+
+introduce pythontutor before doing python in vscode?
+
+Trick questions:
+ 1. += vs =+
+ 1. while n:
+        n //= 10
+ 1. for i in range(-5, 5):
+        if i:
+            do something
+
+================================================================================
 
 More patterns:
 
