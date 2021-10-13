@@ -142,7 +142,7 @@ This will be a low-stress but very challenging class.
        Also take advantage of office hours and the QCL.
     1. Historically, the average student needs to spend about 10 hours per week outside of class to get an A.
        About 50% of students will either:
-       spend 15-20 hours per week and get an A,
+       spend 15-20 hours per week and get an A-/A,
        or spend 10 hours per week and get a B/C.
 
 1. The projects are designed to be fun, real-world projects:
