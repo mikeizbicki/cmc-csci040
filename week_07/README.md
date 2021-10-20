@@ -30,8 +30,40 @@ Fall break, no class
 
     <img src=hip.webp width=400px />
 
-    In general: `while` loops > `for` loops > list comprehensions
+    ---
 
+    Form 1:
+
+    ```
+    accumulator = [ COMPUTATION for VARIABLE in LIST ]
+    ```
+
+    same as
+
+    ```
+    accumulator = []
+    for VARIABLE in LIST:
+        accumulator += COMPUTATION
+    ```
+    
+    Form 2:
+    ```
+    accumulator = [ COMPUTATION for VARIABLE in LIST if CONDITION]
+    ```
+
+    same as
+
+    ```
+    accumulator = []
+    for VARIABLE in LIST:
+        if CONDITION:
+            accumulator += COMPUTATION
+    ```
+
+    ---
+
+    In general: `while` loops > `for` loops > list comprehensions
+    
 1. We will continue to cover more common pitfalls with matplotlib
 
 Prelecture video:
