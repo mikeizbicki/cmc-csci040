@@ -18,15 +18,17 @@ Fall break, no class
 
     We've already seen some examples of syntactic sugar:
 
-    <img src=while_for.jpg width=600px />
+    <img src=while_for.png width=600px />
 
     List comprehensions are a famous and controversial form of syntactic sugar.
     They can simplify your code a lot, or make it difficult to read.
 
-    <img src=pooh.jpg width=600px />
+    <img src=pooh.jpg width=400px />
+    <br>
+    <br>
     <br>
 
-    <img src=hip.webp width=600px />
+    <img src=hip.webp width=400px />
 
     In general: `while` loops > `for` loops > list comprehensions
 
