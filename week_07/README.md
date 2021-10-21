@@ -74,7 +74,7 @@ Prelecture video:
 
 **Overview:**
 
-To celebrate Halloween, you will practice file and string operations by editing the book "Dracula".
+To celebrate Halloween, you will practice file and string operations by editing the book *Dracula*.
 
 **Due date:**
 
