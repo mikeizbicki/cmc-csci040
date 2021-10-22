@@ -72,9 +72,6 @@ Prelecture video:
 
 ## Lab
 
-This lab is required but has an extended due date.
-(I apologize that in class I think I misspoke and said it was extra credit.)
-
 **Overview:**
 
 To celebrate Halloween, you will practice file and string operations by editing the book *Dracula*.
@@ -82,6 +79,9 @@ To celebrate Halloween, you will practice file and string operations by editing 
 **Due date:**
 
 Halloween, Oct 31
+
+If you submit the lab by Sunday 24 October (or Tuesday 26 October if you collaborate), then you will get +2 points of extra credit.
+
 
 **Instructions:**
 
