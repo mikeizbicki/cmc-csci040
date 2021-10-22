@@ -80,7 +80,7 @@ To celebrate Halloween, you will practice file and string operations by editing 
 
 Halloween, Oct 31
 
-If you submit the lab by Sunday 24 October (or Tuesday 26 October if you collaborate), then you will get +2 points of extra credit.
+If you submit the lab by Sunday 24 October (or Tuesday 26 October if you collaborate), then you will get +1 point of extra credit.
 
 
 **Instructions:**
