@@ -40,6 +40,7 @@ Your file should:
 
 Run your `ebay-dl.py` file on 3 search terms of your choice,
 generating 3 different json files.
+At least one of these search terms must contain a space (e.g. `drill press`, `stuffed animal`, or `claremont mckenna`).
 
 **PART III:**
 
