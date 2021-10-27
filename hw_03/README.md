@@ -6,7 +6,7 @@
 You will scrape information from ebay and store the results in a json file.
 
 The "right way" to think of this project is as a "compiler" similar to the `markdown_compiler.py` assignment.
-In that project, we converter markdown files into html;
+In that project, we converted markdown files into html;
 and in this project, we'll convert ebay's html files into JSON.
 The vast majority of programmming projects are about converting from one type of data to another "better" type.
 
