@@ -52,9 +52,9 @@ Create a github repo that:
 
 1. Contains a `README.md` file explaining:
 
-    1. how to run your `ebay-dl.py` file
+    1. what your `ebay-dl.py` file does
 
-    1. what your 3 search terms are
+    1. how to run your `ebay-dl.py` file, using markdown code block(s) (and not inline code annotations) to show the exact commands that should be run to generate the 3 json files in your repo
 
     1. a link to the course project
 
