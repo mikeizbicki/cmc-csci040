@@ -1,4 +1,4 @@
-# HW 4: Scraping from ebay
+# HW 3: Scraping from ebay
 
 ![comic](D1Kq7tHUYAA4CKC.jpeg)
 
