@@ -29,10 +29,17 @@ Your file should:
 
 1. Create a python list of the extracted items,
    where each entry in the list is a dictionary.
-   The dictionary should have three keys:
+   The dictionary should have the following keys:
    1. `name` will contain the name of the item
-   2. `price` will contain the price of the item
+   2. `price` will contain the price of the item in cents, stored as an integer (you should never use floats to store monetary values, because floats can't be represented exactly in computers); if there are multiple prices listed (e.g. `$54.99 to $79.99`), then you may select either price
    3. `status` will contain a string stating whether the item is "Brand New", "Refurbished", "Pre-owned", etc.
+   4. `shipping` will contain the price of shipping the item in cents, stored as an integer; if the item has free shipping, then this value should be `0`
+   5. `free_returns` will contain a boolean value for whether the item has free returns
+   6. `items_sold` will contain the number of items sold (as an integer)
+   
+   **NOTE:**
+   Not every item listed on ebay will have an entry for each of the fields in the dictionary above.
+   If there is no entry, then your dictionary must still have the associated key, and the value should be `None`.
 
 1. Use the `json` library to save the list as a json file named `SEARCH_TERM.json`, where `SEARCH_TERM` should be replaced by the search term passed in on the command line.
 
