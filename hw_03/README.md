@@ -1,4 +1,4 @@
-# HW 4: Scraping from ebay
+# HW 3: Scraping from ebay
 
 ![comic](D1Kq7tHUYAA4CKC.jpeg)
 
@@ -74,3 +74,14 @@ The assignment is worth 18 points total.
 3 pts: outputting a json file
 
 6 pts: extracting items from all pages in the search results
+
+### Extra Credit
+
+You can earn 2 points of extra credit if you complete the following tasks:
+
+1. Modify `ebay-dl.py` so that it accepts a new command line flag `--csv`. 
+   Whenever this flag is specified, the output file should be saved in csv format instead of json format.
+
+1. Generate 3 csv files in addition to the 3 json files, and include them in your repo.
+
+1. Modify your `README.md` file to include instructions and examples on how to use the `--csv` flag.

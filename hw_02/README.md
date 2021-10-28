@@ -33,17 +33,26 @@ Sunday, 24 October, midnight
 
 1. Generate two plots, one from each of your datasets, satisfying the following requirements:
 
-    1. You may select any time of plot that you want (e.g., line, bar, scatter, etc.),
-       but you must select two different plots.
+    1. You may select any type of plot that you want (e.g., line, bar, scatter, etc.),
+       but you must select two different plot types.
 
-    1. At least one of your plots must contain two different data sources.
+    1. At least one of your plots must contain two different data sources, and you must have a key that shows the meaning of each data source.
        (For example, two different lines in a line graph, 
        or two different sets of bars in a bar chart).
 
-    1. The plots should have properly labeled x and y axes, and a legend (only needed for the plot containing multiple data sources).
+    1. The plots should have properly labeled x and y axes.
 
-    1. The tic labels for both the x and y axes should appear in a reasonable order (e.g. sorted),
+    1. The tic labels for both the x and y axes should appear in a reasonable order (e.g. years should be sorted low to high),
        and they must be legible.
+
+    1. Your plots must be overall "reasonable."
+       There are too many ways to list about how a plot might be unreasonable,
+       so if you have any questions about whether your plot is reasonable,
+       then ask me in person before the submission deadline.
+
+       **HINT:**
+       If your data is appearing as a straight line,
+       then you've probably made a mistake.
 
    See the [matplotlib samples library](https://matplotlib.org/3.1.1/tutorials/introductory/sample_plots.html) for examples of well formatted plots.
 
@@ -80,10 +89,14 @@ Sunday, 24 October, midnight
         1. Ensure that the text is broken up into reasonably sized paragraphs
     
     1. For each plot: 
+
+        1. Include the image using appropriate markdown commands
     
         1. You should have a short 2-5 sentence description that describes the data you plotted
 
-        1. The description should include a link to the original data source
+        1. The description should include a link to the original data source.
+           This should not be a link to your data on github,
+           but a link to the original website you downloaded the data from.
 
     1. Include a link to the project instructions (this webpage)
 
