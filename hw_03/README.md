@@ -5,6 +5,11 @@
 **Description:** 
 You will scrape information from ebay and store the results in a json file.
 
+The "right way" to think of this project is as a "compiler" similar to the `markdown_compiler.py` assignment.
+In that project, we converted markdown files into html;
+and in this project, we'll convert ebay's html files into JSON.
+The vast majority of programmming projects are about converting from one type of data to another "better" type.
+
 **Due:** 
 Sunday, 7 November, midnight
 
@@ -29,10 +34,17 @@ Your file should:
 
 1. Create a python list of the extracted items,
    where each entry in the list is a dictionary.
-   The dictionary should have three keys:
+   The dictionary should have the following keys:
    1. `name` will contain the name of the item
-   2. `price` will contain the price of the item
+   2. `price` will contain the price of the item in cents, stored as an integer (you should never use floats to store monetary values, because floats can't be represented exactly in computers); if there are multiple prices listed (e.g. `$54.99 to $79.99`), then you may select either price
    3. `status` will contain a string stating whether the item is "Brand New", "Refurbished", "Pre-owned", etc.
+   4. `shipping` will contain the price of shipping the item in cents, stored as an integer; if the item has free shipping, then this value should be `0`
+   5. `free_returns` will contain a boolean value for whether the item has free returns
+   6. `items_sold` will contain the number of items sold (as an integer)
+   
+   **NOTE:**
+   Not every item listed on ebay will have an entry for each of the fields in the dictionary above.
+   If there is no entry, then your dictionary must still have the associated key, and the value should be `None`.
 
 1. Use the `json` library to save the list as a json file named `SEARCH_TERM.json`, where `SEARCH_TERM` should be replaced by the search term passed in on the command line.
 
@@ -40,6 +52,7 @@ Your file should:
 
 Run your `ebay-dl.py` file on 3 search terms of your choice,
 generating 3 different json files.
+At least one of these search terms must contain a space (e.g. `drill press`, `stuffed animal`, or `claremont mckenna`).
 
 **PART III:**
 
@@ -51,9 +64,9 @@ Create a github repo that:
 
 1. Contains a `README.md` file explaining:
 
-    1. how to run your `ebay-dl.py` file
+    1. what your `ebay-dl.py` file does
 
-    1. what your 3 search terms are
+    1. how to run your `ebay-dl.py` file, using markdown code block(s) (and not inline code annotations) to show the exact commands that should be run to generate the 3 json files in your repo
 
     1. a link to the course project
 
