@@ -31,22 +31,22 @@ html='''
 
 soup = BeautifulSoup(html, 'html.parser')
 
-################################################################################
+########################################
 tags = soup.select('a')
 problem1 = len(tags)
 print("problem1=",problem1)
 
-################################################################################
+########################################
 tags = soup.select('p span')
 problem2 = len(tags)
 print("problem2=",problem2)
 
-################################################################################
+########################################
 tags = soup.select('p, .bold')
 problem3 = len(tags)
 print("problem3=",problem3)
 
-################################################################################
+########################################
 tags = soup.select('p')
 accumulator = []
 for tag in tags:
@@ -54,15 +54,15 @@ for tag in tags:
 problem4 = len(accumulator)
 print("problem4=",problem4)
 
-################################################################################
+########################################
 tags1 = soup.select('p')
 tags2 = soup.select('.bold')
 tags = tags1 + tags2
 problem5 = len(tags)
-print("problem4=",problem5)
+print("problem5=",problem5)
 
 
-
+########################################
 # Extra:
 tags = soup.select('*')
 tags_filtered = [ tag for tag in tags if 'Lorem ipsum' in tag.text ] 

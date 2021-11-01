@@ -34,42 +34,42 @@ html='''
 
 soup = BeautifulSoup(html, 'html.parser')
 
-################################################################################
+########################################
 tags = soup.select('div > li')
 problem1 = len(tags)
 print("problem1=",problem1)
 
-################################################################################
+########################################
 tags = soup.select('div li')
 problem1a = len(tags)
 print("problem1a=",problem1a)
 
-################################################################################
+########################################
 tags = soup.select('img.bold')
 problem1b = len(tags)
 print("problem1b=",problem1b)
 
-################################################################################
+########################################
 tags = soup.select('li.bold')
 problem1c = len(tags)
 print("problem1c=",problem1c)
 
-################################################################################
+########################################
 tags = soup.select('li .bold')
 problem1d = len(tags)
 print("problem1d=",problem1d)
 
-################################################################################
+########################################
 tags = soup.select('h2+p')
 problem1e = len(tags)
 print("problem1e=",problem1e)
 
-################################################################################
+########################################
 tags = soup.select('div>h2+p,h2')
 problem1f = len(tags)
 print("problem1f=",problem1f)
 
-################################################################################
+########################################
 tags = soup.select('ol')
 accumulator = []
 for tag in tags:
@@ -77,7 +77,7 @@ for tag in tags:
 problem2 = len(accumulator)
 print("problem2=",problem2)
 
-################################################################################
+########################################
 tags = soup.select('div')
 accumulator = []
 for tag in tags:
@@ -85,7 +85,7 @@ for tag in tags:
 problem2a = len(accumulator)
 print("problem2a=",problem2a)
 
-################################################################################
+########################################
 tags = soup.select('body')
 accumulator = []
 for tag in tags:
@@ -93,7 +93,7 @@ for tag in tags:
 problem2b = len(accumulator)
 print("problem2b=",problem2b)
 
-################################################################################
+########################################
 tags = soup.select('html')
 accumulator = []
 for tag in tags:
@@ -101,14 +101,14 @@ for tag in tags:
 problem2c = len(accumulator)
 print("problem2c=",problem2c)
 
-################################################################################
+########################################
 tags1 = soup.select('h1')
 tags2 = soup.select('#top')
 tags = tags1 + tags2
 problem3 = len(tags)
 print("problem3=",problem3)
 
-################################################################################
+########################################
 tags1 = soup.select('p')
 tags2 = soup.select('.bold')
 tags = tags1 + tags2
@@ -116,7 +116,7 @@ problem3b = len(tags)
 print("problem3b=",problem3b)
 
 
-################################################################################
+########################################
 tags1 = soup.select('div')
 tags2 = soup.select('.bold')
 tags = tags1 + tags2
