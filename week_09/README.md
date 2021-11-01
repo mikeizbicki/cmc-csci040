@@ -1,7 +1,6 @@
 # week 09: Debugging
 
-<img src=debugging.png width=300px>
-<img src=graph.jpeg width=300px>
+<img src=debugging.png width=400px>
 
 This week we will cover some more debugging skills.
 
@@ -21,6 +20,10 @@ You're responsible for knowing the following exceptions:
 1. `UnboundLocalError`
 1. `TypeError`
 1. `ZeroDivisionError`
+
+Also, this chart is a useful reminder when working on problems:
+
+<img src=graph.jpeg width=400px>
 
 ## Lab
 
