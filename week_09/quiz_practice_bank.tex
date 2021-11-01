@@ -1,0 +1,660 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage[shortlabels]{enumitem}
+\usepackage[normalem]{ulem}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = black, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor    = blue  %Colour of citations
+}
+
+\usepackage{listings}
+\lstset{language=Python,breaklines=true} %,numbers=left}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathbb R}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\newcommand{\trans}[1]{{#1}^{T}}
+\newcommand{\loss}{\ell}
+\newcommand{\w}{\mathbf w}
+\newcommand{\mle}[1]{\hat{#1}_{\textit{mle}}}
+\newcommand{\map}[1]{\hat{#1}_{\textit{map}}}
+\newcommand{\normal}{\mathcal{N}}
+\newcommand{\x}{\mathbf x}
+\newcommand{\y}{\mathbf y}
+\newcommand{\ltwo}[1]{\lVert {#1} \rVert}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    {
+\Large
+    Exceptions Question Bank
+}
+
+    \vspace{0.1in}
+    CSCI040: \sout{Computing for the Web} Introduction to Hacking
+
+    \vspace{0.1in}
+\end{center}
+
+
+\noindent
+Your exceptions quiz will contain 5 questions that follow the pattern in this question bank.
+
+\vspace{0.25in}
+\noindent
+Recall that you are responsible for knowing the following exceptions:
+\lstinline{AssertionError},
+\lstinline{AttributeError},
+\lstinline{IndexError},
+\lstinline{KeyError},
+\lstinline{NameError},
+\lstinline{UnboundLocalError},
+\lstinline{TypeError},
+\lstinline{ZeroDivisionError}.
+\vspace{0.25in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+xs = []
+total = 0
+while xs:
+    total += 1
+print('total=', total)
+\end{lstlisting}
+\vspace{1in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+xs = []
+while xs:
+    total += 1
+    assert(xs)
+print('total=', total)
+\end{lstlisting}
+\vspace{1in}
+
+
+\newpage
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+xs = []
+while len(xs)<5:
+    xs.append('test')
+print('len(xs)=',len(xs))
+\end{lstlisting}
+\vspace{1in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+xs = []
+while len(xs)<5:
+    xs.append('test')
+assert(xs)
+print('len(xs)=',len(xs))
+\end{lstlisting}
+\vspace{1in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+xs = [1, 2, 3]
+while xs:
+    xs.append('test')
+print('len(xs)=',len(xs))
+\end{lstlisting}
+\vspace{1in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+xs = [1, 2, 3]
+total = 0
+while xs:
+    total //= total
+print('len(xs)=',len(xs))
+\end{lstlisting}
+\vspace{1in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+xs = [1, 2, 3]
+while xs:
+    xs.append('test')
+    assert('t' in xs)
+print('len(xs)=',len(xs))
+\end{lstlisting}
+\vspace{1in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+xs = [1, 2, 3]
+while xs:
+    xs += 'test'
+print('len(xs)=',len(xs))
+\end{lstlisting}
+\vspace{1in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+xs = [1, 2, 3]
+total = 10
+for x in xs:
+    total %= x
+print("total=",total)
+\end{lstlisting}
+\vspace{1in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+xs = [0, 1, 2]
+xs.replace(1, 2)
+print("xs=", xs)
+\end{lstlisting}
+\vspace{1in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+s = 'hello world'
+i = s.find(' ')
+print("i=", i)
+\end{lstlisting}
+\vspace{1in}
+
+
+\newpage
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+grades={
+    'alice':{'hw1':99,'hw2':88},
+    'bob':{'hw1':82,'hw2':91},
+}
+for k,v in sorted(grades.items()):
+    print(v['hw1'])
+\end{lstlisting}
+\vspace{0.75in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+grades={
+    'alice':{'hw1':99,'hw2':88},
+    'bob':{'hw1':82,'hw2':91},
+}
+for k,v in sorted(grades.items()):
+    print(k['hw1'])
+\end{lstlisting}
+\vspace{0.75in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+grades={
+    'alice':{'hw1':99,'hw2':88},
+    'bob':{'hw1':82,'hw2':91},
+}
+for k,v in sorted(grades.items()):
+    print(v[0])
+\end{lstlisting}
+\vspace{0.75in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+grades={
+    'alice':{'hw1':99,'hw2':88},
+    'bob':{'hw1':82,'hw2':91},
+}
+for k,v in sorted(grades.items()):
+    print(k[0])
+\end{lstlisting}
+\vspace{0.75in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+grades={
+    'alice':{'hw1':99,'hw2':88},
+    'bob':{'hw1':82,'hw2':91},
+}
+output = "grade=" + grades['alice']['hw1']
+print('output=', output)
+\end{lstlisting}
+\vspace{0.75in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+grades={
+    'alice':{'hw1':99,'hw2':88},
+    'bob':{'hw1':82,'hw2':91},
+}
+output = "grade=" + grades['charlie']['hw1']
+print('output=', output)
+\end{lstlisting}
+\vspace{0.75in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+grades={
+    'alice':{'hw1':99,'hw2':88},
+    'bob':{'hw1':82,'hw2':91},
+}
+output = "grade=" + grades['bob']['hw2'][91]
+print('output=', output)
+\end{lstlisting}
+\vspace{0.75in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+grades={
+    'alice':{'hw1':99,'hw2':88},
+    'bob':{'hw1':82,'hw2':91},
+}
+output = alice['hw1']
+print('output=', output)
+\end{lstlisting}
+\vspace{0.75in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+grades={
+    'alice':{'hw1':99,'hw2':88},
+    'bob':{'hw1':82,'hw2':91},
+}
+total = 0
+for i in grades:
+    for j in i:
+        total += 1
+print('total=',total)
+\end{lstlisting}
+\vspace{0.75in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+xs = [1, 2, 3]
+try:
+    result = xs[3]
+except IndexError:
+    result = -1
+print('result=', result)
+\end{lstlisting}
+\vspace{1in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+xs = [1, 2, 3]
+try:
+    result = xs[3]
+except:
+    result = -1
+print('result=', result)
+\end{lstlisting}
+\vspace{1in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+xs = [1, 2, 3]
+try:
+    result = xs[3]
+except NameError:
+    result = -1
+print('result=', result)
+\end{lstlisting}
+\vspace{1in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+grades={
+    'alice':{'hw1':99,'hw2':88},
+    'bob':{'hw1':82,'hw2':91},
+}
+try:
+    output = "grade=" + grades['charlie']['hw1']
+except KeyError:
+    output = 'oops'
+print('output=', output)
+\end{lstlisting}
+\vspace{0.75in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+grades={
+    'alice':{'hw1':99,'hw2':88},
+    'bob':{'hw1':82,'hw2':91},
+}
+try:
+    output = "grade=" + grades['charlie']['hw1']
+except IndexError:
+    output = 'oops'
+print('output=', output)
+\end{lstlisting}
+\vspace{0.75in}
+\end{document}
+
