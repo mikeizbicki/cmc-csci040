@@ -100,6 +100,19 @@ xs = [1, 2, 3]
 xs['test']
 '''
 
+# 4. parens are used on non-functions
+
+'''
+x = 5
+x()
+
+def foo():
+    return 5
+foo()
+# bar = foo + 10
+foo = 5
+foo()
+'''
 
 ################################################################################
 # Dealing with stack traces
