@@ -1,4 +1,4 @@
-# Week 06: Reddit Bots I
+# Week 10: Reddit Bots I
 
 <center>
 <img width='50%' src=duty_calls.png />
