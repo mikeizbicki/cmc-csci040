@@ -1,7 +1,7 @@
 # Week 10: Reddit Bots I
 
 <center>
-<img width='50%' src=duty_calls.png />
+<img width=400px src=duty_calls.png />
 </center>
 
 **Monday/Wednesday:**
