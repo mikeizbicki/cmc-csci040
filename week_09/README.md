@@ -1,8 +1,7 @@
 # week 09: Debugging
 
-<img src=debugging.png width=600px>
-
-<img src=graph.jpeg width=600px>
+<img src=debugging.png width=400px>
+<img src=graph.jpeg width=400px>
 
 This week we will cover some more debugging skills.
 
