@@ -101,8 +101,10 @@ Fortunately, you have some leads that will help you guess the password:
    and a group of hackers called "The Impact Team" acquired and leak this data in order to damage what they considered to be an immoral business.
 
 1. You know that the IT worker who created the `whitehouse_secrets.zip` is an active user of Ashley-Madison.
-   You suspect that the IT worker used the same password for the Ashley-Madison website as they used for the `whitehouse_secrets.zip` file.
-   So one of the passwords inside of `Ashley-Madison.txt` should open `whitehouse_secrets.zip`.
+   This IT worker, like [most people](https://www.infosecurity-magazine.com/blogs/your-employees-reusing-passwords/),
+   reuses the same password for everything they do.
+   So one of the leaked passwords from Ashley-Madison will decrypt the `whitehouse_secrets.zip` file.
+   We just have to figure out which one.
 
 **Historical Aside:**
 
@@ -141,9 +143,16 @@ adultery is a [felony offense](https://militarybenefits.info/ucmj-adultery/) for
        Once the file is successfully decrypted,
        you should have a new file `whitehouse_secrets/secrets.txt` that contains President Obama's secrets.
 
+1. (Optional, but recommended)
+   Change your passwords so that you're not using the same password for everything.
+   I personally like to memorize all my passwords,
+   but other people prefer using password managers to store the passwords.
+   Firefox has an [excellent one built-in](https://www.mozilla.org/en-US/firefox/lockwise/).
+
 **Submission:**
 
 Upload to sakai:
 1. the password to `whitehouse_secrets.zip`
 1. your `password_cracker.py` file
 1. the contents of `whitehouse_secrets/secrets.txt`
+

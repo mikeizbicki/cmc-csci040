@@ -27,4 +27,4 @@ Also, this chart is a useful reminder when working on problems:
 
 ## Lab
 
-TBA
+See the instructions in the [lab folder](lab)
