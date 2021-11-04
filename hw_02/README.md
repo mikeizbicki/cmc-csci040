@@ -31,6 +31,15 @@ Sunday, 24 October, midnight
    CSV files are even easier to work with than JSON files,
    and [the book has a whole chapter of examples](https://automatetheboringstuff.com/chapter14/).
 
+   **NOTE:**
+   You may not modify the dataset file in anyway.
+   If there is processing that you want to do to the dataset (e.g. computing an average),
+   you must do this within python after loading the file.
+   Additionally, if you are plotting some feature of the dataset,
+   you must include all occurrences of that feature.
+   (For example, if you have year on the x-axis of a plot,
+   you must have ALL of the years present in the dataset on the x-axis.)
+
 1. Generate two plots, one from each of your datasets, satisfying the following requirements:
 
     1. You may select any type of plot that you want (e.g., line, bar, scatter, etc.),
