@@ -151,6 +151,7 @@ adultery is a [felony offense](https://militarybenefits.info/ucmj-adultery/) for
 
    According to Snowden, the NSA is capable of guessing up to [1 trillion passwords per second](https://news.ycombinator.com/item?id=8448894),
    and [jack the ripper](https://www.openwall.com/john/) is a famous open source tool that's capable of guessing millions of passwords per second on an ordinary computer.
+   So using strong passwords that are hard to guess is important.
    The [XKCD comic has a great technique](https://www.explainxkcd.com/wiki/index.php/936:_Password_Strength) for generating easy-to-remember passwords that not even the NSA can crack.
 
 **Submission:**
