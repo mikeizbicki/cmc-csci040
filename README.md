@@ -6,7 +6,7 @@
 
 Important links:
 
-1. [What Hackers get Payed](https://www.levels.fyi/comp.html?track=Data%20Scientist)
+1. [What Hackers get Paid](https://www.levels.fyi/comp.html?track=Data%20Scientist)
 
 1. [Tech employers illegally collude to reduce salaries](https://en.wikipedia.org/wiki/High-Tech_Employee_Antitrust_Litigation)
 
