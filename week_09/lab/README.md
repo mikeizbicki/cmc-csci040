@@ -53,8 +53,9 @@ Notice:
 
 1. Now try changing the byte sequence to anything other than `BFDL`.
    You should get a `RuntimeError` indicating that the you supplied the incorrect password.
-   No files will be generated in your working directory.
    (Depending on your computer's settings, you may get a different exception thrown.  Other students have commonly encountered `zlib.error` and `BadZipfile` errors, for example.)
+   
+   Depending on your computer's settings, files may or may not be created, but they will not contain the correct information.
 
 **Zip bombs**
 
