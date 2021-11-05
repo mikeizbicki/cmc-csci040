@@ -111,6 +111,7 @@ Fortunately, you have some leads that will help you guess the password:
 1. In July 2015, the website [Ashley-Madison (ashleymadison.com) had a major data leak](https://en.wikipedia.org/wiki/Ashley_Madison_data_breach).
    Ashley-Madison is a dating website for married people to find extra-marital lovers without their spouse's knowledge,
    and a group of hackers called "The Impact Team" acquired and leak this data in order to damage what they considered to be an immoral business.
+   This leak is famous as the first major occurance of "hacktivism".
 
 1. You know that the IT worker who created the `whitehouse_secrets.zip` is an active user of Ashley-Madison.
    This IT worker, like [most people](https://www.infosecurity-magazine.com/blogs/your-employees-reusing-passwords/),
