@@ -86,12 +86,12 @@ Fun facts:
         1. ["front end" versus "back end" development](https://www.coursereport.com/blog/front-end-development-vs-back-end-development-where-to-start)
         1. [test driven development](https://streamhacker.com/2009/02/05/test-driven-development-in-python/)
     1. [accessible development](https://www.w3.org/standards/webdesign/accessibility)
-        1. disabilities (~8% of males are red-green colorblind)
-        1. non-English / non-American users of software
+        1. allow blind people to use webpages
+        1. allow non-English speaking / non-Americans to use your software
     1. web security
         1. technical details (you will learn to commit fraud in this class!)
         1. social implications
-        1. governmen policy
+        1. government policy
         1. legal issues
     <!--
     1. [search engine optimization](https://moz.com/beginners-guide-to-seo)
