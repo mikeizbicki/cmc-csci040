@@ -40,6 +40,16 @@ Notice:
 
    Try changing the `password` variable to `'BFDL'` instead of `b'BFDL'` and you should get a `TypeError`.
    (And hopefully it makes sense why.)
+   
+   Recall that if we have a variable with type `str`, we can convert it into a `bytes` object using the `.encode` function:
+   ```
+   password_str = 'BFDL'
+   password = password_str.encode('ascii')
+   ```
+   is equivalent to
+   ```
+   password = b'BFDL'
+   ```
 
 1. Now try changing the byte sequence to anything other than `BFDL`.
    You should get a `RuntimeError` indicating that the you supplied the incorrect password.
