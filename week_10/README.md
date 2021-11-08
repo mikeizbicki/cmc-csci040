@@ -42,9 +42,11 @@ One of my personal favorite bots is a Twitter bot named
 This bot monitors the NYTimes webiste for edits made to articles after they've been published.
 Although most of these edits are minor typo fixes,
 some of these changes can be dramatic:
+
 <center>
     <a href=https://twitter.com/nyt_diff/status/877586995731615744><img src=nyt_diff.png></a>
 </center>
+
 Maintaining records of these edits is important for promoting a transparent democracy,
 and it wouldn't be possible without bots.
 
