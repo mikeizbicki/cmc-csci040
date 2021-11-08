@@ -92,8 +92,15 @@ These measures exceed the requirements imposed by law and reddit's terms of serv
 
 **Q5: Why do a potentially controversial assignment that raises ethical and legal considerations?**
 
-The ACM's <a href=https://www.acm.org/code-of-ethics>Code of Ethics and Professional Conduct</a> begins by stating that computing professionals "should reflect upon the wider impacts of their work",
-and accreditation agencies like ABET <a href=https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-engineering-programs-2020-2021/>require that we teach students ethics</a>.
+The Association for Computing Machinery (ACM) is the main professional organization for computer scientists.
+Their <a href=https://www.acm.org/code-of-ethics>Code of Ethics and Professional Conduct</a> begins by stating that computing professionals "should reflect upon the wider impacts of their work",
+and this assignment gives students the technical foundation needed to reflect on the wider impacts of bots.
+
+Furthermore, accreditation agencies like ABET <a href=https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-engineering-programs-2020-2021/>require that we teach students ethics</a>.
+These ethical discussions are traditionally completely separate from technical assignments.
+But I believe that by incorporating ethics directly into the technical assignments,
+the ethical considerations become much more salient and easier to engage with,
+and the technical assignments also become more fun.
 
 ## Lab
 
