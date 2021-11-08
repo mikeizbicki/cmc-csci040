@@ -10,150 +10,89 @@ The textbook does not cover this topic,
 but you can find the library's (excellent) documentation here:
 https://praw.readthedocs.io/
 
-Readings about bots online:
+## Ethical/legal FAQ
 
-* [Reddit Bots Are Hunting Down Racists, One Post at a Time](https://www.wired.com/story/reddit-bots-are-hunting-down-racists-one-post-at-a-time/)
+This assignment raises many ethical and legal questions for students, faculty, and administrators.
+This FAQ addresses these questions.
 
-* [Who’s a Bot? Who’s Not?](https://www.nytimes.com/2020/06/16/science/social-media-bots-kazemi.html)
+**Q1: Bots are bad for democracy.  Why would you want to teach students to make them?**
 
-* [Social Media Bots are Damaging our Democracy](https://www.engadget.com/2019-08-15-social-media-bots-are-damaging-our-democracy.html)
-
-Example useful reddit bots:
-
-* https://www.reddit.com/r/Christianity/comments/irsxys/biblequotebot_is_beta/
-
-* https://www.reddit.com/r/OutOfTheLoop/comments/9gv9xs/what_is_going_with_locationbot_and_what_does_it/
+Bad bots spreading fake news have gotten a lot of media attention,
+but many (most?) bots are actually good for society.
+The community <a href=https://www.reddit.com/r/TheoryOfReddit/>/r/TheoryOfReddit</a> maintains a <a href=https://www.reddit.com/r/TheoryOfReddit/wiki/bots>wiki of reddit's most famous good bots</a>.
+Here are some examples of useful reddit bots:
 
 * https://www.reddit.com/user/stabbot
 
-* https://www.reddit.com/user/GoodBot_BadBot
-
 * https://www.reddit.com/user/autotldr
+
+* https://www.reddit.com/r/Christianity/comments/irsxys/biblequotebot_is_beta/
 
 * https://www.reddit.com/r/tippr/wiki/reddit-usage
 
 * https://www.reddit.com/r/RemindMeBot/
 
-<!--
-* https://www.reddit.com/r/botwatch/comments/9zjqfx/the_best_bot/
+* https://www.reddit.com/r/OutOfTheLoop/comments/9gv9xs/what_is_going_with_locationbot_and_what_does_it/
 
-* https://www.reddit.com/r/botwatch/top/
--->
+* https://www.reddit.com/user/GoodBot_BadBot
 
-<!--
-AI written text:
+Other online social networks like Twitter also have <a href=https://www.poynter.org/tech-tools/2017/7-of-the-best-twitter-bots-in-journalism/>many good bots</a>.
+One of my personal favorite bots is a Twitter bot named 
+<a href=https://twitter.com/nyt_diff>@nyt_diff</a>.
+This bot monitors the NYTimes webiste for edits made to articles after they've been published.
+Although most of these edits are minor typo fixes,
+some of these changes can be dramatic:
+<center>
+    <a href=https://twitter.com/nyt_diff/status/877586995731615744><img src=nyt_diff.png></a>
+</center>
+Maintaining records of these edits is important for promoting a transparent democracy,
+and it wouldn't be possible without bots.
 
-* https://www.reddit.com/r/aigeneratedmemes/top/
+Students who complete this assignment will have the skills needed to both distinguish between good and bad bots online, and to make good bots.
 
-* https://www.reddit.com/r/talkwithgpt2bots/comments/gc26tf/make_your_own_gpt2_bot_tutorial_and_script/
+**Q2: But is it legal to develop bots?**
 
-* https://bonkerfield.org/2020/04/twenty-minute-gpt2-reply-bot/
+Yes.
+Reddit actively encourages its users to create bots,
+and bots form an important part of the reddit ecosystem.
 
-* https://play.aidungeon.io
+Reddit requires all bots to comply with <a href=https://github.com/reddit-archive/reddit/wiki/API>the API terms</a> and <a href=https://www.reddit.com/wiki/bottiquette>bottiquette</a>,
+and students are required to review and comply with these documents.
+This is fairly easy to do.
+Basically, bots are not allowed to do things humans are not allowed to do (e.g. spam, harass, spread malware),
+and bots must comply with technical constraints like providing a valid HTTP user agent and obeying rate limitations.
 
-Bots talking to each other:
+Outside of reddit, the legal status of bots is a more interesting question.
+In 2019, the California Senate passed the <a href=https://www.thedailybeast.com/in-california-its-now-illegal-for-some-bots-to-pretend-to-be-human>Bolstering Online Transparency (BOT)</a> law that requires most political and commercial bots to clearly label themselves as bots.
+This is an intuitively sensible regulation, but it has many subtle first ammendment implications and so legal scholars are currently unsure about it's constitutionality (see comments by <a href=https://www.politico.com/magazine/story/2018/11/27/bots-first-amendment-rights-222689/>Politico</a>, and <a href=https://www.eff.org/document/eff-letter-opposing-california-bot-disclosure-bill-sb-1001-first-amendment-concerns>Electronic Frontier Foundation</a>, and the <a href=https://knightcolumbia.org/content/cavalier-bot-regulation-and-the-first-amendments-threat-model>Knight First Ammendment Institute</a>).
+Fully understanding these legal issues requires a technical understanding of how bots work,
+and that understanding can only be gained by actually building bots.
 
-* https://www.reddit.com/r/SubredditSimulator/
+**Q3: I've heard that most bots are run by foreign governments like Russia.  Don't you need a lot of resources and expertise to create a bot?**
 
-Twitter bots
+No.
+Bots are easy to create, and anyone with a small amount of CS knowledge can create them.
+A major purpose of this assignment is to help students understand that bots are very easy pieces of software to write.
 
-* https://botwiki.org/bots/twitterbots/
--->
+**Q4: How do you prevent unintended negative externalities of this assignment?**
 
+Since student bots are posting messages to the public internet,
+the main risk of this assignment is that someone who is not part of the class finds these messages and doesn't realize they are being sent by bots.
+We take two measures to prevent this from happening:
+
+1. We use a specialized subreddit dedicated for class activities,
+and student bots are required to post only in this subreddit.
+The subreddit is clearly marked as being only for class activities and that all posters are bots.
+
+1. All student bots must explicitly label themselves as a bot by including the word "bot" in their username.
+
+These measures exceed the requirements imposed by law and reddit's terms of service.
+
+**Q5: Why do a potentially controversial assignment that raises ethical and legal considerations?**
+
+The ACM's <a href=https://www.acm.org/code-of-ethics>Code of Ethics and Professional Conduct</a> begins by stating that computing professionals "should reflect upon the wider impacts of their work",
+and accreditation agencies like ABET <a href=https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-engineering-programs-2020-2021/>require that we teach students ethics</a>.
 
 ## Lab
 
-TBA
-
-<!--
-1. Create a reddit account for your bot.
-   If you already have a reddit account, you must create a new one.
-   Your bot name can be whatever you like, but it must contain the word `bot` somewhere in the account name.
-   Acceptable examples include: `cs40-bot` and `BottyMcBotterson`.
-
-1. Visit https://www.reddit.com/prefs/apps to register your bot with reddit and generate a client id and client secret.
-   (Remember that bots in this class are what reddit refers to as **script** apps.)
-
-1. Create a folder on your computer that you will use for your bot's code.
-   Inside this folder, create a file called `praw.ini` that includes the login credentials for your user account and bot.
-   Also create a file `bot_stats.py` that will have the first version of your bot's code.
-   We will be creating more bot files later on.
-
-1. Modify the `bot_stats.py` file so that it:
-
-    1. Logs on to reddit
-    
-    1. Loads the submission https://www.reddit.com/r/csci040/comments/dw53wt/political_discussion_thread/
-
-    1. Loops through every *top level* comment in the submission,
-       calculating the total number of *top level* comments,
-       the total number of deleted *top level* comments,
-       and the total number of *top level* comments posted by each user.
-
-    1. Repeats the above procedure for all comments instead of just top level comments.
-
-    1. You should print out the numbers you calculate.
-       For reference, the statistics I calculate are shown below:
-
-```
-========================================
-top level comments
-========================================
-Total comments = 617
-Deleted comments = 11
-Comments per user = 
-{'BotForCS': 9,
- 'CS040_bot': 1,
- 'FlakyJob': 1,
- 'VROMERO23': 209,
- 'anniecave': 2,
- 'avaliao23': 1,
- 'axel_sverker': 57,
- 'cmccs40': 2,
- 'cs040BOT': 2,
- 'cs40-bot': 1,
- 'cs40-bot2': 1,
- 'danny63758': 100,
- 'droman22cmc': 211,
- 'emolyandmatolda': 1,
- 'emor714': 4,
- 'jhaughton': 2,
- 'mornelas5': 1,
- 'plagiarism-bot': 1}
-
-========================================
-all comments
-========================================
-Total comments = 4211
-Deleted comments = 218
-Comments per user = 
-{'BotForCS': 69,
- 'CS040_bot': 2403,
- 'CS40_BOTTY': 36,
- 'FlakyJob': 143,
- 'VROMERO23': 209,
- 'anniecave': 44,
- 'avaliao23': 3,
- 'axel_sverker': 88,
- 'cmccs40': 12,
- 'cmoffatt21': 201,
- 'cs040BOT': 235,
- 'cs40-bot': 3,
- 'cs40-bot2': 13,
- 'danny63758': 101,
- 'droman22cmc': 211,
- 'emolyandmatolda': 15,
- 'emor714': 9,
- 'jhaughton': 61,
- 'mornelas5': 44,
- 'plagiarism-bot': 17,
- 'richardnotspencer': 76}
-```
-
-### Submission
-
-Upload **both** the `bot_stats.py` file and the output of running the file to sakai.
-
-**WARNING:**
-If you include any credential information in your submission, you will receive NEGATIVE POINTS on the lab!!!
--->
+See [/hw_04/lab-PRAW](/hw_04/lab-PRAW).
