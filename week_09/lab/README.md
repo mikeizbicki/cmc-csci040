@@ -40,10 +40,22 @@ Notice:
 
    Try changing the `password` variable to `'BFDL'` instead of `b'BFDL'` and you should get a `TypeError`.
    (And hopefully it makes sense why.)
+   
+   Recall that if we have a variable with type `str`, we can convert it into a `bytes` object using the `.encode` function:
+   ```
+   password_str = 'BFDL'
+   password = password_str.encode('ascii')
+   ```
+   is equivalent to
+   ```
+   password = b'BFDL'
+   ```
 
 1. Now try changing the byte sequence to anything other than `BFDL`.
    You should get a `RuntimeError` indicating that the you supplied the incorrect password.
-   No files will be generated in your working directory.
+   (Depending on your computer's settings, you may get a different exception thrown.  Other students have commonly encountered `zlib.error` and `BadZipfile` errors, for example.)
+   
+   Depending on your computer's settings, files may or may not be created, but they will not contain the correct information.
 
 **Zip bombs**
 
@@ -99,6 +111,7 @@ Fortunately, you have some leads that will help you guess the password:
 1. In July 2015, the website [Ashley-Madison (ashleymadison.com) had a major data leak](https://en.wikipedia.org/wiki/Ashley_Madison_data_breach).
    Ashley-Madison is a dating website for married people to find extra-marital lovers without their spouse's knowledge,
    and a group of hackers called "The Impact Team" acquired and leak this data in order to damage what they considered to be an immoral business.
+   This leak is famous as the first major occurance of "hacktivism".
 
 1. You know that the IT worker who created the `whitehouse_secrets.zip` is an active user of Ashley-Madison.
    This IT worker, like [most people](https://www.infosecurity-magazine.com/blogs/your-employees-reusing-passwords/),
@@ -151,6 +164,7 @@ adultery is a [felony offense](https://militarybenefits.info/ucmj-adultery/) for
 
    According to Snowden, the NSA is capable of guessing up to [1 trillion passwords per second](https://news.ycombinator.com/item?id=8448894),
    and [jack the ripper](https://www.openwall.com/john/) is a famous open source tool that's capable of guessing millions of passwords per second on an ordinary computer.
+   (Your python program is probably capable of guessing between 10,000-100,000 passwords per second, which is a lot slower than jack the ripper.)
    So using strong passwords that are hard to guess is important.
    The [XKCD comic has a great technique](https://www.explainxkcd.com/wiki/index.php/936:_Password_Strength) for generating easy-to-remember passwords that not even the NSA can crack.
 
