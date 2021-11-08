@@ -459,6 +459,8 @@ I want you to succeed and I'll make every effort to ensure that you can.
 
 <!--
 
+make labs due during the lab session; -1 point penalty for submitting late
+
 change the requirements of hw_00 to have:
 - a legitimate title bar and consistent formatting between pages
 - no broken links
