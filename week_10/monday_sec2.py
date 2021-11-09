@@ -46,3 +46,6 @@ reddit = praw.Reddit('bot', user_agent='cs40')
 # Step 2: Reading data
 ################################################################################
 
+
+for submission in reddit.subreddit("learnpython").top(time_filter='day',limit=10):
+    print('score=',submission.score,'title=',submission.title)
