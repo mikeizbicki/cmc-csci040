@@ -32,41 +32,9 @@ and there's lots of programming memes about it:
 
 * [Social Media Bots are Damaging our Democracy](https://www.engadget.com/2019-08-15-social-media-bots-are-damaging-our-democracy.html)
 
-<!--
-Example reddit bots:
-
-* https://www.reddit.com/r/Christianity/comments/irsxys/biblequotebot_is_beta/
-
-* https://www.reddit.com/r/OutOfTheLoop/comments/9gv9xs/what_is_going_with_locationbot_and_what_does_it/
-
-* https://www.reddit.com/user/stabbot
-
-* https://www.reddit.com/user/GoodBot_BadBot
-
-* https://www.reddit.com/user/autotldr
-
-* https://www.reddit.com/r/tippr/wiki/reddit-usage
-
-* https://www.reddit.com/r/RemindMeBot/
-
-* https://www.reddit.com/r/botwatch/comments/9zjqfx/the_best_bot/
-
-* https://www.reddit.com/r/botwatch/top/
-
-* https://www.reddit.com/r/SubredditSimulator/
-
-Example twitter bots:
-
-* https://twitter.com/nyt_diff
-
-* https://twitter.com/earthquakesLA
-
-* https://www.gawker.com/5887697/how-i-found-the-human-being-behind-horseebooks-the-internets-favorite-spambot
-
-* https://botwiki.org/bots/twitterbots/
--->
-
 ## Lab Instructions
+
+**Pre-lab activity:**
 
 1. Create a reddit account for your bot.
    If you already have a reddit account, you must create a new one.
@@ -79,65 +47,41 @@ Example twitter bots:
 
 1. Create a folder on your computer that you will use for your bot's code.
    Inside this folder, create a file called `praw.ini` that includes the login credentials for your user account and bot.
-   Download the `bot_stats.py` file and place it in this folder.
+   Ensure that you can run the `monday_secX.py` file that we created in class on Monday without getting any errors.
+
+**Lab:**
+
+1. Download the `bot_stats.py` file and place it in your bot folder.
 
 1. Modify the `bot_stats.py` file to fix the `FIXME` annotations.
    When you're done, the final output will look something like this:
 
-    ```
-    ========================================
-    top level comments
-    ========================================
-    Total comments = 617
-    Deleted comments = 11
-    Comments per user = 
-    {'BotForCS': 9,
-     'CS040_bot': 1,
-     'FlakyJob': 1,
-     'VROMERO23': 209,
-     'anniecave': 2,
-     'avaliao23': 1,
-     'axel_sverker': 57,
-     'cmccs40': 2,
-     'cs040BOT': 2,
-     'cs40-bot': 1,
-     'cs40-bot2': 1,
-     'danny63758': 100,
-     'droman22cmc': 211,
-     'emolyandmatolda': 1,
-     'emor714': 4,
-     'jhaughton': 2,
-     'mornelas5': 1,
-     'plagiarism-bot': 1}
+   ```
+   ========================================
+   top level comments
+   ========================================
+   nondeleted_comments= 4
+   deleted_comments= 2
+   {Redditor(name='plagiarism-bot'): 1,
+    Redditor(name='cs40-bot2'): 2,
+    Redditor(name='cs40-bot'): 1}
+   ========================================
+   all comments
+   ========================================
+   nondeleted_comments= 735
+   deleted_comments= 3
+   {Redditor(name='plagiarism-bot'): 110,
+    Redditor(name='sneakpeekbot'): 1,
+    Redditor(name='cs40-bot2'): 150,
+    Redditor(name='RemindMeBot'): 1,
+    Redditor(name='cs40-bot'): 467}
+   ```
 
-    ========================================
-    all comments
-    ========================================
-    Total comments = 4211
-    Deleted comments = 218
-    Comments per user = 
-    {'BotForCS': 69,
-     'CS040_bot': 2403,
-     'CS40_BOTTY': 36,
-     'FlakyJob': 143,
-     'VROMERO23': 209,
-     'anniecave': 44,
-     'avaliao23': 3,
-     'axel_sverker': 88,
-     'cmccs40': 12,
-     'cmoffatt21': 201,
-     'cs040BOT': 235,
-     'cs40-bot': 3,
-     'cs40-bot2': 13,
-     'danny63758': 101,
-     'droman22cmc': 211,
-     'emolyandmatolda': 15,
-     'emor714': 9,
-     'jhaughton': 61,
-     'mornelas5': 44,
-     'plagiarism-bot': 17,
-     'richardnotspencer': 76}
-    ```
+   **HINT:**
+   If your numbers are smaller than mine,
+   it means you're not getting all of the comments.
+   If your numbers are larger than mine,
+   that probably just means more comments have been posted since I ran my solution.
 
 ### Submission
 
