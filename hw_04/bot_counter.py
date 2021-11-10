@@ -1,16 +1,19 @@
 import praw
 
-# FIXME:
-# edit this line to contain your bot's username
-username = ''
+
+# parse command line args
+parser = argparse.ArgumentParser(description='Debug/grading script for bot assignment')
+parser.add_argument('--username', required=True)
+parser.add_argument('--praw_name', default='bot')
+args = parser.parse_args()
 
 # FIXME:
 # the praw instance needs access to a valid praw.ini file 
 # with a login credentials section called "bot"
-reddit = praw.Reddit('bot')
-redditor = reddit.redditor(name = username)
+reddit = praw.Reddit(argss.praw_name)
+redditor = reddit.redditor(name = args.username)
 
-# calculate and print the total number of comments that username has created
+# calculate and print the total number of comments that args.username has created
 comments = list(redditor.comments.new(limit=None))
 print("len(comments)=",len(comments))
 
@@ -42,7 +45,7 @@ print("len(valid_top_level_comments)=",len(valid_top_level_comments))
 not_self_replies = []
 for reply in replies:
     try:
-        if reply.parent().author.name!=username:
+        if reply.parent().author.name!=args.username:
             not_self_replies.append(reply)
     except AttributeError:
         pass
