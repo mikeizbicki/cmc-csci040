@@ -3,13 +3,15 @@ import random
 import datetime
 
 # FIXME:
-# copy your generate_comment functions from the madlibs assignment here
-
-# connect to reddit 
-reddit = praw.Reddit('bot')
+# copy your generate_comment function from the madlibs assignment here
 
 # FIXME:
-# select a "home" submission in the BotTown subreddit to post to, and put the url below
+# connect to reddit 
+reddit = praw.Reddit()
+
+# FIXME:
+# select a "home" submission in the /r/BotTown subreddit to post to,
+# and put the url below
 submission_url = ''
 submission = reddit.submission(url=submission_url)
 
