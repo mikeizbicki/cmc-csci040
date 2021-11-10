@@ -35,4 +35,4 @@ In this lab, we will focus on generating realistic content for the messages you 
    But it's still pretty amazing/scary how good it is.
 
 1. For our reddit bots, we will be using a much simpler MadLibs-style text generation algorithm.
-   Follow the instructions in the `madlibs.py` file to implement this algorithm.
+   Follow the instructions in the `madlibs.py` file to implement this algorithm and post some basic messages to reddit.

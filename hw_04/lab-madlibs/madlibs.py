@@ -1,5 +1,5 @@
 '''
-This lab has two tasks.
+This lab has three tasks.
 
 TASK 1:
 Implement the `generate_comment` function below.
@@ -9,9 +9,13 @@ Redefine the `madlibs` and `replacements` variables so that the generated commen
 You must have at least 6 different madlibs.
 Each madlib should be 2-5 sentences long and have at least 5 [REPLACEMENT] [WORDS].
 
+TASK 3:
+Use your `generate_comment` function to post at least 100 messages to the `Practice posting messages here :)` submission, located at:
+https://old.reddit.com/r/BotTown/commants/qr05je/practice_posting_messages_here/
+You should have at least 10 top level comments and at least 10 replies to comments (but it's okay if they're all replies to the same comment).
+
 SUBMISSION:
-Generate 10000 random comments, and copy-paste these comments into sakai.
-You do not need to submit the code.
+Upload your bot's name and your `madlib.py` file to sakai.
 '''
 
 madlibs = [
