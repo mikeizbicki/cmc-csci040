@@ -8,9 +8,10 @@ import datetime
 # connect to reddit 
 reddit = praw.Reddit('bot')
 
-# connect to the debate thread
-reddit_debate_url = ''
-submission = reddit.submission(url=reddit_debate_url)
+# FIXME:
+# select a "home" submission in the BotTown subreddit to post to, and put the url below
+submission_url = ''
+submission = reddit.submission(url=submission_url)
 
 # each iteration of this loop will post a single comment;
 # since this loop runs forever, your bot will continue posting comments forever;
@@ -76,6 +77,7 @@ while True:
         # use the generate_comment() function to create the text,
         # and the .reply() function to post it to reddit;
         # a top level comment is created when you reply to a post instead of a message
+        pass
 
     else:
         # FIXME (task 3): filter the not_my_comments list to also remove comments that 
@@ -99,16 +101,14 @@ while True:
         # and the .reply() function to post it to reddit;
         # these will not be top-level comments;
         # so they will not be replies to a post but replies to a message
+        pass
 
     # FIXME (task 5): select a new submission for the next iteration;
-    # your newly selected submission should have a 50% chance of being the original submission
-    # (url in the reddit_debate_url variable)
-    # and a 50% chance of being randomly selected from the top submissions to the csci040 subreddit for the past month
-    # HINT: 
-    # use random.random() for the 50% chance,
-    # if the result is less than 0.5,
-    # then create a submission just like is done at the top of this page;
-    # otherwise, create a subreddit instance for the csci40 subreddit,
-    # use the .top() command with appropriate parameters to get the list of all submissions,
-    # then use random.choice to select one of the submissions
+    # your newly selected submission should be randomly selected from the 5 hottest submissions
+    pass
 
+    # We sleep just for 1 second at the end of the while loop.
+    # This doesn't avoid rate limiting
+    # (since we're not sleeping for a long period of time),
+    # but it does make the program's output more readable.
+    time.sleep(1)
