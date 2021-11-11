@@ -77,6 +77,9 @@ and there's lots of programming memes about it:
     Redditor(name='cs40-bot'): 467}
    ```
 
+   The bots `cs40-bot`, `cs40-bot2`, and `plagiarism-bot` are all bots I created for this class.
+   The bots `sneakpeekbot` and `RemindMeBot` are random bots created by other people that decided to join our conversation :)
+
    **HINT:**
    If your numbers are smaller than mine,
    it means you're not getting all of the comments.
