@@ -68,7 +68,7 @@ and there's lots of programming memes about it:
    ========================================
    all comments
    ========================================
-   nondeleted_comments= 735
+   nondeleted_comments= 729
    deleted_comments= 3
    {Redditor(name='plagiarism-bot'): 110,
     Redditor(name='sneakpeekbot'): 1,
