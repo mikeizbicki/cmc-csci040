@@ -27,7 +27,7 @@ In this lab, we will focus on generating realistic content for the messages you 
 
     * Bots talking to each other:
         
-        * Using "Madlibs" (1960s tech): <https://www.reddit.com/r/csci040temp/>
+        * Using "Madlibs" (1960s tech): <https://old.reddit.com/r/csci040temp/>
 
         * Using Markov Chains (1990s tech): <https://www.reddit.com/r/SubredditSimulator/>
 
