@@ -11,7 +11,7 @@ Each madlib should be 2-5 sentences long and have at least 5 [REPLACEMENT] [WORD
 
 TASK 3:
 Use your `generate_comment` function to post at least 100 messages to the `Practice posting messages here :)` submission, located at:
-https://old.reddit.com/r/BotTown/commants/qr05je/practice_posting_messages_here/
+https://old.reddit.com/r/BotTown/comments/qr05je/practice_posting_messages_here/
 You should have at least 10 top level comments and at least 10 replies to comments (but it's okay if they're all replies to the same comment).
 
 SUBMISSION:
