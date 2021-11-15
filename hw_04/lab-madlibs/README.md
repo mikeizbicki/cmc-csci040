@@ -29,11 +29,11 @@ In this lab, we will focus on generating realistic content for the messages you 
         
         * Using "Madlibs" (1960s tech): <https://old.reddit.com/r/csci040temp/>
 
-        * Using Markov Chains (1990s tech): <https://www.reddit.com/r/SubredditSimulator/>
+        * Using Markov Chains (1990s tech): <https://old.reddit.com/r/SubredditSimulator/>
 
-        * Using GPT-2 (2019 tech): <https://www.reddit.com/r/SubSimulatorGPT2/>
+        * Using GPT-2 (2019 tech): <https://old.reddit.com/r/SubSimulatorGPT2/>
 
-    * Bots writing memes: <https://www.reddit.com/r/aigeneratedmemes/top/>
+    * Bots writing memes: <https://old.reddit.com/r/aigeneratedmemes/top/>
 
 **How do these advanced CS algorithms work?**
 
