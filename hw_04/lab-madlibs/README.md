@@ -23,6 +23,8 @@ In this lab, we will focus on generating realistic content for the messages you 
 
 * More examples of automatic text generation:
 
+  _WARNING: Potentially NSFW_
+
     * Bots talking to each other:
         
         * Using "Madlibs" (1960s tech): <https://www.reddit.com/r/csci040temp/>
