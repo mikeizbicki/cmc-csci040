@@ -1,4 +1,4 @@
-# Week 10: Reddit Bots I
+# Week 10 + 11: Reddit Bots
 
 <center>
 <img width=300px src=duty_calls.png />
@@ -12,4 +12,6 @@ https://praw.readthedocs.io/
 
 ## Lab
 
-See [/hw_04/lab-PRAW](/hw_04/lab-PRAW).
+Week 10: [/hw_04/lab-PRAW](/hw_04/lab-PRAW).
+
+Week 11: [/hw_04/lab-madlibs](/hw_04/lab-madlibs).
