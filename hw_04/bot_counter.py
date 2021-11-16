@@ -10,7 +10,7 @@ args = parser.parse_args()
 # FIXME:
 # the praw instance needs access to a valid praw.ini file 
 # with a login credentials section called "bot"
-reddit = praw.Reddit(argss.praw_name)
+reddit = praw.Reddit(args.praw_name)
 redditor = reddit.redditor(name = args.username)
 
 # calculate and print the total number of comments that args.username has created
