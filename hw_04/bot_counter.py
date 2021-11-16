@@ -1,5 +1,5 @@
+import argparse
 import praw
-
 
 # parse command line args
 parser = argparse.ArgumentParser(description='Debug/grading script for bot assignment')
