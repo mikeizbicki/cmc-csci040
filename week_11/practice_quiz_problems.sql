@@ -90,7 +90,7 @@ SELECT count(*) FROM messages WHERE sender_id=4;
 -- Problem 10
 ----------------------------------------
 
-SELECT id,count(*) FROM messages;
+SELECT count(*) FROM messages;
 
 
 
@@ -101,7 +101,7 @@ SELECT id,count(*) FROM messages;
 -- Problem 11
 ----------------------------------------
 
-SELECT id,count(*) FROM messages WHERE sender_id < 4;
+SELECT count(*) FROM messages WHERE sender_id < 4;
 
 
 
