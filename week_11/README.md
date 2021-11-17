@@ -47,3 +47,4 @@ We'll use the following reference for connecting SQL to python:
 
    Python has built-in sqlite support, but we'll also be using the standalone executable.
 
+   In this lecture, we'll be using <https://sqlfiddle.com>, and you can use that website to practice the quiz problems.
