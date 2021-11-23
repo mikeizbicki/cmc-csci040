@@ -165,7 +165,9 @@ You earn 2 points of extra credit for each of the following tasks you complete.
 1. Make your bot create new submission posts instead of just new comments.
    You can easily automate this process by scanning the top posts in your favorite sub (e.g. /r/liberal or /r/conservative) and posting them to the class sub.
    I recommend creating a separate python file for creating submissions and creating comments.
-   You must post at least 200 new submissions for full credit.
+
+   For full credit, you must have at least 200 submissions, some of which should be self posts and some link posts.
+   Duplicate submissions (i.e. submissions with the same title/selftext/url) do not count.
 
 1. Create an "army" of 5 bots that are all posting similar comments.
    This will require creating 5 different reddit accounts.
