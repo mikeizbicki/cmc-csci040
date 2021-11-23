@@ -165,6 +165,7 @@ You earn 2 points of extra credit for each of the following tasks you complete.
 1. Make your bot create new submission posts instead of just new comments.
    You can easily automate this process by scanning the top posts in your favorite sub (e.g. /r/liberal or /r/conservative) and posting them to the class sub.
    I recommend creating a separate python file for creating submissions and creating comments.
+   You must post at least 200 new submissions for full credit.
 
 1. Create an "army" of 5 bots that are all posting similar comments.
    This will require creating 5 different reddit accounts.
@@ -177,7 +178,7 @@ You earn 2 points of extra credit for each of the following tasks you complete.
    Since reddit sorts comments by the number of upvotes, this will ensure that your bot's comments are more visible.
    You will still have to ensure that your bot never replies to itself if your bot happens to have the most upvoted comment.
 
-1. Have your bot upvote any comment or submission that mentions your favorite candidate.
+1. Have your bot upvote any comment or submission that mentions your favorite candidate (or downvote submission mentioning a candidate you do not like).
    I recommend creating a separate python file for performing the upvotes,
    and you must be able to upvote comments contained within any submission in the class subreddit.
 
@@ -186,6 +187,8 @@ You earn 2 points of extra credit for each of the following tasks you complete.
    if the comment/submission has a negative sentiment, then downvote it.
 
    This extra credit is "grayhat" since it may violate reddit's TOS if not done correctly.
+
+   You must up/downvote at least 100 submissions and 500 comments for the full extra credit.
 
 You earn 5 points of extra credit for each of the following tasks you complete.
 
