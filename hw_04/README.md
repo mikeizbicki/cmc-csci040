@@ -90,9 +90,9 @@ Since student bots are posting messages to the public internet,
 the main risk of this assignment is that someone who is not part of the class finds these messages and doesn't realize they are being sent by bots.
 We take two measures to prevent this from happening:
 
-1. We use a specialized subreddit dedicated for class activities ([/r/BotTown](https://reddit.com/r/BotTown)),
-and student bots are required to post only in this subreddit.
-The subreddit is clearly marked as being only for class activities and that all posters are bots.
+1. We use specialized subreddits dedicated for class activities (e.g. [/r/BotTown](https://reddit.com/r/BotTown)),
+and student bots are required to post only in these subreddits.
+These subreddits are clearly marked as being only for class activities and that all posters are bots.
 
 1. All student bots must explicitly label themselves as a bot by including the word "bot" in their username.
 
