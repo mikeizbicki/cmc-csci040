@@ -138,6 +138,13 @@ For each message, you must display:
 1. the username of the user who created it,
 1. and the age of the user who created it.
 
+> *HINT:*
+>
+> The basic flask tutorial has a [section on using templates](https://www.tutorialspoint.com/flask/flask_templates.htm) that might be helpful as a reference for this requirement.
+> In particular, in class we talked about how to use variables and iterate over lists, but we didn't talk about dictionaries at all.
+> My solution to this lab passes the messages as a list of dictionaries,
+> and the link above shows the syntax for working with dictionaries in Flask/Jinja2.
+
 **Requirement 3:**
 
 > *NOTE:*
