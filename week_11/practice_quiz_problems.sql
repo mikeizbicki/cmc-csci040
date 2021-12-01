@@ -154,8 +154,8 @@ SELECT count(*) FROM messages;
 -- Problem 16
 ----------------------------------------
 
-UPDATE users SET username='@realdonaldtrump';
-SELECT count(*) FROM messages WHERE username LIKE '@%';
+UPDATE users SET password='@realdonaldtrump';
+SELECT count(*) FROM users WHERE password LIKE '@%';
 
 
 
@@ -167,7 +167,7 @@ SELECT count(*) FROM messages WHERE username LIKE '@%';
 ------------------------------------------
 
 UPDATE users SET username='@realdonaldtrump' WHERE id=1;
-SELECT count(*) FROM messages WHERE username LIKE '@%';
+SELECT count(*) FROM users WHERE username LIKE '@%';
 
 
 
