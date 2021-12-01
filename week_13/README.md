@@ -105,8 +105,6 @@ References:
 
 ## Lab
 
-TBD
-<!--
 For this lab, you should create a simple flask app similar to the app you will create for homework.
 It should have 5 routes:
 1. `/`
@@ -118,7 +116,12 @@ Each route should have a corresponding html webpage in the `templates` folder,
 and each of these html templates should extend a `base.html` template that contains the menu for your webpage.
 
 All of your routes should have an `<h2>` tag that identifies which route you have selected.
-Your `/` route should display all of the messages currently contained in your database file.
+The `/` route must open a connection to a database created by `db_create.py` and display all of the messages.
+You must display:
+1. the text of the message,
+1. the timestamp it was created at,
+1. the username of the user who created it,
+1. and the age of the user who created it.
 
 Your python file should also contain a route for static web resources served from the `static` folder.
 In this folder, you should create a file `style.css` that contains the style sheets for your webpage.
@@ -129,4 +132,3 @@ and it will get you extra credit on the final homework.
 **Submission:**
 Since there's a lot of files, I'm NOT requiring that you upload them all to sakai.
 Instead, take a screenshot of your `/` route as displayed in firefox and upload that to sakai.
--->
