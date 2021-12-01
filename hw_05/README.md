@@ -59,11 +59,19 @@ Each required task is worth 5 points.
 
 The following tasks are worth 3 points each:
 
-1. Create a nicely themed webpage with HTML/CSS (this is the only subjective task).
+1. Create a nicely themed webpage with HTML/CSS.
+   
+   I will use my subjective aesthetic judgement to determine what is and is not "nicely themed",
+   but you don't have to do anything fancy.
+   Just the simple CSS we covered at the beginning of class would be fine.
 
 1. Convert all URLs in messages to actual links to the webpage using the `<a>` tag.
 
 1. Populate your twitter clone with at least 200 user accounts, each with 200 random messages (for 40000 messages total).
+
+   > **HINT:**
+   >
+   > Modify the `db_create.py` file to randomly generate comments in a for loop using your code from the madlibs lab.
 
 1. Allow deleting individual messages.
 
@@ -74,8 +82,6 @@ The following tasks are worth 3 points each:
 
 1. Allow changing the password after creating an account.
    You must have a password reset form that forces the user to type in their old password and a new password twice.
-
-1. Add user profile pages that a user can edit to provide a description about themselves and other users can view this page.
 
 1. Assign each user a unique image, and have that image appear with each post.
    The website <https://robohash.org> lets you do this easily.
@@ -91,6 +97,14 @@ The following tasks are worth 6 points of extra credit:
 1. Display only 50 messages at a time in the messages route,
    and include a button at the bottom to go to the "next" and "previous" message pages.
    You must use the `offset` and `limit` SQL commands so that this happens efficiently.
+
+1. Add user profile pages that a user can edit to provide a description about themselves and other users can view this page.
+   The profile page should also display the most recent messages posted by that user.
+
+1. Allow users to `@` mention other users in their messages.
+   Whenever text that looks like `@username` appears in a message,
+   this text should be replaced with a link to all the messages from that user
+   (or the user profile page if you completed that extra credit).
 
 1. Add the ability to search for messages.
    The search should be done with SQL's `LIKE` operator,
