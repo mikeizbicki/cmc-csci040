@@ -99,7 +99,7 @@ we're [running out](https://en.wikipedia.org/wiki/IPv4_address_exhaustion) and s
 > For muggle-style internet usage,
 > NAT usually works okay,
 > but it's likely to cause you problems for this assignment.
-> Later on, you're going to intentionally get your IP address temporarily banned from accessing all DPRK webpages.
+> Later on, you're going to intentionally get your IP address temporarily banned from accessing certain DPRK webpages.
 > If you're working on the campus wireless,
 > that means you're going to cause *everyone on campus to get banned*!
 > That's not too big of a deal since most people don't access DPRK webpages on a regular basis.
@@ -319,7 +319,9 @@ In the remainder of this lab, you will write a python program that connects to e
 
    Upload your completed `war_dial.py` file and the list of all North Korean IP addresses running web servers to sakai.
 
-## (Optional) Shodan
+## Shodan
+
+**You must read this section, but following the links is optional.**
 
 <https://shodan.io> is a search engine for IP addresses that can fully automate the war dialing done in this lab and lots of other "hacking" tasks.
 You can find detailed a detailed list of all internet devices connected on North Korean IPs at <https://www.shodan.io/search?query=net%3A175.45.176.0%2F24>.
@@ -328,6 +330,11 @@ This list contains more than just web servers, so has a few more results than yo
 One of the really trippy things about shodan is that they scan the servers for security vulnerabilities,
 and looking at the results list for North Korea,
 you can find several North Korean servers with known [remote code execution (RCE)](https://blog.sqreen.com/remote-code-execution-rce-explained/) exploits.
+An RCE is one of the worst security vulnerabilities out there.
+They allow anyone in the world (who knows the right incantation) to fully take over a remote server and make it do anything they want.
+North Korea in the past has been accused of distributing malware on their websites,
+but security research firm Kaspesky has found evidence that it was actually a non-North Korean actor who had taken over North Korean webpages.
+For a technical analysis, see [Kaspersky's security report](https://securelist.com/whos-really-spreading-through-the-bright-star/68978/) and for a more policy-implications analysis see [the article from thehill.com](https://thehill.com/policy/cybersecurity/234704-did-hackers-plant-the-malware-on-north-koreas-news-site).
 
 There's a good tutorial about shodan online at: <https://danielmiessler.com/study/shodan/>.
 There's also some good video tutorials from a conference called DEFCON.
