@@ -25,8 +25,8 @@ The reality of the modern internet is that all computers connected to the intern
 
 **Learning Objectives:**
 
-1. Practice using the `requests` library
-1. Practice working with exceptions
+1. Review using the `requests` library
+1. Review working with exceptions
 1. Learn how to circumvent anti-scraping measures
 1. Learn how to monitor the internet connectivity of a country/organization
 
