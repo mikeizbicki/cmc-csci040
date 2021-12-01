@@ -105,13 +105,18 @@ How did Flask get its name?
 
 References:
 
-1. basic: https://www.tutorialspoint.com/flask/index.htm 
-1. advanced: https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+1. flask documentation: https://flask.palletsprojects.com/en/2.0.x/
+1. basic tutorial: https://www.tutorialspoint.com/flask/index.htm 
+1. advanced tutorial: https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 
 ## Lab
 
-For this lab, you should create a simple flask app similar to the app you will create for homework.
-It should have 5 routes:
+For this lab, you should create a simple flask app.
+Your final homework will extend the code you write in this lab.
+
+**Requirement 1:**
+
+Your webpage should have 5 routes:
 1. `/`
 1. `/login`
 1. `/logout`
@@ -119,21 +124,40 @@ It should have 5 routes:
 1. `/create_user`
 Each route should have a corresponding html webpage in the `templates` folder,
 and each of these html templates should extend a `base.html` template that contains the menu for your webpage.
+The template for each route should contain an `<h2>` tag that identifies the route that has been selected.
 
-All of your routes should have an `<h2>` tag that identifies which route you have selected.
-The `/` route must open a connection to a database created by `db_create.py` and display all of the messages.
-You must display:
+**Requirement 2:**
+
+The `/` route must open a connection to a database created by `db_create.py` and display all of the messages sorted with the most recent message at the top.
+For each message, you must display:
 1. the text of the message,
 1. the timestamp it was created at,
 1. the username of the user who created it,
 1. and the age of the user who created it.
 
+**Requirement 3:**
+
+> *NOTE:*
+> 
+> We will not cover in class how to complete this requirement.
+> Instead, you should use [this reference](https://www.tutorialspoint.com/flask/flask_static_files.htm).
+> The decision not to cover this material in class is intentional to force you to get practice using references.
+> I'm still happy to answer any questions you have about this task.
+
 Your python file should also contain a route for static web resources served from the `static` folder.
-In this folder, you should create a file `style.css` that contains the style sheets for your webpage.
+This folder should contain:
+1. an image
+1. a css file
+
+You must modify your `/` route to display this image somewhere.
+
+You must modify your `base.html` template to include the style sheet (which will result in styling all of your routes).
+
 I recommend you spend some time formatting the CSS so that the webpage looks nice;
 this will make working on the project more fun,
 and it will get you extra credit on the final homework.
 
 **Submission:**
+
 Since there's a lot of files, I'm NOT requiring that you upload them all to sakai.
 Instead, take a screenshot of your `/` route as displayed in firefox and upload that to sakai.
