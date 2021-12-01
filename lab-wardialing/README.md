@@ -99,10 +99,10 @@ we're [running out](https://en.wikipedia.org/wiki/IPv4_address_exhaustion) and s
 > For muggle-style internet usage,
 > NAT usually works okay,
 > but it's likely to cause you problems for this assignment.
-> Later on, you're going to intentionally get your IP address temporarily banned from accessing North Korean webpages.
+> Later on, you're going to intentionally get your IP address temporarily banned from accessing all DPRK webpages.
 > If you're working on the campus wireless,
 > that means you're going to cause *everyone on campus to get banned*!
-> That's not too big of a deal since most people don't access North Korean webpages on a regular basis.
+> That's not too big of a deal since most people don't access DPRK webpages on a regular basis.
 > But it means that two people from this class can't be working on the same IP address at the same time,
 > or you'll interfere with each other.
 > 
@@ -165,9 +165,9 @@ In the remainder of this lab, you will write a python program that connects to e
 
 1. We'll start by working with the website <http://kcna.kp>.
    KCNA stands for the [Korean Central News Agency](https://en.wikipedia.org/wiki/Korean_Central_News_Agency), 
-   and is the official newspaper of North Korea.
-   The `.kp` is the [ccTLD](https://en.wikipedia.org/wiki/Country_code_top-level_domain) for North Korea,
-   and all web pages that end in `.kp` are somehow related to North Korea.
+   and is the official newspaper of the DPRK.
+   The `.kp` is the [ccTLD](https://en.wikipedia.org/wiki/Country_code_top-level_domain) for the DPRK,
+   and all web pages that end in `.kp` are somehow owned by the DPRK.
 
    Whenever you're scraping a webpage,
    you should always view it in firefox before working with python.
@@ -186,8 +186,8 @@ In the remainder of this lab, you will write a python program that connects to e
    > One of the things I teach to North Korean students is how to properly implement this type of encryption so that their internet communications cannot be monitored.
    > Organizations like [Amnesty International](https://www.amnestyusa.org/reports/encryption-a-matter-of-human-rights/) and [Human Rights Watch](https://www.hrw.org/tag/encryption) define strong encryption to be a "human right",
    > and the DPRK actively wants their citizens to learn about encryption.
-   > Unfortunately, President Trump signed an executive order banning Americans from traveling to North Korea (and Biden has reaffirmed this executive order),
-   > so current US policy is effectively stopping me from increasing access to human rights in North Korea.
+   > Unfortunately, President Trump signed an executive order banning Americans from traveling to the DPRK (and Biden has reaffirmed this executive order),
+   > so current US policy is effectively stopping me from increasing access to human rights in the DPRK.
    > 
    > For the purposes of this assignment,
    > the takeaway of all this discussion is that if you're getting error messages,
@@ -222,7 +222,7 @@ In the remainder of this lab, you will write a python program that connects to e
    ```
    requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
    ```
-   The North Korean servers are configured so that whenever you connect directly to an IP address,
+   The DPRK's servers are configured so that whenever you connect directly to an IP address,
    rather than to the domain name,
    they servers don't respond.
    Additionally, they give you a 30 minute ban from connecting to that website.
@@ -235,7 +235,7 @@ In the remainder of this lab, you will write a python program that connects to e
    This should still work.
    But if you tried to find the IP address of this website and connect directly, you'd get another ban.
 
-3. In order to scan the North Korean hostnames,
+3. In order to scan the DPRK's ip addresses,
    we'll have to circumvent this ban.
    The easiest way to do it is to modify the [HTTP headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields) associated with our requests.
    These headers are a dictionary of key/value pairs that store lots of information about your computer and the type of connection you want.
@@ -250,7 +250,7 @@ In the remainder of this lab, you will write a python program that connects to e
    When the requests library connects to an IP address (using a command like `requests.get('http://175.45.176.XXX')`, however, the requests library by default leaves the `host` header empty.
    As mentioned in [this stackoverflow question](https://stackoverflow.com/questions/43156023/what-is-http-host-header),
    the HTTP standard technically requires that you provide something in the `host` header.
-   So the North Korean web servers are technically behaving correctly by rejecting our download attempts when we connect directly over the IP address and do not specify a `host` header.
+   So the DPRK's web servers are technically behaving correctly by rejecting our download attempts when we connect directly over the IP address and do not specify a `host` header.
 
    In order to download the webpage, we must manually specify a value for the `host` header.
    The following command should successfully download the KCNA webpage (assuming your 30 minute ban is over):
@@ -310,11 +310,12 @@ In the remainder of this lab, you will write a python program that connects to e
 5. We're finally ready to war dial.
    The file `war_dial.py` contains three `FIXME` statements.
    Fix those and run the program.
-   The completed program will output a list of all North Korean IP addresses running web servers.
+   The completed program will output a list of all IP addresses in the DPRK running web servers.
 
-   **HINT:**
-   You can check that you've completed the task correctly because (as of 1 Dec 2021), there are XXX servers running in North Korea.
-   If your number is off by 1 or 2, that's probably because the server was down while you were scanning, and that's okay; you don't need to rerun your scan.)
+   > **HINT:**
+   >
+   > You can check that you've completed the task correctly because (as of 1 Dec 2021), there are XXX servers running in North Korea.
+   > If your number is off by 1 or 2, that's probably because the server was down while you were scanning, and that's okay; you don't need to rerun your scan.)
 
    Upload your completed `war_dial.py` file and the list of all North Korean IP addresses running web servers to sakai.
 
