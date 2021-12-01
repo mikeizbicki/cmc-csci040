@@ -99,7 +99,7 @@ we're [running out](https://en.wikipedia.org/wiki/IPv4_address_exhaustion) and s
 > For muggle-style internet usage,
 > NAT usually works okay,
 > but it's likely to cause you problems for this assignment.
-> Later on, you're going to intentionally get your IP address temporarily banned from accessing all DPRK webpages.
+> Later on, you're going to intentionally get your IP address temporarily banned from accessing certain DPRK webpages.
 > If you're working on the campus wireless,
 > that means you're going to cause *everyone on campus to get banned*!
 > That's not too big of a deal since most people don't access DPRK webpages on a regular basis.
