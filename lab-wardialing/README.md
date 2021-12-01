@@ -314,7 +314,7 @@ In the remainder of this lab, you will write a python program that connects to e
 
    > **HINT:**
    >
-   > You can check that you've completed the task correctly because (as of 1 Dec 2021), there are XXX servers running in North Korea.
+   > You can check that you've completed the task correctly because (as of 1 Dec 2021), there are 16 servers running in North Korea.
    > If your number is off by 1 or 2, that's probably because the server was down while you were scanning, and that's okay; you don't need to rerun your scan.)
 
    Upload your completed `war_dial.py` file and the list of all North Korean IP addresses running web servers to sakai.
