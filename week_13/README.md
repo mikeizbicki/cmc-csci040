@@ -122,9 +122,12 @@ Your webpage should have 5 routes:
 1. `/logout`
 1. `/create_message`
 1. `/create_user`
-Each route should have a corresponding html webpage in the `templates` folder,
+Each route should have a corresponding html file in the `templates` folder,
+and each html file should have an `<h2>` tag that identifies the route.
+<!--
 and each of these html templates should extend a `base.html` template that contains the menu for your webpage.
 The template for each route should contain an `<h2>` tag that identifies the route that has been selected.
+-->
 
 **Requirement 2:**
 
@@ -151,13 +154,10 @@ This folder should contain:
 
 You must modify your `/` route to display this image somewhere.
 
-You must modify your `base.html` template to include the style sheet (which will result in styling all of your routes).
-
-I recommend you spend some time formatting the CSS so that the webpage looks nice;
-this will make working on the project more fun,
-and it will get you extra credit on the final homework.
+You must modify your `/` route to include the style sheet (which will result in styling the route).
 
 **Submission:**
 
-Since there's a lot of files, I'm NOT requiring that you upload them all to sakai.
+Since there's a lot of files,
+so I'm NOT requiring that you upload them all to sakai.
 Instead, take a screenshot of your `/` route as displayed in firefox and upload that to sakai.
