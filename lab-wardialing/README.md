@@ -94,27 +94,29 @@ The Claremont Colleges use a technology called [Network Access Translation (NAT)
 This is necessary because there's only a limited supply of IP addresses;
 we're [running out](https://en.wikipedia.org/wiki/IPv4_address_exhaustion) and so new IP addresses are [becoming increasingly expensive](https://therecord.media/price-of-ipv4-addresses-one-of-the-internets-hottest-commodities-reaches-all-time-high/).
 
-**Changing your IP address:**
-
-For muggle-style internet usage, NAT usually works okay.
-But it's not going to work for this assignment.
-Later on, you're going to intentionally get your IP address temporarily banned from accessing North Korean webpages.
-If you're working on the campus wireless,
-that means you're going to cause *everyone on campus to get banned*!
-That's not too big of a deal since most people don't access North Korean webpages on a regular basis.
-But it means that two people from this class can't be working on the same IP address at the same time, or you'll interfere with each other.
-
-In order to complete this assignment,
-I recommend working with a different IP address than the campus wifi.
-You can get a different IP address by any of the following methods:
-1. plugging your computer directly into the wall of your dorm (or if you're living off-campus, just use your off-campus internet),
-1. using any of the lab computers (since they're plugged into the walls, they are assigned their own unique IPs),
-1. use wifi tethering with your cellphone (completing this lab should use up less than 100MB of data since we'll only be downloading text documents),
-1. or working at a coffee shop out in town.
-Or, you can use the campus wifi but just work at an off-time when no one else will be working on this assignment.
-
+> **HINT:**
+> 
+> For muggle-style internet usage,
+> NAT usually works okay,
+> but it's likely to cause you problems for this assignment.
+> Later on, you're going to intentionally get your IP address temporarily banned from accessing North Korean webpages.
+> If you're working on the campus wireless,
+> that means you're going to cause *everyone on campus to get banned*!
+> That's not too big of a deal since most people don't access North Korean webpages on a regular basis.
+> But it means that two people from this class can't be working on the same IP address at the same time,
+> or you'll interfere with each other.
+> 
+> In order to complete this assignment,
+> I recommend working with a different IP address than the campus wifi.
+> You can get a different IP address by any of the following methods:
+> 1. plugging your computer directly into the wall of your dorm (or if you're living off-campus, just use your off-campus internet),
+> 1. using any of the lab computers (since they're plugged into the walls, they are assigned their own unique IPs),
+> 1. use wifi tethering with your cellphone (completing this lab should use up less than 100MB of data since we'll only be downloading text documents),
+> 1. or working at a coffee shop out in town.
+> Or, you can use the campus wifi but just work at an off-time when no one else will be working on this assignment.
+ 
 **Finding an organization's IP addresses:**
-
+ 
 In order to war dial an organization,
 we need to know all of their IP addresses.
 This information is all public knowledge,
@@ -174,18 +176,22 @@ In the remainder of this lab, you will write a python program that connects to e
    you know they're python errors and not internet connection problems.
    Go ahead and visit <http://kcna.kp> in firefox.
 
-   **NOTE:**
-   Notice that the scheme in the URLs above is `http://` and not `https://`.
-   If you visit the webpage <https://kcna.kp> you will get a scary warning message about a potential security risk.
-   This is because the KCNA webpage uses an old standard for encrypting the contents of their `https://` webpages which lets other people monitor your communications with the webpage.
-   Unfortunately, the DPRK does not have the technical know-how in order to implement encryption with the more modern standards.
-   One of the things I teach to North Korean students is how to properly implement this type of encryption so that their internet communications cannot be monitored.
-   Organizations like [Amnesty International](https://www.amnestyusa.org/reports/encryption-a-matter-of-human-rights/) and [Human Rights Watch](https://www.hrw.org/tag/encryption) define strong encryption to be a "human right",
-   and the DPRK actively wants their citizens to learn about encryption.
-   Unfortunately, President Trump signed an executive order banning Americans from traveling to North Korea (and Biden has reaffirmed this executive order),
-   so current US policy is effectively stopping me from increasing access to human rights in North Korea.
-   The takeaway for this assignment is that if you're getting error messages,
-   you should always double check that you used `http://` instead of `https://`.
+   > **NOTE:**
+   > 
+   > Notice that the scheme in the URLs above is `http://` and not `https://`.
+   > If you visit the webpage <https://kcna.kp> you will get a scary warning message about a potential security risk.
+   > This is because the KCNA webpage uses an old standard for encrypting the contents of their `https://` webpages which lets other people monitor your communications with the webpage.
+   > 
+   > Unfortunately, the DPRK does not have the technical know-how in order to implement encryption with the more modern standards.
+   > One of the things I teach to North Korean students is how to properly implement this type of encryption so that their internet communications cannot be monitored.
+   > Organizations like [Amnesty International](https://www.amnestyusa.org/reports/encryption-a-matter-of-human-rights/) and [Human Rights Watch](https://www.hrw.org/tag/encryption) define strong encryption to be a "human right",
+   > and the DPRK actively wants their citizens to learn about encryption.
+   > Unfortunately, President Trump signed an executive order banning Americans from traveling to North Korea (and Biden has reaffirmed this executive order),
+   > so current US policy is effectively stopping me from increasing access to human rights in North Korea.
+   > 
+   > For the purposes of this assignment,
+   > the takeaway of all this discussion is that if you're getting error messages,
+   > you should always double check that you used `http://` instead of `https://`.
 
    Now, let's make sure we can connect to this website from python.
    Run the following code:
@@ -211,9 +217,8 @@ In the remainder of this lab, you will write a python program that connects to e
    r = requests.get('http://175.45.176.XXX')  
    print('r.status=', r.status)
    ```
-
    This command will probably take a long time to run (1-2 minutes),
-   and then give you the following error:
+   and then barf out a huge error ending in something like:
    ```
    requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
    ```
@@ -253,8 +258,10 @@ In the remainder of this lab, you will write a python program that connects to e
    r = requests.get('http://175.45.176.XXX', headers={'host': 'kcna.kp'})
    print('r.status_code=', r.status_code)
    ```
-   *HINT:*
-   If your 30 minute ban is not over, try doing the above code for the webpage <http://dprkportal.kp> instead.
+   
+   > **HINT:**
+   > 
+   > If your 30 minute ban is not over, try doing the above code for the webpage <http://dprkportal.kp> instead.
 
    The actual value in the `host` header doesn't matter, and can be anything you want.
    So the following will also work:
