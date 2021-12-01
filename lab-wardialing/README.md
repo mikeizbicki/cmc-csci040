@@ -3,7 +3,7 @@
 **Description:**
 
 You will "war dial" ALL web servers located in the DPRK (i.e. North Korea),
-and count how many websites they have connected to the internet.
+and count how many web servers they have connected to the internet.
 
 **Ethics Note:**
 
