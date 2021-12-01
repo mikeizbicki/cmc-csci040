@@ -78,7 +78,12 @@ There are many libraries for backend webdev in python:
 
 1. About 2 dozen other libraries, see: https://wsgi.readthedocs.io/en/latest/frameworks.html
 
-Other popular companies (e.g. Google/Facebook/Microsoft/Amazon) don't use python to serve their webpages
+Other popular companies (e.g. Google/Facebook/Microsoft/Amazon) don't use python to serve their webpages.
+
+Facebook in particular is famous for being created by Mark Zuckerberg using (originally) very simple technologies.
+At the end of this class, you'll know everything that Mark used to implement the first versions of The Facebook at Harvard.
+Technically, he used a programming language called PHP and a SQL database called MySQL,
+but the principles are all the same.
 
 How did Flask get its name?
 
