@@ -140,10 +140,14 @@ For each message, you must display:
 
 > *HINT:*
 >
+> Divide this task up into two steps.
+> First, create a list of dictionaries;
+> each dictionary would contain one message and would have the 4 key/value pairs specified above. 
+> Then, pass this list of dictionaries to the `render_template` function,
+> and adjust your jinja2 code to process this list of dictionaries.
+>
 > The basic flask tutorial has a [section on using templates](https://www.tutorialspoint.com/flask/flask_templates.htm) that might be helpful as a reference for this requirement.
 > In particular, in class we talked about how to use variables and iterate over lists, but we didn't talk about dictionaries at all.
-> My solution to this lab passes the messages as a list of dictionaries,
-> and the link above shows the syntax for working with dictionaries in Flask/Jinja2.
 
 **Requirement 3:**
 
