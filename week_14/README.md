@@ -5,24 +5,26 @@
 </center>
 
 We'll be creating a login/logout system for our Twitter clone project.
+The references for this week are the same as last week.
+
 There's 4 topics we'll need to cover:
 
 **Topic 1:** More Jinja2
 
 1. `{% extends %}`
-1. `{% block X %}`
+1. `{% block X %}` / `{% endblock %}`
 
 **Topic 2:** HTML Forms
 
-1. Actions
-1. GET vs POST method
-1. Accessing the values in python
+1. pass key/value pairs to ONE route
+1. two methods:
+    1. GET: key/value pairs in the URL
+    1. POST: key/value pairs not in the URL
 
 **Topic 3:** Cookies
 
-1. Used to store proof that you're logged in
-1. Setting/getting values in python
-1. Manipulating values in firefox
+1. pass key/value pairs to ALL routes
+1. key/value pairs not in the URL
 
 **Topic 4:** SQL Injection
 
