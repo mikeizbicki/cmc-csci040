@@ -49,17 +49,38 @@ def is_valid_login(con, username, password):
     '''
 
     # query the database for users with the given username/password
+    
+    # when someone is able to enter SQL into the variables (username/password)
+    # and change the behavior of the SQL statement, that's SQL injection
+    '''
     sql = """
     SELECT username,password
     FROM users
-    WHERE username='"""+str(username)+"""'
+    WHERE username='"""+str(username).replace("'", "''")+"""'
       AND password='"""+str(password)+"""';
     """
     print('is_valid_login: sql=',sql)
+    # .replace("'", "''") strategy is not enough to protect you from sql injection
     cur = con.cursor()
     cur.execute(sql)
+    '''
+    sql = """
+    SELECT username,password
+    FROM users
+    WHERE username=?  
+      AND password=?;
+    """
+    # ? means we don't know the value, but it'll come later
+    cur = con.cursor()
+    parameters = [username, password]
+    cur.execute(sql, parameters) # this is where we specify what the ? are equal to
     rows = cur.fetchall()
-
+    '''
+    SELECT username,password
+    FROM users
+    WHERE (username='Trump'
+      AND password='') OR ''='';
+    '''
     # if the total number of rows returned is 0,
     # then no username/password combo was not found
     if len(list(rows))==0:
