@@ -30,6 +30,87 @@ There's 4 topics we'll need to cover:
 
 1. Common method for breaking poorly designed sites
 
+<img src=exploits_of_a_mom.png width=600px>
+
 ## Lab
 
-TBA
+**About:**
+This is an optional (and relatively hard) lab worth +5pts EC.
+
+**Due:**
+Friday December 17
+
+[Stripe](https://stripe.com/) is a famous company that provides an easy-to-use library for processing credit card payments on webpages.
+Because they process billions of dollars in payments,
+they need great security.
+
+The standard way to improve the security of web applications is through "bug bounties."
+In stripe's bug bounty program (you can find [the rules here](https://hackerone.com/stripe?type=team)),
+they invite everyone in the world to hack into their system.
+If you find a bug that let's you break something,
+they'll pay you $25000,
+then fix the bug so that their system is more secure in the future.
+These bug bounty programs provide a legal avenue for "ethical hackers" to make money by breaking into computer systems,
+and [hundreds of millions of dollars](https://www.zdnet.com/article/hackerones-2020-top-10-public-bug-bounty-programs/) have been payed out by companies via these programs.
+
+Stripe also tries to teach new programmers about security and how to find bugs that will qualify for these bounties through Capture the Flag (CTF) competitions.
+These CTFs typically have many levels:
+1. Each level has a webpage that you need to break into.
+2. When you successfully break into one level, you are given access to the next level.
+
+The Level 3 website from Stripe's 2012 CTF uses Flask and has a SQL injection vulnerability.
+For this lab, you should:
+1. Download [level 3](https://github.com/stripe-ctf/stripe-ctf-2.0/tree/master/levels/3) and follow the instructions for running the level.
+   (Note that this CTF uses python version 2 instead of version 3, so you'll have to download the older version to get it to run.)
+1. Successfully login as the `bob` user using SQL injection.
+1. Meet with me in person and explain how your exploit works.
+
+**NOTE:**
+It is considered unseemly in CTF competitions to share the secrets of a level with someone else.
+Therefore, in this lab, you should also not just share the secrets with someone else.
+If you work with other people on this lab (which is still 100% okay),
+you'll all need to meet with me at the same time to walk through your solution.
+
+## Closing remarks
+
+Main takeaways from this class:
+
+1. Hackers build stuff, they don't break it
+
+    1. Laziness is good
+    1. Boredom is evil
+    1. Automate the boring stuff
+
+1. Hackers get paid a lot of money
+
+    1. What they do is hard
+        1. But it's not TOO hard
+        1. You can all learn to do it if you're willing to put in the effort
+
+    1. What they do impacts everything in society
+        1. Build webpages (HW5)
+        1. Monitor foreign governments (lab)
+        1. Unicode => not just English speakers
+
+    1. Good hackers (as in high-quality, not righteous) know how to break stuff, because strong defense requires knowing offense
+        1. SQL injection (HW5)
+        1. Fake news bots (HW4)
+        1. Passwords (lab)
+
+Future CS classes
+1. CS40 isn't a "computer science" class; it's a "programming" class
+
+   ```
+   programming : computer science
+   grammar : literature
+   ```
+
+1. I'd love to see you all again in other courses I teach:
+
+    | number | title | description |
+    | ------ | ----- | ----------- |
+    | CSCI046 | Data Structures | make your code fast |
+    | CSCI143 | Big Data        | how Google works<ol><li>web pages that have millions of users</li><li>analyze datasets the size of the entire internet</li></ol> |
+    | CSCI145/MATH166 | Data Mining | how to detect/stop fake news bots |
+
+   <img src=cs-math.jpg width=600px />
