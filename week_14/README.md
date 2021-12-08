@@ -77,40 +77,58 @@ Main takeaways from this class:
 
 1. Hackers build stuff, they don't break it
 
+   Hacker mantra:
     1. Laziness is good
     1. Boredom is evil
-    1. Automate the boring stuff
+    1. So automate the boring stuff
 
 1. Hackers get paid a lot of money
 
     1. What they do is hard
-        1. But it's not TOO hard
-        1. You can all learn to do it if you're willing to put in the effort
+        1. If code isn't basically perfect, then it's basically worthless
+        1. But it's not TOO hard:
+           
+           You can all learn to do it if you're willing to put in the effort
 
     1. What they do impacts everything in society
-        1. Build webpages (HW5)
+        1. Build webpages (HW0 / HW5)
         1. Monitor foreign governments (lab)
+        1. Scrape webpages for business information (HW3)
+        1. Build cool visualizations (HW2)
         1. Unicode => not just English speakers
 
     1. Good hackers (as in high-quality, not righteous) know how to break stuff, because strong defense requires knowing offense
         1. SQL injection (HW5)
+            - always validate your inputs
+        1. Password cracking (lab)
+            - use good passwords
+            - don't reuse passwords between sensitive accounts
         1. Fake news bots (HW4)
-        1. Passwords (lab)
+            - legal defenses require a deep understanding of the good bots so that you don't make those illegal as well
+            - CSCI145/MATH166 Data Mining covers techniquess for finding and stopping the bad bots
 
+I'd love to see you all in future CS classes :)
+
+<!--
 Future CS classes
-1. CS40 isn't a "computer science" class; it's a "programming" class
+1. CS40 isn't really a "computer science" class; it's a "programming" class
 
    ```
-   programming : computer science
-   grammar : literature
+   programming      : computer science
+   grammar          : literature
+   dribbling        : basketball
+   playing scales   : music
    ```
+
+   CS40 tries to incorporate a lot more of the fun "computer science" and reduce the amount of boring "drills" compared to other intro CS classes
 
 1. I'd love to see you all again in other courses I teach:
 
-    | number | title | description |
-    | ------ | ----- | ----------- |
-    | CSCI046 | Data Structures | make your code fast |
-    | CSCI143 | Big Data        | how Google works<ol><li>web pages that have millions of users</li><li>analyze datasets the size of the entire internet</li></ol> |
-    | CSCI145/MATH166 | Data Mining | how to detect/stop fake news bots |
+   | number | title | description |
+   | ------ | ----- | ----------- |
+   | CSCI046 | Data Structures | make your code fast |
+   | CSCI143 | Big Data        | how Google works<ol><li>web pages that have millions of users</li><li>analyze datasets the size of the entire internet</li></ol> |
+   | CSCI145/MATH166 | Data Mining | how to detect/stop fake news bots |
 
    <img src=cs-math.jpg width=600px />
+   -->
