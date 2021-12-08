@@ -291,7 +291,7 @@ In the remainder of this lab, you will write a python program that connects to e
        otherwise returns `False`
        '''
        try:
-           r = requests.get('http://'+ip, headers={'host', 'this can be anything :)'})
+           r = requests.get('http://'+ip, headers={'host': 'this can be anything :)'})
            return True
        except requests.exceptions.ConnectTimeout:
            return False
@@ -303,7 +303,7 @@ In the remainder of this lab, you will write a python program that connects to e
    The `timeout` is specified in seconds, and 5 seconds is a reasonable amout of time to wait.
    Changing the above code to
    ```
-   r = requests.get('http://'+ip, headers={'host', 'this can be anything :)'}, timeout=5)
+   r = requests.get('http://'+ip, headers={'host': 'this can be anything :)'}, timeout=5)
    ```
    will greatly speed up your function.
 
