@@ -7,9 +7,7 @@ You will create a twitter clone using the Flask web framework.
 
 **Due:**
 Friday, December 17.
-You will have to schedule a time to demo your website with me over zoom.
-
-Details TBD.
+See issue [#216](https://github.com/mikeizbicki/cmc-csci040/issues/216) for details.
 
 **Learning objectives:**
 
@@ -31,33 +29,44 @@ so it is possible to earn up to 80/40 points on this assignment.
 > then you will get a -10 point penalty added to your grade.
 > Note that this is a less severe penalty than getting a -10 on the assignment overall like from the login credentials penalty on the reddit assignment.
 
+> **WARNING:**
+>
+> When grading, I will be trying to cause your webpage to get an `Internal Server Error`.
+> If I ever get this error, you won't receive any points for the task that caused the error.
+
 ### Required Tasks
 
-Each required task is worth 5 points.
+Each required task is worth 5 points and corresponds to one of the routes on your webpage:
 
-1. Log in
-    1. this item should only be visible if the user is not logged in
-    1. this will present a form for the user to enter their username/password
-    1. you must display appropriate error messages if the user enters an incorrect username/password
-1. Log out
-    1. this item should only be visible if the user is logged in
-1. Create new user accounts
-    1. this item should only be visible if the user is not logged in
-    1. if the user attempts to create an account that already exists, they should get an appropriate error message
-    1. the user should be prompted to enter their password twice, and you need to check that both versions of the password match
-1. Create a message
-    1. this item should only be visible if the user is logged in
-    1. the user must be able to enter whatever message body they want, but you should also store the username that created a message and the time the message was created
 1. Home
-    1. this item should always be visible, whether the user is logged in or not logged in
-    1. displays all the messages in the system
+    1. a link to this page should always be visible in your menu, whether the user is logged in or not logged in
+    1. this route displays all the messages in the system
     1. the messages should be ordered chronologically with the most recent message at the top
     1. each message should include the user account that created it, the time of creation, and the message contents
     1. at least one message must contain a single quote `'` and a double quote `"`
 
+1. Log in
+    1. a link to this page should only be visible in your menu if the user is not logged in
+    1. this route will present a form for the user to enter their username/password
+    1. you must display appropriate error messages if the user enters an incorrect username/password
+
+1. Log out
+    1. a link to this page should only be visible if the user is logged in
+
+1. Create new user accounts
+    1. a link to this page should only be visible in your menu if the user is not logged in
+    1. if the user attempts to create an account that already exists, they should get an appropriate error message
+    1. the user should be prompted to enter their password twice, and you need to check that both versions of the password match
+
+1. Create a message
+    1. a link to this page should only be visible in your menu if the user is logged in
+    1. the user must be able to enter whatever message body they want,
+    but you will also need to store the user id of the user that created a message and the time the message was created
+
 ## Optional Tasks
 
-The following tasks are worth 3 points each:
+The following tasks are worth 3 points each.
+These tasks do not require anything special be done with SQL.
 
 1. Create a nicely themed webpage with HTML/CSS.
    
@@ -92,7 +101,8 @@ The following tasks are worth 3 points each:
    In order to get this credit, I must be able to access your webpage directly from my own computer by connecting to your IP address.
    This will likely require you to do a bit of research into networking.
 
-The following tasks are worth 6 points of extra credit:
+The following tasks are worth 6 points each.
+Each of these tasks requires either more advanced SQL queries (i.e. `SELECT` statements) or modifying the underlying table schemas. 
 
 1. Display only 50 messages at a time in the messages route,
    and include a button at the bottom to go to the "next" and "previous" message pages.
@@ -139,10 +149,13 @@ The following tasks are worth 9 points of extra credit:
    >
    > In order to get the full 9 points of extra credit,
    > you need to ensure that your code does not have an [HTML injection](https://www.softwaretestinghelp.com/html-injection-tutorial/) or vulnerability.
+   > You can find a discussion of how to safely pass HTML into Jinja2 variables [on stackoverflow](https://stackoverflow.com/questions/3206344/passing-html-to-template-using-flask-jinja2).
+   > I personally recommend using the [bleach](https://bleach.readthedocs.io/en/latest/index.html) library,
+   > but you're welcome to use whichever technique makes sense to you.
 
 ## Submission
 
 You will demo your project to me over zoom.
-This should take 5-10 minutes.
+This should take about 5 minutes.
 
-Details will be announced later.
+See issue [#216](https://github.com/mikeizbicki/cmc-csci040/issues/216) for details.
