@@ -56,12 +56,12 @@ Each required task is worth 5 points and corresponds to one of the routes on you
 1. Create new user accounts
     1. a link to this page should only be visible in your menu if the user is not logged in
     1. if the user attempts to create an account that already exists, they should get an appropriate error message
-    1. the user should be prompted to enter their password twice, and you need to check that both versions of the password match
+    1. the user should be prompted to enter their password twice; if the passwords do not match, they should get an appropriate error message
 
 1. Create a message
     1. a link to this page should only be visible in your menu if the user is logged in
     1. the user must be able to enter whatever message body they want,
-    but you will also need to store the user id of the user that created a message and the time the message was created
+       but you will also need to store the user id of the user that created a message and the time the message was created
 
 ## Optional Tasks
 
@@ -88,6 +88,9 @@ These tasks do not require anything special be done with SQL.
    You must display a message that a comment has been edited along with the time of the most recent edit.
 
 1. Allow deleting user accounts.
+
+1. Automatically log a user into a newly created user account,
+   and redirect the user to the home page (instead of the create user page)
 
 1. Allow changing the password after creating an account.
    You must have a password reset form that forces the user to type in their old password and a new password twice.
