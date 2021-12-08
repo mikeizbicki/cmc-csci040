@@ -106,6 +106,9 @@ Main takeaways from this class:
         1. Fake news bots (HW4)
             - legal defenses require a deep understanding of the good bots so that you don't make those illegal as well
             - CSCI145/MATH166 Data Mining covers techniquess for finding and stopping the bad bots
+        1. **If you see someone talking about computer security, but they don't know how to code, they're a fraud.**
+           This applies to basically all government/defense workers/contractors...
+           To see why, compare the salaries for Google employees to government employees.
 
 I'd love to see you all in future CS classes :)
 
