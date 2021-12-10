@@ -53,17 +53,44 @@ def is_valid_login(con, username, password):
     '''
 
     # query the database for users with the given username/password
+    if False:
+        sql = """
+        SELECT username,password
+        FROM users
+        WHERE username='"""+str(username).replace("'","''")+"""'
+        AND password='"""+str(password)+"""';
+        """
+        # if '' appears within a string, it is a literal single quotation
+        # if '' appears outside of a string, it is a sinlge quotation
+        # password=''    # empty string
+        # password='''   # not allowed
+        # password=''''  # same as (in python) password="'"
+        print('is_valid_login: sql=',sql)
+        cur = con.cursor()
+        cur.execute(sql)
+        rows = cur.fetchall()
+        '''
+            SELECT username,password
+        FROM users
+        WHERE (username='Biden'
+        AND password='') OR ''='';
+        '''
+        # if '' appears within a string, it is a literal single quotation
+        # if '' appears outside of a string, it is a sinlge quotation
+        # password=''    # empty string
+        # password='''   # not allowed
+        # password=''''  # same as (in python) password="'"
     sql = """
     SELECT username,password
     FROM users
-    WHERE username='"""+str(username)+"""'
-      AND password='"""+str(password)+"""';
+    WHERE username=?
+      AND password=?;
     """
     print('is_valid_login: sql=',sql)
     cur = con.cursor()
-    cur.execute(sql)
+    cur.execute(sql, [username, password])
     rows = cur.fetchall()
-
+    
     # if the total number of rows returned is 0,
     # then no username/password combo was not found
     if len(list(rows))==0:
@@ -135,7 +162,10 @@ def login():
 @app.route('/logout')     
 def logout():
     print_debug_info()
-    return render_template('logout.html')
+    result = make_response(render_template('logout.html'))
+    result.set_cookie('username', '', expires=0)
+    result.set_cookie('password', '', expires=0)
+    return result
     
 
 @app.route('/create_message')     
