@@ -57,6 +57,7 @@ Stripe also tries to teach new programmers about security and how to find bugs t
 These CTFs typically have many levels:
 1. Each level has a webpage that you need to break into.
 2. When you successfully break into one level, you are given access to the next level.
+CTFs are extremely popular, and you can find a list of expert-level CTFs at https://ctftime.org/
 
 The Level 3 website from Stripe's 2012 CTF uses Flask and has a SQL injection vulnerability.
 For this lab, you should:
