@@ -1,4 +1,7 @@
 ## CSCI040: ~Computing for the Web~ Introduction to Hacking
+<!--
+see: http://nifty.stanford.edu/2020/color-my-world/
+-->
 
 <center>
 <img width='100%' src=hacker-way.jpg />
@@ -218,6 +221,14 @@ If you collaborate with other students or visit the QCL for help with an assignm
 you get an automatic 2 day extension on any lab or project.
 
 **Collaboration Policy:**
+
+<!--
+Harvard CS50:
+
+> When asking for help, you may show your code to others, but you may not view theirs.
+
+https://www.youtube.com/watch?v=r0z-yIp1PnE
+-->
 
 You are encouraged to discuss all labs and projects with other students,
 subject to the following constraints:
@@ -476,6 +487,21 @@ Trick questions:
  1. for i in range(-5, 5):
         if i:
             do something
+
+Functions:
+1. Create functions with default valued arguments
+1. Call functions with named arguments (in different orders)/variable number of arguments
+1. Call functions from within functions, actually using the returned result (return vs print)
+
+Exceptions:
+1. Add ValueError to errors discussion
+1. cover when the error happens midway through the try
+1. when the error happens in the except clause
+1. cover try/except within try/except
+
+SQL:
+1. More step-by-step lab instructions
+1. Do lab with just SQL+Python before involving flask
 
 ================================================================================
 
