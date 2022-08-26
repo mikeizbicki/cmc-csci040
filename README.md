@@ -106,7 +106,8 @@ Fun facts:
 
 **Textbook:**
 
-All of our textbooks are [free as in beer](https://en.wiktionary.org/wiki/free_as_in_beer).
+There is nothing to buy for this class.
+All of our references are [free as in beer](https://en.wiktionary.org/wiki/free_as_in_beer).
 Some of them are also [free as in speech](https://en.wiktionary.org/wiki/free_as_in_speech).
 
 1. Shay Howe's [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/).
@@ -203,7 +204,7 @@ In order to earn an A/A- in the class, you must also complete one of the followi
     1. Season 1 of Mr. Robot (available of [Amazon Prime](https://www.amazon.com/gp/video/detail/B00YBX664Q)).
        This is the most accurate portrayal of hacking in any movie, see for example [this article](https://www.pri.org/stories/how-realistic-are-hacks-mr-robot) and [this article](https://www.wired.com/2016/07/real-hackers-behind-mr-robot-get-right/).
 
-    1. War Games (available on [Amazon Prime](https://www.amazon.com/Wargames-Matthew-Broderick/dp/B083FY4CDG/).
+    1. War Games (available on [Amazon Prime](https://www.amazon.com/Wargames-Matthew-Broderick/dp/B083FY4CDG/)).
        This is a classic hacker movie and was quite realistic for what hacking looked like when the movie was released (1983).
 
     1. CitizenFour (available for free from the [Internet Archive](https://archive.org/details/Citizen.Four2014)).
@@ -217,7 +218,18 @@ In order to earn an A/A- in the class, you must also complete one of the followi
        This is a reality TV show about how your cellphones and web browsing traffic can let people track you.
     -->
 
+<!--
 See [Issue #79](https://github.com/mikeizbicki/cmc-csci040/issues/79) for instructions on how to get credit for completing these readings / viewings.
+-->
+
+> **FIXME:**
+> Post instructions for submitting the caveat task.
+
+> **NOTE:**
+> "FIXME" annotations are common in programming documentation.
+> You will encounter these throughout the lecture notes/projects/etc.
+> Depending on context, they might be something for you to fix or for me to fix.
+> The note above is for me to fix.
 
 **Late Work Policy:**
 
@@ -253,13 +265,13 @@ Basically, I'm trusting you all to be adults.
 You are ultimately responsible for ensuring you learn the material!
 So do what will help you learn best.
 
-**WARNING:**
-All material in this class is cumulative.
-If you work "too closely" with another student on an assignment,
-you won't understand how to complete subsequent assignments,
-and you will quickly fall behind.
-You should view collaboration as a way to improve your understanding,
-not as a way to do less work.
+> **WARNING:**
+> All material in this class is cumulative.
+> If you work "too closely" with another student on an assignment,
+> you won't understand how to complete subsequent assignments,
+> and you will quickly fall behind.
+> You should view collaboration as a way to improve your understanding,
+> not as a way to do less work.
 
 <!--
 ## Schedule
