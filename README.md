@@ -20,8 +20,7 @@ Important links:
 | Name | Mike Izbicki (call me Mike) |
 | Email | mizbicki@cmc.edu |
 | Office | Adams 216 |
-| Office Hours | see [#85](https://github.com/mikeizbicki/cmc-csci040/issues/85) |
-| Zoom Link | https://cmc-its.zoom.us/j/644800111 |
+| Office Hours | TBD |
 | Webpage | https://izbicki.me |
 | Research | Machine Learning (see [izbicki.me/research.html](https://izbicki.me/research.html) for some past projects) |
 
@@ -33,7 +32,6 @@ Fun facts:
     1. left Navy as a [conscientious objector](https://www.nytimes.com/2011/02/23/nyregion/23objector.html)
 1. phd/postdoc at UC Riverside
 1. taught in [DPRK (i.e. North Korea)](https://pust.co)
-1. currently on paternity leave
 
 ## About the Course
 
@@ -44,7 +42,7 @@ Fun facts:
 1. This course fulfills the math general ed requirements for CMC students.
 
    But, most students find it much harder than taking MATH030 (Calculus I).
-   If you haven't taken calculus, expect that you will have to put in about twice the amount of work on this class than you would to take calculus and get the same grade.
+   If you haven't taken calculus, then you will likely have to put in about twice the amount of work on this class than you would to take calculus and get the same grade.
 
 1. This course is similar to [CS5 at Harvey Mudd](https://www.cs.hmc.edu/twiki/bin/view/CS5) or [CS51 at Pomona](http://www.cs.pomona.edu/~tzuyi/Classes/sp18/cs051p/).
     1. If you have already taken either of those courses,
@@ -57,7 +55,10 @@ Fun facts:
         1. and computer science sequence.
     1. This course is more practical than the Mudd/Pomona courses.
 
-       This course is especially designed to connect computer science to non-STEM subjects like
+       Lots of the cool applications in the Pomona/Mudd CS curriculum are "reserved" for their upper division class,
+       but I've included them directly in this intro course.
+
+    1. This course is especially designed to connect computer science to non-STEM subjects like
         1. economics,
         1. government,
         1. literature, and
@@ -73,9 +74,9 @@ Fun facts:
     1. HTML
     1. CSS
     1. JavaScript
+    1. Markdown
     1. Jinja
     1. SQL
-    1. Markdown
     1. and **Python** <-- this is the main focus of the course
 <!--1. Understand the basics of procedural and object oriented programming-->
 
@@ -92,7 +93,7 @@ Fun facts:
         1. allow blind people to use webpages
         1. allow non-English speaking / non-Americans to use your software
     1. web security
-        1. technical details (you will learn to commit fraud in this class!)
+        1. technical details (you will learn to commit fraud in this class... but obviously you shouldn't!)
         1. social implications
         1. government policy
         1. legal issues
@@ -100,18 +101,19 @@ Fun facts:
     1. [search engine optimization](https://moz.com/beginners-guide-to-seo)
     -->
 1. Use real-world programming tools
-    1. Python libraries actually in use at FAANG companies
+    1. Python libraries actually in use at [FAANG companies](https://www.investopedia.com/terms/f/faang-stocks.asp)
     1. GitHub
 
 **Textbook:**
 
 All of our textbooks are [free as in beer](https://en.wiktionary.org/wiki/free_as_in_beer).
-Some of them are [free as in speech](https://en.wiktionary.org/wiki/free_as_in_speech).
+Some of them are also [free as in speech](https://en.wiktionary.org/wiki/free_as_in_speech).
 
 1. Shay Howe's [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/).
 1. Al Sweigart's [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/).
-1. Other online resources as listed in the weekly schedule.
+1. Lots of other online resources as provided in the weekly schedule.
 
+<!--
 Hackers believe in the free exchange of information and often use the following websites to share textbooks and other knowledge:
 
 1. https://b-ok.org
@@ -119,13 +121,14 @@ Hackers believe in the free exchange of information and often use the following 
 1. https://thepiratebay.org
 
 But most of the people who use these sites are [script kiddies](https://en.wikipedia.org/wiki/Script_kiddie).
+-->
 
 **Grades:**
 
-| category                      | points/assignment | approximate percentage |
+| category                      | points/assignment | *approximate* percentage |
 | ----------------------------- | ----------------- | ---- |
-| labs (weekly)                 | 5pts              | 20%  |
-| quizzes (weekly)              | 10-20pts          | 40%  |
+| labs (weekly)                 | 5-10pts           | 20%  |
+| quizzes (weekly)              | 10pts             | 40%  |
 | projects (every 2-3 weeks)    | 10-40pts          | 40%  |
 
 This will be a low-stress but very challenging class.
@@ -133,7 +136,7 @@ This will be a low-stress but very challenging class.
 1. The course is low-stress because you have full control over what your grade will be.
     1. **No midterm/final exam.**
        Weekly quizzes ensure you don't fall behind on material, and if you bomb a quiz it's not a big deal.
-    1. Weekly labs are automatically graded by Python.
+    1. Most weekly labs are automatically graded by Python.
        Keep working on them until you get 100%.
     1. Projects have TONs of extra credit opportunities.
        In the past, I've had students end the course with a 150%,
@@ -152,15 +155,17 @@ This will be a low-stress but very challenging class.
 
     |     | Project                 | Due Date will be no earlier than |
     | --- | ----------------------- | ---------------- |
-    | 0   | Building a Webpage      | Sunday, 12 Sep   |
-    | 1   | Markdown compiler       | Sunday, 03 Oct   |
-    | 2   | Data visualization      | Sunday, 10 Oct   |
-    | 3   | Scraping ebay           | Sunday, 24 Oct   |
-    | 4   | Reddit propaganda bot   | Sunday, 07 Nov   |
-    | 5   | Twitter clone           | Sunday, 12 Dec   |
+    | 0   | Building a Webpage      | Sunday, 11 Sep   |
+    | 1   | Markdown compiler       | Sunday, 02 Oct   |
+    | 2   | Data visualization      | Sunday, 09 Oct   |
+    | 3   | Scraping ebay           | Sunday, 23 Oct   |
+    | 4   | Reddit propaganda bot   | Sunday, 06 Nov   |
+    | 5   | Twitter clone           | Sunday, 11 Dec   |
 
+    <!--
     There's also fewer projects than in CS5/CS51.
     Those courses have 1 project per week.
+    -->
 
 Your final grade will be computed according to the following table,
 with one caveat.
@@ -215,7 +220,9 @@ See [Issue #79](https://github.com/mikeizbicki/cmc-csci040/issues/79) for instru
 You lose 20% on labs/projects for each day late.
 It is still typically better to submit a correct assignment late than an incorrect one early.
 
+<!--
 If you have extenuating circumstances, contact me in advance of the due date and I may extend the due date for you.
+-->
 
 If you collaborate with other students or visit the QCL for help with an assignment,
 you get an automatic 2 day extension on any lab or project.
@@ -242,7 +249,7 @@ Basically, I'm trusting you all to be adults.
 You are ultimately responsible for ensuring you learn the material!
 So do what will help you learn best.
 
-*WARNING:*
+**WARNING:**
 All material in this class is cumulative.
 If you work "too closely" with another student on an assignment,
 you won't understand how to complete subsequent assignments,
@@ -250,21 +257,6 @@ and you will quickly fall behind.
 You should view collaboration as a way to improve your understanding,
 not as a way to do less work.
 
-**COVID-19 Policy:**
-
-I want to respect everyone's various comfort levels with COVID exposure.
-Therefore:
-
-1. you will be encouraged to work closely with other students in this class,
-1. but you will not be required to work too closely (for example by sharing computers).
-
-If you are quarantined and cannot come to class:
-
-1. you are excused from the quizzes you miss and won't have to retake them;
-
-1. you are still responsible for turning in labs/projects on time;
-
-    1. unless you are also ill, then I will grant an appropriate extension
 ## Schedule
 
 | Week | Date        | Topic                                                |
@@ -493,6 +485,23 @@ Functions:
 1. Call functions with named arguments (in different orders)/variable number of arguments
 1. Call functions from within functions, actually using the returned result (return vs print)
 
+students don't understand functions and the difference of return/print
+
+for loop flags; the reddit assignment looping to see if a comment has a reply needs a boolean flag; we should visit this patter earlier in the class
+
+difference between pass vs continue
+
+blah(
+    username=xxx
+)
+print(username) # generates an error
+
+call a function without parentheses:
+def foo():
+    print('hello')
+    # print vs return
+foo
+
 Exceptions:
 1. Add ValueError to errors discussion
 1. cover when the error happens midway through the try
@@ -516,12 +525,6 @@ dictionary/json pprint
 
 wait for dictionaries with JSON?  students have a LOT of trouble with dictionary indexing
 
-students don't understand functions and the difference of return/print
-
-for loop flags; the reddit assignment looping to see if a comment has a reply needs a boolean flag; we should visit this patter earlier in the class
-
-difference between pass vs continue
-
 list like objects especially with praw not giving lists back
 
 str(comment.author)
@@ -541,22 +544,16 @@ for comment.reply in comments.reply
 random.choice([])
 
 
-blah(
-    username=xxx
-)
-print(username) # generates an error
-
-
 students don't understand the ? syntax in sql do quiz wth '?' vs ? and other insert syntax variations with python; last quiz was just sql, which wasn't enough; need for con.commit() and cur.fetchall()
 
 insert into users (username,password) values (username=?,password=?);
+
 
 
 students forget that you need parenthesis to call a function
 con.commit
 vs
 con.commit()
-
 
 
 
