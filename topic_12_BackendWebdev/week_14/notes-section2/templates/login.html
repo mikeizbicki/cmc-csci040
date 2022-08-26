@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<h2>Login</h2>
+{% endblock %}
+
+{% block content %}
+
+{% if unsuccessful_login %}
+<p>
+    ERROR: username/password not found in the database
+</p>
+{% endif %}
+
+{% if successful_login %}
+<p>
+    Successfully logged in!
+</p>
+{% else %}
+<form action=/login method=POST>
+    <table>
+        <tr><td>username</td><td><input type=text name=username></td></tr>
+        <tr><td>password</td><td><input type=password name=password></td></tr>
+        <tr><td></td><td><input type=submit value='log in'></td></tr>
+    </table>
+</form>
+<p>
+    If you don't have a user account, then <a href=/create_user>create one</a>.
+</p>
+{% endif %}
+
+{% endblock %}
+

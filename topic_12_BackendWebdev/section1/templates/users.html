@@ -1,0 +1,16 @@
+This is actually a Jinja2 file, not an HTML file.
+
+Jinja2 is a "templating language" kind of like a markup language (HTML/Markdown), but a bit more powerful.
+
+I'm <b>users.html</b> :)
+
+<p>
+    Current_user = {{username}}
+</p>
+
+
+    {% for user in users %}
+    <p>
+        user = {{user}}
+    </p>
+    {% endfor %}

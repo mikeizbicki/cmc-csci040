@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Twitter Clone for CS40!</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        <h1>Twitter Clone for CS40!</h1>
+        <ul>
+            <li><a href='/'>home</a></li>
+            {% if username %}
+            <li><a href='/logout'>logout</a></li>
+            {% else %}
+            <li><a href='/login'>login</a></li>
+            {% endif %}
+            <li><a href='/create_message'>create message</a></li>
+            <li><a href='/create_user'>create user</a></li>
+        </ul>
+        <main>
+        {% block title %}
+        {% endblock %}
+        {% block content %}
+        {% endblock %}
+        </main>
+    </body>
+</html>
