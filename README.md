@@ -127,11 +127,11 @@ But most of the people who use these sites are [script kiddies](https://en.wikip
 
 | category                      | points/assignment | *approximate* percentage |
 | ----------------------------- | ----------------- | ---- |
-| labs (weekly)                 | 5-10pts           | 20%  |
-| quizzes (weekly)              | 10pts             | 40%  |
-| projects (every 2-3 weeks)    | 10-40pts          | 40%  |
+| labs (weekly)                 | 2-5pts            | 20%  |
+| quizzes (weekly)              | 5pts              | 40%  |
+| projects (every 2-3 weeks)    | 5-20pts           | 40%  |
 
-This will be a low-stress but very challenging class.
+This will be a low-stress but **very** challenging class.
 
 1. The course is low-stress because you have full control over what your grade will be.
     1. **No midterm/final exam.**
@@ -151,9 +151,13 @@ This will be a low-stress but very challenging class.
        spend 15-20 hours per week and get an A-/A,
        or spend 10 hours per week and get a B/C.
 
+       > **NOTE:**
+       > One point corresponds to approximately 1 hours worth of work for the average student to earn an A on the assignment.
+       > There will be approximately 200 points in the class, or roughly 12.5 points/week.
+
 1. The projects are designed to be fun, real-world projects:
 
-    |     | Project                 | Due Date will be no earlier than |
+    |     | Project                 | Due date will be no earlier than |
     | --- | ----------------------- | ---------------- |
     | 0   | Building a Webpage      | Sunday, 11 Sep   |
     | 1   | Markdown compiler       | Sunday, 02 Oct   |
@@ -257,6 +261,7 @@ and you will quickly fall behind.
 You should view collaboration as a way to improve your understanding,
 not as a way to do less work.
 
+<!--
 ## Schedule
 
 | Week | Date        | Topic                                                |
@@ -267,7 +272,7 @@ not as a way to do less work.
 | 1    | Mon, 06 Sep | **NOCLASS: Labor Day**                               |
 | 1    | Wed, 08 Sep | Web 1.0: CSS                                         |
 | 1    | Fri, 10 Sep | *Lab:* Removing web ads                              |
-| 2    | Mon, 13 Sep | Python: control flow                                 | <!-- last day to add -->
+| 2    | Mon, 13 Sep | Python: control flow                                 |
 | 2    | Wed, 15 Sep | Python: control flow                                 |
 | 2    | Fri, 17 Sep | *Lab:* SMS/Twilio                                    |
 | 3    | Mon, 20 Sep | Python: lists                                        |
@@ -277,7 +282,7 @@ not as a way to do less work.
 | 4    | Wed, 29 Sep | Python: files                                        |
 | 4    | Fri, 01 Oct | *Lab:* markdown to html converter                    |
 | 5    | Mon, 04 Oct | Python: JSON                                         |
-| 5    | Wed, 06 Oct | Python: matplotlib                                   | <!-- low grade notice -->
+| 5    | Wed, 06 Oct | Python: matplotlib                                   |
 | 5    | Fri, 08 Oct | *Lab:* Analyzing Trump's tweets                      |
 | 6    | Mon, 11 Oct | Python: reddit                                       |
 | 6    | Wed, 13 Oct | Python: reddit                                       |
@@ -287,7 +292,7 @@ not as a way to do less work.
 | 7    | Fri, 22 Oct | *Lab:* RedditBots                                    |
 | 8    | Mon, 25 Oct | Python: web scraping                                 |
 | 8    | Wed, 27 Oct | Python: web scraping                                 |
-| 8    | Fri, 29 Oct | *Lab:* Requests                                      | <!-- Halloween -->
+| 8    | Fri, 29 Oct | *Lab:* Requests                                      |
 | 9    | Mon, 01 Nov | Python: multilingual support (Unicode)               |
 | 9    | Wed, 03 Nov | Python: multilingual support (Unicode)               |
 | 9    | Fri, 05 Nov | *Lab:* machine translation                           |
@@ -296,7 +301,7 @@ not as a way to do less work.
 | 10   | Fri, 12 Nov | *Lab:* SQL                                           |
 | 11   | Mon, 15 Nov | Web 2.0: Flask                                       |
 | 11   | Wed, 17 Nov | Web 2.0: Flask                                       |
-| 11   | Fri, 19 Nov | *Lab:* Dynamic webpages                              | <!-- last day to withdraw with a W -->
+| 11   | Fri, 19 Nov | *Lab:* Dynamic webpages                              |
 | 12   | Mon, 22 Nov | Web 2.0: Flask                                       |
 | 12   | Wed, 24 Nov | **NOCLASS: Thanksgiving**                            |
 | 12   | Fri, 26 Nov | **NOCLASS: Thanksgiving**                            |
@@ -306,6 +311,7 @@ not as a way to do less work.
 | 14   | Mon, 06 Dec | Web 2.0: Flask                                       |
 | 14   | Wed, 08 Dec | Web 2.0: Flask                                       |
 | 14   | Fri, 10 Dec | *Lab:* Final project                                 |
+-->
 
 **No Final Exam.**
 Final project will be due during exam week.
