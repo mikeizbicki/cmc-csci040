@@ -114,7 +114,7 @@ This is the first step in completing [hw\_00](/hw_00/).
 Instructions:
 
 1. Ensure that you have pressed the "watch" button at the top of this webpage.
-   Read and follow the instructions in [Issue #78: the meet and greet thread](https://github.com/mikeizbicki/cmc-csci040/issues/78).
+   Read and follow the instructions in [Issue #236: the meet and greet thread](https://github.com/mikeizbicki/cmc-csci040/issues/236).
 
 1. [Follow these directions](https://pages.github.com/) to create a GitHub Pages webpage.
    In the step marked `?` (after step `1` and before step `2`),
