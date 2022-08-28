@@ -10,8 +10,6 @@
 
 1. Prelecture videos:
 
-    1. ~~[Data Science: Reality vs Expectations](https://www.youtube.com/watch?v=8LucP1wiX1g)~~ video no longer available
-
     1. [Inside a google data center](https://www.youtube.com/watch?v=XZmGGAbHqa0)
 
     1. (Optional) [Inside a Facebook data center](https://www.youtube.com/watch?v=_r97qdyQtIk)
@@ -34,7 +32,7 @@
         * HTTP
         * HTTPS
 
-    1. (Optional) [Three types of web development](https://www.youtube.com/watch?v=Kg0Q_YaQ3Gk)
+    1. [Three types of web development](https://www.youtube.com/watch?v=Kg0Q_YaQ3Gk)
 
         Key terms:
 
@@ -45,13 +43,13 @@
 
 1. Prelecture tasks:
 
-    NOTE:
-    Throughout this course we will be installing lots of software.
-    You are welcome to use lab computers, but most students choose to use your own laptops.
-    Unlike in other classes, all of the software we use is open source, so you can freely download it on your own machine and keep access to it after the semester/graduation.
-    Due to security reasons, this software cannot be preinstalled on the lab machines,
-    and so you must install it yourself for each computer that you choose to use.
-    If you change computers, you will have to reinstall the needed software.
+    > **NOTE:**
+    > Throughout this course we will be installing lots of software.
+    > You are welcome to use lab computers, but most students choose to use your own laptops.
+    > Unlike in other classes, all of the software we use is open source, so you can freely download it on your own machine and keep access to it after the semester/graduation.
+    > Due to security reasons, this software cannot be preinstalled on the lab machines,
+    > and so you must install it yourself for each computer that you choose to use.
+    > If you change computers, you will have to reinstall the needed software.
 
     1. [Install VSCode](https://code.visualstudio.com/Download) (or if you don't want Microsoft tracking you, install the open source version [VSCodium](https://vscodium.com/))
 
@@ -126,33 +124,31 @@ Instructions:
 1. [Follow these directions](https://creativecommons.org/choose/) to include a creative commons license on your webpage.
    You may select any version of the license.
 
-   NOTE: 
-   
-   1. This requires that you add a snippet of HTML to your webpage.
-      (I recommend the very bottom, but any location is fine.)
-      Whenever you modify your webpage,
-      you will have to go through the process of uploading your files to github using GitHub Desktop again.
+   > **NOTE:**
+   > This requires that you add a snippet of HTML to your webpage.
+   > (I recommend the very bottom, but any location is fine.)
+   > Whenever you modify your webpage,
+   > you will have to go through the process of uploading your files to github using GitHub Desktop again.
 
 1. [Follow these instructions](https://support.google.com/analytics/answer/1008015?hl=en) to create a Google Analytics account and add Google Analytics to your webpage.
 
-   NOTE: 
-   
-   1. Once again, you must modify your HTML in order to insert the required `<script>` tag into your webpage.
-      Everytime you modify your webpage, you must go through the process of uploading with GitHub Desktop.
+   > **NOTE:**
+   > Once again, you must modify your HTML in order to insert the required `<script>` tag into your webpage.
+   > Everytime you modify your webpage, you must go through the process of uploading with GitHub Desktop.
 
-   1. Google Analytics does NOT work when you have uBlock Origin activated.
-      To ensure that Google Analytics is correctly working,
-      you should temporarily disable uBlock Origin.
-      Then, you can visit your google analytics page to see that it registers you as a visitor.
+   > **NOTE:**
+   > Google Analytics does NOT work when you have uBlock Origin activated.
+   > To ensure that Google Analytics is correctly working,
+   > you should temporarily disable uBlock Origin.
+   > Then, you can visit your google analytics page to see that it registers you as a visitor.
 
 1. [Follow these instructions](https://developers.facebook.com/docs/plugins/like-button/) to create a Facebook Like button for your webpage.
 
    Like with Google Analytics, Facebook Like buttons do not work when the adblock plugins are enabled.
 
-   NOTE:
-
-   1. Don't forget to upload with GitHub Desktop!
-        Facebook's like button and google analytics will both be broken if your webpage is only served "locally" from your own computer and not from a web server like github.
+   > **NOTE:**
+   > Don't forget to upload with GitHub Desktop!
+   > Facebook's like button and google analytics will both be broken if your webpage is only served "locally" from your own computer and not from a web server like github.
 
 1. Get at least 5 other students from class to like your webpage on Facebook,
    and 5 other students to "star" your webpage's repo on GitHub.
