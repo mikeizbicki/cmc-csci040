@@ -20,7 +20,7 @@ Important links:
 | Name | Mike Izbicki (call me Mike) |
 | Email | mizbicki@cmc.edu |
 | Office | Adams 216 |
-| Office Hours | TBD |
+| Office Hours | See [Issue #235](https://github.com/mikeizbicki/cmc-csci040/issues/235) |
 | Webpage | https://izbicki.me |
 | Research | Machine Learning (see [izbicki.me/research.html](https://izbicki.me/research.html) for some past projects) |
 
@@ -78,7 +78,7 @@ Fun facts:
     1. Jinja
     1. SQL
     1. and **Python** <-- this is the main focus of the course
-<!--1. Understand the basics of procedural and object oriented programming-->
+1. Understand the basics of procedural, functional, and object oriented programming
 
 **Secondary Learning Objectives:**
 
@@ -97,12 +97,10 @@ Fun facts:
         1. social implications
         1. government policy
         1. legal issues
-    <!--
     1. [search engine optimization](https://moz.com/beginners-guide-to-seo)
-    -->
 1. Use real-world programming tools
     1. Python libraries actually in use at [FAANG companies](https://www.investopedia.com/terms/f/faang-stocks.asp)
-    1. GitHub
+    1. GitHub (which is different than git, something we'll learn in the follow-on class CS46)
 
 **Textbook:**
 
@@ -147,14 +145,18 @@ This will be a low-stress but **very** challenging class.
     1. That's why CS/DS majors get paid so much money... there's not many people willing to work hard enough to master these concepts.
     1. That's why we have an extra lab session each week (and so 50% more in-person instruction time).
        Also take advantage of office hours and the QCL.
-    1. Historically, the average student needs to spend about 10 hours per week outside of class to get an A.
+
+       <!--
+       Historically, the average student needs to spend about 10 hours per week outside of class to get an A.
        About 50% of students will either:
        spend 15-20 hours per week and get an A-/A,
        or spend 10 hours per week and get a B/C.
+       -->
 
        > **NOTE:**
-       > One point corresponds to approximately 1 hours worth of work for the average student to earn an A on the assignment.
+       > One point corresponds to approximately 1 hour of work for the average student to earn an A on the assignment.
        > There will be approximately 200 points in the class, or roughly 12.5 points/week.
+       > Historically, some students need to spend 20+ hours per week to earn an A/A-.
 
 1. The projects are designed to be fun, real-world projects:
 
@@ -234,11 +236,7 @@ See [Issue #79](https://github.com/mikeizbicki/cmc-csci040/issues/79) for instru
 **Late Work Policy:**
 
 You lose 20% on labs/projects for each day late.
-It is still typically better to submit a correct assignment late than an incorrect one early.
-
-<!--
-If you have extenuating circumstances, contact me in advance of the due date and I may extend the due date for you.
--->
+It is still typically better to submit a correct assignment late than an incorrect one on time.
 
 If you collaborate with other students or visit the QCL for help with an assignment,
 you get an automatic 2 day extension on any lab or project.
