@@ -68,6 +68,14 @@
 
         1. [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/) reduces how much online web companies can track you.
 
+        1. (optional) [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/) provides even more fine-grained control over what the websites that you access are allowed to do.
+
+            This is an advanced extension, and so you should only install it if you are willing to perform a lot of configuration work.
+            I personally use it to browse the internet, but I can understand why many people would choose not to.
+            The documentation states:
+
+            > uMatrix does not guarantee that sites will work fine: it is for advanced users who can figure how to un-break sites, because essentially uMatrix is a firewall which works in relaxed block-all/allow-exceptionally mode out of the box: it is not unexpected that sites will break.
+
     1. If you do not already have a GitHub account,
        then [create one](https://github.com/join).
 

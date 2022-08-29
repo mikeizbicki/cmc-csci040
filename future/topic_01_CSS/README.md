@@ -32,7 +32,7 @@ Prelab videos:
    and now runs the United States Digital Service (a recently created branch of the US government).
    Watch his video on [How Google Search Works](https://www.youtube.com/watch?v=KyCYyoGusqs).
 
-1. (optional) [Whitehat vs blackhat SEO](https://www.youtube.com/watch?v=jOSz-uutUfc)
+1. [Whitehat vs blackhat SEO](https://www.youtube.com/watch?v=jOSz-uutUfc)
 
 Instructions:
 
