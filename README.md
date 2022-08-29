@@ -228,6 +228,10 @@ In order to earn an A/A- in the class, you must also complete one of the followi
    The premise is that Harry Potter's parents were both wizards and scientists,
    and the story introduces a lot of concepts important for AI safety and the philosophy of data science.
 
+   > **NOTE:**
+   > This is a LONG reading (roughly the equivalent of 2-3 books).
+   > Watching the shows/movies is the most efficient option time-wise.
+
 <!--
 See [Issue #79](https://github.com/mikeizbicki/cmc-csci040/issues/79) for instructions on how to get credit for completing these readings / viewings.
 -->
