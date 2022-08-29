@@ -45,7 +45,7 @@ Fun facts:
    But, most students find it much harder than taking MATH030 (Calculus I).
    If you haven't taken calculus, then you will likely have to put in about twice the amount of work on this class than you would to take calculus and get the same grade.
 
-1. This course is similar to [CS5 at Harvey Mudd](https://www.cs.hmc.edu/twiki/bin/view/CS5) or [CS51 at Pomona](http://www.cs.pomona.edu/~tzuyi/Classes/sp18/cs051p/).
+1. This course is similar to [CS5 at Harvey Mudd](https://www.cs.hmc.edu/twiki/bin/view/CS5) or [CS51 at Pomona](http://www.cs.pomona.edu/~tzuyi/Classes/sp18/cs051p/) (and many of the other intro CS courses at the Claremont Colleges).
     1. If you have already taken either of those courses,
        then you cannot take this course.
     1. If you are majoring in computer science at either of those schools,
