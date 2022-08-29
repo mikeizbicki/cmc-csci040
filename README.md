@@ -135,6 +135,13 @@ This will be a low-stress but **very** challenging class.
 1. The course is low-stress because you have full control over what your grade will be.
     1. **No midterm/final exam.**
        Weekly quizzes ensure you don't fall behind on material, and if you bomb a quiz it's not a big deal.
+
+       1. You can retake 1 quiz in this class without any penalty if you don't like your grade for any reason.
+          You must do the retake within 1 week of the original quiz date.
+
+          The first two quizzes can be retaken without any penalty.
+
+       1. Quizzes will be open note, and you will have "unlimited" time.
     1. Most weekly labs are automatically graded by Python.
        Keep working on them until you get 100%.
     1. Projects have TONs of extra credit opportunities.
@@ -160,14 +167,14 @@ This will be a low-stress but **very** challenging class.
 
 1. The projects are designed to be fun, real-world projects:
 
-    |     | Project                 | Due date will be no earlier than |
-    | --- | ----------------------- | ---------------- |
-    | 0   | Building a Webpage      | Sunday, 11 Sep   |
-    | 1   | Markdown compiler       | Sunday, 02 Oct   |
-    | 2   | Data visualization      | Sunday, 09 Oct   |
-    | 3   | Scraping ebay           | Sunday, 23 Oct   |
-    | 4   | Reddit propaganda bot   | Sunday, 06 Nov   |
-    | 5   | Twitter clone           | Sunday, 11 Dec   |
+    |     | Project                 | Difficulty    | Due date will be no earlier than |
+    | --- | ----------------------- | ------------- | ---------------- |
+    | 0   | Building a Webpage      | Easy          | Sunday, 11 Sep   |
+    | 1   | Markdown compiler       | Hard          | Sunday, 02 Oct   |
+    | 2   | Data visualization      | Medium        | Sunday, 09 Oct   |
+    | 3   | Scraping ebay           | Medium        | Sunday, 23 Oct   |
+    | 4   | Reddit propaganda bot   | Hard          | Sunday, 06 Nov   |
+    | 5   | Twitter clone           | Hard          | Sunday, 11 Dec   |
 
     <!--
     There's also fewer projects than in CS5/CS51.
@@ -195,12 +202,6 @@ with one caveat.
 *CAVEAT:*
 In order to earn an A/A- in the class, you must also complete one of the following tasks.
 
-1. Read [Harry Potter and the Methods of Rationality](https://hpmor.com).
-   This is a fanfic written by [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky),
-   who is a famous [AI safety](https://futureoflife.org/ai-safety-research/) researcher.
-   The premise is that Harry Potter's parents were both wizards and scientists,
-   and the story introduces a lot of concepts important for AI safety and the philosophy of data science.
-
 1. Watch the following shows/movies about hacking:
 
     1. Season 1 of Mr. Robot (available of [Amazon Prime](https://www.amazon.com/gp/video/detail/B00YBX664Q)).
@@ -219,6 +220,12 @@ In order to earn an A/A- in the class, you must also complete one of the followi
     1. Season 1 of Hunted, [available online](https://www.channel4.com/programmes/hunted/on-demand/60136-001).
        This is a reality TV show about how your cellphones and web browsing traffic can let people track you.
     -->
+
+1. Read [Harry Potter and the Methods of Rationality](https://hpmor.com).
+   This is a fanfic written by [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky),
+   who is a famous [AI safety](https://futureoflife.org/ai-safety-research/) researcher.
+   The premise is that Harry Potter's parents were both wizards and scientists,
+   and the story introduces a lot of concepts important for AI safety and the philosophy of data science.
 
 <!--
 See [Issue #79](https://github.com/mikeizbicki/cmc-csci040/issues/79) for instructions on how to get credit for completing these readings / viewings.
