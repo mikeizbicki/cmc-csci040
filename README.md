@@ -143,6 +143,9 @@ This will be a low-stress but **very** challenging class.
           The first two quizzes can be retaken without any penalty.
 
        1. Quizzes will be open note, and you will have "unlimited" time.
+
+       1. Final project due during finals week.
+
     1. Most weekly labs are automatically graded by Python.
        Keep working on them until you get 100%.
     1. Projects have TONs of extra credit opportunities.
@@ -334,9 +337,6 @@ So do what will help you learn best.
 | 14   | Wed, 08 Dec | Web 2.0: Flask                                       |
 | 14   | Fri, 10 Dec | *Lab:* Final project                                 |
 -->
-
-**No Final Exam.**
-Final project will be due during exam week.
 
 <!--Reading:
 
