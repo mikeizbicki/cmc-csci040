@@ -117,7 +117,7 @@
 </center>
 
 The goal of this lab is to publish a simple webpage online so that others can view it.
-This is the first step in completing [hw\_00](/hw_00/).
+This is the first step in completing [project\_00](/project_00/).
 
 Instructions:
 

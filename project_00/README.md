@@ -9,7 +9,7 @@ You will build a simple webpage and publish it to the internet.
 You get to choose any topic for the webpage (must be [SFW](https://en.wiktionary.org/wiki/SFW)!),
 and you can earn extra credit by having a large number of people visit your webpage.
 
-**Due:** Sunday, 12 September, midnight
+**Due:** Sunday, 11 September, midnight
 
 **Primary learning objectives:**
 
