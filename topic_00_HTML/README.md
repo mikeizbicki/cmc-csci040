@@ -160,7 +160,13 @@ Instructions:
 
 1. Get at least 5 other students from class to like your webpage on Facebook,
    and 5 other students to "star" your webpage's repo on GitHub.
-   You can use the zoom chat or the GitHub issues to communicate with the other students.
+   I recommend using the lab time to "trade" stars with other students.
+
+   > **NOTE:**
+   > The reason for getting these likes and stars is that github and google search also use stars to help rank webpages in search results.
+   > More stars means higher rankings in the search results.
+   > For the project, you will also have to get links from other webpages.
+   > So now would also be a good time to trade these links (although it's not explicitly required for the lab).
 
 1. Upload the url to your completed webpage to sakai.
 
