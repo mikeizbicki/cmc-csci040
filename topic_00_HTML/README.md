@@ -119,6 +119,11 @@
 The goal of this lab is to publish a simple webpage online so that others can view it.
 This is the first step in completing [project\_00](/project_00/).
 
+> **NOTE:**
+> The lectures have not explicitly covered how to do most of the tasks in this lab.
+> The main purpose of this lab is to get you comfortable trying to read and figure out documentation...
+> even if that means just trying random stuff until it works.
+
 Instructions:
 
 1. Ensure that you have pressed the "watch" button at the top of this webpage.
@@ -169,8 +174,3 @@ Instructions:
    > So now would also be a good time to trade these links (although it's not explicitly required for the lab).
 
 1. Upload the url to your completed webpage to sakai.
-
-> **NOTE:**
-> The lectures have not explicitly covered how to do most of the tasks in this lab.
-> The main purpose of this lab is to get you comfortable trying to read and figure out documentation...
-> even if that means just trying random stuff until it works.
