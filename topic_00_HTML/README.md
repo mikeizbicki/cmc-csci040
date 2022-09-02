@@ -163,3 +163,8 @@ Instructions:
    You can use the zoom chat or the GitHub issues to communicate with the other students.
 
 1. Upload the url to your completed webpage to sakai.
+
+> **NOTE:**
+> The lectures have not explicitly covered how to do most of the tasks in this lab.
+> The main purpose of this lab is to get you comfortable trying to read and figure out documentation...
+> even if that means just trying random stuff until it works.
