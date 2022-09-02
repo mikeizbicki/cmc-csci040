@@ -28,10 +28,10 @@ Edit the contents of your webpage to meet the requirements of the grading rubric
 ## Grading Rubric
 
 Your webpage must satisfy each checkbox below.
-Your grade will start at 10/10 points,
+Your grade will start at 5/5 points,
 and for each checkbox that you do not complete,
 you will lose 1 point.
-If you complete all checkboxes, then you will get 10/10 points.
+If you complete all checkboxes, then you will get 5/5 points.
 
  - Your webpage must contain at least:
 
@@ -112,7 +112,7 @@ There is no explicit requirement that your webpage "look nice" or have "good con
 Instead, you can earn extra credit points by making your webpage look nice and have good content.
 
 In particular, you can get 1 pt of extra credit by completing either of the following tasks.
-(Thus the maximum score on this assignment is 11/10.)
+(Thus the maximum score on this assignment is 6/5.)
 
  - [ ] 
     Post your site to reddit and get at least 100 upvotes.
