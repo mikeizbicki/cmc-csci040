@@ -23,7 +23,7 @@ and you can earn extra credit by having a large number of people visit your webp
 
 ## Instructions
 
-Edit the contents of your webpage to meet the requirements of the grading rubric shown below.
+Edit the contents of the webpage you created in lab00 to meet the requirements of the grading rubric shown below.
 
 ## Grading Rubric
 
@@ -37,7 +37,7 @@ If you complete all checkboxes, then you will get 5/5 points.
 
      - [ ] 3 HTML files
 
-     - [ ] *1 CSS file*
+     - [ ] *1 external CSS file* (see [this tutorial](https://www.w3schools.com/css/css_howto.asp) for details)
 
      - [ ] 3 images
 
@@ -55,6 +55,8 @@ If you complete all checkboxes, then you will get 5/5 points.
 
  - Every HTML file must:
 
+     - [ ] *use the `<link>` tag to include the CSS file*
+
      - [ ] *have an appropriate `<title>` tag*
 
      - [ ] *have an appropriate `<meta description=...>` tag ([see this tutorial on meta description](https://moz.com/learn/seo/meta-description) and [this tutorial on other meta tags](https://moz.com/blog/the-ultimate-guide-to-seo-meta-tags))*
@@ -68,8 +70,6 @@ If you complete all checkboxes, then you will get 5/5 points.
      - [ ] *contain at least 3 `<div>` tags styled using CSS*
 
      - [ ] contain at least 1 `<span>` tag styled using CSS
-
-     - [ ] *use the `<link>` tag to include the CSS file*
 
      - [ ] contain a Facebook like button (at least one of these like buttons must have >5 likes)
 
@@ -93,16 +93,16 @@ If you complete all checkboxes, then you will get 5/5 points.
 
      - [ ] *be archived by the Internet Archive; see instructions [here](https://www.bitsgalore.org/2014/08/02/How-to-save-a-web-page-to-the-Internet-Archive) for submitting your webpage*
 
-**NOTE:** 
-If you believe that one of these checkboxes is not appropriate for your webpage for some reason,
-post an issue to github and I may grant you an exception.
+> **NOTE:** 
+> If you believe that one of these checkboxes is not appropriate for your webpage for some reason,
+> post an issue to github and I may grant you an exception.
 
-**NOTE:**
-We did not cover in class how to complete the *italicized* steps above,
-and this was intentional.
-You will have to use google/the textbook to figure these out for yourself.
-No programmer 100% understands HTML or CSS, and so everyone relies on google while coding.
-The purpose of making you do things not covered in class is to get you practice relying on external resources.
+> **NOTE:**
+> We did not cover in class how to complete the *italicized* steps above,
+> and this was intentional.
+> You will have to use google/the textbook to figure these out for yourself.
+> No programmer 100% understands HTML or CSS, and so everyone relies on google while coding.
+> The purpose of making you do things not covered in class is to get you practice relying on external resources.
 
 <img src=googling.jpg width=300px>
 
