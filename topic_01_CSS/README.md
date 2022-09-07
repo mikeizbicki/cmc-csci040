@@ -68,3 +68,6 @@ Instructions:
    > **HINT:** Now would be a good time to arrange with other students in the class to share backlinks to each other's websites!
 
     <img width='100%' src=comic14.gif />
+
+> **NOTE:**
+> There is nothing to submit on sakai for this lab.
