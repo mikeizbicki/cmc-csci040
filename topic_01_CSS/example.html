@@ -1,0 +1,65 @@
+<hmtl>
+<head>
+    <!-- style / CSS are synonym ; CSS => cascading style sheets -->
+    <style>
+        /* inside the tags is CSS code, not HTML code */
+        h1 {
+            color: red;
+            margin: 0px;
+            padding: 10px;
+            text-align: center;
+            /*background: green;*/
+        }
+
+        .bestsellsers {
+            /*background: blue;*/
+        }
+
+        .favorites {
+            text-decoration: underline;
+        }
+
+        .menu {
+            background: #01f7ff;  /* #ffffff = white */
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        /* :hover is called a pseudoclass */
+        li:hover {
+            background: red;
+        }
+        li {
+            background: gray;
+            display: inline-block;
+            width: 20%;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- HTML => content ; not formatting / making it pretty -->
+    <!-- h is for header -->
+    <div class=menu>
+        <h1>My books webpage</h1>
+        <!-- ol = ordered list; u = unordered -->
+        <ul>
+            <!-- li = list item -->
+            <a href="where-the-red-fern-grows.html">
+                <li class=favorites>WtRFG <!--Where the Red Fern Grows--></li>
+            </a>
+            <li class="bestsellsers favorites">TKaM<!--To kill a mockingbird--></li>
+            <li class=bestsellsers>C&P<!---Crime and punishment--></li>
+            <li>HP <!--Harry Potter--></li>
+        </ul>
+    </div>
+    <div class=content>
+        <p>This is a paragraph about books</p>
+        <!-- 2 special tags: div=>block, span=>inline -->
+        <p>This a paragraph about the best selling book <span class=bestsellsers>To Kill a Mockingbird</span></p>
+        <!-- block elements (like paragraph) vs inline elements (goes inside a paragraph) -->
+    </div>
+</body>
+</html>
