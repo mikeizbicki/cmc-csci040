@@ -52,7 +52,7 @@
 \begin{center}
     {
 \Large
-Week 01 Practice Quiz
+Week 01 Practice Quiz (2)
 }
 
     \vspace{0.1in}
@@ -63,7 +63,7 @@ Week 01 Practice Quiz
 
 \vspace{0.15in}
 \noindent
-\textbf{Total Score:} ~~~~~~~~~~~~~~~/10
+\textbf{Total Score:} ~~~~~~~~~~~~~~~/5
 
 \vspace{0.5in}
 \noindent
@@ -74,17 +74,16 @@ Week 01 Practice Quiz
 \vspace{0.25in}
 
 \noindent
-\textbf{Collaboration Policy:}
+\textbf{Quiz rules:}
 \begin{enumerate}
     \item You MAY use any printed or handwritten notes.
     \item You MAY NOT use a computer or any other electronic device.
-    \item You MAY NOT discuss this quiz with another human being who has not completed the quiz.
-        This includes:
-        \begin{enumerate}
-            \item collaborating during the quiz, and
-            \item telling a student in a different section the quiz was easy/hard.
-        \end{enumerate}
 \end{enumerate}
+
+\noindent
+\textbf{NOTE:}
+Your real quiz next week will have only 5 questions.
+This practice quiz has 10 questions so that you can get more practice.
 
 \vspace{0.15in}
 
@@ -95,34 +94,34 @@ Week 01 Practice Quiz
 \begin{enumerate}[before=\setlength{\baselineskip}{8mm}]
 
     \item
-    \lstinline{p}
+    \lstinline{li}
 
     \item
     \lstinline{.bold}
 
     \item
-    \lstinline{p.bold}
+    \lstinline{li.bold}
 
     \item
-    \lstinline{p .bold}
+    \lstinline{li .bold}
 
     \item
-    \lstinline{p, .bold}
+    \lstinline{h2 + p}
 
     \item
-    \lstinline{h1#top}
+    \lstinline{div > .bold}
 
     \item
-    \lstinline{img#header}
+    \lstinline{#body img}
 
     \item
     \lstinline{h1 div}
 
     \item
-    \lstinline{h1 + p}
+    \lstinline{h2 + li}
 
     \item
-    \lstinline{h1 ~ p > span}
+    \lstinline{img ~ li > em}
 
 \end{enumerate}
 \end{problem}
@@ -135,14 +134,21 @@ Week 01 Practice Quiz
     </head>
     <body>
         <div id=header>
+            <h1 id=top>Lorem <span class=bold>Ipsum</span></h1>
             <img src=top-image.png>
         </div>
-        <h1 id=top>Lorem <span class=bold>Ipsum</span></h1>
-        <p><span class=italic>Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <blockquote><span class=bold>Ut enim</span> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</blockquote>
-        <p><a href=https://izbicki.me>Excepteur sint occaecat</a> cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <br/>
-        <a href=https://izbicki.me><img src=bottom-image.png></a>
+        <div id=body>
+            <h2>Lorem</h2>
+            <p class=bold>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class=bold>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <h2>Ipsum</h2>
+            <ol>
+                <li><img class=bold src=ceasar.png></li>
+                <li class=bold><em>Veni</em></li>
+                <li class=bold><em>Vidi</em></li>
+                <li class=bold><em>Vici</em></li>
+            </ol>
+        </div>
     </body>
 </html>
 \end{lstlisting}
