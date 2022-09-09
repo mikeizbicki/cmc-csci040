@@ -4,45 +4,9 @@
 <img width='100%' src=python.png />
 </center>
 
-**Monday:** 
+1. Prelecture tasks:
 
-1. We will cover chapters 0-3 of Al Sweigart's [Automate the Borting Stuff](https://automatetheboringstuff.com/).
-
-    1. HTML/CSS are **markup** languages;
-        you specify WHAT you want done, and firefox figures out HOW.
-
-       Python is a **procedural** language;
-        you directly specify HOW to do something.
-
-    1. Python is much more powerful.
-
-    1. Most people find python MUCH harder than HTML/CSS.
-        If you don't have prior programming experience,
-        expect the next 2 weeks to be very difficult.
-        Make good use of the student tutors and office hours.
-
-1. Important resources:
-
-    1. Download and install the latest version of python for your system from https://python.org/downloads/ .
-
-    1. You can use https://pythontutor.com to visualize what python is doing "step-by-step".
-
-    1. I will distribute the [Python cheat sheet](https://perso.limsi.fr/pointal/python:memento) in class.
-       I recommend having this paper with you at all of our lectures and whenever you are coding in python.
-
-<!--
-[Monte Python and the Holy Grail (Top 5 best scenes)](https://www.youtube.com/watch?v=886hNDgwfMk)
-
-[The Story of Python, by Its Creator Guido van Rossum](https://www.youtube.com/watch?v=J0Aq44Pze-w)
-
-[5 things I wish I knew before becoming a software engineer](https://www.youtube.com/watch?v=M_GVUj86VaY)
-
-    1. (Optional) [Edward Snowden: How Your Cell Phone Spies on You](https://www.youtube.com/watch?v=VFns39RXPrU)
-
-    [5 most dangerous hackers of all time](https://www.youtube.com/watch?v=7UaPL5PGywo)
-    -->
-
-**Wednesday:** 
+    1. Download and install the latest version of python for your system from <https://python.org/downloads/>.
 
 1. Prelecture videos:
 
@@ -206,6 +170,40 @@
 
         1. `print`'s `end` and `sep` keyword arguments
 
+1. We will cover chapters 0-3 of Al Sweigart's [Automate the Borting Stuff](https://automatetheboringstuff.com/).
+
+    1. HTML/CSS are **markup** languages;
+        you specify WHAT you want done, and firefox figures out HOW.
+
+       Python is a **procedural** language;
+        you directly specify HOW to do something.
+
+    1. Python is much more powerful.
+
+    1. Most people find python MUCH harder than HTML/CSS.
+        If you don't have prior programming experience,
+        expect the next 2 weeks to be very difficult.
+        Make good use of the student tutors and office hours.
+
+1. Important resources:
+
+    1. You can use https://pythontutor.com to visualize what python is doing "step-by-step".
+
+    1. I will distribute the [Python cheat sheet](https://perso.limsi.fr/pointal/python:memento) in class.
+       I recommend having this paper with you at all of our lectures and whenever you are coding in python.
+
+<!--
+[Monte Python and the Holy Grail (Top 5 best scenes)](https://www.youtube.com/watch?v=886hNDgwfMk)
+
+[The Story of Python, by Its Creator Guido van Rossum](https://www.youtube.com/watch?v=J0Aq44Pze-w)
+
+[5 things I wish I knew before becoming a software engineer](https://www.youtube.com/watch?v=M_GVUj86VaY)
+
+    1. (Optional) [Edward Snowden: How Your Cell Phone Spies on You](https://www.youtube.com/watch?v=VFns39RXPrU)
+
+    [5 most dangerous hackers of all time](https://www.youtube.com/watch?v=7UaPL5PGywo)
+    -->
+
 ## Memes
 
 After this week, you should understand all the jokes in the following memes.
@@ -226,6 +224,9 @@ After this week, you should understand all the jokes in the following memes.
 
 ## Lab
 
+TBA
+
+<!--
 The file `lab.py` contains several incomplete functions that you must write.
 Each function has several test cases provided in the docstring,
 and currently all of these test cases are failing.
@@ -256,4 +257,4 @@ Billions of dollars have been lost, and people have died due to accidentally del
 Don't be Scumbag Steve.
 
 <img src=comment_tests.jpg width=400px>
-
+-->
