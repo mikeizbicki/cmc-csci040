@@ -89,7 +89,7 @@ If you complete all checkboxes, then you will get 5/5 points.
 
  - Your domain must:
 
-     - [ ] have at least two "follow backlinks" from other domains (other student's projects are okay)
+     - [ ] *have at least two [dofollow backlinks](https://www.semrush.com/blog/linkbuilding-dofollow-vs-nofollow-semrushchat/) from other domains (other student's projects are okay)*
 
      - [ ] *be archived by the Internet Archive; see instructions [here](https://www.bitsgalore.org/2014/08/02/How-to-save-a-web-page-to-the-Internet-Archive) for submitting your webpage*
 
