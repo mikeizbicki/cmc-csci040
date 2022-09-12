@@ -95,9 +95,31 @@ print("z=", z)
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
+x = 2 // 3
+x = x * 4
+x = y + 5
+print("z=", z)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
 x = 3 // 2
 y = x % 4
 z = y - 5
+print("z=", z)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+x = 3 // 2 # 4
+y = x % 4
+z = y - 5 # 2 - 1
 print("z=", z)
 \end{lstlisting}
 \vspace{1.5in}
@@ -365,6 +387,21 @@ print("total=", total)
 \begin{lstlisting}
 x = 5
 def foo():
+    print('hello')
+    return 1
+x += foo()
+print("x=", x)
+\end{lstlisting}
+\vspace{2in}
+
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+x = 5
+def foo():
+    'goodbye'
     print('hello')
     return 1
 x += foo()
