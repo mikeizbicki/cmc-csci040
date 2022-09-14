@@ -63,7 +63,8 @@ If you complete all checkboxes, then you will get 5/5 points.
 
      - [ ] have an appropriate `<h1>` tag
 
-     - [ ] contain at least 1 `<img>` tag with appropriate `alt` text
+     - [ ] contain at least 1 `<img>` tag with appropriate `alt` text; the image must correctly display
+
 
      - [ ] contain at least three paragraphs of text using `<p>` tags
 
