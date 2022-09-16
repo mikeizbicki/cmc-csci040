@@ -4,13 +4,7 @@
 <img width=800px src=phd113007s1.gif />
 </center>
 
-**Monday:** 
-
-1. We will cover [Chapter 4 - Lists](https://automatetheboringstuff.com/2e/chapter4/) of the book.
-
-**Wednesday:** 
-
-1. We will cover [Chapter 5 - Dictionaries](https://automatetheboringstuff.com/2e/chapter5/) of the book.
+1. We will cover [Chapter 4 - Lists](https://automatetheboringstuff.com/2e/chapter4/) abd [Chapter 5 - Dictionaries](https://automatetheboringstuff.com/2e/chapter5/) of the book.
 
 1. Prelecture videos:
 
@@ -28,7 +22,7 @@
 
        How can you tell if a variable is local or global?
 
-    1. (optional) [Lesson 11](https://www.youtube.com/watch?v=qS0UkqaYmfU&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=11)
+    1. [Lesson 11](https://www.youtube.com/watch?v=qS0UkqaYmfU&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=11)
 
         Key terms:
 
@@ -38,7 +32,7 @@
 
         1. input validation
 
-     1. (optional) [Lesson 12](https://www.youtube.com/watch?v=48WXHT0dfEY&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=12)
+     1. [Lesson 12](https://www.youtube.com/watch?v=48WXHT0dfEY&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=12)
 
      1. [Lesson 13](https://www.youtube.com/watch?v=48WXHT0dfEY&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=12)
 
@@ -130,9 +124,11 @@
 
 ## Lab
 
-Complete the `lab.py` file and submit your doctests to sakai.
+TBA
 
 <!--
+Complete the `lab.py` file and submit your doctests to sakai.
+
 def min_of_digits(n):
     '''
     Return the smallest digit in the input number n.
