@@ -3,11 +3,12 @@
 '''
 Lab instructions: 
 Complete each function below so that all doctests pass.
-Recall that you can run the doctests by running the command
+Recall that you can run the doctests with the command
 
 $ python3 -m doctest --verbose lab.py
 
 Once all doctests pass, upload the output of the above command to sakai.
+You do not need to upload your python file.
 
 NOTE:
 Each problem should be relatively straightforward and take less than 10 minutes.
@@ -15,7 +16,15 @@ If you're spending more than 10 minutes on a problem,
 then you should stop and seek help.
 
 NOTE:
-Your grade for all labs will be equal to max(0, 5 - number of failing test cases)
+If you do not fully understand the material in this lab,
+then you will not be able to complete the remainder of this course.
+I strongly encourage you to collaborate with other students,
+but make sure you are doing it in a way that is helping you understand the material.
+Don't just copy another students' solution.
+
+NOTE:
+There is no partial credit on this lab.
+In order to get credit, your functions must pass all of the test cases.
 '''
 
 
@@ -28,7 +37,7 @@ def hypotenuse(a, b):
     >>> hypotenuse(12.0, 5.0)
     13.0
     '''
-    return (a**2 + b**2)**(1/2)
+
 
 def is_even(n):
     '''
@@ -145,8 +154,8 @@ def is_leap_year(n):
     Return True if n is a leap year and False otherwise.
 
     HINT:
-    You can find the formula to calculate leap years here at 
-    https://www.mathsisfun.com/leap-years.html
+    The formula for calculating leap years is relatively complicated.
+    You can find the formula at <https://www.mathsisfun.com/leap-years.html>.
 
     >>> is_leap_year(1582)
     False
@@ -176,6 +185,9 @@ def num_digits(n):
     HINT:
     Use a while loop.
     In each iteration, divide the number by 10 to reduce the number of digits by 1.
+
+    HINT:
+    This function is implemented in one of your quiz practice problems.
 
     >>> num_digits(5)
     1
