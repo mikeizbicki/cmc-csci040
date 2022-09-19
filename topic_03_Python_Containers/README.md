@@ -1,7 +1,7 @@
 # Week 03: Python containers (lists and dictionaries)
 
 <center>
-<img width=800px src=phd113007s1.gif />
+<img width=800px src=two-states-of-programmers.png />
 </center>
 
 1. We will cover [Chapter 4 - Lists](https://automatetheboringstuff.com/2e/chapter4/) abd [Chapter 5 - Dictionaries](https://automatetheboringstuff.com/2e/chapter5/) of the book.
@@ -123,6 +123,10 @@
         1. `.items`
 
 ## Lab
+
+<center>
+<img width=800px src=phd113007s1.gif />
+</center>
 
 TBA
 
