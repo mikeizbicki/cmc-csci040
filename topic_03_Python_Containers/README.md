@@ -128,11 +128,9 @@
 <img width=800px src=phd113007s1.gif />
 </center>
 
-TBA
-
-<!--
 Complete the `lab.py` file and submit your doctests to sakai.
 
+<!--
 def min_of_digits(n):
     '''
     Return the smallest digit in the input number n.
