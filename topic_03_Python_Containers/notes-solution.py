@@ -79,3 +79,66 @@ def nested_filter_odd(xss):
             if x%2 == 0:
                 accumulator.append(x)
     return accumulator
+
+
+# These dictionaries store the grades of famous people in their math, english, and economics classes.
+# You shouldn't modify these dictionaries,
+# they are used in the doctests for the functions below.
+math_grades={
+        'donald knuth':85,
+        'hypatia':75,
+        'emmy noether':86,
+        'leonhard euler':92,
+        'grigori perelman':95,
+        'alexander grothendieck':95,
+        'shelton cooper':72,
+        'ada lovelace':96,
+        }
+
+english_grades={
+        'emily dickenson':92,
+        'edgar allan poe':88,
+        'william shakespeare':84,
+        'robert frost':83,
+        'dorthy day':95,
+        'douglas adams':42,
+        'maya angelou':89,
+        'emma goldman':85,
+        }
+
+economics_grades={
+        'christine lagarde':85,
+        'alan greenspan':92,
+        'adam smith':88,
+        'kristalina georgieva':79,
+        'karl marx':90,
+        'pierre-joseph proudhon':95,
+        }
+
+
+def get_number_of_students_in_class(d):
+    '''
+    Return the total number of entries in the dictionary.
+
+    >>> get_number_of_students_in_class(math_grades)
+    8
+    >>> get_number_of_students_in_class(english_grades)
+    8
+    >>> get_number_of_students_in_class(economics_grades)
+    6
+    '''
+    return len(d)
+
+
+def highest_grade(d):
+    '''
+    Return the largest value.
+
+    >>> highest_grade(math_grades)
+    96
+    >>> highest_grade(english_grades)
+    95
+    >>> highest_grade(economics_grades)
+    95
+    '''
+    return largest(list(d.values()))
