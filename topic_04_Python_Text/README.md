@@ -11,17 +11,20 @@ NOTE:
     Need \n \t \r
 -->
 
-Recommended (intermediate-level) videos:
+Recommended videos:
 
-1. The techniques in these videos are not required to complete you assignments,
-    but if you use them,
-    the assignments will be easier.
+1. We've watched all of the textbook's premade videos now,
+   but there's LOTs of other free resources for learning programming.
+   Corey Schafer is one of the more famous youtube channels for learning python,
+   and he has some great tutorials for learning about strings:
 
 1. Corey Schafer's [Strings - Working with Textual Data](https://www.youtube.com/watch?v=k9TUPpGqYTo)
 
 1. Corey Schafer's [F-Strings](https://www.youtube.com/watch?v=nghuHvKLhJA)
 
+<!--
 1. Corey Schafer's [String Formatting](https://www.youtube.com/watch?v=vTX3IwquFkc)
+-->
 
 **Wednesday:**
 The ASCII encoding scheme, and how text is stored as numbers.
