@@ -1,6 +1,6 @@
 # Week 04: Text data
 
-![This commic is a joke about error message in python.](4rules.jpg)
+<img src=4rules.jpg width=400px>
 
 **Monday:**
 We will cover [Chapter 6 - Strings](https://automatetheboringstuff.com/2e/chapter6/).
@@ -24,8 +24,7 @@ Recommended (intermediate-level) videos:
 1. Corey Schafer's [String Formatting](https://www.youtube.com/watch?v=vTX3IwquFkc)
 
 **Wednesday:**
-More text.
-(We'll cover Unicode next week.)
+The ASCII encoding scheme, and how text is stored as numbers.
 
 Non-decimal number systems
 
@@ -33,6 +32,8 @@ Non-decimal number systems
 
 ## Lab
 
+TBA
+<!--
 There are two parts for this lab.
 
 ### Part I: Markdown
@@ -133,3 +134,4 @@ The actual WarGames movie is legally available on YouTube at this link: https://
 If you visit this link with firefox and uBlock Origin enabled,
 then you can watch the movie for free without ads.
 If you download it with `youtube-dl`, then you can watch it locally on your own computer without ads.
+-->
