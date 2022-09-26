@@ -31,7 +31,7 @@ The ASCII encoding scheme, and how text is stored as numbers.
 
 Non-decimal number systems
 
-1. https://www.youtube.com/watch?v=ZL-LhaaMTTE (**watch this before class on wednesday**)
+1. https://www.youtube.com/watch?v=ZL-LhaaMTTE (**watch this before class on wednesday if you need to review non-decimal number systems**)
 
 ## Lab
 
