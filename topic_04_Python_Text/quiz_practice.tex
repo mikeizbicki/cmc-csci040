@@ -46,7 +46,7 @@
 \begin{center}
     {
 \Large
-    Week 05 Practice Quiz (Version I)
+    Strings Quiz Practice
 }
 
     \vspace{0.1in}
@@ -55,31 +55,6 @@
     \vspace{0.1in}
 \end{center}
 
-
-\vspace{0.15in}
-\noindent
-\textbf{Total Score:} ~~~~~~~~~~~~~~~/10
-
-\vspace{0.5in}
-\noindent
-\textbf{Printed Name:}
-
-\noindent
-\rule{\textwidth}{0.1pt}
-\vspace{0.25in}
-
-\noindent
-\textbf{Collaboration Policy:}
-\begin{enumerate}
-    \item You MAY use any printed or handwritten notes.
-    \item You MAY NOT use a computer or any other electronic device.
-    \item You MAY NOT discuss this quiz with another human being who has not completed the quiz.
-        This includes:
-        \begin{enumerate}
-            \item collaborating during the quiz, and
-            \item telling a student in a different section the quiz was easy/hard.
-        \end{enumerate}
-\end{enumerate}
 
 \vspace{0.15in}
 
@@ -103,7 +78,42 @@ print('b=', b)
 \end{lstlisting}
 \vspace{1.5in}
 
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = 'hello'
+xs = ['h', 'e', 'l', 'l', 'o']
+b = s[-2:] == xs[-2:]
+print('b=', b)
+\end{lstlisting}
+%# think about: b = s[-2] == xs[-2]
+\vspace{1.5in}
+
 \newpage
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = 'python is awesome'
+if 'python' in s:
+    print('True')
+else:
+    print('False')
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = 'python is awesome'
+if 'Python' in s:
+    print('True')
+else:
+    print('False')
+\end{lstlisting}
+\vspace{1.5in}
 \begin{problem}
     What is the output of the following code:
 \end{problem}
@@ -118,9 +128,41 @@ print('t=', t)
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-s = 'python\tis\nawesome'
+s = 'Python is awesome'
+s.replace('python', 'everything')
+print('s=', s)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = 'python is awesome'
 t = s.split()
 u = t[-1]
+print('u=', u)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = 'python\nis\tawesome'
+t = s.split()
+u = ' '.join(t)
+print('u=', u)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = 'python  is\tawesome'
+t = s.split(' ')
+u = t[1]
 print('u=', u)
 \end{lstlisting}
 \vspace{1.5in}
@@ -136,13 +178,23 @@ print('u=', u)
 \end{lstlisting}
 \vspace{1.5in}
 
-\newpage
 \begin{problem}
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
 s = 'guido von rossum'
 i = s.find(' ')
+t = s[:i]
+print('t=',t)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = 'guido von rossum'
+i = s.find('G')
 t = s[:i]
 print('t=',t)
 \end{lstlisting}
@@ -162,6 +214,17 @@ print('b=', b)
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
+b = "\"" > '\n':
+print('b=', b)
+\end{lstlisting}
+\vspace{1.5in}
+
+
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
 s = 'Guido von Rossum'
 xs = s.split()
 xs.sort()
@@ -169,23 +232,60 @@ print('xs=', xs)
 \end{lstlisting}
 \vspace{1.5in}
 
-
-\newpage
 \begin{problem}
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-    print(0b1010)
+s = 'Guido von rossum'
+xs = s.split()
+xs.sort()
+print('xs=', xs)
 \end{lstlisting}
 \vspace{1.5in}
+
 
 
 \begin{problem}
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-    s = '\x48\x45\x4C\x4C\x4F'
-    print('s=', s)
+print(0b1010)
 \end{lstlisting}
 \vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+print(0o110)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+print(0x0010)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = '\x48\x45\x4C\x4C\x4F'
+print('s=', s)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+s = '\x57o\x72L\x44'
+print('s=', s)
+\end{lstlisting}
+\vspace{1.5in}
+
+
 \end{document}
