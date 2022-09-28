@@ -35,13 +35,11 @@ Non-decimal number systems
 
 ## Lab
 
-TBA
-<!--
 There are two parts for this lab.
 
 ### Part I: Markdown
 
-Visit [Issue #104](https://github.com/mikeizbicki/cmc-csci040/issues/104) and follow the instructions there.
+Visit [Issue #257](https://github.com/mikeizbicki/cmc-csci040/issues/257) and follow the instructions there.
 
 ### Part II: `youtube-dl`
 
@@ -137,4 +135,3 @@ The actual WarGames movie is legally available on YouTube at this link: https://
 If you visit this link with firefox and uBlock Origin enabled,
 then you can watch the movie for free without ads.
 If you download it with `youtube-dl`, then you can watch it locally on your own computer without ads.
--->
