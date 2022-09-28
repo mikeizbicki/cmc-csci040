@@ -31,8 +31,12 @@ Let's consider Github's implementation of the Markdown-HTML compiler:
         1. The field of "software engineering" studies actually making these project timeline estimates and accounting details.
 
 **Due:** 
-~~Sunday, 03 October, midnight~~
-Sunday, 10 October, midnight
+~~Sunday, 02 October, midnight~~
+Sunday, 09 October, midnight
+
+> **NOTE:**
+> We will still have more labs/quizzes/etc next week,
+> so I strongly recommend trying to complete it by this coming Sunday.
 
 **Learning objectives:**
 
@@ -59,11 +63,12 @@ Notice that adding the `--add_css` flag to the command line adds css code to the
 This is one advantage of using markdown over straight HTML for webpage generation:
 we can easily generate many different looking webpages from the same markdown content.
 
-**HINT:**
-Do not wait to run your the `--input_file` commands until you've completed all of the doctests.
-You should run these commands continuously as you complete each function and verify that the output works.
+> **HINT:**
+> Do not wait to run your the `--input_file` commands until you've completed all of the doctests.
+> You should run these commands continuously as you complete each function and verify that the output works.
 
 ## Submission
+
 Upload to sakai
 1. the output of running the doctests with the `--verbose` flag,
 1. your 2 screenshots,
@@ -105,6 +110,7 @@ To get this extra credit, you will have to:
 1. Modify your code so that these doctests pass.
 
 **Option 2:**
+(hard)
 Lists
 
 Currently, there is no support for converting markdown lists into html lists.
@@ -126,4 +132,5 @@ instead of
 
 To get this extra credit, you will have to:
 1. Add 3 doctests to the `compile_lines` function that contain markdown lists.
+   These should be "good" doctests that reasonably test that the list functionality works; feel free to chat 1-1 with me about this.
 1. Modify your code so that these doctests pass.
