@@ -1,70 +1,82 @@
 ###############################################################################
-# Language issues
+# Most languages "just work" in python
 ###############################################################################
 
 # foreign language text can be included into `str`s
-
-english = 'Computer programming is the best!!!'
+English = 'Computer programming is the best!!!'
 chinese = '计算机编程是最好的！！！'
 korean = '컴퓨터 프로그래밍이 최고입니다 !!!'
 vietnamese = 'lập trình máy tính là tốt nhất !!!'
 arabic = '!‏برمجة الكمبيوتر هي الأفضل!‏!‏'
 
 # you can have the same string with multiple languages inside
-
 combined = 'Computer 计算机 هي الأفضل tốt nhất !!!'
 
 # variables can be named using any language
-
 컴퓨터 = 'this is a variable'
 
 # emojis work fine
-
 emoji1 = '😊'
-emoji2 = '💩'
+emoji2 = '😔'
+emoji3 = '💩'
+emoji4 = '🔫'
 
-# some things are weird
+###############################################################################
+# Some things are "just weird"
+###############################################################################
 
+# for historical reasons, some weird characters contain "font" information 
+fraktur = '𝕮𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖒𝖎𝖓𝖌 𝖎𝖘 𝖙𝖍𝖊 𝖇𝖊𝖘𝖙'
+
+# upper/lower case is "weird"
 german = 'Strauß'
 
-numbers = '৪৭' # In Tamil ৪ = 4 , ৭ = 7
+# numbers are "weird" in some languages
+numbers = '৪৭' 
 
+# some languages "look like each other"; this is a security issue
 url1 = 'https://www.BankOfAmerica.com'
 url2 = 'https://www.ΒankΟfΑmerica.com'
 url3 = 'https://www.BankOf​America.com'
 
 greek = 'αβγδεζηθικλμνξοπρςστυφχψ'
 
+# some characters don't display
 empty = '​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​'
 
 ###############################################################################
 # Code points
 ###############################################################################
 
-# Background:
-# - a "grapheme" is what Unicode calls an individual "unit" of text being displayed;
+# Unicode is the standard system for representing ALL languages on computers
+# Python 3.0 was the first major programming language to have "good" Unicode support
+
+# About Unicode
+# - a "grapheme" is what Unicode calls an individual unit of text being displayed;
 #   it's what most people would call a "letter"/"symbol"/"character"
 # - a "font" is a set of pictures associated with each grapheme
-
-# Graphemes can be composed of one or more "characters",
-# and the same grapheme can be written in different ways
+# - graphemes can be composed of one or more "characters",
+#   and the same grapheme can be written in different ways
 
 accents_1 = 'á'
 accents_2 = 'á'
 
-# len() function displays the number of characters, not the number of graphemes
-
+# NOTE:
 # Equality in python (and all programming languages) is not based on grapheme-equivalence;
 # it is based on character-equivalence
 
+# NOTE:
+# len() function displays the number of "code points"/"characters", not the number of graphemes
+
 # Every character has a Unicode "code point" that represents the character.
-# ord() converts from `str` to the code point
+# ord() converts from `str` to the code point (`int`)
 # chr() converts from the code point to `str`
 
 accents_1a = '\xe1'         # \x has range from 0 - 255
 accents_1b = '\u00e1'       # \u has range from 0 - 65535
-accents_1c = '\U000000e1'   # \U can store from 0 - 4 billion  character, grapheme same, notation is different
-accents_2b = 'a\u0301'      # has same grapheme, different characters
+accents_1c = '\U000000e1'   # \U can store from 0 - 4 billion  character
+
+accents_2b = 'a\u0301'      
 accents_2c = 'a\U00000301'
 
 # NOTE:
@@ -79,12 +91,22 @@ accents_2c = 'a\U00000301'
 # normal form decomposed (NFD) ungroups graphemes into as many characters as possible
 
 import unicodedata
-#accents_3 = unicodedata.normalize('NFC', accents_1)
+accents_1_NFC = unicodedata.normalize('NFC', accents_1)
+accents_2_NFC = unicodedata.normalize('NFC', accents_2)
 
 # Example: Vietnamese
 
-vietnamese_NFKD = 'lập trình máy tính là tốt nhất !!!'
-vietnamese_NFKC = 'lập trình máy tính là tốt nhất !!!'
+vietnamese_NFD = 'lập trình máy tính là tốt nhất !!!'
+vietnamese_NFC = 'lập trình máy tính là tốt nhất !!!'
+
+# NFKD/NFKC normal forms are used to remove "font" information
+# The "K" stands for "compatibility"
+
+# Example: Fractur
+fractur_NFC = unicodedata.normalize('NFKD', '𝕮𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖒𝖎𝖓𝖌 𝖎𝖘 𝖙𝖍𝖊 𝖇𝖊𝖘𝖙')
+fractur_NFD = unicodedata.normalize('NFKD', '𝕮𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖒𝖎𝖓𝖌 𝖎𝖘 𝖙𝖍𝖊 𝖇𝖊𝖘𝖙')
+fractur_NFKC = unicodedata.normalize('NFKD', '𝕮𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖒𝖎𝖓𝖌 𝖎𝖘 𝖙𝖍𝖊 𝖇𝖊𝖘𝖙')
+fractur_NFKD = unicodedata.normalize('NFKD', '𝕮𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖒𝖎𝖓𝖌 𝖎𝖘 𝖙𝖍𝖊 𝖇𝖊𝖘𝖙')
 
 # Example: Arabic
 # Arabic has lots of special characters, see: https://en.wikipedia.org/wiki/Arabic_script_in_Unicode
@@ -92,61 +114,70 @@ vietnamese_NFKC = 'lập trình máy tính là tốt nhất !!!'
 pbuh = 'ﷺ'       # "Peace be upon him"
 basmala = '﷽'   # "In the name of Allah"
 
+
 # PRINCIPLE 1:
 # You must normalize your strings if you want to compare them.
-
-# It doesn't matter which normal form you use in your application,
-# but you must pick one and use it consistently.
 # Python will not normalize text for you automatically.
+# It is traditional to use NFC,
+# but it does not matter which one you choose.
 
+################################################################################
+# Sorting
+################################################################################
 
-# Example: Korean
 # Recall that sorting in python is done ASCII-betically for English text
 # For non-English text, we sort "Unicode"-betically, or by the Unicode code points of text
 
+# Example: German
+words = ['Bären', 'Käfer', 'küssen', 'Ähnlich', 'Äpfel'];
+
+# Example: Korean
 korean_alphabet_ROK = ['ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ']
 korean_alphabet_DPRK = ['ㄱ', 'ㄴ', 'ㄷ', 'ㄲ', 'ㄸ']
 
 # PRINCIPLE 2:
 # It is impossible to sort text "correctly" in any programming language
-# unless you know "meta" information about the user (e.g. their country).
-
+# unless you know "meta" information about the "locale" of the user (e.g. their country).
 
 ###############################################################################
 # Encoding
 ###############################################################################
 
-# The `str` type in python is "syntactic sugar" for a list of code points.
-# But how are these code points actually stored physically on the computer?
+# How are strings physically stored on the computer?
 
 # Background:
 # - a bit is a 0 or a 1
 # - one byte is 8 bits
 # - a byte is the fundamental unit of information in computer science
-# - 8 bits is large enough to store ASCII values (end hence english values, but nothing more)
+# - 8 bits is large enough to store ASCII values (end hence English values, but nothing more)
 
-# a document with 1000 english characters; that means 1000 ASCII values => 1000 bytes
+# Example:
+# A document with 1000 English characters needs 1000 bytes = 1kb
 
-# The `byte` type looks like strings but starts with a `b`
-
+# The `bytes` type looks like strings but starts with a `b`
 normal_strings = 'they just \n have quotes'
 raw_strings = r'quotes that \n start with r' # ignores escape characters
-
 example = b'this is a `byte`'
 
-# everytime you load a file in python, you are always reading bytes
+# NOTE:
+# raw strings are just normal strings, and so they can be compared directly;
+# byte strings (i.e. `bytes`) are an entirely different type;
+# so they cannot be compared directly with strings.
 
 # NOTE:
-# The type `byte` in python stores more than one byte!
-# 
-# The `byte` type represents a container of many bytes,
+# The type `bytes` in python stores more than one byte!
+# The `bytes` type represents a container of many bytes,
 # and so is similar to a string.
-# But because the `byte` type can only store 8bits,
+# But because the `bytes` type can only store 8bits at each position,
 # it cannot store non-ASCII (i.e. non-English) characters.
 
+# Example:
 # >>> korean = b'컴퓨터 프로그래밍이 최고입니다 !!!'
 #  File "<stdin>", line 1
 # SyntaxError: bytes can only contain ASCII literal characters.
+
+# Every time you load a file in python,
+# you are always reading bytes
 
 # In order to store non-English text, we need an "encoding" which maps bytes to characters
 # .encode() converts from `str` to `byte`
@@ -175,7 +206,6 @@ chinese_bytes3 = '计算机编程是最好的！！！'.encode('utf-32')
 #chinese_bytes5 = '计算机编程是最好的！！！'.encode('ascii')
 
 # The len() reports how many bytes a `byte` consumes.
-
 len(chinese_bytes1)
 len(chinese_bytes2)
 len(chinese_bytes3)

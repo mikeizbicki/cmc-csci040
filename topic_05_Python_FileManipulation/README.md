@@ -2,11 +2,15 @@
 
 <img width=400px src=vomiting_emoji.png />
 
-You can find an explanation of this comic at https://www.explainxkcd.com/wiki/index.php/1813:_Vomiting_Emoji
+You can find an explanation of this comic at <https://www.explainxkcd.com/wiki/index.php/1813:_Vomiting_Emoji>
 
 **Monday:** Unicode
 
 1. Unicode is the international standard for representing text as numbers.
+
+    *References:*
+
+    1. Python tutorial: https://realpython.com/python-encodings-guide/ (**this is our main "textbook" and you are responsible for all the material in this link**)
 
 1. Python is famous for it's good, native Unicode support.
     Other languages like C/C++/Java it's technically possible to use Unicode correctly, but it's much more difficult.
@@ -24,19 +28,22 @@ You can find an explanation of this comic at https://www.explainxkcd.com/wiki/in
    But companies actually have to work in the real world, with real people from outside the US,
     and often complain that colleges don't teach real-world skills like Unicode to CS majors.
 
-*References:*
+   <img src=unicode.jpg width=400px >
 
-1. Python tutorial: https://realpython.com/python-encodings-guide/ (**this is our main "textbook" and you are responsible for all the material in this link**)
+*Fun links:*
 
 1. growth of UTF-8: https://en.wikipedia.org/wiki/UTF-8#/media/File:Utf8webgrowth.svg
 
 1. The story of the gun emoji
 
-    1. https://blog.emojipedia.org/apple-and-the-gun-emoji/
-    1. https://www.businessinsider.com/apple-change-pistol-emoji-toy-confusion-precedent-meaning-retroactive-2016-8
+    1. <https://blog.emojipedia.org/apple-and-the-gun-emoji/>
+    1. <https://www.businessinsider.com/apple-change-pistol-emoji-toy-confusion-precedent-meaning-retroactive-2016-8>
 
-1. NSA's security risks of Unicode: https://apps.nsa.gov/iaarchive/library/reports/unicode-security-risks.cfm
+1. NSA's security risks of Unicode: <https://nsacyber.github.io/publications.html#unicode-security-risks>
 
+    <!--https://apps.nsa.gov/iaarchive/library/reports/unicode-security-risks.cfm -->
+
+<!--
 1. Unicode in the DPRK
 
     1. The DPRK uses the [KPS9566](https://en.wikipedia.org/wiki/KPS_9566) character set in most of its internal documents, including the [Red Star OS](https://en.wikipedia.org/wiki/Red_Star_OS)
@@ -68,7 +75,9 @@ Prelecture videos:
 1. Corey Schafer's [Reading and Writing to Files](https://www.youtube.com/watch?v=Uh2ebFW8OYM)
 
 1. Corey Schafer's [Error Handling Try/Except](https://www.youtube.com/watch?v=NIWwJbo-9_8)
+-->
 
+<!--
 **Facebook in the news:**
 
 1. Leaks
@@ -159,11 +168,15 @@ How does an outage like this happen?
         1. So every router stopped sending traffic to facebook IPs
 
 1. Fully understanding all these details requires multiple graduate-level networking courses
+-->
 
 ## Lab
 
 TBA
 <!--
+
+<img src=interesting-man.jpg height=200px>&nbsp;&nbsp;<img src=jobs.jpg height=200px>
+
 ### Part I
 
 Please complete the following survey about how class is going so far: https://docs.google.com/forms/d/1Weuolk5Q9RsmqVFiF8Qgbc1cd_LQNiKMY-RYAq1SPlg
