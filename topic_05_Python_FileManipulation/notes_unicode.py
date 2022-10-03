@@ -25,7 +25,7 @@ emoji4 = '🔫'
 # Some things are "just weird"
 ###############################################################################
 
-# for historical reasons, some weird characters contain "font" information 
+# for historical reasons, some characters contain font information 
 fraktur = '𝕮𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖒𝖎𝖓𝖌 𝖎𝖘 𝖙𝖍𝖊 𝖇𝖊𝖘𝖙'
 
 # upper/lower case is "weird"
