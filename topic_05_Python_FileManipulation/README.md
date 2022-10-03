@@ -65,17 +65,17 @@ You can find an explanation of this comic at <https://www.explainxkcd.com/wiki/i
         1. The Unicode Consortium did not accept symbols specific to the Worker's Party of Korea: https://unicode.org/wg2/docs/n2392.pdf
 
         1. Master's thesis exploring the topic: https://www.era.lib.ed.ac.uk/bitstream/handle/1842/12253/Hwang2005.pdf
+-->
 
 **Wednesday:**
 We will cover [Chapter 9 - Reading and Writing Files](https://automatetheboringstuff.com/2e/chapter9/) of the book,
 but we will also talk about the interaction between files and Unicode.
 
-Prelecture videos:
+Reference videos:
 
 1. Corey Schafer's [Reading and Writing to Files](https://www.youtube.com/watch?v=Uh2ebFW8OYM)
 
 1. Corey Schafer's [Error Handling Try/Except](https://www.youtube.com/watch?v=NIWwJbo-9_8)
--->
 
 <!--
 **Facebook in the news:**
