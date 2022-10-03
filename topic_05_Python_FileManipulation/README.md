@@ -12,15 +12,7 @@ You can find an explanation of this comic at <https://www.explainxkcd.com/wiki/i
 
     1. Python tutorial: https://realpython.com/python-encodings-guide/ (**this is our main "textbook" and you are responsible for all the material in this link**)
 
-1. Python is famous for it's good, native Unicode support.
-    Other languages like C/C++/Java it's technically possible to use Unicode correctly, but it's much more difficult.
-
-    1. Historical note:
-        Python 3 broke off from Python 2 due to fundamental differences in vision about how Unicode should be supported.
-        You can read more about [these differences from a famous pythonista here](https://lucumr.pocoo.org/2014/1/5/unicode-in-2-and-3/).
-
-1. This information is not in the textbook,
-    and we will use the references linked below.
+1. This information is not in the textbook.
 
    Actually, Unicode is something that's commonly not taught to computer science majors in the United States,
     since we believe that everyone should learn to speak a proper language like English.
@@ -42,6 +34,15 @@ You can find an explanation of this comic at <https://www.explainxkcd.com/wiki/i
 1. NSA's security risks of Unicode: <https://nsacyber.github.io/publications.html#unicode-security-risks>
 
     <!--https://apps.nsa.gov/iaarchive/library/reports/unicode-security-risks.cfm -->
+
+<!--
+1. Python is famous for it's good, native Unicode support.
+    Other languages like C/C++/Java it's technically possible to use Unicode correctly, but it's much more difficult.
+
+    1. Historical note:
+        Python 3 broke off from Python 2 due to fundamental differences in vision about how Unicode should be supported.
+        You can read more about [these differences from a famous pythonista here](https://lucumr.pocoo.org/2014/1/5/unicode-in-2-and-3/).
+-->
 
 <!--
 1. Unicode in the DPRK
