@@ -36,7 +36,7 @@ circles = 'Ⓒⓞⓜⓟⓤⓣⓔⓡ ⓟⓡⓞⓖⓡⓐⓜⓜⓘⓝⓖ ⓘⓢ ⓣ
 german = 'Strauß'
 
 # numbers are "weird" in some languages
-numbers = '৪৭' 
+numbers = '৪৭' # In Tamil ৪ = 4 ; ৭ = 7
 
 # some languages "look like each other"; this is a security issue
 url1 = 'https://www.BankOfAmerica.com'
@@ -54,6 +54,7 @@ empty = '​​​​​​​​​​​​​​​​​​​​​​​�
 
 # Unicode is the standard system for representing ALL languages on computers
 # Python 3.0 was the first major programming language to have "good" Unicode support
+# C/C++/Java have Unicode support; but it's not "trivial" in python
 
 # About Unicode
 # - a "grapheme" is what Unicode calls an individual unit of text being displayed;
@@ -76,10 +77,12 @@ accents_2 = 'á'
 # ord() converts from `str` to the code point (`int`)
 # chr() converts from the code point to `str`
 
+# these \XXXXX represent the a with the accent
 accents_1a = '\xe1'         # \x has range from 0 - 255
 accents_1b = '\u00e1'       # \u has range from 0 - 65535
 accents_1c = '\U000000e1'   # \U can store from 0 - 4 billion  character
 
+# these \XXXXX represent "add an accent to the previous character"
 accents_2b = 'a\u0301'      
 accents_2c = 'a\U00000301'
 
@@ -107,9 +110,9 @@ vietnamese_NFC = 'lập trình máy tính là tốt nhất !!!'
 # The "K" stands for "compatibility"
 
 # Example: Fractur
-fractur_NFC = unicodedata.normalize('NFKD', '𝕮𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖒𝖎𝖓𝖌 𝖎𝖘 𝖙𝖍𝖊 𝖇𝖊𝖘𝖙')
-fractur_NFD = unicodedata.normalize('NFKD', '𝕮𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖒𝖎𝖓𝖌 𝖎𝖘 𝖙𝖍𝖊 𝖇𝖊𝖘𝖙')
-fractur_NFKC = unicodedata.normalize('NFKD', '𝕮𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖒𝖎𝖓𝖌 𝖎𝖘 𝖙𝖍𝖊 𝖇𝖊𝖘𝖙')
+fractur_NFC = unicodedata.normalize('NFC', '𝕮𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖒𝖎𝖓𝖌 𝖎𝖘 𝖙𝖍𝖊 𝖇𝖊𝖘𝖙')
+fractur_NFD = unicodedata.normalize('NFD', '𝕮𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖒𝖎𝖓𝖌 𝖎𝖘 𝖙𝖍𝖊 𝖇𝖊𝖘𝖙')
+fractur_NFKC = unicodedata.normalize('NFKC', '𝕮𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖒𝖎𝖓𝖌 𝖎𝖘 𝖙𝖍𝖊 𝖇𝖊𝖘𝖙')
 fractur_NFKD = unicodedata.normalize('NFKD', '𝕮𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖕𝖗𝖔𝖌𝖗𝖆𝖒𝖒𝖎𝖓𝖌 𝖎𝖘 𝖙𝖍𝖊 𝖇𝖊𝖘𝖙')
 
 # Example: Arabic
@@ -153,7 +156,8 @@ korean_alphabet_DPRK = ['ㄱ', 'ㄴ', 'ㄷ', 'ㄲ', 'ㄸ']
 # - a bit is a 0 or a 1
 # - one byte is 8 bits
 # - a byte is the fundamental unit of information in computer science
-# - 8 bits is large enough to store ASCII values (end hence English values, but nothing more)
+# - 8 bits is large enough to store ASCII values (end hence English values, 
+#   but nothing more)
 
 # Example:
 # A document with 1000 English characters needs 1000 bytes = 1kb
