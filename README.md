@@ -235,18 +235,7 @@ In order to earn an A/A- in the class, you must also complete one of the followi
    > This is a LONG reading (roughly the equivalent of 2-3 books).
    > Watching the shows/movies is the most efficient option time-wise.
 
-<!--
-See [Issue #79](https://github.com/mikeizbicki/cmc-csci040/issues/79) for instructions on how to get credit for completing these readings / viewings.
--->
-
-> **FIXME:**
-> Post instructions for submitting the caveat task.
-
-> **NOTE:**
-> "FIXME" annotations are common in programming documentation.
-> You will encounter these throughout the lecture notes/projects/etc.
-> Depending on context, they might be something for you to fix or for me to fix.
-> The note above is for me to fix.
+See [Issue #260](https://github.com/mikeizbicki/cmc-csci040/issues/260) for instructions on how to get credit for completing these readings / viewings.
 
 **Late Work Policy:**
 
