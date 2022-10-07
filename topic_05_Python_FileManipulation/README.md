@@ -173,8 +173,6 @@ How does an outage like this happen?
 
 ## Lab
 
-<img src=interesting-man.jpg height=200px>&nbsp;&nbsp;<img src=jobs.jpg height=200px>
-
 <!--
 ### Part I
 
@@ -188,6 +186,8 @@ The survey is 100% anonymous, and it will help me adjust the course moving forwa
 Complete the doctests in the `lab.py` and upload the results to sakai.
 
 ### Part II (optional/extra credit)
+
+<img src=interesting-man.jpg height=250px>&nbsp;&nbsp;<img src=jobs.jpg height=250px>
 
 You may earn 1 point of extra credit (and so get a 4/3 on the lab) if you translate the phrase "python is awesome" into at least 100 languages and upload these translations to sakai.
 Fortunately, there is a python interface to google translate,
