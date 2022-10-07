@@ -10,6 +10,7 @@ $ python3 -m doctest --verbose lab.py
 Once all doctests pass, upload the output of the above command to sakai.
 '''
 
+
 def rot13(text):
     '''
     [ROT13](https://en.wikipedia.org/wiki/ROT13) stands for "ROTate characters by 13".
@@ -19,9 +20,6 @@ def rot13(text):
     This is of course not a very good encryption scheme because it's easy for anyone to decrypt,
     but it's useful for hiding information from the muggles who can't program.
     It's basically like the [pig latin](https://en.wikipedia.org/wiki/Pig_Latin) of programming.
-
-    NOTE:
-    Your function only has to work for lower case English text.
 
     HINT:
     Use the `ord` function to convert each character to a number;
@@ -86,6 +84,15 @@ def greekify(text):
 
 def character_equality(x, y):
     '''
+    Recall that in python, equality of strings is performed at the level of Unicode code points (i.e. characters) and no normalization is done.
+    You can implement this function with just the ordinary `==` comparison operator and no normalization.
+    The main purpose of this function is to contrast with the `grapheme_equality` function that comes next.
+
+    NOTE:
+    Your operating system probably automatically converts the contents of your clipboard to NFC form copy/pasting.
+    Therefore, if you copy/pasted this file, the test cases likely will not work.
+    You must download this file instead.
+
     >>> character_equality('A', 'a')
     False
     >>> character_equality('A', 'A')
@@ -105,6 +112,11 @@ def character_equality(x, y):
 
 def grapheme_equality(x, y):
     '''
+    This is like the previous function, but equality should be performed at the "grapheme level" instead of the "character level".
+    This will require you to normalize the strings before you compare them.
+    Notice that the test cases are all the same,
+    but the results are different.
+
     >>> grapheme_equality('A', 'a')
     False
     >>> grapheme_equality('A', 'A')
