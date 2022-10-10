@@ -52,7 +52,7 @@
 \begin{center}
     {
 \Large
-Quiz: Text
+Quiz
 }
 
     \vspace{0.1in}
@@ -84,28 +84,26 @@ Quiz: Text
 
 \vspace{0.15in}
 
-
 \begin{problem}
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-s = 'hello'
-xs = ['h', 'e', 'l', 'l', 'o']
-b = s[-2] == xs[3]
-print('b=', b)
+total = 10
+for i in range(-5, 3, 3):
+    total = total - i
+print('total=', total)
 \end{lstlisting}
-%# think about: b = s[-2] == xs[-2]
 \vspace{1.5in}
 
-
 \begin{problem}
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-s = 'guido von rossum'
-xs = s.split()
-t = xs[0]
-print('t=',t)
+if 'False':
+    result = 0
+else:
+    result = 1
+print('result=', result)
 \end{lstlisting}
 \vspace{1.5in}
 
@@ -114,10 +112,17 @@ print('t=',t)
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-s = 'guido von rossum'
-s.split('G')
-t = s[0]
-print('t=',t)
+x = 10
+def foo(x):
+    if x - 5:
+        return 1
+    else:
+        x -= 1
+    return x
+x += foo(4)
+x += foo(5)
+x += foo(6)
+print("x=", x)
 \end{lstlisting}
 \vspace{1.5in}
 
@@ -125,18 +130,26 @@ print('t=',t)
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-val = '>' > '<'
-print('val=', val)
+x = 10 
+def foo(x):
+    x += 2
+    return x
+x += foo(9 + 39 // 10) * 3
+x += foo(9 + 39 // 10) * 2
+print("x=", x)
 \end{lstlisting}
 \vspace{1.5in}
-
 
 \begin{problem}
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-s = '\x44EA\x44BE\x45\x46'
-print('s=', s)
+x = 10
+def foo(x):
+    for i in range(3):
+        return x * i
+x += foo(i)
+print("x=", x)
 \end{lstlisting}
 \vspace{1.5in}
 

@@ -12,6 +12,17 @@ def largest(xs):
     10
     >>> largest([])
     '''
+    if xs == []:
+        return None
+    xs.sort()
+    return xs[-1]
+    '''
+    smallest = 0
+    for x in xs:
+        if x > smallest:
+            smallest = x
+    return smallest
+    '''
 
 
 def largest3(xs):
@@ -29,6 +40,8 @@ def largest3(xs):
     >>> largest3([])
     []
     '''
+    xs.sort()
+    return xs[-3:]
 
 
 def filter_odd(xs):
@@ -37,6 +50,13 @@ def filter_odd(xs):
 
     HINT:
     Use the accumulator pattern with a for loop.
+
+    Anytime you feel tempted "delete" something from a list,
+    you will use this accumulator pattern.
+
+    Instead of deleting from the input list,
+    I'm going to create a new empty list,
+    then append the things I'm "not deleting".
 
     >>> filter_odd([2,4,6])
     [2, 4, 6]
@@ -47,6 +67,11 @@ def filter_odd(xs):
     >>> filter_odd([20,13,4,16,8,19,10])
     [20, 4, 16, 8, 10]
     '''
+    accumulator = []
+    for x in xs:
+        if x % 2 == 0:
+            accumulator.append(x)
+    return accumulator
 
 
 def nested_filter_odd(xss):
@@ -62,7 +87,14 @@ def nested_filter_odd(xss):
     >>> nested_filter_odd([[20],[13,4,16,8,19],[10], [15, 13, 1]])
     [20, 4, 16, 8, 10]
     '''
+    accumulator = []
+    for xs in xss:
+        for x in xs:
+            if x%2 == 0:
+                accumulator.append(x)
+    return accumulator
 
+"""
 
 # These dictionaries store the grades of famous people in their math, english, and economics classes.
 # You shouldn't modify these dictionaries,
@@ -123,3 +155,4 @@ def highest_grade(d):
     >>> highest_grade(economics_grades)
     95
     '''
+"""

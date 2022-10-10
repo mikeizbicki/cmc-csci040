@@ -7,6 +7,7 @@
 \usepackage{mathtools}
 \usepackage[shortlabels]{enumitem}
 \usepackage[normalem]{ulem}
+\usepackage{courier}
 
 \usepackage{hyperref}
 \hypersetup{
@@ -16,8 +17,14 @@
   citecolor    = blue  %Colour of citations
 }
 
+\usepackage[T1]{fontenc}
 \usepackage{listings}
-\lstset{language=Python} %,numbers=left}
+\lstset{
+    language=HTML
+    ,basicstyle=\ttfamily
+    %,numbers=left
+    ,breaklines=true
+    }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -42,11 +49,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-
 \begin{center}
     {
 \Large
-Week 04 Quiz
+Quiz: Containers
 }
 
     \vspace{0.1in}
@@ -55,10 +61,9 @@ Week 04 Quiz
     \vspace{0.1in}
 \end{center}
 
-
 \vspace{0.15in}
 \noindent
-\textbf{Total Score:} ~~~~~~~~~~~~~~~/10
+\textbf{Total Score:} ~~~~~~~~~~~~~~~/5
 
 \vspace{0.5in}
 \noindent
@@ -69,89 +74,48 @@ Week 04 Quiz
 \vspace{0.25in}
 
 \noindent
-\textbf{Collaboration Policy:}
+\textbf{Quiz rules:}
 \begin{enumerate}
     \item You MAY use any printed or handwritten notes.
     \item You MAY NOT use a computer or any other electronic device.
-    \item You MAY NOT discuss this quiz with another human being who has not completed the quiz.
-        This includes:
-        \begin{enumerate}
-            \item collaborating during the quiz, and
-            \item telling a student in a different section the quiz was easy/hard.
-        \end{enumerate}
 \end{enumerate}
+
+\noindent
 
 \vspace{0.15in}
 
-\begin{problem}
-    What is the output of the following code:
-\end{problem}
-\begin{lstlisting}
-total = 0
-for i in range(3):
-    total += i
-for i in range(3):
-    total += i
-print('total=', total)
-\end{lstlisting}
-\vspace{1in}
 
 \begin{problem}
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-total = 0
-for i in range(3):
-    for j in range(3):
-        total += 1
+xs = [1, 3, 5, 7, 9, 11]
+ys = xs[-5:]
+total = len(ys)
 print('total=', total)
 \end{lstlisting}
-\vspace{1.5in}
+\vspace{2in}
 
 \begin{problem}
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
+xs = [1, 3, 5, 7, 9, 11]
 total = 0
-for i in range(3):
-    for j in range(i):
-        total += i
-print('total=', total)
-\end{lstlisting}
-\vspace{1.5in}
-
-\begin{problem}
-    What is the output of the following code:
-\end{problem}
-\begin{lstlisting}
-total = 0
-for i in range(1, 3):
-    for j in range(0, 4, i):
-        total += j
-print('total=', total)
-\end{lstlisting}
-\vspace{1.5in}
-
-\begin{problem}
-    What is the output of the following code:
-\end{problem}
-\begin{lstlisting}
-xs = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21]
-total = 0
-for i in range(2, 4):
+for i in range(1,5,2):
     total += xs[i]
 print('total=', total)
 \end{lstlisting}
+\vspace{2in}
 
-\newpage
 \begin{problem}
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-xs = [1, 3, 5]
+xs = [1, 3]
 total = 0
 for x in xs:
-    total += x
+    total += x*2
 print('total=', total)
 \end{lstlisting}
 \vspace{1.5in}
@@ -160,57 +124,29 @@ print('total=', total)
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-xs = [1, 3, 5]
+xs = [1, 3]
 total = 0
-for i in range(len(xs)):
-    total += xs[i]*i
+for x in xs:
+    for i in range(2):
+        y = x + i
+        total += y
 print('total=', total)
 \end{lstlisting}
 \vspace{1.5in}
-
 
 \begin{problem}
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-xs = [1, 3, 5]
-ys = [2, 4, 6]
+xss = [[1, 3, 5], [2, 4], [0, 1, 2, 3, 4, 5]]
 total = 0
-for y in ys:
-    total += y
-    for x in xs:
-        total -= x*y
+total += xss[2][-1]
+total += xss[-1][-1]
+total += xss[-3][2]
 print('total=', total)
 \end{lstlisting}
 \vspace{1.5in}
 
-
-\newpage
-\begin{problem}
-    What is the output of the following code:
-\end{problem}
-\begin{lstlisting}
-xss = [[2, 4, 6], [1, 3], [0, 1, 2, 3]]
-total = 0
-for xs in xss:
-    total += xs[-1]
-    for x in xs:
-        total -= x
-print('total=', total)
-\end{lstlisting}
-\vspace{1.5in}
-
-
-\begin{problem}
-    What is the output of the following code:
-\end{problem}
-\begin{lstlisting}
-xss = [[2, 4, 6], [1, 3], [0, 1, 2, 3]]
-total = 0
-for i in range(len(xss)):
-    for j in range(len(xss[i])):
-        total += xss[-i-1][-j]
-print('total=', total)
-\end{lstlisting}
-\vspace{1.5in}
 \end{document}
+
+

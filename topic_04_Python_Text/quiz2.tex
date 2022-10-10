@@ -52,7 +52,7 @@
 \begin{center}
     {
 \Large
-Quiz: Text
+Quiz: Containers
 }
 
     \vspace{0.1in}
@@ -89,54 +89,60 @@ Quiz: Text
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-s = 'hello'
-xs = ['h', 'e', 'l', 'l', 'o']
-b = s[-2] == xs[3]
-print('b=', b)
+xs = [1, 3, 5, 7, 9, 11]
+ys = xs[-1:-5:-2]
+total = sum(ys)
+print('total=', total)
 \end{lstlisting}
-%# think about: b = s[-2] == xs[-2]
-\vspace{1.5in}
-
+\vspace{2in}
 
 \begin{problem}
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-s = 'guido von rossum'
-xs = s.split()
-t = xs[0]
-print('t=',t)
+xs = [1, 3, 5, 7, 9, 11]
+total = 0
+for i in range(3):
+    total += xs[i] + i
+print('total=', total)
 \end{lstlisting}
-\vspace{1.5in}
-
-\newpage
-\begin{problem}
-    What is the output of the following code:
-\end{problem}
-\begin{lstlisting}
-s = 'guido von rossum'
-s.split('G')
-t = s[0]
-print('t=',t)
-\end{lstlisting}
-\vspace{1.5in}
+\vspace{2in}
 
 \begin{problem}
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-val = '>' > '<'
-print('val=', val)
+xs = [1, 3, 5]
+total = 0
+for x in xs:
+    total += x // 2
+print('total=', total)
 \end{lstlisting}
 \vspace{1.5in}
-
 
 \begin{problem}
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-s = '\x44EA\x44BE\x45\x46'
-print('s=', s)
+xs = [1, 3, 5]
+total = 0
+for x in xs:
+    for i in range(2):
+        y = x - xs[i]
+        total += y
+print('total=', total)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+xss = [[1, 3, 5], [2, 4], [0, 1, 2, 3, 4, 5]]
+total = 0
+for xs in xss:
+    total += 1
+print('total=', total)
 \end{lstlisting}
 \vspace{1.5in}
 
