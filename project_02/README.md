@@ -6,7 +6,7 @@
 You will perform a simple data visualization on a dataset of your choice and create a webpage that describes the results.
 
 **Due:** 
-Sunday, 24 October, midnight
+Sunday, 23 October, midnight
 
 **Learning objectives:**
 
@@ -25,20 +25,24 @@ Sunday, 24 October, midnight
 
     1. http://data.un.org/
 
-   You may use any dataset of your choosing, but if you work closely with another student, you must not use the same datasets as that student.
+   You may use any dataset of your choosing, but you may not use the same dataset as any other student who you discuss this project with.
 
+   One of your datasets must be in CSV format, and the other must be in JSON format.
+   [Chapter 14 of the textbook](https://automatetheboringstuff.com/chapter14/) includes instructions for working with both types of files.
+   <!--
    Some datasets are in CSV format instead of JSON format.
    CSV files are even easier to work with than JSON files,
    and [the book has a whole chapter of examples](https://automatetheboringstuff.com/chapter14/).
+   -->
 
-   **NOTE:**
-   You may not modify the dataset file in anyway.
-   If there is processing that you want to do to the dataset (e.g. computing an average),
-   you must do this within python after loading the file.
-   Additionally, if you are plotting some feature of the dataset,
-   you must include all occurrences of that feature.
-   (For example, if you have year on the x-axis of a plot,
-   you must have ALL of the years present in the dataset on the x-axis.)
+   > **NOTE:**
+   > You may not modify the dataset file in anyway.
+   > If there is processing that you want to do to the dataset (e.g. computing an average),
+   > you must do this within python after loading the file.
+   > Additionally, if you are plotting some feature of the dataset,
+   > you must include all occurrences of that feature.
+   > (For example, if you have year on the x-axis of a plot,
+   > you must have ALL of the years present in the dataset on the x-axis.)
 
 1. Generate two plots, one from each of your datasets, satisfying the following requirements:
 
@@ -48,6 +52,9 @@ Sunday, 24 October, midnight
     1. At least one of your plots must contain two different data sources, and you must have a key that shows the meaning of each data source.
        (For example, two different lines in a line graph, 
        or two different sets of bars in a bar chart).
+
+       > **WARNING:**
+       > In the past, it has been common for students to miss points on this assignment for not including multiple data sources in a single plot.
 
     1. The plots should have properly labeled x and y axes.
 
@@ -59,9 +66,9 @@ Sunday, 24 October, midnight
        so if you have any questions about whether your plot is reasonable,
        then ask me in person before the submission deadline.
 
-       **HINT:**
-       If your data is appearing as a straight line,
-       then you've probably made a mistake.
+       > **HINT:**
+       > If your data is appearing as a straight line,
+       > then you've probably made a mistake.
 
    See the [matplotlib samples library](https://matplotlib.org/3.1.1/tutorials/introductory/sample_plots.html) for examples of well formatted plots.
 
