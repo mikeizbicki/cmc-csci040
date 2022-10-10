@@ -131,9 +131,7 @@ Reference videos:
 We will cover the matplotlib library.
 The textbook does not have a chapter on using the matplotlib library,
 but the library itself has a great set of tutorials that you can use as a reference:
-https://matplotlib.org/3.3.1/tutorials/index.html
-
-<img width=800px src=programming-libraries-comic.png />
+<https://matplotlib.org/3.3.1/tutorials/index.html>
 
 Reference videos:
 
@@ -141,7 +139,16 @@ Reference videos:
    You don't need to watch all of these videos,
    but I recommend watching at least the first one.
 
-<img width=600px src=google.png />
+The main takeaway from this week is that lots of programming is just:
+
+1. Using other people's libraries
+
+   <img width=800px src=programming-libraries-comic.png />
+
+
+1. And googling how to use their libraries
+
+   <img width=600px src=google.png />
 
 ## Lab
 
