@@ -1,4 +1,4 @@
-# HW 2: Visualizing interesting datasets
+# Project 02: Visualizing interesting datasets
 
 ![comic](convincing.png)
 

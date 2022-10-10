@@ -1,10 +1,16 @@
 # Week 06: More Files + CSV/JSON + Matplotlib
 
-<img width=600px src=programming.jpg>
+<img width=400px src=programming.jpg>
 
 **Announcements:**
 
-1. Download the first zip files at <https://github.com/bpb27/trump_tweet_data_archive> for lecture.
+1. Download:
+
+    1. The zip files at <https://github.com/bpb27/trump_tweet_data_archive>.
+       You'll eventually need them all for lab,
+       but any one of the files will be fine for lecture.
+
+    1. The `notes_json.py` file.
 
 1. No lab session/office hours this Friday.
 
