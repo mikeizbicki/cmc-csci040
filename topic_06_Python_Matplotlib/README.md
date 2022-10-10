@@ -4,6 +4,8 @@
 
 **Announcements:**
 
+1. Download the first zip files at <https://github.com/bpb27/trump_tweet_data_archive> for lecture.
+
 1. No lab session/office hours this Friday.
 
    But you still have a lab for this week... it will be due Tuesday (or Thursday with the collaboration extension).
