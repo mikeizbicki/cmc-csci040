@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 
 '''
+========================================
 INSTRUCTIONS:
+========================================
 
 There are no pre-built functions and doctests for this lab.
 This is to get you more experience writing entire python programs from scratch.
@@ -31,28 +33,29 @@ Step 4: Modify this `lab_part1.py` file so that it:
 
     4. Prints out a count of each of these words.
 
-My program gives the following output:
+    My program gives the following output:
 
+    ```
     len(tweets)= 36307
     counts= {'trump': 13924, 'russia': 412, 'obama': 2712, 'fake news': 333, 'mexico': 199}
+    ```
 
-You'll know your program is correct if you get the same numbers.
+    (Notice how I use markdown code-blocks from within python comments so you know exactly where my output starts/stops.
+    It is very common to use markdown in python comments.)
 
-========================================
-EXTRA CREDIT:
+    You'll know your program is correct if you get the same numbers.
 
-You may earn 1 point of extra credit on this lab if you also:
+Step 5: Select at least 3 more interesting words/phrases to count in trump's tweets.
 
-    1. select at least 3 more interesting words/phrases to count in trump's tweets,
+Step 6: Calculate the percentage of tweets that contain each word.  (Both your new words and Trump's original tweets.)
 
-    2. calculate the percentage of tweets that contain each word, and
+Step 7: Display the results nicely.
 
-    3. display them nicely.
+    The display must have all words right justified and the percents printed with two 
+    significant figures (on both sides of the decimal) as shown in the example output below.
+    For example:
 
-The display must have all words right justified and the percents printed with two 
-significant figures (on both sides of the decimal) as shown in the example output below.
-For example:
-
+    ```
     percentage of tweets using phrase:
                   daca : 00.17
              fake news : 00.92
@@ -62,14 +65,16 @@ For example:
                 russia : 01.13
                  trump : 38.35
                   wall : 00.91
+    ```
 
-HINT:
-There are many ways to achieve this effect in python,
-but I recommend using the .format string function.
-Your python cheat sheet has instructions.
+    HINT:
+    There are many ways to achieve this effect in python,
+    but I recommend using the .format string function.
+    Your python cheat sheet has instructions.
 
 ========================================
 Submission
+========================================
 
 Upload your completed `lab_part1.py` file to sakai,
 and copy and paste the output of running your program into sakai.
