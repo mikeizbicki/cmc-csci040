@@ -93,32 +93,13 @@ def extract_TLD(domain):
     '''
 
 
-def remove_duplicate_words(s):
-    '''
-    This function performs a basic grammar check by removing duplicate words in a string.
-
-    HINT:
-    use the split function to "tokenize" the string into a list of words;
-    then solve the problem on lists using the `remove_duplicates_from_list` function;
-    finally, use the join function to convert the de-duplicated list back into a string
-
-    >>> remove_duplicate_words('please please please please work')
-    'please work'
-    >>> remove_duplicate_words('this is a a sentence')
-    'this is a sentence'
-    >>> remove_duplicate_words('if it walks like a duck and talks like a duck, then it is a duck')
-    'if it walks like a duck and talks like a duck, then it is a duck'
-    >>> remove_duplicate_words('nothing needs to change about this sentence')
-    'nothing needs to change about this sentence'
-    '''
-
-
 def remove_duplicates_from_list(xs):
     '''
-    This function is a "helper function" for the remove_duplicate_words function;
-    having helper functions is a common pattern in python programming
+    This function is a "helper function" for the remove_duplicate_words function below;
+    having helper functions is a common pattern in python programming.
 
     HINT:
+    Use the accumulator pattern as follows:
     step 1: create an empty list;
     step 2: then use a for loop to loop over xs;
     step 3: on each iteration of the for loop, if the value is different than the previous value, then append it to the list you created in step 1
@@ -135,14 +116,28 @@ def remove_duplicates_from_list(xs):
     []
     '''
 
-    new_list = []
-    for i in range(len(xs)):
-        if i < len(xs)-1:
-            if xs[i] != xs[i+1]:
-                new_list.append(xs[i])
-        else:
-            new_list.append(xs[i])
-    return new_list
+
+def remove_duplicate_words(s):
+    '''
+    This function performs a basic grammar check by removing duplicate words in a string.
+
+    HINT:
+    Don't use the accumulator pattern.
+    (This is one of the rare times in class I'll say that.)
+    Instead:
+    1) use the `.split()` function to convert the string to a list
+    2) call the `remove_duplicates_from_list` function
+    3) use the `.join()` function to convert the list back to a string
+
+    >>> remove_duplicate_words('please please please please work')
+    'please work'
+    >>> remove_duplicate_words('this is a a sentence')
+    'this is a sentence'
+    >>> remove_duplicate_words('if it walks like a duck and talks like a duck, then it is a duck')
+    'if it walks like a duck and talks like a duck, then it is a duck'
+    >>> remove_duplicate_words('nothing needs to change about this sentence')
+    'nothing needs to change about this sentence'
+    '''
 
 
 def how_many_claremonts_in_str(s):

@@ -152,12 +152,8 @@ The main takeaway from this week is that lots of programming is just:
 
 ## Lab
 
-There are multiple parts to the lab assignments this week,
-each with their own submission on sakai.
-<!--
-The first is mandatory, but has an extra credit option so you may earn 6/5 on the lab.
-The second is optional and worth 2 points of extra credit.
--->
+There are multiple parts to the lab assignments this week.
+Each is worth 3 points and has its own submission on sakai.
 
 Because of Fall Break, the due date for all parts is NOT Sunday, but Tuesday at midnight.
 If you collaborate, you can have an extension until Thursday.
@@ -171,10 +167,4 @@ You may also be interested in reading [this analysis of Trump's tweets](http://v
 
 ### Part 2
 
-TBA
-<!--
-This lab is worth 2 points of extra credit.
-To earn the extra credit, complete the doctests in `lab_part2.py` just like normal.
-You must pass all of the doctests to earn the extra credit,
-and no partial credit will be awarded.
--->
+Complete the doctests in `lab_part2.py` like normal.
