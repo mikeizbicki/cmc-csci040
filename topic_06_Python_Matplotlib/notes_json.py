@@ -40,10 +40,10 @@ for tweet in tweets:
     #if ('chicago' and 'trump') in tweet['text'].lower():
         num_tweets += 1
         output_tweets.append(tweet)
-    else:
-        print('tweet["text"]=',tweet['text'])
+    #else:
+    #    print('tweet["text"]=',tweet['text'])
 print('num_tweets=',num_tweets)
 print('len(tweets)=', len(tweets))
 
-first_output_tweet = output_tweets[0]
-print('first_output_tweet=',first_output_tweet)
+#first_output_tweet = output_tweets[0]
+#print('first_output_tweet=',first_output_tweet)
