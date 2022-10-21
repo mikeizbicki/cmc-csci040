@@ -74,12 +74,14 @@ For example:
    You probably don't have that much disk space,
    so don't try to unzip it :)
 
+   Virus scanning programs commonly open the contents of zip files and scan the contents for viruses.
+   Zip bombs like this will cause these scanners to fill up the contents of the hard drive, crashing the computer.
+
    <img src=zipbomb.jpg width=400px>
 
 1. Even worse is the file [quine.zip](https://wgreenberg.github.io/quine.zip/).
    This file actually contains itself inside of it!
-   Antivirus software will open up zip files inside of zip files,
-   so antivirus software opening `quine.zip` will get stuck in an infinite loop of opening this file forever.
+   Antivirus software opening `quine.zip` will get stuck in an infinite loop of opening this file forever.
 
    This one is safe for you to open, however, and I recommend you do so.
    You can see that the file contains another file exactly like itself,
@@ -171,7 +173,9 @@ adultery is a [felony offense](https://militarybenefits.info/ucmj-adultery/) for
 **Submission:**
 
 Upload to sakai:
-1. the password to `whitehouse_secrets.zip`
 1. your `password_cracker.py` file
 1. the contents of `whitehouse_secrets/secrets.txt`
+<!--
+1. the password to `whitehouse_secrets.zip`
+-->
 

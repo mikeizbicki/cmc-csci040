@@ -11,7 +11,7 @@
 # ```
 # accumulator = []
 # for VARIABLE in LIST:
-#     accumulator += COMPUTATION
+#     accumulator.append(COMPUTATION)
 # ```
 
 
@@ -19,6 +19,9 @@
 '''
 names = ['alice', 'bob', 'charlie', 'dave', 'eve']
 greetings = ['hello ' + name for name in names]
+#greetings = []
+#for name in names:
+#    greetings.append('hello ' + name)
 greeting = greetings[2]
 print('greeting=', greeting)
 '''
@@ -26,6 +29,11 @@ print('greeting=', greeting)
 # Problem 5
 '''
 xs = [ x*x for x in range(10) ]
+print('list(range(10)=',list(range(10)))
+print('xs=',xs)
+#xs = []
+#for x in range(10):
+#    xs.append(x*x)
 num = xs[5]
 print('num=', num)
 '''
@@ -43,22 +51,33 @@ print('num=', num)
 # accumulator = []
 # for VARIABLE in LIST:
 #     if CONDITION:
-#         accumulator += COMPUTATION
+#         accumulator.append(COMPUTATION)
 # ```
-
-# Problem 6
 '''
+# Problem 6
 xs = [ x*x for x in range(10) if x%2 ]
+print('list(range(10))=', list(range(10)))
+#xs = []
+#for x in range(10):
+#    if x%2:
+#        xs.append(x*x)
+print('xs=', xs)
+
 num = xs[3]
 print('num=', num)
 '''
 
 # Problem 9
-'''
 sentence = 'This is an example sentence with a few words in it.'
-small_words = [word.lower() for word in sentence.split() if len(word) <= 2]
+print('sentence.split()=', sentence.split())
+small_words = [ word.lower() for word in sentence.split() if len(word) <= 2]
+print('small_words=', small_words)
+#small_words = []
+#for word in sentence.split():
+#    if len(word) <= 2:
+#        small_words.append(word.lower())
 print('len(small_words)=', len(small_words))
-'''
+
 
 ########################################
 # List Comprehensions (3)
@@ -68,9 +87,19 @@ print('len(small_words)=', len(small_words))
 # repeat the desugaring steps above from outside to inside.
 
 # Problem 15
+#xss = [[i for i in range(x)] for x in [2, 3, 4] if x%2 == 1]
 '''
-xss = [[i for i in range(x)] for x in [2, 3, 4] if x%2 == 1]
-x = xss[-1][-2]
+xss = []
+for x in [2, 3, 4]:
+    if x%2 == 1:
+        xss.append([i for i in range(x)])
+        #xs = []
+        #for i in range(x):
+        #    xs.append(i)
+        #xss.append(xs)
+print('xss=', xss)
+#x = xss[-1][-2]
+x = xss[0]
 print('x=', x)
 '''
 
@@ -116,6 +145,22 @@ tweets = [
 
 # Problem 19
 '''
+text = tweets[-1]['text']
+mentions = [word for word in text.split() if word[0] == '@']
+print('text=', text)
+print('mentions=', mentions)
+'''
+
+'''
+mentions = [[word for word in tweet['text'].split() if word[0] == '@'] for tweet in tweets if len([word for word in tweet['text'].split() if word[0] == '@']) > 0]
+print('mentions=',mentions)
+'''
+
+'''
 popular_tweets = [tweet for tweet in tweets if tweet['retweet_count'] > 100]
+#popular_tweets = []
+#for tweet in tweets:
+#    if tweet['retweet_count'] > 100:
+#        popular_tweets.append(tweet)
 print('len(popular_tweets)=',len(popular_tweets))
 '''
