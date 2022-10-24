@@ -22,22 +22,26 @@ with open(filename, 'r', encoding='utf-8') as f:
 # ```
 import requests
 url = 'https://www.gutenberg.org/files/345/345-h/345-h.htm'
-r = requests.get(url)
-text3 = r.text1
+response = requests.get(url)
+text3 = response.text
 
 # Method 4: From the command-line with argparse
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('--text1')
+parser.add_argument('--text')
+parser.add_argument('--example')
+parser.add_argument('--hello')
 args = parser.parse_args()
-text4 = args.text1
+text4 = args.text
 
+print('text4=',text4)
+print('args.example=',args.example)
 
 ################################################################################
-# PART II: processing text1
+# PART II: processing text
 ################################################################################
 
-# So far, we've seen 2 methods of processing text1:
+# So far, we've seen 2 methods of processing text:
 
 # Method 1: str functions
 # for example, 
@@ -51,6 +55,7 @@ text1 = text1.replace('Dracula', 'Izbicki')
 # Method 2: json.loads
 # It should be "obvious" why the following code doesn't work.
 '''
+import json
 data = json.loads(text1)
 '''
 
@@ -61,6 +66,7 @@ data = json.loads(text1)
 # $ pip3 install bs4
 # ```
 from bs4 import BeautifulSoup
+#import bs4
 soup = BeautifulSoup(text1, 'html.parser')
 tags = soup.select('title')
 
