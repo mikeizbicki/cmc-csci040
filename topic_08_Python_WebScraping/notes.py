@@ -1,9 +1,9 @@
 
 ################################################################################
-# PART I: loading text
+# PART I: loading text1
 ################################################################################
 
-# So far, we've seen 2 methods to get text into our python programs:
+# So far, we've seen 2 methods to get text1 into our python programs:
 
 # Method 1: String literals
 text1 = '<title>The Project Gutenberg eBook of Dracula, by Bram Stoker</title>'
@@ -13,45 +13,56 @@ filename = 'dracula.html'
 with open(filename, 'r', encoding='utf-8') as f:
     text2 = f.read()
 
-# Method 3: Requests
+# Today we will learn 2 more:
+
+# Method 3: From the internet with `requests`
+# `requests` is not a built-in module, so you must install it:
+# ```
+# $ pip3 install requests
+# ```
 import requests
 url = 'https://www.gutenberg.org/files/345/345-h/345-h.htm'
 r = requests.get(url)
-text3 = r.text
+text3 = r.text1
 
-# Method 4: Argparse
-# No sample code since it won't make sense for this example
+# Method 4: From the command-line with argparse
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('--text1')
+args = parser.parse_args()
+text4 = args.text1
+
 
 ################################################################################
-# PART II: processing text
+# PART II: processing text1
 ################################################################################
 
-# Specify which data source we're going to work with
-text = text2
+# So far, we've seen 2 methods of processing text1:
 
-# So far, we've seen 2 methods of processing text:
-
-# Method I: str functions
+# Method 1: str functions
 # for example, 
 #   str.replace()
 #   str.lower()
 #   str.find()
 #   slices
 #   indexing
-text = text.replace('Dracula', 'Izbicki')
+text1 = text1.replace('Dracula', 'Izbicki')
 
-# Method II: json.loads
+# Method 2: json.loads
 # It should be "obvious" why the following code doesn't work.
 '''
-data = json.loads(text)
+data = json.loads(text1)
 '''
 
 # Today, we are going to learn a 3rd way: the `bs4` library.
 # This library makes html strings searchable using css selectors.
-# `bs4` is not built-in to python, and you must pip install it.
+# `bs4` is not built-in to python, and you must pip install it:
+# ```
+# $ pip3 install bs4
+# ```
 from bs4 import BeautifulSoup
-soup = BeautifulSoup(text, 'html.parser')
-a_tags = soup.select('p > a')
+soup = BeautifulSoup(text1, 'html.parser')
+tags = soup.select('title')
 
 ################################################################################
 # IMPORTANT:

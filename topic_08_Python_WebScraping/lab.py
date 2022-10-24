@@ -35,13 +35,13 @@ def how_many_claremonts_in_url(url):
     I will update these values for the lab on the day of the lab
 
         >>> how_many_claremonts_in_url('https://www.cmc.edu')
-        29
+        32
         >>> how_many_claremonts_in_url('https://www.hmc.edu')
-        4
+        6
         >>> how_many_claremonts_in_url('https://www.pitzer.edu')
-        12
+        0
         >>> how_many_claremonts_in_url('https://www.pomona.edu')
-        7
+        18
         >>> how_many_claremonts_in_url('https://www.scripps.edu')
         0
     '''
