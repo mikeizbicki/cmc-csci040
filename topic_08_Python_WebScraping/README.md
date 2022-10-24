@@ -6,6 +6,8 @@
 
 **Grades:**
 
+Everything is graded and updated in sakai.
+
 <img src=grades.png width=400px />
 
 1. **WARNING:** Historically, many students lose lots of points on project 2 for not following directions.
