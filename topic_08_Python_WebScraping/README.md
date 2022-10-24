@@ -105,13 +105,14 @@ I will implement a solution to [hw\_03](https://github.com/mikeizbicki/cmc-csci0
 **Facebook goes down (2021)** or Kakao goes down (2022):
 
 Background:
-    1. All Facebook properties were down for about 6-14 hours on Tuesday 04 October 2021
 
-        1. It has it's own wikipedia page: https://en.wikipedia.org/wiki/2021_Facebook_outage
+1. All Facebook properties were down for about 6-14 hours on Tuesday 04 October 2021
 
-    1. Estimated lost revenue is $90 million https://www.managementstudyguide.com/economic-impact-of-facebook-outage.htm
+    1. It has it's own wikipedia page: https://en.wikipedia.org/wiki/2021_Facebook_outage
 
-    1. Stock price fell 2% => Mark lost $7 billion dollars in value
+1. Estimated lost revenue is $90 million https://www.managementstudyguide.com/economic-impact-of-facebook-outage.htm
+
+1. Stock price fell 2% => Mark lost $7 billion dollars in value
 
 How does an outage like this happen?
 
