@@ -11,7 +11,7 @@ and in this project, we'll convert ebay's html files into JSON.
 The vast majority of programmming projects are about converting from one type of data to another "better" type.
 
 **Due:** 
-Sunday, 7 November, midnight
+Sunday, 6 November, midnight
 
 **Learning objectives:**
 
@@ -57,6 +57,8 @@ At least one of these search terms must contain a space (e.g. `drill press`, `st
 **PART III:**
 
 Create a github repo that:
+
+1. Has at least 5 stars
 
 1. Contains your `ebay-dl.py` file
 
