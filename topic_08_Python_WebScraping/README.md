@@ -116,6 +116,10 @@ Background:
 
 How does an outage like this happen?
 
+1. Facebook is *complicated*
+
+    <img src=loc.png width=600px \>
+
 1. Map of Facebook datacenters: https://baxtel.com/data-centers/facebook
 
 1. Submarine cables:

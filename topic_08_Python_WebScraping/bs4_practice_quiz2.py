@@ -1,8 +1,6 @@
 '''
-Beautiful Soup Question Bank
+Beautiful Soup Practice Quiz
 ============================
-
-There may be more than 1 of each type of question listed below on the actual quiz.
 '''
 
 from bs4 import BeautifulSoup

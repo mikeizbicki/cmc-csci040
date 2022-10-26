@@ -1,12 +1,6 @@
 '''
 Beautiful Soup Practice Quiz
 ============================
-
-The quiz will have 5 problems, each worth 2 points, for 10 points total.
-Each problem contains a print command, and you must write the output of the print command.
-
-If your grade on this quiz is higher than your grade on the first quiz,
-then it will replace that grade.
 '''
 
 from bs4 import BeautifulSoup
@@ -69,19 +63,3 @@ tags2 = soup.select('.bold')
 tags = tags1 + tags2
 problem5 = len(tags)
 print("problem5=",problem5)
-
-
-
-
-
-
-
-
-
-
-############################################################
-# Extra:  (Will not have this problem on quiz)
-tags = soup.select('*')
-tags_filtered = [ tag for tag in tags if 'Lorem ipsum' in tag.text ] 
-problem_extra = len(tags_filtered)
-print("problem_extra=",problem_extra)
