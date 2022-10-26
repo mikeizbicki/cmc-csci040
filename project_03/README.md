@@ -1,3 +1,7 @@
+**NOTE:**
+[This video](https://www.youtube.com/watch?v=IzMv8ZnSk6c&list=PLSNWQVdrBwoYFB5ZjbfBZUYApuvNrZpGL&index=14) provides a detailed overview of the assignment and completes the majority of the code.
+It's about 2hr long.
+
 # HW 3: Scraping from ebay
 
 ![comic](D1Kq7tHUYAA4CKC.jpeg)
