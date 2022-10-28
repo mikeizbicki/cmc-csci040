@@ -1,0 +1,158 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage[shortlabels]{enumitem}
+\usepackage[normalem]{ulem}
+\usepackage{courier}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = black, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor    = blue  %Colour of citations
+}
+
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\lstset{
+    language=HTML
+    ,basicstyle=\ttfamily
+    %,numbers=left
+    ,breaklines=true
+    }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathbb R}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\newcommand{\trans}[1]{{#1}^{T}}
+\newcommand{\loss}{\ell}
+\newcommand{\w}{\mathbf w}
+\newcommand{\mle}[1]{\hat{#1}_{\textit{mle}}}
+\newcommand{\map}[1]{\hat{#1}_{\textit{map}}}
+\newcommand{\normal}{\mathcal{N}}
+\newcommand{\x}{\mathbf x}
+\newcommand{\y}{\mathbf y}
+\newcommand{\ltwo}[1]{\lVert {#1} \rVert}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{center}
+    {
+\Large
+Quiz
+}
+
+    \vspace{0.1in}
+    CSCI040: \sout{Computing for the Web} Introduction to Hacking
+
+    \vspace{0.1in}
+\end{center}
+
+\vspace{0.15in}
+\noindent
+\textbf{Total Score:} ~~~~~~~~~~~~~~~/5
+
+\vspace{0.5in}
+\noindent
+\textbf{Printed Name:}
+
+\noindent
+\rule{\textwidth}{0.1pt}
+\vspace{0.25in}
+
+\noindent
+\textbf{Quiz rules:}
+\begin{enumerate}
+    \item You MAY use any printed or handwritten notes.
+    \item You MAY NOT use a computer or any other electronic device.
+\end{enumerate}
+
+\noindent
+
+\vspace{0.15in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+total = 10
+for i in range(-5, 3, 3):
+    total = total + i
+print('total=', total)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+if 'False':
+    result = 1
+else:
+    result = 0
+print('result=', result)
+\end{lstlisting}
+\vspace{1.5in}
+
+\newpage
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+x = 10
+def foo(x):
+    if x - 5:
+        return 1
+    else:
+        x += 1
+    return x
+x += foo(4)
+x += foo(5)
+x += foo(6)
+print("x=", x)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+x = 10 
+def foo(x):
+    x += 2
+    return x
+x += foo(9 + 39 // 10) * 3
+x += foo(9 + 19 // 10) * 2
+print("x=", x)
+\end{lstlisting}
+\vspace{1.5in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+x = 10
+def foo(x):
+    for i in range(1, 4):
+        return x * i
+x += foo(i)
+print("x=", x)
+\end{lstlisting}
+\vspace{1.5in}
+
+\end{document}
+
+
