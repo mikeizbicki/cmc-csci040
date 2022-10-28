@@ -195,7 +195,7 @@ How does an outage like this happen?
 
 ## Lab
 
-Complete the functions in `lab.py` and optionally `lab_ec.py`.
+Complete the functions in `lab.py`.
 Upload the output of running the doctests to sakai.
 
 It's a short lab today :)
