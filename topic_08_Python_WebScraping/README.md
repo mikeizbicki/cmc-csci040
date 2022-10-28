@@ -195,8 +195,9 @@ How does an outage like this happen?
 
 ## Lab
 
-TBA
-<!--
 Complete the functions in `lab.py` and optionally `lab_ec.py`.
 Upload the output of running the doctests to sakai.
--->
+
+It's a short lab today :)
+If you finish early, feel free to get started on the project.
+
