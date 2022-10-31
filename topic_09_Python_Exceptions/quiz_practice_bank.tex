@@ -656,5 +656,225 @@ except IndexError:
 print('output=', output)
 \end{lstlisting}
 \vspace{0.75in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+def foo(xs):
+    assert(len(xs) > 0)
+foo()
+\end{lstlisting}
+\vspace{0.75in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+def foo(xs):
+    assert(len(xs) > 0)
+
+try:
+    foo([1,2,3])
+except AssertionError:
+    pass
+\end{lstlisting}
+\vspace{0.5in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+def foo(xs):
+    assert(len(xs) > 0)
+
+result = 0
+try:
+    result += foo([1,2,3])
+except AssertionError:
+    result -= 1
+print('result=', result)
+\end{lstlisting}
+\vspace{0.5in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+def foo(xs):
+    assert(len(xs) > 0)
+
+example = 0
+try:
+    example += foo([1,2,3])
+    example += 1
+except ValueError:
+    pass
+print('example=', example)
+\end{lstlisting}
+\vspace{0.75in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+def foo(xs):
+    assert(len(xs) > 0)
+
+example = 0
+try:
+    example += foo([1,2,3])
+    example += 1
+except AssertionError:
+    pass
+print('example=', example)
+\end{lstlisting}
+\vspace{0.75in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+def bar(xs):
+    assert(len(xs) > 0)
+    return len(xs)*2
+
+result = 0
+try:
+    result += bar([1,2,3])
+    result += bar([2,3])
+    result += bar([])
+    result += bar([5])
+except AssertionError:
+    pass
+
+print('result=', result)
+\end{lstlisting}
+\vspace{0.75in}
+
+\newpage
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+def bar(xs):
+    assert(len(xs) > 0)
+    return len(xs)*2
+
+result = 0
+try:
+    result += bar([1,2,3])
+    result += bar([2,3])
+    result += bar([])
+    result += bar([5])
+except ValueError:
+    pass
+
+print('result=', result)
+\end{lstlisting}
+\vspace{0.75in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+def bar(xs):
+    assert(len(xs) > 0)
+    return len(xs)*2
+
+result = 0
+try:
+    result += bar([1,2,3])
+    result += bar([2,3])
+    result += bar()
+    result += bar([5])
+except AssertionError:
+    result += 1
+except TypeError:
+    result += 5
+
+print('result=', result)
+\end{lstlisting}
+\vspace{0.75in}
 \end{document}
 
