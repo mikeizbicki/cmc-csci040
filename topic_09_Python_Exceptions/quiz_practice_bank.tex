@@ -876,5 +876,101 @@ except TypeError:
 print('result=', result)
 \end{lstlisting}
 \vspace{0.75in}
+
+\newpage
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+def bar(xs):
+    if not len(xs) > 0:
+        raise ValueError('input list must be non-empty')
+    return len(xs)*2
+
+result = 0
+try:
+    result += bar([1,2,3])
+    result += bar([2,3])
+    result += bar()
+    result += bar([5])
+except AssertionError:
+    result += 1
+except TypeError:
+    result += 5
+
+print('result=', result)
+\end{lstlisting}
+\vspace{0.75in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+def bar(xs):
+    if not len(xs) > 0:
+        raise ValueError('input list must be non-empty')
+    return len(xs)*2
+
+result = 0
+try:
+    result += bar([1,2,3])
+    result += bar([2,3])
+    result += bar()
+    result += bar([5])
+except ValueError:
+    result += 1
+except TypeError:
+    result += 5
+
+print('result=', result)
+\end{lstlisting}
+\vspace{0.75in}
+
+\newpage
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+def bar(xs):
+    if not len(xs) > 0:
+        raise ValueError('input list must be non-empty')
+    return len(xs)*2
+
+result = 0
+result += bar
+
+print('result=', result)
+\end{lstlisting}
+\vspace{0.75in}
 \end{document}
 
