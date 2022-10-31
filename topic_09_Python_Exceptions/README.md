@@ -11,6 +11,7 @@ References include:
 1. https://realpython.com/lessons/introduction-exceptions/
 1. https://docs.python.org/3/library/exceptions.html
 
+<!--
 You're responsible for knowing the following exceptions:
 1. `AssertionError`
 1. `AttributeError`
@@ -20,6 +21,7 @@ You're responsible for knowing the following exceptions:
 1. `UnboundLocalError`
 1. `TypeError`
 1. `ZeroDivisionError`
+-->
 
 Also, this chart is a useful reminder when working on problems:
 
@@ -27,4 +29,7 @@ Also, this chart is a useful reminder when working on problems:
 
 ## Lab
 
+TBA
+<!--
 See the instructions in the [lab folder](lab)
+-->
