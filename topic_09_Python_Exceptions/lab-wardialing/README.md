@@ -341,6 +341,8 @@ In the remainder of this lab, you will write a python program that connects to e
 <https://shodan.io> is a search engine for IP addresses that can fully automate the war dialing done in this lab and lots of other "hacking" tasks.
 You can find detailed a detailed list of all internet devices connected on North Korean IPs at <https://www.shodan.io/search?query=net%3A175.45.176.0%2F24>.
 This list contains more than just web servers, so has a few more results than you'll get from the war dial in this lab.
+You can also find all the servers hosted by the claremont colleges at <https://www.shodan.io/search?query=net%3A134.173.0.0%2F16>.
+If you dig through the results, for example, you can find an internal tool used by the Athenaeum that is not intended for the public to view.
 
 One of the really trippy things about shodan is that they scan the servers for security vulnerabilities,
 and looking at the results list for North Korea,
