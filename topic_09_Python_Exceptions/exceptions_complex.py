@@ -8,8 +8,10 @@
 ########################################
 
 # Opening a file that doesn't exist results in an exception
+"""
 with open('file') as f:
     text = f.read()
+"""
 
 # There are two ways to fix this problem.
 
@@ -18,6 +20,8 @@ import os
 if os.path.exists('file'):
     with open('file') as f:
         text = f.read()
+else:
+    print('bad file')
 
 # Method 2: "Ask for forgiveness"
 try:
@@ -34,10 +38,31 @@ except FileNotFoundError:
 ########################################
 # URLs
 ########################################
+'''
+def foo():
+    raise ValueError('test')
+    raise TypeError
+'''
 
 import requests
-url='https://google.com'
-requests.get(url)
+url='http://google.com/'
+try:
+    r = requests.get(url)
+    print('valid url')
+    print('status_code=', r.status_code)
+except:
+    print('had an exception')
+    '''
+except requests.exceptions.MissingSchema:
+    print('url needs a schema')
+except requests.exceptions.ConnectionError:
+    print('cannot connect to url')
+'''
+'''
+except (requests.exceptions.MissingSchema, requests.exceptions.ConnectionError):
+    print('bad url')
+'''
+
 
 # General Principle:
 # Not all "errors" result in exceptions
@@ -46,10 +71,13 @@ requests.get(url)
 # infinite loops
 ########################################
 
-'''
+"""
 while True:
-    print('hello world')
-'''
+    try:
+        prin('hello world')
+    except:
+        print('I do not want to quit')
+"""
 
 # General Principle:
 # you should always be explicit about which exceptions you are expecting

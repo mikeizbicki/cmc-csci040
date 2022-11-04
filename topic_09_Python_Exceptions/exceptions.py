@@ -14,7 +14,8 @@
 
 ########################################
 # AttributeError:
-# whenever the `object.function()` syntax is used, but `.function` is not applicable for `object`
+# whenever the `object.function()` syntax is used, 
+# but `.function` is not applicable for `object`
 
 '''
 xs = [1, 2, 3]          # mutable, things you change
@@ -24,18 +25,20 @@ s = 'hello '            # immutable, things you can't change
 s.append('world')
 '''
 
+
 ########################################
 # IndexError:
 # Whenever the [] notation is used is out of bounds for a *list*
 
 '''
 xs = [1, 2, 3]
-xs[3]
+xs[-4]
 '''
+# NOTE: if using a slice (colon in []), never get IndexError
 
 ########################################
 # KeyError:
-# Whenever the [] notation is used is out of bounds for a *dictionary*
+# Whenever the [] notation is used is "doesn't exist" = "out of bounds" for a *dictionary*
 
 '''
 d = { 'text': 'hello world' }
@@ -48,15 +51,28 @@ d['created_at']
 
 '''
 example
+'''
 
-d = { 'text': 'hello world' }
+'''
+#text = 'text'
+d = { 'created_at': 'hello world' }
 d[text]
-
+'''
+'''
+#new_example += 1
+# new_example = new_example + 1
 def foo():
     new_example += 1
     return new_example
+d = { 'created_at': 'hello world' }
+d['text']
 foo()
 '''
+
+# UnboundLocalError: like NameError but inside functions
+# differences between the two are subtle, you are not responsible for knowing the differences
+
+
 
 ########################################
 # TypeError:
@@ -65,8 +81,21 @@ foo()
 # 1. math operations are used on incompatible types
 
 '''
-'My age is ' + 35
-None + 'test'
+x = 35
+s = 'My age is ' + x
+print('s=', s)
+'''
+'''
+def foo(s):
+    if len(s) > 10:
+        return 'hello'
+    if len(s) > 5:
+        return 'goodbye'
+s = foo('hel') + 'test'
+print('s=', s)
+None + 'test' # fix this error by finding the source of None, and figure out why it is None
+'''
+'''
 [1, 2, 3] + 4
 '''
 
@@ -88,10 +117,13 @@ len(x)
 
 '''
 x = 5
-x[0]
+x[1]
+'''
 
+'''
 xs = [1, 2, 3]
-xs['test']
+xs['text'] # type error
+xs[100]    # index error
 '''
 
 # 4. parens are used on non-functions
@@ -99,7 +131,9 @@ xs['test']
 '''
 x = 5
 x()
+'''
 
+'''
 def foo():
     return 5
 foo()
@@ -108,13 +142,28 @@ foo = 5
 foo()
 '''
 
+'''
+xs = [1,2,3]
+length = str(len(xs))
+print('length=',length)
+len(xs)
+'''
+
 # 5. a function is called with the wrong number of arguments
+
 '''
 len()
 
 xs = []
 ys = []
 len(xs, ys)
+xs_len = len(xs)
+ys_len = len(ys)
+'''
+
+'''
+import math
+math.sqrt(5)
 '''
 
 ########################################
@@ -131,6 +180,8 @@ assert([])
 def maximum_value(xs):
     '''
     Computes the maximum value of the list xs.
+
+    What is the maximum of []?  That doesn't make sense, so we raise an error.
     '''
     assert(len(xs) > 0)
     maximum = xs[0]
@@ -139,6 +190,10 @@ def maximum_value(xs):
             maximum = x
     return maximum
 
+maximum_value([1,2,3])
+#maximum_value([])  # AssertionError
+#maximum_value() # TypeError
+#maximum_value(6) # TypeError
 
 ########################################
 # ValueError:
@@ -148,8 +203,14 @@ def maximum_value(xs):
 '''
 import math
 math.sqrt(-1)
+'''
 
+'''
+# valid:
 int(2.3)
+int('2')
+
+# raises ValueError
 int('2.3')
 int('test')
 '''
@@ -158,7 +219,7 @@ def maximum_value2(xs):
     '''
     Computes the maximum value of the list xs.
     '''
-    if len(xs) != 0:
+    if len(xs) == 0:
         raise ValueError('the input list cannot be empty')
     maximum = xs[0]
     for x in xs:
@@ -166,11 +227,21 @@ def maximum_value2(xs):
             maximum = x
     return maximum
 
+def foo(i):
+    return maximum_value2(list(range(i)))
+
+maximum_value2([1,2,3])
+maximum_value2([1,2])
+#maximum_value2([])
+maximum_value2([2,3])
+maximum_value2([2])
+
+#foo(0)
+
 ########################################
 # Any error can be "raised" from within a function
 
-'''
+
 def example():
-    raise TypeError
+    raise ValueError('hello')
 example()
-'''
