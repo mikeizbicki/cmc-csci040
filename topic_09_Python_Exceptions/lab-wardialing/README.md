@@ -193,6 +193,11 @@ In the remainder of this lab, you will write a python program that connects to e
    > and the DPRK actively wants their citizens to learn about encryption.
    > Unfortunately, President Trump signed an executive order banning Americans from traveling to the DPRK (and Biden has reaffirmed this executive order),
    > so current US policy is effectively stopping me from increasing access to human rights in the DPRK.
+   >
+   > I've actually previously helped the DPRK fix some aspects of their KCNA webpage which were broken, and written a [blog post about it here](https://izbicki.me/blog/fixing-north-korea-kcna-webpage.html).
+   > These fixes resulted in KCNA being searchable on google and archiveable on the Internet Archive,
+   > which has let American diplomats and policy analysts more easily learn about the DPRK.
+   > I have several research projects related to North Korean webpages that would further help improve communication between the US and DPRK, and a motivated CS40 student would be able to complete them.
    > 
    > For the purposes of this assignment,
    > the takeaway of all this discussion is that if you're getting error messages,
