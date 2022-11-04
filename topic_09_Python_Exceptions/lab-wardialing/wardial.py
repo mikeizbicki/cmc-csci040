@@ -3,7 +3,15 @@ import requests
 ########################################
 # FIXME 0:
 # Implement the following functions so that the test cases pass.
-# (In your next FIXMEs, you will use these functions to do the wardial.)
+#
+# NOTE:
+# In your next FIXMEs, you will use these functions to do the wardial.
+# All good programmers, whenever they are solving any "concrete" task like wardialing,
+# will break that task into smaller functions.
+# These functions can then be worked on individually,
+# and we can check if they are working using the test cases.
+# Then, once we are confident the small functions work,
+# we put them together to accomplish our original task.
 ########################################
 
 def is_server_at_hostname(hostname):
