@@ -236,60 +236,6 @@ In the remainder of this lab, you will write a python program that connects to e
    ```
    r.status_code= 200
    ```
-   <!--
-   This command will probably take a long time to run (1-2 minutes),
-   and then barf out a huge error ending in something like:
-   ```
-   requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
-   ```
-   The DPRK's servers are configured so that whenever you connect directly to an IP address,
-   rather than to the domain name,
-   they servers don't respond.
-   Additionally, they give you a 30 minute ban from connecting to that website.
-   To verify that you're banned,
-   try revisiting the webpage <http://kcna.kp> in firefox.
-   You should get a "connection timed out" error message.
-
-   This ban is only for that one website, however.
-   Try visiting the website of this other North Korean newspaper in firefox: <http://pyongyangtimes.com.kp>.
-   This should still work.
-   But if you tried to find the IP address of this website and connect directly, you'd get another ban.
-
-3. In order to scan the DPRK's ip addresses,
-   we'll have to circumvent this ban.
-   The easiest way to do it is to modify the [HTTP headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields) associated with our requests.
-   These headers are a dictionary of key/value pairs that store lots of information about your computer and the type of connection you want.
-   Most anti-bot technologies implemented by websites can be circumvented by changing the values of these headers.
-
-   For our purposes, the most important header is the `host` header.
-   This header stores the domain name that you are connecting to.
-   When the requests library connects to a domain name (using a command like `requests.get('http://kcna.kp')`),
-   it does two things:
-   1. it looks up the IP address of the domain name using DNS,
-   1. and then it connects to that IP address, setting the `host` header to the original domain name.
-   When the requests library connects to an IP address (using a command like `requests.get('http://175.45.176.XXX')`, however, the requests library by default leaves the `host` header empty.
-   As mentioned in [this stackoverflow question](https://stackoverflow.com/questions/43156023/what-is-http-host-header),
-   the HTTP standard technically requires that you provide something in the `host` header.
-   So the DPRK's web servers are technically behaving correctly by rejecting our download attempts when we connect directly over the IP address and do not specify a `host` header.
-
-   In order to download the webpage, we must manually specify a value for the `host` header.
-   The following command should successfully download the KCNA webpage (assuming your 30 minute ban is over):
-   ```
-   r = requests.get('http://175.45.176.XXX', headers={'host': 'kcna.kp'})
-   print('r.status_code=', r.status_code)
-   ```
-   
-   > **HINT:**
-   > 
-   > If your 30 minute ban is not over, try doing the above code for the webpage <http://dprkportal.kp> instead.
-
-   The actual value in the `host` header doesn't matter, and can be anything you want.
-   So the following will also work:
-   ```
-   r = requests.get('http://175.45.176.XXX', headers={'host': 'I am a l33t h4x0r'})
-   print('r.status_code=', r.status_code)
-   ```
-   -->
 
 4. We now know how to connect to a webserver given the IP address.
    But what if there is no webserver at a particular IP address?
@@ -299,7 +245,6 @@ In the remainder of this lab, you will write a python program that connects to e
    ```
    r = requests.get('http://175.45.176.10')
    ```
-   <!--r = requests.get('http://175.45.176.10', headers={'host': 'this can be anything :)'})-->
    After about a minute, you should get a big error message that ends with something like
    ```
    requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='175.45.176.10', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff9719c25c0>, 'Connection to 175.45.176.10 timed out.
