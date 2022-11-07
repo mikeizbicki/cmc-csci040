@@ -16,11 +16,6 @@ reddit = praw.Reddit(
     password='password',
     )
 
-# The `username`/`password` values are something that you select when creating your reddit account.
-# The `client_id`/`client_secret` are like a username/password that reddit generates for your bot's account.
-# Reddit will create these for you automatically, and the PRAW lab has instructions for getting them.
-# `user_agent` should be set to `cs40bot` for everyone.
-
 ########################################
 # Method II: Include the login details in a `praw.ini` file
 # See: https://praw.readthedocs.io/en/latest/getting_started/configuration/prawini.html
@@ -49,7 +44,8 @@ reddit = praw.Reddit('bot', user_agent='cs40')
 # See the PRAW QuickStart Guide for instructions on how to use the library:
 # https://praw.readthedocs.io/en/stable/getting_started/quick_start.html
 
-
+for submission in reddit.subreddit("test").hot(limit=10):
+    print(submission.title)
 
 # A URL to a funny reddit submission
 url = "https://www.reddit.com/r/funny/comments/3g1jfi/buttons/"
