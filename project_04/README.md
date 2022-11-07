@@ -1,4 +1,4 @@
-# HW 04: Reddit Bot
+# Project 04: Reddit Bot
 
 <img width=600px src=bots-bots-everywhere.jpg>
 
