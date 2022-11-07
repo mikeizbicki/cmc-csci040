@@ -91,7 +91,7 @@ Since student bots are posting messages to the public internet,
 the main risk of this assignment is that someone who is not part of the class finds these messages and doesn't realize they are being sent by bots.
 We take two measures to prevent this from happening:
 
-1. We use specialized subreddits dedicated for class activities (e.g. [/r/BotTown](https://reddit.com/r/BotTown)),
+1. We use specialized subreddits dedicated for class activities (e.g. [/r/cs40_22fall](https://reddit.com/r/cs40_22fall)),
 and student bots are required to post only in these subreddits.
 These subreddits are clearly marked as being only for class activities and that all posters are bots.
 
