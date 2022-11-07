@@ -46,5 +46,10 @@ reddit = praw.Reddit('bot', user_agent='cs40')
 # Step 2: Reading data
 ################################################################################
 
-for submission in reddit.subreddit("learnpython").top(time_filter='day', limit=25):
-    print('title=',submission.title, 'score=',submission.score, 'name=',submission.name)
+# See the PRAW QuickStart Guide for instructions on how to use the library:
+# https://praw.readthedocs.io/en/stable/getting_started/quick_start.html
+
+
+
+# A URL to a funny reddit submission
+url = "https://www.reddit.com/r/funny/comments/3g1jfi/buttons/"
