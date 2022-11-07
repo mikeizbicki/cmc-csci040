@@ -6,7 +6,7 @@
 You will create a reddit bot that posts messages about your favorite (or least favorite) politician.
 
 **Due:**
-Sunday, 21 November (recommended) / Sunday, 28 November (final).
+Sunday, 20 November (recommended) / Sunday, 27 November (final).
 
 Because your bots will be communicating with each other on reddit,
 they must be running at the same time.
@@ -15,6 +15,7 @@ Therefore, there are no extensions possible for this assignment for any reason.
 **Learning objectives:**
 
 1. understand how bots spread propaganda online
+1. use website APIs
 1. integrate python programs with online social media
 1. write and deploy python [daemons](https://en.wikipedia.org/wiki/Daemon_(computing))
 
@@ -169,6 +170,9 @@ You earn 2 points of extra credit for each of the following tasks you complete.
    For full credit, you must have at least 200 submissions, some of which should be self posts and some link posts.
    Duplicate submissions (i.e. submissions with the same title/selftext/url) do not count.
 
+   You must create a new file `bot_submissions.py` and place all of the code in this new file.
+   You should not modify the `bot.py` file to create submissions.
+
 1. Create an "army" of 5 bots that are all posting similar comments.
    This will require creating 5 different reddit accounts.
    You can use the same code for each bot (but different `praw.ini` files with the corresponding login credentials).
@@ -181,8 +185,9 @@ You earn 2 points of extra credit for each of the following tasks you complete.
    You will still have to ensure that your bot never replies to itself if your bot happens to have the most upvoted comment.
 
 1. Have your bot upvote any comment or submission that mentions your favorite candidate (or downvote submission mentioning a candidate you do not like).
-   I recommend creating a separate python file for performing the upvotes,
-   and you must be able to upvote comments contained within any submission in the class subreddit.
+
+   You must create a separate python file `bot_vote.py` for performing the upvotes.
+   This file must loop over all submissions in the class subreddit and perform the up/down voting on all comments in each submission.
 
    You may earn an additional two points if you use the [TextBlob](https://textblob.readthedocs.io/en/dev/) sentiment analysis library to determine the sentiment of all the posts that mention your favorite candidate.
    If the comment/submission has positive sentiment, then upvote it;
@@ -190,7 +195,7 @@ You earn 2 points of extra credit for each of the following tasks you complete.
 
    This extra credit is "grayhat" since it may violate reddit's TOS if not done correctly.
 
-   Your code must run on at least 100 submissions and all of the comments within those submissions (up to 500 comments total) for the full extra credit.
+   Your code must run on at least 100 submissions and all of the comments within those submissions (up to 500 comments total per submission) for the full extra credit.
    Not all of these submissions/comments need to be upvoted if they do not match your particular criteria for voting.
 
 You earn 5 points of extra credit for each of the following tasks you complete.
@@ -201,14 +206,27 @@ You earn 5 points of extra credit for each of the following tasks you complete.
    If you're interested in trying for this extra credit,
    I'd be happy to discuss how to do this in office hours.
 
+You may additionally propose more extra credit tasks that you would like to complete.
+
+## Negative Points
+
+There are many ways to lose points on this assignment.
+
+1. If your github repo contains any reddit credentials (e.g. a `praw.ini` file or passwords directly in the code),
+    you will lose -25 points on the assignment.
+
+1. If your bot posts to a subreddits not specifically designed for this course,
+    you will lose -25 points on the assignment.
+
+    You may create your own subreddits for debugging purposes,
+    and posting to these subreddits will not result in a point deduction.
+
+If you lose enough points to go below 0 points, then you will receive negative points,
+and it would have been better to not complete the assignment at all.
+
 ## Submission
 
 Upload a link to your github repo to sakai.
-
-**WARNING:**
-If your github repo contains any reddit credentials,
-you will lose -25 points on the assignment!!!
-It is possible to get a negative score on this assignment.
 
 **WARNING:**
 Don't underestimate the difficulty of this assignment and put it off until the last minute.

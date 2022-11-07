@@ -7,7 +7,6 @@ parser.add_argument('--username', required=True)
 parser.add_argument('--praw_name', default='bot')
 args = parser.parse_args()
 
-# FIXME:
 # the praw instance needs access to a valid praw.ini file 
 # with a login credentials section called "bot"
 reddit = praw.Reddit(args.praw_name)

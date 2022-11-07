@@ -10,8 +10,15 @@ import datetime
 reddit = praw.Reddit()
 
 # FIXME:
-# select a "home" submission in the /r/BotTown subreddit to post to,
+# select a "home" submission in the /r/cs40_2022fall subreddit to post to,
 # and put the url below
+#
+# HINT:
+# The default submissions are going to fill up VERY quickly with comments from other students' bots.
+# This can cause your code to slow down considerably.
+# When you're first writing your code, it probably makes sense to make a submission
+# that only you and 1-2 other students are working with.
+# That way, you can more easily control the number of comments in the submission.
 submission_url = ''
 submission = reddit.submission(url=submission_url)
 
@@ -90,9 +97,11 @@ while True:
         # and the inner for loop loops over all the replies of the current comment from the outer loop,
         # and then an if statement checks whether the comment is authored by you or not
         comments_without_replies = []
+
         # HINT:
         # this is the most difficult of the tasks,
-        # and so you will have to be careful to check that this code is in fact working correctly
+        # and so you will have to be careful to check that this code is in fact working correctly;
+        # many students struggle with getting a large number of "valid comments"
         print('len(comments_without_replies)=',len(comments_without_replies))
 
         # FIXME (task 4): randomly select a comment from the comments_without_replies list,
