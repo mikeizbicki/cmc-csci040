@@ -1,0 +1,243 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage[shortlabels]{enumitem}
+\usepackage[normalem]{ulem}
+\usepackage{courier}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = black, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor    = blue  %Colour of citations
+}
+
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\lstset{
+    language=HTML
+    ,basicstyle=\ttfamily
+    %,numbers=left
+    ,breaklines=true
+    }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathbb R}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\newcommand{\trans}[1]{{#1}^{T}}
+\newcommand{\loss}{\ell}
+\newcommand{\w}{\mathbf w}
+\newcommand{\mle}[1]{\hat{#1}_{\textit{mle}}}
+\newcommand{\map}[1]{\hat{#1}_{\textit{map}}}
+\newcommand{\normal}{\mathcal{N}}
+\newcommand{\x}{\mathbf x}
+\newcommand{\y}{\mathbf y}
+\newcommand{\ltwo}[1]{\lVert {#1} \rVert}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{center}
+    {
+\Large
+Quiz: Exceptions
+}
+
+    \vspace{0.1in}
+    CSCI040: \sout{Computing for the Web} Introduction to Hacking
+
+    \vspace{0.1in}
+\end{center}
+
+\vspace{0.15in}
+\noindent
+\textbf{Total Score:} ~~~~~~~~~~~~~~~/5
+
+\vspace{0.5in}
+\noindent
+\textbf{Printed Name:}
+
+\noindent
+\rule{\textwidth}{0.1pt}
+\vspace{0.25in}
+
+\noindent
+\textbf{Quiz rules:}
+\begin{enumerate}
+    \item You MAY use any printed or handwritten notes.
+    \item You MAY NOT use a computer or any other electronic device.
+\end{enumerate}
+
+\noindent
+
+\vspace{0.15in}
+
+
+%\begin{problem}
+    %The following code (circle one)
+%
+    %\vspace{0.25in}
+    %\hspace{0.5in}terminates without error 
+    %\hspace{1in}throws an exception
+    %\hspace{1in}runs forever
+    %\vspace{0.25in}
+%
+    %\noindent
+    %If the code terminates without error, write the output.
+    %If the code throws an exception, state the exception.
+%\end{problem}
+%\begin{lstlisting}
+%xs = [1, 2, 3]
+%total = 0
+%while xs:
+    %total //= total
+%print('len(xs)=',len(xs))
+%\end{lstlisting}
+%\vspace{1in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+grades={
+    'alice':{'hw1':99,'hw2':88},
+    'bob':{'hw1':82,'hw2':91},
+}
+alice_points = 0
+for v in grades[alice].values():
+    alice_points += grades[v]
+print('alice_points=', alice_points)
+\end{lstlisting}
+\vspace{0.75in}
+
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+grades={
+    'alice':{'hw1':99,'hw2':88},
+    'bob':{'hw1':82,'hw2':91},
+}
+output = "grade=" + grades['charlie'][hw1]
+print('output=', output)
+\end{lstlisting}
+\vspace{0.75in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+xs = [1, 2, 3]
+try:
+    result = xs[3]
+    result = 5
+except IndexError:
+    result = -1
+print('result=', result)
+\end{lstlisting}
+\vspace{2in}
+
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+grades={
+    'alice':{'hw1':99,'hw2':88},
+    'bob':{'hw1':82,'hw2':91},
+}
+try:
+    output = "grade=" + grades['charlie']['hw1']
+except KeyError:
+    output = 'oops'
+print('output=', output)
+\end{lstlisting}
+\vspace{0.75in}
+
+\newpage
+\begin{problem}
+    The following code (circle one)
+
+    \vspace{0.25in}
+    \hspace{0.5in}terminates without error 
+    \hspace{1in}throws an exception
+    \hspace{1in}runs forever
+    \vspace{0.25in}
+
+    \noindent
+    If the code terminates without error, write the output.
+    If the code throws an exception, state the exception.
+\end{problem}
+\begin{lstlisting}
+def bar(xs):
+    assert(len(xs) > 0)
+    return len(xs)*2
+
+result = 0
+try:
+    result += bar([1,2,3])
+    result += bar([2,3])
+    result += bar([])
+    result += bar([5])
+except AssertionError:
+    pass
+
+print('result=', result)
+\end{lstlisting}
+\vspace{0.75in}
+\end{document}
+
+

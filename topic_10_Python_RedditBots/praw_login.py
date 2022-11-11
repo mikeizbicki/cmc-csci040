@@ -15,11 +15,12 @@ reddit = praw.Reddit(
     username='username',
     password='password',
     )
+# NEVER INCLUDE CREDENTIALS IN PYTHON FILES!!!
 
 ########################################
 # Method II: Include the login details in a `praw.ini` file
 # See: https://praw.readthedocs.io/en/latest/getting_started/configuration/prawini.html
-reddit = praw.Reddit('bot', user_agent='cs40')
+reddit = praw.Reddit('bot')
 
 # NOTE:
 # For this class, you must ALWAYS use Method II.
@@ -43,9 +44,42 @@ reddit = praw.Reddit('bot', user_agent='cs40')
 
 # See the PRAW QuickStart Guide for instructions on how to use the library:
 # https://praw.readthedocs.io/en/stable/getting_started/quick_start.html
-
-for submission in reddit.subreddit("test").hot(limit=10):
-    print(submission.title)
-
+'''
+for submission in reddit.subreddit("programming").hot(limit=10):
+    print('title:', submission.title, 'score:', submission.score, 'author:', submission.author)
+'''
 # A URL to a funny reddit submission
 url = "https://www.reddit.com/r/funny/comments/3g1jfi/buttons/"
+
+submission = reddit.submission(url=url)
+print('title:', submission.title, 'score:', submission.score, 'author:', submission.author)
+
+print('before .replace_more()')
+submission.comments.replace_more(limit=None)
+print('after .replace_more()')
+
+# when you are debugging your code,
+# you need fast feedback on what your code does;
+# don't call the .replace_more() function
+# once you think your code is working, and you want actually test it on everything,
+# then you should include the replace_more() function call
+
+# your final bot that is actually processessing EVERYTHING needs to have limit=None
+
+# .replace_more does the replacement to all descendents and not just the top-level comments
+
+for comment in submission.comments:
+    #print('type(comment)=', type(comment))
+
+    # submission.comments contained a `MoreComments` type;
+    # the .replace_more() function deletes these `MoreComments` and 
+    # inserts the actual comments
+
+    # any time you are looping over comments
+    # (coming from a submission.comments or comment.replies)
+    # you can't assume that what you'll get is a comment
+    try:
+        print('comment.author=', comment.author, 'comment.body=', comment.body)
+        # whenever .author is None, the user account has been deleted
+    except AttributeError:
+        print('not a comment')
