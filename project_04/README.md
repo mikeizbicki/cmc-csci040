@@ -141,12 +141,34 @@ The assignment is worth 30 points total.
 
 ### Required Tasks
 
-The following tasks are required, and total 20 points:
+The following tasks are required, and total 25 points:
 
-1. Each task in `bot.py` is worth 3 points.
-   (6 tasks * 3 points/task = 18 points)
+1. Each task in `bot.py` is worth 2 points.
+    There are 6 tasks, so this is worth 12 points total.
 
-1. The github repo is worth 2 points.
+1. The github repo is worth 3 points.
+
+1. Getting lots of "valid" comments is worth up to 10 points.
+
+   In the output of your `bot_counter.py` file, there is a section labeled
+   ```
+   ========================================
+   valid_comments=XXX
+   ========================================
+   ```
+   where `XXX` is the number of valid comments your bot has posted.
+   Your score will be determined by the following table:
+
+   | `valid_comments` range | points |
+   | ---------------------- | ------ |
+   | 0-499                  | 0      |
+   | 500-599                | 1      |
+   | 600-699                | 2      |
+   | 700-799                | 4      |
+   | 800-899                | 6      |
+   | 900-999                | 8      |
+   | 1000+                  | 10     |
+
 
 ### Optional Tasks
 
@@ -155,13 +177,7 @@ you will have to complete some of the optional tasks.
 There are many of these optional tasks,
 and so it is possible to earn significant extra credit on this assignment.
 
-You earn 2 points of extra credit for each of the following tasks you complete.
-
-1. Getting at least 100 valid comments posted.
-
-1. Getting at least 500 valid comments posted.
-
-1. Getting at least 1000 valid comments posted.
+Each of the following tasks is worth 2 points:
 
 1. Make your bot create new submission posts instead of just new comments.
    You can easily automate this process by scanning the top posts in your favorite sub (e.g. /r/liberal or /r/conservative) and posting them to the class sub.
@@ -228,8 +244,8 @@ and it would have been better to not complete the assignment at all.
 
 Upload a link to your github repo to sakai.
 
-**WARNING:**
-Don't underestimate the difficulty of this assignment and put it off until the last minute.
-Lots of surprising bugs always occur when your working on real world projects like this...
+> **WARNING:**
+> Don't underestimate the difficulty of this assignment and put it off until the last minute.
+> Lots of surprising bugs always occur when your working on real world projects like this...
 
 <img src=phd011406s.gif width=600px>

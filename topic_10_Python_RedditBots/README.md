@@ -49,10 +49,10 @@ When you are finished, upload to sakai:
 
 **Part II:**
 
-TBA, will be posted next week
+Complete the "madlibs lab" in the [/project_04/lab-madlibs](/project_04/lab-madlibs) folder.
 
 <!--
 Week 10: [/hw_04/lab-PRAW](/hw_04/lab-PRAW).
 
-Week 11: [/hw_04/lab-madlibs](/hw_04/lab-madlibs).
-->>
+Week 11: 
+-->
