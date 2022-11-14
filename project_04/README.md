@@ -169,6 +169,14 @@ The following tasks are required, and total 25 points:
    | 900-999                | 8      |
    | 1000+                  | 10     |
 
+   > **NOTE:**
+   >
+   > Getting full credit on this task will be very difficult.
+   > It requires both that your code in the `bot.py` file be perfect,
+   > and that you run your bot with this perfect code for a sufficiently long period of time.
+   > The reddit API only provides the most recent 1000 comments for a user,
+   > and so you must have all 1000 of your most recent comments be "valid" for full credit.
+   > Once you achieve this result, it is fine to stop running your bot.
 
 ### Optional Tasks
 
