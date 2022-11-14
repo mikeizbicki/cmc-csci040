@@ -48,7 +48,7 @@ You must complete the following readings before beginning the coding section of 
 ## Lab Instructions
 
 1. Complete the required readings portion of this lab.
-    When you have done so, reply to [github issue #]() stating that you have completed the readings.
+    When you have done so, reply to [github issue #280](https://github.com/mikeizbicki/cmc-csci040/issues/280) stating that you have completed the readings.
 
 1. Next, you'll experiment with the state-of-the-art text generation technique called GPT-3.
    Create a free account at <https://play.aidungeon.io/>, and play around with the game for 10-20 minutes.
