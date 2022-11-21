@@ -45,7 +45,7 @@ SELECT id FROM users WHERE username LIKE 'trump';
 -- Problem 5
 ----------------------------------------
 
-SELECT id FROM users WHERE username = NULL;
+SELECT id FROM users WHERE age IS NULL;
 
 
 
@@ -81,7 +81,7 @@ SELECT id FROM users ORDER BY username ASC;
 -- Problem 9
 ----------------------------------------
 
-SELECT count(*) FROM messages WHERE sender_id=4;
+SELECT count(*) FROM messages;
 
 
 
@@ -90,8 +90,7 @@ SELECT count(*) FROM messages WHERE sender_id=4;
 -- Problem 10
 ----------------------------------------
 
-SELECT count(*) FROM messages;
-
+SELECT count(*) FROM messages WHERE sender_id=4;
 
 
 
@@ -168,8 +167,3 @@ SELECT count(*) FROM users WHERE password LIKE '@%';
 
 UPDATE users SET username='@realdonaldtrump' WHERE id=1;
 SELECT count(*) FROM users WHERE username LIKE '@%';
-
-
-
-
-
