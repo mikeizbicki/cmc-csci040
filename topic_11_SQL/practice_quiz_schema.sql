@@ -40,7 +40,7 @@ insert into messages (sender_id,message,created_at) values
     (3, 'I''m actually a toddler', '2022-11-16 14:35:45');
     
 insert into messages (sender_id,message,created_at) values
-    (6, 'I''m celebrating armistice day, not memorial day.', '2022-11-11 11:00:00');
+    (6, 'Today in 1918, the Armistice that effectively ended WWI came into effect.', '2022-11-11 11:00:00');
     
 insert into messages (sender_id,message,created_at) values
     (6, 'I''m an adult', '2022-11-17 14:35:25'),
