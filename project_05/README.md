@@ -6,8 +6,11 @@
 You will create a twitter clone using the Flask web framework.
 
 **Due:**
-Friday, December 17.
+Friday, December 16.
+Details TBA.
+<!--
 See issue [#216](https://github.com/mikeizbicki/cmc-csci040/issues/216) for details.
+-->
 
 **Learning objectives:**
 
@@ -130,6 +133,8 @@ Each of these tasks requires either more advanced SQL queries (i.e. `SELECT` sta
 
 1. Add the ability to reply to other user's messages.
    The replies must display in a threaded fashion similar to reddit.
+   For full credit, you do not need to be able to "reply to a reply", but only reply to "top level" messages.
+   If you do add the ability to reply to all messages, you can get an additional +2 points.
 
 1. Support switching the language of your interface.
    You must have at least 3 different languages that can be selected.
@@ -146,11 +151,11 @@ The following tasks are worth 9 points of extra credit:
    
    > **HINT:**
    > 
-   > This task is easy to combine with the URL 3 point extra credit.
+   > This task is easy to combine with the URL 3 point optional task for a total of 12 points.
 
    > **NOTE:**
    >
-   > In order to get the full 9 points of extra credit,
+   > In order to get credit,
    > you need to ensure that your code does not have an [HTML injection](https://www.softwaretestinghelp.com/html-injection-tutorial/) or vulnerability.
    > You can find a discussion of how to safely pass HTML into Jinja2 variables [on stackoverflow](https://stackoverflow.com/questions/3206344/passing-html-to-template-using-flask-jinja2).
    > I personally recommend using the [bleach](https://bleach.readthedocs.io/en/latest/index.html) library,
