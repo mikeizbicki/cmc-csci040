@@ -70,7 +70,7 @@ con.commit()
 
 sql='''
 insert into messages (sender_id,message,created_at) values
-    (5, 'I''m celebrating armistice day, not memorial day.', '2021-11-11 11:11:11');
+    (5, 'I''m celebrating armistice day.', '2021-11-11 11:00:00');
 '''
 cur.execute(sql)
 con.commit()

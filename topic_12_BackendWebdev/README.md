@@ -1,11 +1,11 @@
 # Week 13: Backend Webdev I
 
-<img width=600px src=6a00d8341d3df553ef01157073a04e970c-800wi.jpeg />
+<img width=400px src=6a00d8341d3df553ef01157073a04e970c-800wi.jpeg />
 
 **SQL Review:**
 
 Last week, we covered SQL by itself.
-We'll start this week by integrating SQL with Python and webpages.
+This week, we'll integrate SQL with Python and webpages.
 
 Our goal is to create a **CRUD app**.
 This is a technical term that describes most interactive webpages on the internet (e.g. Facebook/Twitter).
@@ -37,11 +37,13 @@ We use SQL to store data (instead of **"flat files"** like JSON/CSV) because:
     - ensures that data written to the database will actually be in the database
     - even in the event of "catastrophic hardware failures"
 
+<!--
 The downside of SQL is that it makes our webpages more prone to being "hacked" (in the muggle sense of the word).
 
 - SQL injection
 
 - <img width=600px src=exploits_of_a_mom.png />
+-->
 
 **Backend Web Programming:**
 
