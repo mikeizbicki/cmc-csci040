@@ -126,7 +126,8 @@ Your webpage should have 5 routes:
 1. `/create_user`
 Each route should have a corresponding html file in the `templates` folder,
 and each of these html templates should extend a `base.html` template that contains the menu for your webpage.
-The template for each route should contain an `<h2>` tag that identifies the route that has been selected.
+The `base.html` template should have an `<h1>` tag that is the title of your webpage,
+and the template for each route should contain an `<h2>` tag that is the title for that route.
 
 **Requirement 2:**
 
