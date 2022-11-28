@@ -157,10 +157,3 @@ The following tasks are worth 9 points of extra credit:
    > You can find a discussion of how to safely pass HTML into Jinja2 variables [on stackoverflow](https://stackoverflow.com/questions/3206344/passing-html-to-template-using-flask-jinja2).
    > I personally recommend using the [bleach](https://bleach.readthedocs.io/en/latest/index.html) library,
    > but you're welcome to use whichever technique makes sense to you.
-
-## Submission
-
-You will demo your project to me over zoom.
-This should take about 5 minutes.
-
-See issue [#216](https://github.com/mikeizbicki/cmc-csci040/issues/216) for details.
