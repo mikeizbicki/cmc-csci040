@@ -1,4 +1,4 @@
-# HW 5: Twitter Clone
+# Project 5: Twitter Clone
 
 <img src=Strips-front-end-vs-le-back-end-650-finalenglish.jpg />
 
@@ -7,10 +7,7 @@ You will create a twitter clone using the Flask web framework.
 
 **Due:**
 Friday, December 16.
-Details TBA.
-<!--
-See issue [#216](https://github.com/mikeizbicki/cmc-csci040/issues/216) for details.
--->
+See issue [#300](https://github.com/mikeizbicki/cmc-csci040/issues/300) for details.
 
 **Learning objectives:**
 
