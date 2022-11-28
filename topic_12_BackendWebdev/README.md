@@ -125,11 +125,8 @@ Your webpage should have 5 routes:
 1. `/create_message`
 1. `/create_user`
 Each route should have a corresponding html file in the `templates` folder,
-and each html file should have an `<h2>` tag that identifies the route.
-<!--
 and each of these html templates should extend a `base.html` template that contains the menu for your webpage.
 The template for each route should contain an `<h2>` tag that identifies the route that has been selected.
--->
 
 **Requirement 2:**
 
@@ -167,7 +164,14 @@ This folder should contain:
 
 You must modify your `/` route to display this image somewhere.
 
-You must modify your `/` route to include the style sheet (which will result in styling the route).
+You must modify your `base.html` template to include the style sheet.
+This should result in every route being styled with the template.
+
+> *HINT:*
+>
+> One of the optional tasks in the Project 5 is to create a nice looking webpage,
+> with nice navigation buttons and styling.
+> Now would be a good time to do this.
 
 **Submission:**
 
