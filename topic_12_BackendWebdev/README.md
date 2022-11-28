@@ -145,8 +145,7 @@ For each message, you must display:
 > Then, pass this list of dictionaries to the `render_template` function,
 > and adjust your jinja2 code to process this list of dictionaries.
 >
-> The basic flask tutorial has a [section on using templates](https://www.tutorialspoint.com/flask/flask_templates.htm) that might be helpful as a reference for this requirement.
-> In particular, in class we talked about how to use variables and iterate over lists, but we didn't talk about dictionaries at all.
+> The basic flask tutorial has a [section on using templates with dictionaries](https://www.tutorialspoint.com/flask/flask_templates.htm) that might be helpful as a reference for this requirement.
 
 **Requirement 3:**
 
