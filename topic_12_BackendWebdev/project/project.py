@@ -1,5 +1,8 @@
 '''
 This is a "hello world" flask webpage.
+During the last 2 weeks of class,
+we will be modifying this file to demonstrate all of flask's capabilities.
+This file will also serve as "starter code" for your Project 5 Twitter webpage.
 
 NOTE:
 the module flask is not built-in to python,
