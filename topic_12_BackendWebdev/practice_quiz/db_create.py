@@ -30,10 +30,11 @@ cur.execute(sql)     # cur.execute() actually runs the SQL code
 con.commit()         # "commit" means "save" in SQL terminology; not always required, but never wrong
 
 # insert some dummy data
-cur.execute("insert into users (username, password, age) values ('Trump', 'I AM TRUMP', 75);")
-cur.execute('''insert into users (username, password, age) values ('Biden', '54321', 78);''')
-cur.execute('''insert into users (username, password, age) values ('Evan', 'correct horse battery staple', 3);''')
-cur.execute('''insert into users (username, password, age) values ('Isaac', 'guaguagua', 3);''')
+cur.execute("insert into users (username, password, age) values ('Trump', 'Trump', 76);")
+cur.execute('''insert into users (username, password, age) values ('Biden', 'Biden', 79);''')
+cur.execute('''insert into users (username, password, age) values ('Evan', 'correct horse battery staple', 4);''')
+cur.execute('''insert into users (username, password, age) values ('Isaac', 'soccer', 1);''')
+cur.execute('''insert into users (username, password, age) values ('Aaron', 'guaguagua', 0);''')
 cur.execute('''insert into users (username, password, age) values ('Mike', '524euTjrWm6uK2C5iw8mC6aNgX1JI78o', 35);''')
 cur.execute('''insert into users (username, password) values ('Kristen', 'Possible-Rich-Absolute-Battle');''')
 con.commit()
@@ -70,17 +71,17 @@ con.commit()
 
 sql='''
 insert into messages (sender_id,message,created_at) values
-    (5, 'I''m celebrating armistice day.', '2021-11-11 11:00:00');
+    (6, 'Today in 1918, the Armistice that effectively ended WWI came into effect.', '2021-11-11 11:00:00');
 '''
 cur.execute(sql)
 con.commit()
 
 sql='''
 insert into messages (sender_id,message) values
-    (5, 'I''m an adult'),
-    (5, 'SQL is the best!!'),
     (6, 'I''m an adult'),
-    (6, 'WTF is SQL?!  I thought you liked the snake thing.');
+    (6, 'SQL is the best!!'),
+    (7, 'I''m an adult'),
+    (7, 'WTF is SQL?!  I thought you liked the snake thing.');
 '''
 cur.execute(sql)
 con.commit()
