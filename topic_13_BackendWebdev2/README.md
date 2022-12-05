@@ -30,11 +30,15 @@ There's 3 topics we'll need to cover:
 ## Lab
 
 **About:**
+
 This is an optional lab worth +5pts EC.
-It's a bit hard, but VERY fun...
+It's hard, but fun :)
 
 **Due:**
-Friday December 17
+
+Friday 16 Dec (same day as the project)
+
+**Background:**
 
 [Stripe](https://stripe.com/) is a famous company that provides an easy-to-use library for processing credit card payments on webpages.
 Because they process billions of dollars in payments,
@@ -55,18 +59,21 @@ These CTFs typically have many levels:
 2. When you successfully break into one level, you are given access to the next level.
 CTFs are extremely popular, and you can find a list of expert-level CTFs at https://ctftime.org/
 
+**What to do:**
+
 The Level 3 website from Stripe's 2012 CTF uses Flask and has a SQL injection vulnerability.
 For this lab, you should:
 1. Download [level 3](https://github.com/stripe-ctf/stripe-ctf-2.0/tree/master/levels/3) and follow the instructions for running the level.
    (Note that this CTF uses python version 2 instead of version 3, so you'll have to download the older version to get it to run.)
 1. Successfully login as the `bob` user using SQL injection.
-1. Meet with me in person and explain how your exploit works.
+1. Meet with me and explain how your exploit works.
 
-**NOTE:**
-It is considered unseemly in CTF competitions to share the secrets of a level with someone else.
-Therefore, in this lab, you should also not just share the secrets with someone else.
-If you work with other people on this lab (which is still 100% okay),
-you'll all need to meet with me at the same time to walk through your solution.
+> **NOTE:**
+>
+> It is considered unseemly in CTF competitions to share the secrets of a level with someone else.
+> Therefore, in this lab, you should also not just share the secrets with someone else.
+> If you work with other people on this lab (which is still 100% okay),
+> you'll all need to meet with me at the same time to walk through your solution.
 
 <!--
 ## Closing remarks
