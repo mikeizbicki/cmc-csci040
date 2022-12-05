@@ -49,9 +49,11 @@ Each required task is worth 5 points and corresponds to one of the routes on you
     1. a link to this page should only be visible in your menu if the user is not logged in
     1. this route will present a form for the user to enter their username/password
     1. you must display appropriate error messages if the user enters an incorrect username/password
+    1. after a user successfully logs in, you must automatically redirect them to the homepage
 
 1. Log out
     1. a link to this page should only be visible if the user is logged in
+    1. this route will delete the cookies that the log in form creates, logging the user out
 
 1. Create new user accounts
     1. a link to this page should only be visible in your menu if the user is not logged in
