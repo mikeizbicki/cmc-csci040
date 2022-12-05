@@ -30,7 +30,8 @@ There's 3 topics we'll need to cover:
 ## Lab
 
 **About:**
-This is an optional (and relatively hard) lab worth +5pts EC.
+This is an optional lab worth +5pts EC.
+It's a bit hard, but VERY fun...
 
 **Due:**
 Friday December 17
