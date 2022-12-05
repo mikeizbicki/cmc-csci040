@@ -1,7 +1,7 @@
 # Week 14: Flask II
 
 <center>
-<img width=600px src=lkiuta60nio31.jpg />
+<img width=400px src=lkiuta60nio31.jpg />
 </center>
 
 We'll be creating a login/logout system for our Twitter clone project.
