@@ -6,10 +6,13 @@
         <h1>CS40 Twitter Clone :)</h1>
         <ol>
             <li><a href='/'>Home</a></li>
-            <li><a href='/login'>Login</a></li>
-            <li><a href='/logout'>Logout</a></li>
-            <li><a href='/create_user'>Create User</a></li>
+            {% if logged_in %}
             <li><a href='/create_message'>Create Message</a></li>
+            <li><a href='/logout'>Logout</a></li>
+            {% else %}
+            <li><a href='/login'>Login</a></li>
+            <li><a href='/create_user'>Create User</a></li>
+            {% endif %}
         </ol>
 
         {% block content %}
