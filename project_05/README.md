@@ -47,7 +47,13 @@ Each required task is worth 5 points and corresponds to one of the routes on you
 
 1. Log in
     1. a link to this page should only be visible in your menu if the user is not logged in
-    1. this route will present a form for the user to enter their username/password
+    1. this route will present a form for the user to enter their username/password;
+       the password box must not display the user's password as they are typing it in
+
+        > **HINT:**
+        > Don't use `type=text` on your `input` tag.
+        > Figure out the right type for a password box.
+
     1. you must display appropriate error messages if the user enters an incorrect username/password
     1. after a user successfully logs in, you must automatically redirect them to the homepage
 
@@ -62,6 +68,11 @@ Each required task is worth 5 points and corresponds to one of the routes on you
 1. Create new user accounts
     1. a link to this page should only be visible in your menu if the user is not logged in
     1. if the user attempts to create an account that already exists, they should get an appropriate error message
+
+        > **HINT:**
+        > You know an account doesn't exist because when you try to run the `INSERT` command,
+        > you get a sqlite error about violating a unique constraint.
+
     1. the user should be prompted to enter their password twice; if the passwords do not match, they should get an appropriate error message
 
 1. Create a message
