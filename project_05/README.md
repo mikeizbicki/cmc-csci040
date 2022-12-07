@@ -81,13 +81,6 @@ Each required task is worth 5 points and corresponds to one of the routes on you
        but you will also need to store the user id of the user that created a message and the time the message was created
     1. you will only get credit for this route if the message correctly shows up on the home route after creation
 
-> **Grading Note:**
-> 
-> If I can get a webpage to generate an internal server error,
-> then you will not get any points for the corresponding task.
-> I will be actively trying to generate these errors in your code,
-> so you must "code defensively" to prevent me from doing this.
-
 ## Optional Tasks
 
 The following tasks are worth 3 points each.
