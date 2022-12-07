@@ -27,6 +27,12 @@ There's 3 topics we'll need to cover:
 
 <img src=exploits_of_a_mom.png width=600px>
 
+1. These attacks happen in the real world, all the time.
+    1. There is a [company in the UK](https://www.schneier.com/blog/archives/2017/01/an_sql_injectio.html) whose legal name is a SQL injection vulnerability.
+        So even just loading official UK government documents can break your programs if they're not designed carefully.
+
+1. **To prevent SQL injection:** always use sqlite's binding syntax (`?`) for inserting information into the database
+
 ## Lab
 
 **About:**
