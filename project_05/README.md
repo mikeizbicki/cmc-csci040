@@ -55,6 +55,10 @@ Each required task is worth 5 points and corresponds to one of the routes on you
     1. a link to this page should only be visible if the user is logged in
     1. this route will delete the cookies that the log in form creates, logging the user out
 
+        > **HINT:**
+        > We didn't cover how to delete cookies in class,
+        > but you can find an explanation in [this stackoverflow post](https://stackoverflow.com/questions/14386304/flask-how-to-remove-cookies).
+
 1. Create new user accounts
     1. a link to this page should only be visible in your menu if the user is not logged in
     1. if the user attempts to create an account that already exists, they should get an appropriate error message
@@ -64,6 +68,8 @@ Each required task is worth 5 points and corresponds to one of the routes on you
     1. a link to this page should only be visible in your menu if the user is logged in
     1. the user must be able to enter whatever message body they want,
        but you will also need to store the user id of the user that created a message and the time the message was created
+    1. you will only get credit for this route if the message correctly shows up on the home route after creation
+
 
 ## Optional Tasks
 
