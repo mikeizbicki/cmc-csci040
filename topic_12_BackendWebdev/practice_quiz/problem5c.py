@@ -9,7 +9,7 @@ username = "Mike' OR username='Trump"
 sql = """
 SELECT id,password FROM users WHERE username=?;
 """
-cur.execute(sql, username)
+cur.execute(sql, [username])
 user_ids = []
 for row in cur.fetchall():
     user_ids.append(row[0])
