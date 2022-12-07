@@ -1,4 +1,4 @@
-# Problem 1b
+# Problem 1
 
 import sqlite3
 
