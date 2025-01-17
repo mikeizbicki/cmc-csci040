@@ -4,7 +4,7 @@ see: http://nifty.stanford.edu/2020/color-my-world/
 -->
 
 <center>
-<img width='100%' src=hacker-way.jpg />
+<img width='100%' src=img/hacker-way.jpg />
 </center>
 
 Important links:
@@ -72,6 +72,8 @@ Fun facts:
 **Primary Learning Objectives:**
 
 1. **Automate boring tasks** <-- this is a hacker's primary goal
+    <img src=img/automate.webp width=300px />
+
 1. Create static and dynamic web pages
 1. Understand the basics of many programming languages:
     1. HTML
@@ -86,6 +88,8 @@ Fun facts:
 **Secondary Learning Objectives:**
 
 1. Introduction to [hacker culture](http://www.catb.org/esr/faqs/hacker-howto.html) and [open source software](https://opensource.com/resources/what-open-source)
+
+    <img src='img/open-source.jpg' width=300px />
 
 1. Understand basic:
     1. internet infrastructure
@@ -102,9 +106,11 @@ Fun facts:
         1. legal issues
     1. [search engine optimization](https://moz.com/beginners-guide-to-seo)
 1. Use real-world programming tools
-    1. LLMs
     1. Python libraries actually in use at [FAANG companies](https://www.investopedia.com/terms/f/faang-stocks.asp)
     1. GitHub (which is different than git, something we'll learn in the follow-on class CS46)
+    1. LLMs
+
+        <img src=img/llm.webp width=400px />
 
 **Textbook:**
 

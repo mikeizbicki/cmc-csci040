@@ -16,5 +16,5 @@ notes
 *.fls
 
 .ipynb_checkpoints
-img
+#img
 old
