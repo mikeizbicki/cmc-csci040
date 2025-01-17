@@ -104,7 +104,7 @@ def login():
 @app.route('/logout')     
 def logout():
     print_debug_info()
-    1 + 'error' # this will throw an error
+    #1 + 'error' # this will throw an error
     return 'logout page'
 
 # 403 error code
