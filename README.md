@@ -136,9 +136,9 @@ But most of the people who use these sites are [script kiddies](https://en.wikip
 
 | category                      | points/assignment         | *approximate* percentage |
 | ----------------------------- | ------------------------- | ---- |
-| labs (weekly)                 | $2^2$ or $2^3$            | 20%  |
-| quizzes (weekly)              | $2^3$ or $2^4$            | 40%  |
-| projects (every 2-3 weeks)    | $2^4$ or $2^5$ or $2^6$   | 40%  |
+| labs (weekly)                 | $2^1$ - $2^2$             | 20%  |
+| quizzes (weekly)              | $2^2$ - $2^3$             | 40%  |
+| projects (every 2-3 weeks)    | $2^3$ - $2^6$             | 40%  |
 
 This will be a low-stress but **very** challenging class.
 
@@ -158,6 +158,9 @@ This will be a low-stress but **very** challenging class.
        Keep working on them until you get 100%.
 
     1. Projects have TONs of extra credit opportunities.
+
+        Lots of "choose your own adventure" style assignments where you get to decide which tasks you want to complete.
+
         In the past, some students have:
             1. ended the course with a 150%,
             1. choosen not to complete certain projects because they would get an A without completing them,
@@ -176,14 +179,14 @@ This will be a low-stress but **very** challenging class.
 
 1. The projects are designed to be fun, real-world projects:
 
-    |     | Project                 | Difficulty    | Due date will be no earlier than |
-    | --- | ----------------------- | ------------- | ---------------- |
-    | 0   | Building a Webpage      | Easy          | Sunday, 11 Sep   |
-    | 1   | Markdown compiler       | Hard          | Sunday, 02 Oct   |
-    | 2   | Data visualization      | Medium        | Sunday, 09 Oct   |
-    | 3   | Scraping ebay           | Medium        | Sunday, 23 Oct   |
-    | 4   | Reddit propaganda bot   | Hard          | Sunday, 06 Nov   |
-    | 5   | Twitter clone           | Hard          | Sunday, 11 Dec   |
+    |     | Project                 | Difficulty    |
+    | --- | ----------------------- | ------------- |
+    | 0   | Building a Webpage      | Easy          |
+    | 1   | Markdown compiler       | Hard          |
+    | 2   | Data visualization      | Medium        |
+    | 3   | Scraping ebay           | Medium        |
+    | 4   | Reddit propaganda bot   | Hard          |
+    | 5   | Twitter clone           | Hard          |
 
     This class has fewer projects than in CS4/CS5/CS51.
     (Those courses have 1 project per week.)
