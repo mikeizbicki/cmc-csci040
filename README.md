@@ -72,6 +72,7 @@ Fun facts:
 **Primary Learning Objectives:**
 
 1. **Automate boring tasks** <-- this is a hacker's primary goal
+
     <img src=img/automate.webp width=300px />
 
 1. Create static and dynamic web pages
@@ -83,13 +84,12 @@ Fun facts:
     1. Jinja
     1. SQL
     1. and **Python** <-- this is the main focus of the course
-1. Understand the basics of procedural, functional, and object oriented programming
 
 **Secondary Learning Objectives:**
 
 1. Introduction to [hacker culture](http://www.catb.org/esr/faqs/hacker-howto.html) and [open source software](https://opensource.com/resources/what-open-source)
 
-    <img src='img/open-source.jpg' width=300px />
+    <img src='img/open-source.jpg' width=200px />
 
 1. Understand basic:
     1. internet infrastructure
@@ -258,13 +258,6 @@ you get an automatic 2 day extension.
 
 **Collaboration Policy:**
 
-<!--
-Harvard CS50:
-
-
-https://www.youtube.com/watch?v=r0z-yIp1PnE
--->
-
 You are encouraged to discuss all labs and projects with other students,
 subject to the following constraints:
 
@@ -302,13 +295,6 @@ reddit jsonp: https://www.reddit.com/r/programming/comments/cxh3a/we_just_added_
 jsfiddle
 
 |-->
-
-
-<!-- -->
-<!--
-[Quiz: if](https://realpython.com/quizzes/python-conditional-statements/)
-[Quiz: operators](https://realpython.com/quizzes/python-operators-expressions/)
--->
 
 <!--
 Python libraries:
