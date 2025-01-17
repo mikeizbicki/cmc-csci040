@@ -10,15 +10,32 @@
 
 1. Prelecture videos:
 
+    > **NOTE:**
+    > You will not be directly graded on the content of these videos,
+    > but they provide useful background information that will make lectures much easier to follow.
+    > I understand the temptation to not watch them---and I probably wouldn't have as a student either---but even the most technically inclined students will not have seen a lot of the information in these videos.
+    >
+    > One of the [three virtues of a programmer is laziness](https://thethreevirtues.com/).
+    > I am lazy and I hope to train you all to be lazy in this course. 
+    > So one of my commitments to you all is that I will never ask you to do busywork.
+
     1. [Inside a google data center](https://www.youtube.com/watch?v=XZmGGAbHqa0)
 
     1. (Optional) [Inside a Facebook data center](https://www.youtube.com/watch?v=_r97qdyQtIk)
 
     1. (Optional) [Inside Amazon web services (AWS)](https://www.youtube.com/watch?v=94PO2-TL4Vs)
 
+    1. (optional) [How a philosophy major from a liberal arts college with 2.4 GPA got jobs at Facebook and Uber making $300k as a data scientist](https://www.youtube.com/watch?v=YGflHj1SjA4&t=2m15s)
+
+    <!--
+    1. (optional) [Data science expectations vs reality](https://www.youtube.com/watch?v=8LucP1wiX1g)
+    -->
+
+    Watch the following videos if you don't already understand the key terms listed below.
+
     1. [How the web works - the big picture](https://www.youtube.com/watch?v=hJHvdBlSxug)
 
-        Key terms:
+        Key terms you should understand:
 
         * Browser
         * Server
@@ -34,7 +51,7 @@
 
     1. [Three types of web development](https://www.youtube.com/watch?v=Kg0Q_YaQ3Gk)
 
-        Key terms:
+        Key terms you should understand:
 
         * Static websites
         * Static site generator
@@ -44,6 +61,7 @@
 1. Prelecture tasks:
 
     > **NOTE:**
+    >
     > Throughout this course we will be installing lots of software.
     > You are welcome to use lab computers, but most students choose to use your own laptops.
     > Unlike in other classes, all of the software we use is open source, so you can freely download it on your own machine and keep access to it after the semester/graduation.
@@ -51,10 +69,13 @@
     > and so you must install it yourself for each computer that you choose to use.
     > If you change computers, you will have to reinstall the needed software.
 
-    1. [Install VSCode](https://code.visualstudio.com/Download) (or if you don't want Microsoft tracking you, install the open source version [VSCodium](https://vscodium.com/))
+    1. [Install VSCodium](https://vscodium.com/).
+        VSCodium is the open source version of [Microsoft's VSCode](https://code.visualstudio.com/Download).
+        The only difference is that VSCode contains additional tracking plugins that allows Microsoft to monitor what you do and run code on your computer,
+        which.
 
-    1. [Install Firefox](https://www.mozilla.org/en-US/exp/firefox/new/)
-       (Chome/Safari/Internet Explorer are not acceptable alternatives for this class.)
+    1. [Install Firefox](https://www.mozilla.org/en-US/exp/firefox/new/).
+        Chome/Safari/Internet Explorer are not acceptable alternatives for this class.
 
     1. Install and enable the following Firefox plugins:
 
@@ -87,7 +108,7 @@
 
 1. Cheatsheets
 
-    In this class, you are encouraged to use cheatsheets for all labs, homeworks, and quizzes.
+    In this class, you are encouraged to use cheatsheets for all labs, projects, and quizzes.
     Quizzes will be open note.
 
     1. [HTML Cheatsheet 1](html-cheatsheet.pdf)
@@ -95,39 +116,39 @@
     1. [CSS Cheatsheet](css-cheatsheet.pdf)
     1. [URL Cheatsheet](Anatomy-of-a-URL-cheat-sheet_170316_122433.png)
 
-**Friday:**
-
-1. Prelecture videos:
-    
-    1. [What is github?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
-
-    1. [The rise of open source software](https://www.youtube.com/watch?v=SpeDK1TPbew)
-
-    1. "Creative Commons" is a type of open source license for non-code (books, webpages, music, images, etc.).
-        Watch [this video explaining Creative Commons licences](https://www.youtube.com/watch?v=4ZvJGV6YF6Y)
-
-    1. [Understanding GitHub Issues](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
-
-    1. [Quick Google Analytics introduction](https://www.youtube.com/watch?v=RL61v47WyHs)
-
 ## Lab
 
 <center>
 <img width='100%' src=dt160320.jpg />
 </center>
 
+**tl;dr**
 The goal of this lab is to publish a simple webpage online so that others can view it.
 This is the first step in completing [project\_00](/project_00/).
 
-> **NOTE:**
-> The lectures have not explicitly covered how to do most of the tasks in this lab.
-> The main purpose of this lab is to get you comfortable trying to read and figure out documentation...
-> even if that means just trying random stuff until it works.
+**Prelab Instructions:**
 
-Instructions:
+Ensure that you have pressed the "watch" button at the top of this webpage.
+Read and follow the instructions in [Issue #320: the meet and greet thread](https://github.com/mikeizbicki/cmc-csci040/issues/236).
 
-1. Ensure that you have pressed the "watch" button at the top of this webpage.
-   Read and follow the instructions in [Issue #236: the meet and greet thread](https://github.com/mikeizbicki/cmc-csci040/issues/236).
+Watch the following videos if you're not already familiar with their contents:
+    
+1. [What is github?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
+
+1. [Understanding GitHub Issues](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
+
+1. [The rise of open source software](https://www.youtube.com/watch?v=SpeDK1TPbew)
+
+1. "Creative Commons" is a type of open source license for non-code (books, webpages, music, images, etc.).
+    Watch [this video explaining Creative Commons licences](https://www.youtube.com/watch?v=4ZvJGV6YF6Y).
+
+1. [Quick Google Analytics introduction](https://www.youtube.com/watch?v=RL61v47WyHs)
+
+**Instructions:**
+
+The lectures/videos have not explicitly covered how to do most of the tasks in this lab.
+The main purpose of this lab is to get you comfortable trying to read and figure out documentation...
+even if that means just trying random stuff until it works.
 
 1. [Follow these directions](https://pages.github.com/) to create a GitHub Pages webpage.
    In the step marked `?` (after step `1` and before step `2`),
@@ -147,7 +168,7 @@ Instructions:
 
    > **NOTE:**
    > Once again, you must modify your HTML in order to insert the required `<script>` tag into your webpage.
-   > Everytime you modify your webpage, you must go through the process of uploading with GitHub Desktop.
+   > Every time you modify your webpage, you must go through the process of uploading with GitHub Desktop.
 
    > **NOTE:**
    > Google Analytics does NOT work when you have uBlock Origin activated.
@@ -163,9 +184,9 @@ Instructions:
    > Don't forget to upload with GitHub Desktop!
    > Facebook's like button and google analytics will both be broken if your webpage is only served "locally" from your own computer and not from a web server like github.
 
-1. Get at least 5 other students from class to like your webpage on Facebook,
-   and 5 other students to "star" your webpage's repo on GitHub.
-   I recommend using the lab time to "trade" stars with other students.
+1. Get at least 5 people to like your webpage on Facebook,
+   and 5 people to star your webpage's repo on GitHub.
+   I recommend using the lab time to trade likes/stars with other students.
 
    > **NOTE:**
    > The reason for getting these likes and stars is that github and google search also use stars to help rank webpages in search results.

@@ -45,27 +45,29 @@ Fun facts:
    But, most students find it much harder than taking MATH030 (Calculus I).
    If you haven't taken calculus, then you will likely have to put in about twice the amount of work on this class than you would to take calculus and get the same grade.
 
-1. This course is similar to [CS5 at Harvey Mudd](https://www.cs.hmc.edu/twiki/bin/view/CS5) or [CS51 at Pomona](http://www.cs.pomona.edu/~tzuyi/Classes/sp18/cs051p/) (and many of the other intro CS courses at the Claremont Colleges).
-    1. If you have already taken either of those courses,
-       then you cannot take this course.
-    1. If you are majoring in computer science at either of those schools,
+1. This course is similar to [CS4 at Pitzer](https://catalog.pitzer.edu/preview_course_nopop.php?catoid=28&coid=35324), [CS5 at Harvey Mudd](https://www.cs.hmc.edu/twiki/bin/view/CS5), and [CS51 at Pomona](http://www.cs.pomona.edu/~tzuyi/Classes/sp18/cs051p/).
+    1. If you have already taken any of those courses,
+       then you cannot take this course for credit.
+       (Audit is okay.)
+    1. If you are majoring in computer science,
        then you cannot take this course.
     1. This course is designed for CMC's 
         1. data science major,
         1. data science sequence,
         1. and computer science sequence.
-    1. This course is more practical than the Mudd/Pomona courses.
-
-       Lots of the cool applications in the Pomona/Mudd CS curriculum are "reserved" for their upper division class,
-       but I've included them directly in this intro course.
-
-    1. This course is especially designed to connect computer science to non-STEM subjects like
-        1. economics,
-        1. government,
-        1. literature, and
-        1. history.
-
-1. This course cannot be taken CR/NC.
+    1. This course is more practical (and fun!) than the other CS courses.
+        1. Lots of the cool applications in the Pomona/Mudd CS curriculum are "reserved" for their upper division class,
+            but I've included them directly in this intro course.
+        1. You will:
+            1. Use LLMs (e.g. ChatGPT) to code.
+                (And learn what they can/can't do.)
+            1. Count the number of computers in North Korea connected to the internet.
+            1. Build your own Twitter clone.
+        1. This course is especially designed to connect computer science to non-STEM subjects like
+            1. economics,
+            1. government,
+            1. literature, and
+            1. history.
 
 **Primary Learning Objectives:**
 
@@ -100,6 +102,7 @@ Fun facts:
         1. legal issues
     1. [search engine optimization](https://moz.com/beginners-guide-to-seo)
 1. Use real-world programming tools
+    1. LLMs
     1. Python libraries actually in use at [FAANG companies](https://www.investopedia.com/terms/f/faang-stocks.asp)
     1. GitHub (which is different than git, something we'll learn in the follow-on class CS46)
 
@@ -125,11 +128,11 @@ But most of the people who use these sites are [script kiddies](https://en.wikip
 
 **Grades:**
 
-| category                      | points/assignment | *approximate* percentage |
-| ----------------------------- | ----------------- | ---- |
-| labs (weekly)                 | 2-5pts            | 20%  |
-| quizzes (weekly)              | 5pts              | 40%  |
-| projects (every 2-3 weeks)    | 5-20pts           | 40%  |
+| category                      | points/assignment         | *approximate* percentage |
+| ----------------------------- | ------------------------- | ---- |
+| labs (weekly)                 | $2^2$ or $2^3$            | 20%  |
+| quizzes (weekly)              | $2^3$ or $2^4$            | 40%  |
+| projects (every 2-3 weeks)    | $2^4$ or $2^5$ or $2^6$   | 40%  |
 
 This will be a low-stress but **very** challenging class.
 
@@ -138,7 +141,6 @@ This will be a low-stress but **very** challenging class.
        Weekly quizzes ensure you don't fall behind on material, and if you bomb a quiz it's not a big deal.
 
        1. You can retake 1 quiz in this class without any penalty if you don't like your grade for any reason.
-          You must do the retake within 1 week of the original quiz date.
 
           The first two quizzes can be retaken without any penalty.
 
@@ -148,26 +150,23 @@ This will be a low-stress but **very** challenging class.
 
     1. Most weekly labs are automatically graded by Python.
        Keep working on them until you get 100%.
+
     1. Projects have TONs of extra credit opportunities.
-       In the past, I've had students end the course with a 150%,
-       and I've had other students choose not to complete certain projects because they would get an A without completing them.
+        In the past, some students have:
+            1. ended the course with a 150%,
+            1. choosen not to complete certain projects because they would get an A without completing them,
+            1. go from a 70% to a 100% in the class with the final project.
 
 1. The material is intrinsically *very* hard.
     1. That's why CS/DS majors get paid so much money... there's not many people willing to work hard enough to master these concepts.
     1. That's why we have an extra lab session each week (and so 50% more in-person instruction time).
-       Also take advantage of office hours and the QCL.
+        Also take advantage of office hours and the QCL.
 
-       <!--
-       Historically, the average student needs to spend about 10 hours per week outside of class to get an A.
-       About 50% of students will either:
-       spend 15-20 hours per week and get an A-/A,
-       or spend 10 hours per week and get a B/C.
-       -->
-
-       > **NOTE:**
-       > One point corresponds to approximately 1 hour of work for the average student to earn an A on the assignment.
-       > There will be approximately 200 points in the class, or roughly 12.5 points/week.
-       > Historically, some students need to spend 20+ hours per week to earn an A/A-.
+        Historically:
+        1. The average student needs to spend about 10 hours per week outside of class to get an A.
+        1. About 50% of students choose to either:
+            1. spend 15-20 hours per week and get an A-/A,
+            1. or spend 10 hours per week and get a B/C.
 
 1. The projects are designed to be fun, real-world projects:
 
@@ -180,10 +179,17 @@ This will be a low-stress but **very** challenging class.
     | 4   | Reddit propaganda bot   | Hard          | Sunday, 06 Nov   |
     | 5   | Twitter clone           | Hard          | Sunday, 11 Dec   |
 
-    <!--
-    There's also fewer projects than in CS5/CS51.
-    Those courses have 1 project per week.
-    -->
+    This class has fewer projects than in CS4/CS5/CS51.
+    (Those courses have 1 project per week.)
+
+    Our projects more fun/interesting.
+    (But maybe a bit harder.)
+
+    Our projects emphasize techniques that LLMs cannot do by themselves.
+    (And I will teach you how to use LLMs productively to improve your work.)
+
+    Our projects are "light" versions of projects from [CSCI046 data structures](https://github.com/mikeizbicki/cmc-csci046) and [CSCI143 big data](https://github.com/mikeizbicki/cmc-csci143).
+    (Completing these projects gets you a head start in those future classes.)
 
 Your final grade will be computed according to the following table,
 with one caveat.
@@ -206,10 +212,10 @@ with one caveat.
 *CAVEAT:*
 In order to earn an A/A- in the class, you must also complete one of the following tasks.
 
-1. Watch the following shows/movies about hacking:
+1. Watch the following shows/movies about [cracking](http://www.catb.org/~esr/jargon/html/C/cracking.html) and [hacking](http://www.catb.org/~esr/jargon/html/H/hacker.html):
 
-    1. Season 1 of Mr. Robot (available of [Amazon Prime](https://www.amazon.com/gp/video/detail/B00YBX664Q)).
-       This is the most accurate portrayal of hacking in any movie, see for example [this article](https://www.pri.org/stories/how-realistic-are-hacks-mr-robot) and [this article](https://www.wired.com/2016/07/real-hackers-behind-mr-robot-get-right/).
+    1. Season 1 of Mr. Robot (available on [Amazon Prime](https://www.amazon.com/gp/video/detail/B00YBX664Q)).
+       This is the most accurate portrayal of cracking in any movie, see for example [this article](https://www.pri.org/stories/how-realistic-are-hacks-mr-robot) and [this article](https://www.wired.com/2016/07/real-hackers-behind-mr-robot-get-right/).
 
     1. War Games (available on [Amazon Prime](https://www.amazon.com/Wargames-Matthew-Broderick/dp/B083FY4CDG/)).
        This is a classic hacker movie and was quite realistic for what hacking looked like when the movie was released (1983).
@@ -219,11 +225,7 @@ In order to earn an A/A- in the class, you must also complete one of the followi
        There's also a live-action movie called [Snowden](https://www.amazon.com/Snowden-Joseph-Gordon-Levitt/dp/B01LWYVHKV) that you could also choose to watch.
 
     1. Zero Days - Security Leaks for Sale (available for free on [youtube](https://www.youtube.com/watch?v=4BTTiWkdT8Q))
-
-    <!--
-    1. Season 1 of Hunted, [available online](https://www.channel4.com/programmes/hunted/on-demand/60136-001).
-       This is a reality TV show about how your cellphones and web browsing traffic can let people track you.
-    -->
+        This documentary explores the [grey hat](http://www.catb.org/~esr/jargon/html/B/black-hat.html) world of hackers who develop software to break into computers and sell that software to questionable people... and it's all legal.
 
 1. Read [Harry Potter and the Methods of Rationality](https://hpmor.com).
    This is a fanfic written by [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky),
@@ -239,18 +241,20 @@ See [Issue #260](https://github.com/mikeizbicki/cmc-csci040/issues/260) for inst
 
 **Late Work Policy:**
 
-You lose 20% on labs/projects for each day late.
-It is still typically better to submit a correct assignment late than an incorrect one on time.
+You lose `2**(i-1)` points on every assignment,
+where `i` is the number of days late.
 
-If you collaborate with other students or visit the QCL for help with an assignment,
-you get an automatic 2 day extension on any lab or project.
+Do not expect partial credit for incomplete assignments.
+It is much better to submit a correct assignment late than an incorrect one on time.
+
+If you visit the QCL for help with any assignment,
+you get an automatic 2 day extension.
 
 **Collaboration Policy:**
 
 <!--
 Harvard CS50:
 
-> When asking for help, you may show your code to others, but you may not view theirs.
 
 https://www.youtube.com/watch?v=r0z-yIp1PnE
 -->
@@ -258,10 +262,10 @@ https://www.youtube.com/watch?v=r0z-yIp1PnE
 You are encouraged to discuss all labs and projects with other students,
 subject to the following constraints:
 
-1. you must be the person typing in all code for your assignments, and
-1. you must not copy another student's code.
+1. You must be the person typing in all code for your assignments.
+1. If you ask someone for help: you may show your code to the other person, but you may not view their code.
 
-You may use any online resources you like as references.
+You may use any online resources you like as references (including LLMs!) without restriction.
 
 Basically, I'm trusting you all to be adults.
 You are ultimately responsible for ensuring you learn the material!
@@ -275,65 +279,9 @@ So do what will help you learn best.
 > You should view collaboration as a way to improve your understanding,
 > not as a way to do less work.
 
-<!--
-## Schedule
-
-| Week | Date        | Topic                                                |
-| ---- | ----------- | ---------------------------------------------------- |
-| 0    | Mon, 30 Aug | Course intro                                         |
-| 0    | Wed, 01 Sep | Web 1.0: HTML                                        |
-| 0    | Fri, 03 Sep | *Lab:* GitHub                                        |
-| 1    | Mon, 06 Sep | **NOCLASS: Labor Day**                               |
-| 1    | Wed, 08 Sep | Web 1.0: CSS                                         |
-| 1    | Fri, 10 Sep | *Lab:* Removing web ads                              |
-| 2    | Mon, 13 Sep | Python: control flow                                 |
-| 2    | Wed, 15 Sep | Python: control flow                                 |
-| 2    | Fri, 17 Sep | *Lab:* SMS/Twilio                                    |
-| 3    | Mon, 20 Sep | Python: lists                                        |
-| 3    | Wed, 22 Sep | Python: dictionaries                                 |
-| 3    | Fri, 24 Sep | *Lab:* basic algorithms/data structures              |
-| 4    | Mon, 27 Sep | Python: strings                                      |
-| 4    | Wed, 29 Sep | Python: files                                        |
-| 4    | Fri, 01 Oct | *Lab:* markdown to html converter                    |
-| 5    | Mon, 04 Oct | Python: JSON                                         |
-| 5    | Wed, 06 Oct | Python: matplotlib                                   |
-| 5    | Fri, 08 Oct | *Lab:* Analyzing Trump's tweets                      |
-| 6    | Mon, 11 Oct | Python: reddit                                       |
-| 6    | Wed, 13 Oct | Python: reddit                                       |
-| 6    | Fri, 15 Oct | *Lab:* Generating propaganda                         |
-| 7    | Mon, 18 Oct | **NOCLASS: fall break**                              |
-| 7    | Wed, 20 Oct | Python: reddit                                       |
-| 7    | Fri, 22 Oct | *Lab:* RedditBots                                    |
-| 8    | Mon, 25 Oct | Python: web scraping                                 |
-| 8    | Wed, 27 Oct | Python: web scraping                                 |
-| 8    | Fri, 29 Oct | *Lab:* Requests                                      |
-| 9    | Mon, 01 Nov | Python: multilingual support (Unicode)               |
-| 9    | Wed, 03 Nov | Python: multilingual support (Unicode)               |
-| 9    | Fri, 05 Nov | *Lab:* machine translation                           |
-| 10   | Mon, 08 Nov | Web 2.0: SQL                                         |
-| 10   | Wed, 10 Nov | Web 2.0: SQL                                         |
-| 10   | Fri, 12 Nov | *Lab:* SQL                                           |
-| 11   | Mon, 15 Nov | Web 2.0: Flask                                       |
-| 11   | Wed, 17 Nov | Web 2.0: Flask                                       |
-| 11   | Fri, 19 Nov | *Lab:* Dynamic webpages                              |
-| 12   | Mon, 22 Nov | Web 2.0: Flask                                       |
-| 12   | Wed, 24 Nov | **NOCLASS: Thanksgiving**                            |
-| 12   | Fri, 26 Nov | **NOCLASS: Thanksgiving**                            |
-| 13   | Mon, 29 Nov | Web 2.0: Flask                                       |
-| 13   | Wed, 01 Dec | Web 2.0: Flask                                       |
-| 13   | Fri, 03 Dec | *Lab:*  AJAX                                         |
-| 14   | Mon, 06 Dec | Web 2.0: Flask                                       |
-| 14   | Wed, 08 Dec | Web 2.0: Flask                                       |
-| 14   | Fri, 10 Dec | *Lab:* Final project                                 |
--->
-
 <!--Reading:
 
 https://www.reddit.com/r/cscareerquestions/top/?sort=top&t=all
-
-    1. [How a philosophy major from a liberal arts college with 2.4 GPA got jobs at Facebook and Uber making $300k as a data scientist](https://www.youtube.com/watch?v=YGflHj1SjA4&t=2m15s)
-
-    1. [Data science expectations vs reality](https://www.youtube.com/watch?v=8LucP1wiX1g)
 
 Tim Berner's Lee https://www.w3.org/People/Berners-Lee/
 
@@ -355,48 +303,7 @@ jsfiddle
 [Quiz: if](https://realpython.com/quizzes/python-conditional-statements/)
 [Quiz: operators](https://realpython.com/quizzes/python-operators-expressions/)
 -->
-<!--
-| Week | Date | Topic | Assignment |
-| --- | --- | --- | --- |
-| 1  | Tues, 3 Sept  | Introduction | |
-| 1  | Thur, 5 Sept  | HTML: Basics ([Howe](https://learn.shayhowe.com/html-css/), Lesson 1/2)<br/>CSS: Basics ([Howe](https://learn.shayhowe.com/html-css/), Lesson 3/4/5)  | HW 1<br/>Lab 1 |
-| 2  | Tues, 10 Sept | HTML: google analytics / chrome dev console <br/>SEO: [backlinks](https://moz.com/learn/seo/backlinks), [Google SEO Page](https://support.google.com/webmasters/answer/7451184)<br/>Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3)  | |
-| 2  | Thur, 12 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3) | Lab 2|
-| 3  | Tues, 17 Sept | **NO CLASS** (Mike at [ECML-PKDD](http://ecmlpkdd2019.org/)) | |
-| 3  | Thur, 19 Sept | **NO CLASS** (Mike at [ECML-PKDD](http://ecmlpkdd2019.org/)) | |
-| 4  | Tues, 24 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3)<br/>[Python cheat sheet](https://perso.limsi.fr/pointal/python:memento) | Lab 3 <br/>[Quiz: data types](https://realpython.com/quizzes/python-data-types/) |
-| 4  | Thur, 26 Sept | Python: Basics/Flow Control/Functions ([Sweigart](https://automatetheboringstuff.com/), Chapters 1-3) | Lab 4 <br/>[Quiz: variables](https://realpython.com/quizzes/python-variables/)  |
-| 5  | Tues, 1 Oct   | Python: Lists ([Sweigart](https://automatetheboringstuff.com/), Chapter 4) | Lab 5<br/>In-class quiz: for loops<br/>[Quiz: lists](https://realpython.com/quizzes/python-lists-tuples/) |
-| 5  | Thur, 3 Oct   | Python: Dictionaries ([Sweigart](https://automatetheboringstuff.com/), Chapter 5)<br/>Python: Libraries ([Appendix of Sweigart](https://automatetheboringstuff.com/appendixa/)) | Lab 6<br/>Lab 6b<br/>In-class quiz: while loops<br/>[Quiz: dicts](https://realpython.com/quizzes/python-dicts/) |
-| 6  | Tues, 8 Oct   | Python: Strings ([Sweigart](https://automatetheboringstuff.com/), Chapter 6) | Lab 7<br/>[Quiz: strings](https://realpython.com/quizzes/python-strings/)<br/>In-class quiz: lists |
-| 6  | Thur, 10 Oct  | [The beautiful soup library](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | HW 2<br/>~~Quiz: Sets~~ |
-| 7  | Tues, 15 Oct  | ~~Python: Regular Expressions ([Sweigart](https://automatetheboringstuff.com/), Chapter 7)~~<br/>[The requests library](https://realpython.com/python-requests/)<br/>Python: Files 1/2 ([Sweigart](https://automatetheboringstuff.com/), Chapter 8,9) | Lab 8<br/>Lab 9 (extra credit)<br/>[Quiz: files](https://realpython.com/quizzes/read-write-files-python/)<br/>~~HW 3~~ |
-| 7  | Thur, 17 Oct  | Python: Files 1/2 ([Sweigart](https://automatetheboringstuff.com/), Chapter 8,9) | Lab 10 <br/>~~Quiz: lexical~~|
-| 8  | Tues, 22 Oct  | **NO CLASS** (Fall Break) |
-| 8  | Thur, 24 Oct  | ~~Python: Debugging ([Sweigart](https://automatetheboringstuff.com/), Chapter 10)~~<br/>[JSON Files](https://realpython.com/python-json/) | Lab 11 |
-| 9  | Tues, 29 Oct  | [Matplotlib](https://realpython.com/python-matplotlib-guide/) | HW 4 |
-| 9  | Thur, 31 Oct  | Python: Web Scraping ([Sweigart](https://automatetheboringstuff.com/), Chapter 11) | Lab 12 |
-| 10 | Tues, 5 Nov   | **NO CLASS** (Mike at [CIKM](http://www.cikm2019.net/)) | |
-| 10 | Thur, 7 Nov   | **NO CLASS** (Mike at [CIKM](http://www.cikm2019.net/)) | |
-| 11 | Tues, 12 Nov  | Python: reddit ([praw tutorial](https://praw.readthedocs.io/en/latest/getting_started/quick_start.html)) | |
-| 11 | Thur, 14 Nov  | Python: reddit ([praw tutorial](https://praw.readthedocs.io/en/latest/getting_started/quick_start.html))<br/>[madlib propaganda machines](https://hackernoon.com/more-than-a-million-pro-repeal-net-neutrality-comments-were-likely-faked-e9f0e3ed36a6) | HW 5<br/>Lab 13 |
-| 12 | Tues, 19 Nov  | Python: other libraries ([awesome-python](https://github.com/vinta/awesome-python))| |
-| 12 | Thur, 21 Nov  | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)) | |
-| 13 | Tues, 26 Nov  | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)) | |
-| 13 | Thur, 28 Nov  | **NO CLASS** (Thanksgiving) |  |
-| 14 | Tues, 3 Dec   | Python: [database CRUD operations](https://www.tutorialsteacher.com/python/database-crud-operation-in-python) | HW 6 |
-| 14 | Thur, 5 Dec   | Python: [database CRUD operations](https://www.tutorialsteacher.com/python/database-crud-operation-in-python) | Lab 14 |
-| 15 | Tues, 10 Dec  | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world))| |
-| 15 | Thur, 12 Dec  | Python: building CRUD webapps ([Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world))| |
--->
 
-<!--
-| 11 | Tues, 12 Nov  | Python: Email/SMS ([Sweigart](https://automatetheboringstuff.com/), Chapter 16) | HW 5 |
-| 11 | Thur, 14 Nov  | Python: Unicode (Python docs, [Unicode HOWTO](https://docs.python.org/3/howto/unicode.html)) | |
-| 12 | Tues, 19 Nov  | Javascript: Basics ([w3schools, JavaScript](https://www.w3schools.com/js/default.asp) | HW 6 |
-| 12 | Thur, 21 Nov  | Javascript: DOM ([w3schools, DOM](https://www.w3schools.com/js/js_htmldom.asp)) |
-| 13 | Tues, 26 Nov  | Javascript: BOM ([w3schools, BOM](https://www.w3schools.com/js/js_window.asp)) | |
--->
 <!--
 Python libraries:
 * newspaper3k
@@ -456,19 +363,6 @@ https://news.ycombinator.com/item?id=20861729
 https://www.iafrikan.com/2019/09/02/south-africa-mass-surveillance-spying-undersea-fiber-cables/
 -->
 
-
-<!--
-## Self Grading
-
-[An outlook on self-assessment of homework assignments in higher mathematics education](https://link.springer.com/article/10.1186/s40594-018-0146-z)
-
-Also *Your* Job to Learn! Helping Students Reflect on their Learning Progress
-
-Should you Allow your Students to Grade their own Homework?
-
-Peer and Self Assessment in Massive Online Classes
--->
-
 ## Accommodations for Disabilities
 
 I've tried to design the course to be as accessible as possible for people with disabilities.
@@ -480,12 +374,6 @@ I want you to succeed and I'll make every effort to ensure that you can.
 <!--
 
 make labs due during the lab session; -1 point penalty for submitting late
-
-change the requirements of hw_00 to have:
-- a legitimate title bar and consistent formatting between pages
-- no broken links
-- no inline styles/no style tags
-- no broken html tags like "html>"
 
 introduce pythontutor before doing python in vscode?
 
