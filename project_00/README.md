@@ -9,7 +9,7 @@ You will build a simple webpage and publish it to the internet.
 You get to choose any topic for the webpage (must be [SFW](https://en.wiktionary.org/wiki/SFW)!),
 and you can earn extra credit by having a large number of people visit your webpage.
 
-**Due:** Sunday, 11 September, midnight
+**Due:** Sunday, 2 February, midnight
 
 **Primary learning objectives:**
 
@@ -27,11 +27,20 @@ Edit the contents of the webpage you created in lab00 to meet the requirements o
 
 ## Grading Rubric
 
+<!--
+FIXME:
+change the requirements of hw_00 to have:
+- a legitimate title bar and consistent formatting between pages
+- no broken links
+- no inline styles/no style tags
+- no broken html tags like "html>"
+-->
+
 Your webpage must satisfy each checkbox below.
-Your grade will start at 5/5 points,
+Your grade will start at 4/4 points,
 and for each checkbox that you do not complete,
 you will lose 1 point.
-If you complete all checkboxes, then you will get 5/5 points.
+If you complete all checkboxes, then you will get 4/4 points.
 
  - Your webpage must contain at least:
 
@@ -113,7 +122,7 @@ There is no explicit requirement that your webpage "look nice" or have "good con
 Instead, you can earn extra credit points by making your webpage look nice and have good content.
 
 In particular, you can get 1 pt of extra credit by completing either of the following tasks.
-(Thus the maximum score on this assignment is 6/5.)
+(Thus the maximum score on this assignment is 5/4.)
 
  - [ ] 
     Post your site to reddit and get at least 100 upvotes.
