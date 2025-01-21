@@ -1,7 +1,7 @@
 # Week 00: Front-end web development
 
 <center>
-<img width='100%' src=ft111002-foxtrot-comics-bill-amend-html-tag-jason-marcus-sunday-comic-strip.png />
+<img width='100%' src=img/ft111002-foxtrot-comics-bill-amend-html-tag-jason-marcus-sunday-comic-strip.png />
 </center>
 
 **Monday:** Course Intro
@@ -119,7 +119,7 @@
 ## Lab
 
 <center>
-<img width='100%' src=dt160320.jpg />
+<img width='100%' src=img/dt160320.jpg />
 </center>
 
 **tl;dr**
