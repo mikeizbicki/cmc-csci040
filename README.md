@@ -255,9 +255,6 @@ where `i` is the number of days late.
 Do not expect partial credit for incomplete assignments.
 It is much better to submit a correct assignment late than an incorrect one on time.
 
-If you visit the QCL for help with any assignment,
-you get an automatic 2 day extension.
-
 **Collaboration Policy:**
 
 You are encouraged to discuss all labs and projects with other students,

@@ -27,20 +27,11 @@ Edit the contents of the webpage you created in lab00 to meet the requirements o
 
 ## Grading Rubric
 
-<!--
-FIXME:
-change the requirements of hw_00 to have:
-- a legitimate title bar and consistent formatting between pages
-- no broken links
-- no inline styles/no style tags
-- no broken html tags like "html>"
--->
-
 Your webpage must satisfy each checkbox below.
-Your grade will start at 4/4 points,
+Your grade will start at 8/8 points,
 and for each checkbox that you do not complete,
 you will lose 1 point.
-If you complete all checkboxes, then you will get 4/4 points.
+If you complete all checkboxes, then you will get 8/8 points.
 
  - Your webpage must contain at least:
 
@@ -63,6 +54,8 @@ If you complete all checkboxes, then you will get 4/4 points.
      - [ ] *contain a table with at least 3 rows and 3 columns*
 
  - Every HTML file must:
+
+     - [ ] have consistent formatting between pages
 
      - [ ] *use the `<link>` tag to include the CSS file*
 
@@ -87,6 +80,10 @@ If you complete all checkboxes, then you will get 4/4 points.
 
      - [ ] contain a hyperlink (`<a>` tag) to every other HTML file
 
+     - [ ] NOT contain a broken link
+
+     - [ ] *pass the [W3 HTML Validator](https://validator.w3.org/) with no errors*
+
  - The CSS file must:
 
      - [ ] set the color of `<a>` tags
@@ -96,6 +93,8 @@ If you complete all checkboxes, then you will get 4/4 points.
      - [ ] define at least 2 [class selectors](https://www.w3schools.com/cssref/sel_class.asp) and 1 [id selector](https://www.w3schools.com/cssref/sel_id.asp)
 
      - [ ] *use the [@media rule](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) to modify some attribute for small screen sizes*
+
+     - [ ] *pass the [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) with no errors*
 
  - Your domain must:
 
@@ -122,7 +121,7 @@ There is no explicit requirement that your webpage "look nice" or have "good con
 Instead, you can earn extra credit points by making your webpage look nice and have good content.
 
 In particular, you can get 1 pt of extra credit by completing either of the following tasks.
-(Thus the maximum score on this assignment is 5/4.)
+(Thus the maximum score on this assignment is 9/8.)
 
  - [ ] 
     Post your site to reddit and get at least 100 upvotes.
