@@ -181,7 +181,7 @@ This will be a low-stress but **very** challenging class.
     | 1   | Markdown compiler       | Hard          |
     | 2   | Data visualization      | Medium        |
     | 3   | Scraping ebay           | Medium        |
-    | 4   | Reddit propaganda bot (maybe swap out with a LLM-specific RAG assignment)  | Hard          |
+    | 4   | Reddit propaganda bot (maybe swap out with LLM-specific RAG assignment)  | Hard          |
     | 5   | Twitter clone           | Hard          |
 
     This class has fewer projects than in CS4/CS5/CS51.
