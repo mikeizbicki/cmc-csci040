@@ -109,12 +109,10 @@
 1. Cheatsheets
 
     In this class, you are encouraged to use cheatsheets for all labs, projects, and quizzes.
-    Quizzes will be open note.
 
-    1. [HTML Cheatsheet 1](html-cheatsheet.pdf)
-    1. [HTML Cheatsheet 2](htmlcheatsheet.pdf)
-    1. [CSS Cheatsheet](css-cheatsheet.pdf)
-    1. [URL Cheatsheet](Anatomy-of-a-URL-cheat-sheet_170316_122433.png)
+    You can find links to the electronic versions of the cheatsheets in this project folder.
+
+    Quizzes will be open note.
 
 ## Lab
 
