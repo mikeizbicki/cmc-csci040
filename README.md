@@ -20,9 +20,9 @@ Important links:
 | Name | Mike Izbicki (call me Mike) |
 | Email | mizbicki@cmc.edu |
 | Office | Adams 216 |
-| Office Hours | See [Issue #235](https://github.com/mikeizbicki/cmc-csci040/issues/235) |
-| Zoom | See [Issue #237](https://github.com/mikeizbicki/cmc-csci040/issues/237) |
-| Webpage | https://izbicki.me |
+| Office Hours | See [Issue #321](https://github.com/mikeizbicki/cmc-csci040/issues/321) |
+| Zoom | TBA |
+| Webpage | <https://izbicki.me> |
 | Research | Machine Learning (see [izbicki.me/research.html](https://izbicki.me/research.html) for some past projects) |
 
 Fun facts:
@@ -136,9 +136,9 @@ But most of the people who use these sites are [script kiddies](https://en.wikip
 
 | category                      | points/assignment         | *approximate* percentage |
 | ----------------------------- | ------------------------- | ---- |
-| labs (weekly)                 | $2^1$ - $2^2$             | 20%  |
-| quizzes (weekly)              | $2^2$ - $2^3$             | 40%  |
-| projects (every 2-3 weeks)    | $2^3$ - $2^6$             | 40%  |
+| labs (weekly)                 | `2**1` - `2**2`             | 20%  |
+| quizzes (weekly)              | `2**2` - `2**3`             | 40%  |
+| projects (every 2-3 weeks)    | `2**3` - `2**6`             | 40%  |
 
 This will be a low-stress but **very** challenging class.
 
@@ -219,7 +219,10 @@ with one caveat.
 | 60 > grade                       | F             |
 
 *CAVEAT:*
-In order to earn an A/A- in the class, you must also complete one of the following tasks.
+You must complete one of the following "caveat" tasks.
+The purpose of this task is to give you non-technical exposure to hacker culture.
+Because the task is non-technical, it will not be graded and will not contribute to the numerical score of your grade.
+But if you do not complete the task, then you will be docked one letter grade (e.g. an A- becomes a B-).
 
 1. Watch the following shows/movies about [cracking](http://www.catb.org/~esr/jargon/html/C/cracking.html) and [hacking](http://www.catb.org/~esr/jargon/html/H/hacker.html):
 
