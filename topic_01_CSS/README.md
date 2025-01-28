@@ -1,6 +1,6 @@
 # Week 01: More front-end web development
 
-<img width='50%' src=Strip-Vengeance-de-codeur-650-finalenglish.jpg />
+<img width='50%' src=img/Strip-Vengeance-de-codeur-650-finalenglish.jpg />
 
 **Wednesday:** Cascading Style Sheets (CSS)
 
@@ -17,16 +17,16 @@
     and backend devs tend to not know much about frontend dev...
 
     <!--
-    <img width='40%' src=Strip-High-Level-CSS-english650-final-1.jpg />
+    <img width='40%' src=img/Strip-High-Level-CSS-english650-final-1.jpg />
     &nbsp;
     -->
-    <img width='50%' src=Strip-CSS-respect-650-finalenglish1.jpg />
+    <img width='50%' src=img/Strip-CSS-respect-650-finalenglish1.jpg />
 
 ## Lab
 
 We will use the first portion of the lab time to go over the CSS quiz that will happen next week.
 
-<img width=40% src=photoshop.jpg>
+<img width=40% src=img/photoshop.jpg>
 
 Prelab videos:
 
@@ -67,7 +67,7 @@ Instructions:
 
    > **HINT:** Now would be a good time to arrange with other students in the class to share backlinks to each other's websites!
 
-    <img width='100%' src=comic14.gif />
+    <img width='100%' src=img/comic14.gif />
 
 > **NOTE:**
 > There is nothing to submit on sakai for this lab.
