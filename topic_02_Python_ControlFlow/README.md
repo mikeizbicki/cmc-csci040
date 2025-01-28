@@ -4,15 +4,15 @@
 <img width='100%' src=python.png />
 </center>
 
-1. Prelecture tasks:
+## Prelecture Tasks
 
-    1. Download and install the latest version of python for your system from <https://python.org/downloads/>.
+1. Download and install the latest version of python for your system from <https://python.org/downloads/>.
 
-1. Prelecture videos:
+1. (optional) Prelecture videos:
 
     We will cover all of the material in these videos in class,
     but if you haven't done any programming before this class,
-    you will probably find our in-class discussions to be too fast for you.
+    you will probably find our in-class discussions to very fast and confusing.
     Watching these videos first will help.
 
     1. [Lesson 1](https://www.youtube.com/watch?v=1F_OgqRuSdI&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW)
@@ -170,6 +170,8 @@
 
         1. `print`'s `end` and `sep` keyword arguments
 
+## Lecture Notes
+
 1. We will cover chapters 0-3 of Al Sweigart's [Automate the Borting Stuff](https://automatetheboringstuff.com/).
 
     1. HTML/CSS are **markup** languages;
@@ -204,6 +206,7 @@
     [5 most dangerous hackers of all time](https://www.youtube.com/watch?v=7UaPL5PGywo)
     -->
 
+<!--
 ## Memes
 
 After this week, you should understand all the jokes in the following memes.
@@ -221,12 +224,14 @@ After this week, you should understand all the jokes in the following memes.
 <hr>
 
 <img src=not_equals.jpg width=400px>
+-->
 
 ## Lab
 
+TBA
+<!--
 Instructions for your lab are contained in the `lab.py` file.
 
-<!--
 The file `lab.py` contains several incomplete functions that you must write.
 Each function has several test cases provided in the docstring,
 and currently all of these test cases are failing.
