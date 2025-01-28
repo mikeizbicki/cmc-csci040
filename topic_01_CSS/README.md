@@ -1,16 +1,27 @@
-# Week 01: More front-end web development
+# Topic 01: More front-end web development
 
 <img width='50%' src=img/Strip-Vengeance-de-codeur-650-finalenglish.jpg />
 
-**Wednesday:** Cascading Style Sheets (CSS)
+**Monday:** Cascading Style Sheets (CSS)
 
 1. We will be covering Chapter 3 in Shay Howe's [HTML & CSS](https://learn.shayhowe.com/html-css/) book.
     Last week we covered chapters 1-2.
 
 1. The most important concept to learn is the *CSS selector*.
     1. Must understand the parent/child/sibling/etc relationship between HTML nodes.
-    1. Next week's quiz will test your understanding.
     1. CSS selectors will be vital for understanding web scraping.
+    1. Quiz on Thursday.
+
+        See `practice_quiz1.pdf` and `practice_quiz2.pdf` for example problems.
+
+        You will have the first 10 minutes of class to complete the quiz.
+
+        I will arrive 10 minutes early, and you can also start before class if you'd like.
+    1. The following Javascript can be used to get the answer to any quiz problem.
+        Enter it the Firefox *debug console* (which you can open by pressing F12).
+        ```
+        document.querySelectorAll('selector') 
+        ```
 
 1. Starting next week, we will focus on back-end dev rather than front-end dev.
     There's a LOT more to front-end dev that we're not covering (we're only doing like 10% of Shay Howe's book),
@@ -38,11 +49,13 @@ Prelab videos:
 
 Instructions:
 
-1. Select a high profile Twitter user.
-   Use Firefox's developer console to edit one of their tweets to say something they would never say.
-   Take a screenshot and post the screenshot to GitHub Issues here: <https://github.com/mikeizbicki/cmc-csci040/issues/242>.
+1. Select a high profile user from [X/Twitter](https://x.com/), [BlueSky](https://bsky.app/), or [Mastodon](https://mstdn.social/explore).
+    Use Firefox's developer console to edit one of their messages to say something they would never say.
+    Take a screenshot and post the screenshot to GitHub Issues here: <https://github.com/mikeizbicki/cmc-csci040/issues/324>.
 
-   You can find examples from last semester here: <https://github.com/mikeizbicki/cmc-csci040/issues/86>.
+    You can find examples from previous semesters at:
+    1. <https://github.com/mikeizbicki/cmc-csci040/issues/242>
+    1. <https://github.com/mikeizbicki/cmc-csci040/issues/86>
 
 <!--
 1. (Optional) How to remove ads/popups/other crap from websites:
