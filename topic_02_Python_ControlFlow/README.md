@@ -1,7 +1,7 @@
 # Week 02: Python
 
 <center>
-<img width='100%' src=python.png />
+<img width='100%' src=img/python.png />
 </center>
 
 ## Prelecture Tasks
@@ -211,19 +211,19 @@
 
 After this week, you should understand all the jokes in the following memes.
 
-<img src=float2.jpg width=400px>
+<img src=float2.jpg width=img/400px>
 
 <hr>
 
-<img src=float.jpg width=400px>
+<img src=float.jpg width=img/400px>
 
 <hr>
 
-<img src=if.jpg width=400px>
+<img src=if.jpg width=img/400px>
 
 <hr>
 
-<img src=not_equals.jpg width=400px>
+<img src=not_equals.jpg width=img/400px>
 -->
 
 ## Lab
@@ -258,5 +258,5 @@ and copy/paste the output into sakai.
 > **tl;dr**
 > Don't be Scumbag Steve.
 > 
-> <img src=comment_tests.jpg width=400px>
+> <img src=img/comment_tests.jpg width=400px>
 -->
