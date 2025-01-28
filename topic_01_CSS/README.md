@@ -49,13 +49,11 @@
     -->
     <img width='50%' src=img/Strip-CSS-respect-650-finalenglish1.jpg />
 
-## Lab
-
-We will use the first portion of the lab time to go over the CSS quiz that will happen next week.
+## Lab (on Wednesday)
 
 <img width=40% src=img/photoshop.jpg>
 
-Prelab videos:
+(optional) Prelab videos:
 
 1. Matt Cutts was formerly the head of Google's web spam team,
    and now runs the United States Digital Service (a recently created branch of the US government).
