@@ -2,7 +2,23 @@
 
 <img width='50%' src=img/Strip-Vengeance-de-codeur-650-finalenglish.jpg />
 
-**Monday:** Cascading Style Sheets (CSS)
+**Announcements (Tuesday 28 Jan):**
+
+1. Labs graded in sakai.
+
+    All submissions got 2/2 points :)
+
+1. Modified schedule this week.
+
+    Tuesday: CSS Quiz Prep
+
+    Thursday: Quiz/Lab (still have until Sunday to complete)
+
+    Friday: Start topic 02 python
+
+    1. Do the [prelecture tasks](https://github.com/mikeizbicki/cmc-csci040/tree/2025spring/topic_02_Python_ControlFlow#prelecture-tasks) to install python before class on Friday.
+
+## Lecture Notes: Cascading Style Sheets (CSS)
 
 1. We will be covering Chapter 3 in Shay Howe's [HTML & CSS](https://learn.shayhowe.com/html-css/) book.
     Last week we covered chapters 1-2.
