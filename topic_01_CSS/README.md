@@ -75,7 +75,7 @@ Instructions:
 
     I recommend at the very least share backlinks to each other's websites.
 
-        <img width='400px' src=img/comic14.gif />
+    <img width='400px' src=img/comic14.gif />
 
 <!--
 1. (Optional) How to remove ads/popups/other crap from websites:
