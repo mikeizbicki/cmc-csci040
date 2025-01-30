@@ -37,7 +37,7 @@ If you complete all checkboxes, then you will get 8/8 points.
 
      - [ ] 3 HTML files
 
-     - [ ] *1 external CSS file* (see [this tutorial](https://www.w3schools.com/css/css_howto.asp) for details)
+     - [ ] 1 external CSS file
 
      - [ ] 3 images
 
@@ -45,9 +45,9 @@ If you complete all checkboxes, then you will get 8/8 points.
 
      - [ ] be named `index.html`
 
-     - [ ] contain a "follow" link to the course webpage (https://github.com/mikeizbicki/cmc-csci040) and a "follow" link to Mike Izbicki's personal webpage (https://izbicki.me)
-     
-        I want that sweet, sweet pagerank...
+     - [ ] *contain a "follow" link to the course webpage (https://github.com/mikeizbicki/cmc-csci040) and a "follow" link to Mike Izbicki's personal webpage (https://izbicki.me)*
+
+        > **Note:** See [this tutorial](https://ahrefs.com/blog/nofollow-links/) for details.  I want that sweet, sweet pagerank...
 
      - [ ] contain either an unordered or ordered list (`<ul>` or `<ol>`) with at least 3 list items (`<li>`)
 
@@ -57,11 +57,17 @@ If you complete all checkboxes, then you will get 8/8 points.
 
      - [ ] have consistent formatting between pages
 
-     - [ ] *use the `<link>` tag to include the CSS file*
+     - [ ] use the `<link>` tag to include the CSS file
 
-     - [ ] *have an appropriate `<title>` tag*
+     - [ ] have an appropriate `<title>` tag
 
-     - [ ] *have an appropriate `<meta description=...>` tag ([see this tutorial on meta description](https://moz.com/learn/seo/meta-description) and [this tutorial on other meta tags](https://moz.com/blog/the-ultimate-guide-to-seo-meta-tags))*
+     - [ ] *have a CSS navigation bar with links to every other HTML file*
+
+        > **Note:** See [this tutorial](https://www.w3schools.com/css/css_navbar.asp) for details.  Either a vertical or horizontal navigation bar is fine.
+
+     - [ ] *have an appropriate `<meta description=...>` tag*
+
+        > **Note:** see [this tutorial on meta description](https://moz.com/learn/seo/meta-description) and [this tutorial on other meta tags](https://moz.com/blog/the-ultimate-guide-to-seo-meta-tags) for details.
 
      - [ ] have an appropriate `<h1>` tag
 
@@ -74,13 +80,9 @@ If you complete all checkboxes, then you will get 8/8 points.
 
      - [ ] contain at least 1 `<span>` tag styled using CSS
 
-     - [ ] contain a Facebook like button (at least one of these like buttons must have >5 likes)
-
      - [ ] contain a Google Analytics tracker using the `<script>` tag
 
-     - [ ] contain a hyperlink (`<a>` tag) to every other HTML file
-
-     - [ ] NOT contain a broken link
+     - [ ] NOT contain any broken links
 
      - [ ] *pass the [W3 HTML Validator](https://validator.w3.org/) with no errors*
 
@@ -109,8 +111,8 @@ If you complete all checkboxes, then you will get 8/8 points.
 > **NOTE:**
 > We did not cover in class how to complete the *italicized* steps above,
 > and this was intentional.
-> You will have to use google/the textbook to figure these out for yourself.
-> No programmer 100% understands HTML or CSS, and so everyone relies on google while coding.
+> You will have to use google/ChatGPT/the textbook to figure these out for yourself.
+> No programmer 100% understands HTML or CSS, and so everyone relies on looking up information while coding.
 > The purpose of making you do things not covered in class is to get you practice relying on external resources.
 
 <img src=googling.jpg width=300px>
@@ -136,8 +138,8 @@ For any of these extra credit tasks, feel free to get creative and use whatever 
 ## Submission
 
 You must upload two URLs to sakai:
-1. the URL to your webpage
-1. the URL to the Internet Archive's copy of your webpage
+1. the URL to your webpage, and
+1. the URL to the Internet Archive's copy of your webpage.
 
 If you also completed extra credit,
 take a screenshot proving you completed the extra credit,
