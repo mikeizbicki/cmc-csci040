@@ -73,7 +73,7 @@ Instructions:
 
 1. Start working on project00.
 
-    I recommend at the very least share backlinks to each other's websites.
+    I recommend sharing backlinks to each other's websites.
 
     <img width='400px' src=img/comic14.gif />
 
