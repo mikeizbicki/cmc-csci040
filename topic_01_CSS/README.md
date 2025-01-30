@@ -49,7 +49,7 @@
     -->
     <img width='50%' src=img/Strip-CSS-respect-650-finalenglish1.jpg />
 
-## Lab (on Wednesday)
+## Lab (on Thursday)
 
 <img width=40% src=img/photoshop.jpg>
 
@@ -71,6 +71,12 @@ Instructions:
     1. <https://github.com/mikeizbicki/cmc-csci040/issues/242>
     1. <https://github.com/mikeizbicki/cmc-csci040/issues/86>
 
+1. Start working on project00.
+
+    I recommend at the very least share backlinks to each other's websites.
+
+        <img width='400px' src=img/comic14.gif />
+
 <!--
 1. (Optional) How to remove ads/popups/other crap from websites:
 
@@ -90,11 +96,4 @@ Instructions:
        you can visit [this webpage](https://adblockplus.org/filter-cheatsheet#elementhideemulation).
 -->
 
-1. Start working on project_00.
-
-   > **HINT:** Now would be a good time to arrange with other students in the class to share backlinks to each other's websites!
-
-    <img width='100%' src=img/comic14.gif />
-
-> **NOTE:**
-> There is nothing to submit on sakai for this lab.
+There is nothing to submit on sakai for this lab.
