@@ -320,9 +320,19 @@ def fibonacci(n):
     '''
 
 
+################################################################################
+# The problems below are not any "harder" than the problems above,
+# but they don't contain any hints.
+# Feel free to ask for a hint.
+################################################################################
+
+
 def cigar_party(cigars, is_weekend):
     '''
-    When squirrels get together for a party, they like to have cigars. A squirrel party is successful when the number of cigars is between 40 and 60, inclusive. Unless it is the weekend, in which case there is no upper bound on the number of cigars. Return True if the party with the given values is successful, or False otherwise.
+    When squirrels get together for a party, they like to have cigars.
+    A squirrel party is successful when the number of cigars is between 40 and 60, inclusive.
+    Unless it is the weekend, in which case there is no upper bound on the number of cigars.
+    Return True if the party with the given values is successful, or False otherwise.
     
     >>> cigar_party(30, False)
     False
@@ -355,6 +365,8 @@ def caught_speeding(speed, birthday):
     100
     >>> caught_speeding(81, True)
     100
+    >>> caught_speeding(86, True)
+    2000
     >>> caught_speeding(81, False)
     2000
     >>> caught_speeding(101, True)
