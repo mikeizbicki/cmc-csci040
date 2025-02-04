@@ -1,4 +1,4 @@
-# Week 02: Python
+# Topic 02: Python
 
 <center>
 <img width='100%' src=img/python.png />
