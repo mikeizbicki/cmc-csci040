@@ -318,3 +318,131 @@ def fibonacci(n):
     >>> fibonacci(1000)
     43466557686937456435688527675040625802564660517371780402481729089536555417949051890403879840079255169295922593080322634775209689623239873322471161642996440906533187938298969649928516003704476137795166849228875
     '''
+
+
+def cigar_party(cigars, is_weekend):
+    '''
+    When squirrels get together for a party, they like to have cigars. A squirrel party is successful when the number of cigars is between 40 and 60, inclusive. Unless it is the weekend, in which case there is no upper bound on the number of cigars. Return True if the party with the given values is successful, or False otherwise.
+    
+    >>> cigar_party(30, False)
+    False
+    >>> cigar_party(50, False)
+    True
+    >>> cigar_party(70, True)
+    True
+    >>> cigar_party(10, True)
+    False
+    >>> cigar_party(40, False)
+    True
+    '''
+
+
+def caught_speeding(speed, birthday):
+    '''
+    You are driving a little too fast, and a police officer stops you. Write code to compute the size of your fine. If speed is 60 or less, the result is 0. If speed is between 61 and 80 inclusive, the result is 100. If speed is 81 or more, the result is 2000. Unless it is your birthday -- on that day, your speed can be 5 higher in all cases.
+
+    >>> caught_speeding(60, False)
+    0
+    >>> caught_speeding(60, True)
+    0
+    >>> caught_speeding(61, False)
+    100
+    >>> caught_speeding(61, True)
+    0
+    >>> caught_speeding(65, True)
+    0
+    >>> caught_speeding(80, True)
+    100
+    >>> caught_speeding(81, True)
+    100
+    >>> caught_speeding(81, False)
+    2000
+    >>> caught_speeding(101, True)
+    2000
+    >>> caught_speeding(90, False)
+    2000
+    '''
+
+
+def near_ten(x):
+    '''
+    Return True if num is within 2 of a multiple of 10.
+
+    >>> near_ten(10)
+    True
+    >>> near_ten(6)
+    False
+    >>> near_ten(8)
+    True
+    >>> near_ten(19)
+    True
+    >>> near_ten(78921)
+    True
+    >>> near_ten(-43)
+    False
+    >>> near_ten(-42)
+    True
+    '''
+
+
+def love6(x):
+    '''
+    The number 6 is a truly great number. Given two int values, a and b, return True if either one is 6. Or if their sum or difference is 6. Note: the function abs(num) computes the absolute value of a number.
+
+    >>> love6(6, 5)
+    True
+    >>> love6(4, 5)
+    False
+    >>> love6(3, 3)
+    True
+    >>> love6(3, 2)
+    False
+    >>> love6(-3, 3)
+    True
+    >>> love6(10, 4)
+    True
+    >>> love6(121, 5)
+    False
+    >>> love6(-3, -3)
+    False
+    >>> love6(123, 6)
+    True
+    '''
+
+
+def funny_sum(a, b, c):
+    '''
+    Given 3 int values, a b c, return their sum. However, if one of the values is the same as another of the values, it does not count towards the sum.
+
+    >>> funny_sum(1, 2, 3)
+    6
+    >>> funny_sum(3, 2, 3)
+    2
+    >>> funny_sum(3, 3, 3)
+    0
+    >>> funny_sum(3, 2, -3)
+    2
+    >>> funny_sum(3, 3, -3)
+    -3
+    >>> funny_sum(1, 3, 3)
+    1
+    >>> funny_sum(3, 3, 2)
+    2
+    >>> funny_sum(3, 2, 1)
+    6
+    >>> funny_sum(5, 2, 6)
+    13
+    '''
+
+
+def make_bricks(small_bricks, large_bricks, goal_length):
+    '''
+    We want to make a row of bricks that is goal_length inches long. We have a number of small bricks (1 inch each) and big bricks (5 inches each). Return True if it is possible to make the goal by choosing from the given bricks.
+
+    >>> make_bricks(3, 1, 8)
+    True
+    >>> make_bricks(3, 1, 9)
+    False
+    >>> make_bricks(3, 2, 10)
+    True
+    '''
