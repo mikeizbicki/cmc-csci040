@@ -1,7 +1,7 @@
 #!/bin/python
 
 '''
-Lab instructions: 
+Lab instructions:
 Complete each function below so that all doctests pass.
 Recall that you can run the doctests with the command
 
@@ -14,6 +14,7 @@ NOTE:
 Each problem should be relatively straightforward and take less than 10 minutes.
 If you're spending more than 10 minutes on a problem,
 then you should stop and seek help.
+The QCL has mentors available over the weekend for help.
 
 NOTE:
 If you do not fully understand the material in this lab,
@@ -21,6 +22,13 @@ then you will not be able to complete the remainder of this course.
 I strongly encourage you to collaborate with other students,
 but make sure you are doing it in a way that is helping you understand the material.
 Don't just copy another students' solution.
+
+NOTE:
+You are allowed to use LLMs like chatgpt for any programming assignments in this course.
+LLMs are generally good at the type of problems in this lab,
+and can answer most/all of these problems correctly by themselves.
+I encourage you, however, to not just blindly use LLMs and copy/paste their solutions.
+A good rule of thumb is to only ask an LLM for help after you've tried working on the problem by yourself for at least 10 minutes.
 
 NOTE:
 There is no partial credit on this lab.
@@ -36,6 +44,10 @@ def hypotenuse(a, b):
     5.0
     >>> hypotenuse(12.0, 5.0)
     13.0
+    >>> hypotenuse(12, 5)
+    13.0
+    >>> type(hypotenuse(12.0, 5.0))
+    <class 'float'>
     '''
 
 
@@ -55,6 +67,8 @@ def is_even(n):
     True
     >>> is_even(-9)
     False
+    >>> type(is_even(0))
+    <class 'bool'>
     '''
 
 
@@ -72,6 +86,8 @@ def is_odd(n):
     False
     >>> is_odd(-9)
     True
+    >>> type(is_odd(0))
+    <class 'bool'>
     '''
 
 
@@ -91,7 +107,7 @@ def absolute_value(n):
     >>> absolute_value(-5.5)
     5.5
     '''
-    
+
 
 def max_num(a, b):
     '''
@@ -109,7 +125,7 @@ def max_num(a, b):
     >>> max_num(4, 4)
     4
     '''
-    
+
 
 def max_num_4(a, b, c, d):
     '''
@@ -129,7 +145,7 @@ def max_num_4(a, b, c, d):
     >>> max_num_4(10,1,2,3)
     10
     '''
-    
+
 
 def max_num_abs(a, b):
     '''
@@ -154,7 +170,7 @@ def is_leap_year(n):
     Return True if n is a leap year and False otherwise.
 
     HINT:
-    The formula for calculating leap years is relatively complicated.
+    The formula for calculating leap years is more complicated than you might think.
     You can find the formula at <https://www.mathsisfun.com/leap-years.html>.
 
     >>> is_leap_year(1582)
@@ -207,9 +223,9 @@ def num_digits(n):
 def factorial(n):
     '''
     Return the factorial of n.
-    Recall that the factorial of n is defined to be: 1*2*3*...*(n-1)*n 
+    Recall that the factorial of n is defined to be: 1*2*3*...*(n-1)*n
 
-    HINT: 
+    HINT:
     Use a for loop from 1 to n.
     On each iteration, multiply the current result by the current iteration number.
 
@@ -234,7 +250,7 @@ def is_prime(n):
     Recall that a prime number is divisible only by itself and 1,
     and by convention 1 is not considered to be a prime number.
 
-    HINT: 
+    HINT:
     Use a for loop to check if every number between 2 and n-1 divides n
 
     >>> is_prime(1)
@@ -257,7 +273,7 @@ def is_perfect_square(n):
     Return True if n is is the product of two integers.
     That is, return True if there exists an integer i such that i*i==n.
 
-    HINT: 
+    HINT:
     Use a for loop to check each number i between 0 and n.
 
     >>> is_perfect_square(1)
@@ -321,9 +337,9 @@ def fibonacci(n):
 
 
 ################################################################################
-# The problems below are not any "harder" than the problems above,
-# but they don't contain any hints.
-# Feel free to ask for a hint.
+# The problems below use all the same techniques as the problems above.
+# But they don't contain any hints about how to solve them.
+# So you will have to figure out for yourself when to use if/for/while statements.
 ################################################################################
 
 
@@ -333,7 +349,7 @@ def cigar_party(cigars, is_weekend):
     A squirrel party is successful when the number of cigars is between 40 and 60, inclusive.
     Unless it is the weekend, in which case there is no upper bound on the number of cigars.
     Return True if the party with the given values is successful, or False otherwise.
-    
+
     >>> cigar_party(30, False)
     False
     >>> cigar_party(50, False)
@@ -347,31 +363,38 @@ def cigar_party(cigars, is_weekend):
     '''
 
 
-def caught_speeding(speed, birthday):
+def speeding_fine(speed, birthday):
     '''
-    You are driving a little too fast, and a police officer stops you. Write code to compute the size of your fine. If speed is 60 or less, the result is 0. If speed is between 61 and 80 inclusive, the result is 100. If speed is 81 or more, the result is 2000. Unless it is your birthday -- on that day, your speed can be 5 higher in all cases.
+    The police department needs a function that computes the size of a fine to give to someone pulled over for speeding,
+    and its your job to translate the law into code to implement this function.
 
-    >>> caught_speeding(60, False)
+    The law states that:
+    if the speed was 60 or less, the fine is 0 dollars.
+    If the speed is between 61-80 inclusive, the fine is 100 dollars.
+    And if the speed is greater than 80, the fine is 2000 dollars.
+    The law has a strange provision, however, that when it is someone's birthday they are allowed to drive 5 mph faster in all cases.
+
+    >>> speeding_fine(60, False)
     0
-    >>> caught_speeding(60, True)
+    >>> speeding_fine(60, True)
     0
-    >>> caught_speeding(61, False)
+    >>> speeding_fine(61, False)
     100
-    >>> caught_speeding(61, True)
+    >>> speeding_fine(61, True)
     0
-    >>> caught_speeding(65, True)
+    >>> speeding_fine(65, True)
     0
-    >>> caught_speeding(80, True)
+    >>> speeding_fine(80, True)
     100
-    >>> caught_speeding(81, True)
+    >>> speeding_fine(81, True)
     100
-    >>> caught_speeding(86, True)
+    >>> speeding_fine(86, True)
     2000
-    >>> caught_speeding(81, False)
+    >>> speeding_fine(81, False)
     2000
-    >>> caught_speeding(101, True)
+    >>> speeding_fine(101, True)
     2000
-    >>> caught_speeding(90, False)
+    >>> speeding_fine(90, False)
     2000
     '''
 
@@ -397,9 +420,11 @@ def near_ten(x):
     '''
 
 
-def love6(x):
+def love6(a, b):
     '''
-    The number 6 is a truly great number. Given two int values, a and b, return True if either one is 6. Or if their sum or difference is 6. Note: the function abs(num) computes the absolute value of a number.
+    The number 6 is a truly great number.
+    Return True if:
+    either input number equals 6 or their sum or difference is 6.
 
     >>> love6(6, 5)
     True
@@ -424,7 +449,8 @@ def love6(x):
 
 def funny_sum(a, b, c):
     '''
-    Given 3 int values, a b c, return their sum. However, if one of the values is the same as another of the values, it does not count towards the sum.
+    Return the sum of the input values.
+    However, if one of the values is the same as another of the values, it does not count towards the sum.
 
     >>> funny_sum(1, 2, 3)
     6
@@ -447,14 +473,45 @@ def funny_sum(a, b, c):
     '''
 
 
-def make_bricks(small_bricks, large_bricks, goal_length):
+def median(a, b, c):
     '''
-    We want to make a row of bricks that is goal_length inches long. We have a number of small bricks (1 inch each) and big bricks (5 inches each). Return True if it is possible to make the goal by choosing from the given bricks.
+    Given 3 int values, return the value in the middle.
 
-    >>> make_bricks(3, 1, 8)
-    True
-    >>> make_bricks(3, 1, 9)
-    False
-    >>> make_bricks(3, 2, 10)
-    True
+    >>> median(1, 2, 3)
+    2
+    >>> median(2, 1, 3)
+    2
+    >>> median(3, 1, 2)
+    2
+    >>> median(2, 2, 1)
+    2
+    >>> median(5, 4, 4)
+    4
+    >>> median(-3, -2, 7)
+    -2
+    '''
+
+
+def sum_between(a, b):
+    '''
+    Find the sum of all numbers between a and b inclusive.
+
+    >>> sum_between(1, 2)
+    3
+    >>> sum_between(1, 3)
+    6
+    >>> sum_between(1, 5)
+    15
+    >>> sum_between(2, 1)
+    3
+    >>> sum_between(-5, 5)
+    0
+    >>> sum_between(5, 10)
+    45
+    >>> sum_between(1000, 10000)
+    49505500
+    >>> sum_between(10, -1000)
+    -500445
+    >>> sum_between(0, 123456)
+    7620753696
     '''
