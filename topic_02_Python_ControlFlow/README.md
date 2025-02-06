@@ -228,10 +228,9 @@ After this week, you should understand all the jokes in the following memes.
 
 ## Lab
 
-TBA
-<!--
 Instructions for your lab are contained in the `lab.py` file.
 
+<!--
 The file `lab.py` contains several incomplete functions that you must write.
 Each function has several test cases provided in the docstring,
 and currently all of these test cases are failing.
