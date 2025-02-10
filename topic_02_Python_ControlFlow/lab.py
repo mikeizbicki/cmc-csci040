@@ -221,7 +221,7 @@ def num_digits(n):
     1
     >>> num_digits(-10)
     2
-    >>> type(num_digits(4, 4))
+    >>> type(num_digits(4))
     <class 'int'>
     '''
 
