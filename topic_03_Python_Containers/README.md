@@ -4,6 +4,8 @@
 
 1. We will cover [Chapter 4 - Lists](https://automatetheboringstuff.com/2e/chapter4/) abd [Chapter 5 - Dictionaries](https://automatetheboringstuff.com/2e/chapter5/) of the book.
 
+1. Electronic version of quiz pdf at <https://github.com/mikeizbicki/quiz/blob/master/quiz_python/topic03_containers.pdf>
+
 1. Background videos:
 
     1. [Lesson 10](https://www.youtube.com/watch?v=M-CoVBK_bLE&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=10)
