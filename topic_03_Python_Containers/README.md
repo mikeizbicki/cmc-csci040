@@ -1,12 +1,10 @@
 # Week 03: Python containers (lists and dictionaries)
 
-<center>
-<img width=500px src=two-states-of-programmers.png />
-</center>
+<img width=500px src=img/two-states-of-programmers.png />
 
 1. We will cover [Chapter 4 - Lists](https://automatetheboringstuff.com/2e/chapter4/) abd [Chapter 5 - Dictionaries](https://automatetheboringstuff.com/2e/chapter5/) of the book.
 
-1. Prelecture videos:
+1. Background videos:
 
     1. [Lesson 10](https://www.youtube.com/watch?v=M-CoVBK_bLE&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=10)
 
@@ -124,13 +122,15 @@
 
 ## Lab
 
+TBA
+
+<!--
 <center>
-<img width=800px src=phd113007s1.gif />
+<img width=800px src=img/phd113007s1.gif />
 </center>
 
 Complete the `lab.py` file and submit your doctests to sakai.
 
-<!--
 def min_of_digits(n):
     '''
     Return the smallest digit in the input number n.

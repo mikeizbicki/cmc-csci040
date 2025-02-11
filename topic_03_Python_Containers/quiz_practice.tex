@@ -23,6 +23,7 @@
 
 \theoremstyle{definition}
 \newtheorem{problem}{Problem}
+\newtheorem{note}{Note}
 \newcommand{\E}{\mathbb E}
 \newcommand{\R}{\mathbb R}
 \DeclareMathOperator{\Var}{Var}
@@ -69,7 +70,7 @@ total += xs[1]
 total += xs[-3]
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -82,7 +83,7 @@ total += xs[-1]
 total += xs[0]
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -95,7 +96,7 @@ total += xs[-5]
 total += xs[-4]
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -109,7 +110,7 @@ total += ys[1]
 total += ys[-1]
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -123,7 +124,7 @@ total += ys[1]
 total += ys[-1]
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -134,7 +135,7 @@ ys = xs[-5:-3]
 total = len(ys)
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -145,7 +146,7 @@ ys = xs[-5:-3]
 total = sum(ys)
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -156,7 +157,7 @@ ys = xs[-3:-5]
 total = sum(ys)
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -167,7 +168,7 @@ ys = xs[-3:-5:-1]
 total = sum(ys)
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -178,7 +179,7 @@ ys = xs[:3]
 total = sum(ys)
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -189,7 +190,7 @@ ys = xs[:3]
 total = min(ys)
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -200,7 +201,7 @@ ys = xs[:3]
 total = max(ys)
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -211,7 +212,7 @@ ys = xs[7:]
 total = sum(ys)
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -222,7 +223,7 @@ ys = xs[-3:]
 total = sum(ys)
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -234,7 +235,7 @@ for i in range(3):
     total += xs[i]
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -246,7 +247,7 @@ for i in range(3, 8, 2):
     total += xs[i]
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -258,9 +259,8 @@ for i in range(-3, -6, -1):
     total += xs[i]
 print('total=', total)
 \end{lstlisting}
-\vspace{2in}
+\vspace{0.15in}
 
-%\newpage
 \begin{problem}
     What is the output of the following code:
 \end{problem}
@@ -271,8 +271,9 @@ for x in xs:
     total += x
 print('total=', total)
 \end{lstlisting}
-\vspace{1.5in}
+\vspace{0.15in}
 
+\newpage
 \begin{problem}
     What is the output of the following code:
 \end{problem}
@@ -284,7 +285,7 @@ for x in xs:
         total += x*i
 print('total=', total)
 \end{lstlisting}
-\vspace{1.5in}
+\vspace{0.15in}
 
 
 \begin{problem}
@@ -300,10 +301,8 @@ for x in xs:
         total -= x*y
 print('total=', total)
 \end{lstlisting}
-\vspace{1.5in}
+\vspace{0.15in}
 
-
-\newpage
 
 \begin{problem}
     What is the output of the following code:
@@ -316,7 +315,7 @@ total += xss[1][1]
 total += xss[2][2]
 print('total=', total)
 \end{lstlisting}
-\vspace{1.5in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -329,7 +328,7 @@ total += xss[0][1]
 total += xss[0][2]
 print('total=', total)
 \end{lstlisting}
-\vspace{1.5in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -342,8 +341,9 @@ total += xss[0][-1]
 total += xss[-2][2]
 print('total=', total)
 \end{lstlisting}
-\vspace{1.5in}
+\vspace{0.15in}
 
+\newpage
 \begin{problem}
     What is the output of the following code:
 \end{problem}
@@ -356,7 +356,7 @@ for xs in xss:
         total += x
 print('total=', total)
 \end{lstlisting}
-\vspace{1.5in}
+\vspace{0.15in}
 
 \begin{problem}
     What is the output of the following code:
@@ -370,7 +370,7 @@ for xs in xss:
         total %= x
 print('total=', total)
 \end{lstlisting}
-\vspace{1.5in}
+\vspace{0.15in}
 
 
 \begin{problem}
@@ -384,5 +384,174 @@ for i in range(2):
         total += xss[i][-j]
 print('total=', total)
 \end{lstlisting}
-\vspace{1.5in}
+\vspace{0.15in}
+
+\newpage
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+x = 10
+def foo(x):
+    if x - 5:
+        return 1
+    else:
+        x += 1
+    return x
+x += foo(4)
+x += foo(5)
+x += foo(6)
+print("x=", x)
+\end{lstlisting}
+\vspace{0.15in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+x = 10 
+def foo(x):
+    x += 2
+    return x
+x += foo(9 + 39 // 10) * 3
+x += foo(9 + 19 // 10) * 2
+print("x=", x)
+\end{lstlisting}
+\vspace{0.15in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+x = 10
+def foo(x):
+    for i in range(1, 4):
+        return x * i
+x += foo(i)
+print("x=", x)
+\end{lstlisting}
+\vspace{0.15in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+x = 10
+def foo(x):
+    if x % 2:
+        return 1
+    x -= 1
+    return x
+x += foo(4)
+x += foo(5)
+x += foo(6)
+print("x=", x)
+\end{lstlisting}
+\vspace{0.15in}
+
+\newpage
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+x = 10 
+def foo(x):
+    x += 1
+    return x
+x += foo(9 + 39 // 10) * 2
+print("x=", x)
+\end{lstlisting}
+\vspace{0.15in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+x = 10
+def foo(x):
+    return x * 2
+for i in range(3):
+    x += foo(i)
+print("x=", x)
+\end{lstlisting}
+\vspace{0.15in}
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+x = 10
+def foo(x):
+    if x - 5:
+        return 1
+    else:
+        x -= 1
+    return x
+x += foo(4)
+x += foo(5)
+x += foo(6)
+print("x=", x)
+\end{lstlisting}
+\vspace{0.15in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+x = 10 
+def foo(x):
+    x += 2
+    return x
+x += foo(9 + 39 // 10) * 3
+x += foo(9 + 39 // 10) * 2
+print("x=", x)
+\end{lstlisting}
+\vspace{0.15in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+x = 10
+def foo(x):
+    for i in range(3):
+        return x * i
+x += foo(i)
+print("x=", x)
+\end{lstlisting}
+\vspace{0.15in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+def foo(x):
+    total = 0
+    while x > 0:
+        total += 1
+        x //= 10
+    return total
+x = foo(100)
+x += foo(1234567)
+x += foo(3)
+print("x=", x)
+\end{lstlisting}
+\vspace{0.15in}
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+def foo(x):
+    total = 0
+    while x > 0:
+        total = total + x % 10
+        x //= 10
+    return total
+x = foo(100)
+x += foo(1234567)
+x += foo(3)
+print("x=", x)
+\end{lstlisting}
+\vspace{0.15in}
+
 \end{document}
