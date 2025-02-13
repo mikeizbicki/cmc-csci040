@@ -1,3 +1,15 @@
+#!/bin/python3
+'''
+The functions below are also part of your lab for this week.
+We will work through this file in lecture.
+One useful tip is to use python's *interactive mode*.
+You can enter interactive mode with the command
+```
+$ python3 -i notes.py
+```
+'''
+
+
 def largest(xs):
     '''
     Return the largest element in a list.
@@ -12,10 +24,6 @@ def largest(xs):
     10
     >>> largest([])
     '''
-    if len(xs) == 0:
-        return None
-    xs.sort()
-    return xs[-1]
 
 
 def largest3(xs):
@@ -33,8 +41,6 @@ def largest3(xs):
     >>> largest3([])
     []
     '''
-    xs.sort()
-    return xs[-3:]
 
 
 def filter_odd(xs):
@@ -53,11 +59,6 @@ def filter_odd(xs):
     >>> filter_odd([20,13,4,16,8,19,10])
     [20, 4, 16, 8, 10]
     '''
-    accumulator = []
-    for x in xs:
-        if x%2 == 0:
-            accumulator.append(x)
-    return accumulator
 
 
 def nested_filter_odd(xss):
@@ -73,12 +74,6 @@ def nested_filter_odd(xss):
     >>> nested_filter_odd([[20],[13,4,16,8,19],[10], [15, 13, 1]])
     [20, 4, 16, 8, 10]
     '''
-    accumulator = []
-    for xs in xss:
-        for x in xs:
-            if x%2 == 0:
-                accumulator.append(x)
-    return accumulator
 
 
 # These dictionaries store the grades of famous people in their math, english, and economics classes.
@@ -127,7 +122,6 @@ def get_number_of_students_in_class(d):
     >>> get_number_of_students_in_class(economics_grades)
     6
     '''
-    return len(d)
 
 
 def highest_grade(d):
@@ -141,4 +135,3 @@ def highest_grade(d):
     >>> highest_grade(economics_grades)
     95
     '''
-    return largest(list(d.values()))
