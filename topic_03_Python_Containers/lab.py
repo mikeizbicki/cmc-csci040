@@ -194,8 +194,8 @@ def last_element_list(xs):
 
 def first_three(xs):
     '''
-    Return a list containing the last three elements of the input list.
-    Of the list contains three or fewer elements,
+    Return a list containing the first three elements of the input list.
+    If the list contains three or fewer elements,
     then return the entire list.
 
     HINT:
