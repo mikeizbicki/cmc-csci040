@@ -37,21 +37,22 @@ One of the benefits of python is that it is easy to download and run programs (c
 In your next homework you will write one of these scripts.
 The purpose of this lab is to give you practice using other people's scripts.
 
-You will use a famous script called `youtube-dl`,
+You will use a famous script called `yt-dlp`,
 which lets you easily download videos from youtube and other video sites onto your computer.
-(The `-dl` stands for "download").
+(The `yt` stands for "youtube", the `dl` stands for "download", and the `p` stands for "plus" to indicate that the program works with more than just youtube.)
 
 `pip3` is the program that installs these python scripts onto your computer.
-To install `youtube-dl`, run the command
+To install `yt-dlp`, run the command
 ```
-$ pip3 install youtube-dl
+$ pip3 install yt-dlp
 ```
 If this command doesn't work for you, then see [Appendix A](https://automatetheboringstuff.com/2e/appendixa/) of *Automate the Boring Stuff* for instructions on configuring `pip3` for your system.
+(Or just ask me...)
 
-Once you've successfully installed `youtube-dl`,
+Once you've successfully installed `yt-dlp`,
 you can run the script with the command
 ```
-$ python3 -m yt-dlp
+$ python3 -m yt_dlp
 ```
 Notice that the command above uses an underscore `_` instead of a dash `-`.
 If everything is working correctly, you should get output that looks like
@@ -59,13 +60,13 @@ If everything is working correctly, you should get output that looks like
 Usage: __main__.py [OPTIONS] URL [URL...]
 
 __main__.py: error: You must provide at least one URL.
-Type youtube-dl --help to see a list of all options.
+Type yt-dlp --help to see a list of all options.
 ```
 In order to download a youtube file, simply paste the URL at the end of the command.
 The URL <https://www.youtube.com/watch?v=dQw4w9WgXcQ> links to the WarGames movie (which is one of the movies to watch to get an A in the class),
 and so if you run the command
 ```
-$ python3 -m yt-dlp https://www.youtube.com/watch?v=dQw4w9WgXcQ
+$ python3 -m yt_dlp https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 then the script will download WarGames onto your computer.
 Depending on your computer's configuration, you may get some error messages with the above command.
