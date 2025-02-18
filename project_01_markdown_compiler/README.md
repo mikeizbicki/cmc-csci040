@@ -31,8 +31,7 @@ Let's consider Github's implementation of the Markdown-HTML compiler:
         1. The field of "software engineering" studies actually making these project timeline estimates and accounting details.
 
 **Due:** 
-~~Sunday, 02 October, midnight~~
-Sunday, 09 October, midnight
+Thursday, 27 February, midnight
 
 > **NOTE:**
 > We will still have more labs/quizzes/etc next week,
@@ -72,25 +71,25 @@ we can easily generate many different looking webpages from the same markdown co
 Upload to sakai
 1. the output of running the doctests with the `--verbose` flag,
 1. your 2 screenshots,
-1. a short 1 sentence statement of your collaboration if you want the 48 hour extension, and
 1. a short 1 sentence statement of what your grade should be according to the rubric below.
 
 ## Grading Rubric
 
-This assignment is worth a total of 18 points.
+This assignment is worth a total of 16 points.
 
-There are 11 functions that have failing doctests.
-Each function is worth 1.5 points for a total of 16.5 points.
-You must have all doctests passing in order to get the points for the function.
+There are 11 functions that currently have failing doctests.
+For each function that has failing doctests, you will receive -2 points.
+(You cannot go negative.)
 
-The remaining 1.5 points are for your screenshots.
+For each of your two screenshots:
+if the screenshot is not generated correctly, you will lose -2 points.
 These points test that you understand how to run your python program from the command line with different parameters and view the results in firefox.
 
 ### Extra Credit
 
 There are two options for extra credit on this assignment,
 each worth 1.5 points.
-So you may earn up to 21/18 on this assignment if you complete both extra credits.
+So you may earn up to 19/16 on this assignment if you complete both extra credits.
 
 **Option 1:**
 Escape Characters
