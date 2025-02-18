@@ -1,6 +1,6 @@
 # Topic 04: Text data
 
-<img src=img/4rules.jpg width=400px>
+<img src=img/4rules.jpg width=300px>
 
 We will cover [Chapter 6 - Strings](https://automatetheboringstuff.com/2e/chapter6/).
 
