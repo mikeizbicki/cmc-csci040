@@ -31,7 +31,8 @@ Let's consider Github's implementation of the Markdown-HTML compiler:
         1. The field of "software engineering" studies actually making these project timeline estimates and accounting details.
 
 **Due:** 
-Thursday, 27 February, midnight
+~~Thursday, 27 February, midnight~~
+Sunday, 01 March, midnight
 
 > **NOTE:**
 > We will still have more labs/quizzes/etc next week,
