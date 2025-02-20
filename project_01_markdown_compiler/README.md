@@ -2,7 +2,7 @@
 
 ![wtf_comic](wtf.jpg)
 
-**Description:** 
+**Description:**
 HTML is almost never written by hand these days.
 Instead, we write programs that write the HTML for us.
 In this homework, you will write a Python program that generates HTML from a Markdown document.
@@ -71,6 +71,12 @@ we can easily generate many different looking webpages from the same markdown co
 
 Upload to sakai
 1. the output of running the doctests with the `--verbose` flag,
+
+    > **WARNING:**
+    > You do not need to submit your python code.
+    > Some students have been submitting your python code for labs instead of the output of the doctests,
+    > but that will result in losing points for this assignment.
+
 1. your 2 screenshots,
 1. a short 1 sentence statement of what your grade should be according to the rubric below.
 
