@@ -1,6 +1,6 @@
 # Topic 05: Unicode + files
 
-<img width=400px src=vomiting_emoji.png />
+<img width=400px src=img/vomiting_emoji.png />
 
 You can find an explanation of this comic at <https://www.explainxkcd.com/wiki/index.php/1813:_Vomiting_Emoji>
 
@@ -38,7 +38,7 @@ Unicode
    But companies actually have to work in the real world, with real people from outside the US,
     and often complain that colleges don't teach real-world skills like Unicode to CS majors.
 
-   <img src=unicode.jpg width=400px >
+   <img src=img/unicode.jpg width=400px >
 
 1. Fun links about Unicode
 
@@ -207,7 +207,7 @@ Complete the doctests in the `lab.py` and upload the results to sakai.
 
 The purpose of this extra credit assignment is to get you more familiar with using python libraries to automate boring tasks.
 
-<img src=interesting-man.jpg height=250px>&nbsp;&nbsp;<img src=jobs.jpg height=250px>
+<img src=img/interesting-man.jpg height=250px>&nbsp;&nbsp;<img src=img/jobs.jpg height=250px>
 
 You may earn 1 point of extra credit (and so get a 4/3 on the lab) if you use google translate to convert the phrase "python is awesome" into at least 100 other languages and upload these translations to sakai.
 Fortunately, there is a python interface to google translate,
