@@ -223,3 +223,18 @@ len(chinese_bytes3)
 
 # UTF-8 prioritizes English, but it has become the default encoding for most languages.
 # This makes a lot of Asians upset because they "waste" lots of disk space/bandwidth.
+
+###############################################################################
+# Syntax errors caused by Unicode weirdness
+###############################################################################
+
+# not all quotation marks are valid python
+# print(‘hello world’)
+
+bad_quote1 = '‘'
+bad_quote2 = '’'
+good_quote = '\''
+
+# PRINCIPLE 5:
+# Never copy/paste code into a Google Doc.
+# Only use tools designed for programming (e.g. VSCode) when programming.
