@@ -4,7 +4,7 @@
 
 In 1972, President Richard Nixon flew to China
 
-<img src= width=800px />
+<img src=width=800px />
 
 The [Shanghai Communiqué](https://en.wikipedia.org/wiki/Shanghai_Communiqu%C3%A9) was a joint statement by the United States and the People's Republic of China (PRC) in 1972.
 The communiqué is famous for first articulating the United States' [One China](https://en.wikipedia.org/wiki/One_China) policy with the following declaration:
@@ -85,15 +85,17 @@ Taiwanese programmers therefore independently created their own system for stori
 <!--
 For example, Taiwanese programmers did not want to have to use the GB2312 encoding scheme,
 and so they developed their own standard called the [Big5 encoding](https://en.wikipedia.org/wiki/Big5) in 1984.
+-->
 
 > **Historical Background:**
 >
 > The Taiwanese programmers didn't want to use the GB2312 standard for two reasons.
 > The first was political.
-> Taiwan officially did not recognize the PRC government of mainland China,
-> and so for reasons of national pride wanted to develop their own standard.
-> But Taiwanese programmers also had good technical reasons for not liking the GB2312 standard due to a language reform implemented in mainland China.
+> Taiwan officially did not recognize the PRC government of mainland China.
+> And so for reasons of national pride,
+> Taiwanese programmers wanted to develop their own standards.
 >
+> But Taiwanese programmers also had good technical reasons for not liking the GB2312 standard due to a language reform implemented in mainland China.
 > When the Chinese Communist party took power in mainland China, less than 25% of the country knew how to read and write Chinese.
 > So one of the first efforts of the Communist government was to improve literacy rates.
 > Part of this effort was a reform in how Chinese characters worked, leading to the development of [simplified Chinese characters](https://en.wikipedia.org/wiki/Simplified_Chinese_characters).
@@ -101,11 +103,12 @@ and so they developed their own standard called the [Big5 encoding](https://en.w
 > The Taiwanese government, however, decided to continue using the old traditional Chinese characters.
 > The existing GB2312 standard focused on supporting computers in mainland-China that use simplified Chinese characters,
 > and therefore lacked many of the features needed for the traditional characters in use in Taiwan.
--->
+> Taiwanese programmers developed Big5 to be able to use their traditional Chinese characters on the computer.
 
 Unfortunately,
 Big5 is not compatible with GB2312,
 and this makes it difficult for Taiwanese and mainland-Chinese people to communicate.
+
 There are two problems that cause this incompatibility.
 
 **The first encoding problem:**
@@ -133,8 +136,10 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
   UnicodeDecodeError: 'big5' codec can't decode byte 0xc8 in position 11: illegal multibyte sequence
 ```
-The Shanghai communique is something that Taiwanese diplomats definitely need to be able to read, however.
-In order to transmit the document to them electronically, we need to re-encode it using the Big5 encoding.
+But the Shanghai communique is something that Taiwanese diplomats definitely need to be able to read.
+(Taiwanese diplomats need to understand US-China relations in order to understand Taiwan-China and Taiwan-US relations.)
+In order to transmit the document to the Chinese diplomats electronically,
+we need to re-encode it using the Big5 encoding so they can open it.
 
 The file `shanghai_communique.chinese2` contains the Shanghai communique encoded using Big5.
 You can load it in python with the code
@@ -144,12 +149,7 @@ You can load it in python with the code
 >>> print(text_big5[:1000])
 ```
 Unfortunately, the Big5 encoding isn't able to handle the simplified Chinese characters in use by mainland China.
-```
->>> b''
-```
-
-<!--
-But if you try to open the Taiwanese Big5 encoded document with the mainland-Chinese GB2312 encoding, Python will also throw an error:
+If you try to open the Taiwanese Big5 encoded document with the mainland-Chinese GB2312 encoding, Python will also throw an error:
 ```
 >>> f = open('shanghai_communique.chinese2', encoding='gb2312')
 >>> f.read()
@@ -157,7 +157,7 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
   UnicodeDecodeError: 'gb2312' codec can't decode byte 0xa4 in position 7: illegal multibyte sequence
 ```
--->
+In order to open these files, we need to know in advance what encoding the file is in.
 
 **A possible solution:**
 
@@ -167,27 +167,34 @@ and if that doesn't work, then we could open the file using the Big5 encoding.
 
 The following Python function uses python's built-in `try`/`except` blocks to achieve this goal:
 ```
->>> def load_chinese_file(filename):
-...     f = open(filename, 'br')
-...     bs = f.read()
-...     try:
-...         text = bs.decode('gb2312')
-...         print('gb2312')
-...     except UnicodeDecodeError:
-...         text = bs.decode('big5')
-...         print('big5')
-...     return text
-...
+def load_chinese_file(filename):
+    f = open(filename, 'br')
+    bs = f.read()
+    try:
+        text = bs.decode('gb2312')
+        print('gb2312')
+    except UnicodeDecodeError:
+        text = bs.decode('big5')
+        print('big5')
+    return text
 ```
-Now we can load files in Chinese without specifying the encoding:
+Create a new python file called `chinese.py` that contains the above function.
+Then enter interactive python with the command
+```
+$ python3 -i chinese.py
+```
+You should now be able to load any Chinese language document with a single function call:
 ```
 >>> text1 = load_chinese_file('shanghai_communique.chinese1')
 >>> text2 = load_chinese_file('shanghai_communique.chinese2')
 ```
+That seems great!
+We've solved the first problem,
+but this leads us to our second problem.
 
 **The second problem:**
 
-Unfortunately, the solution above doesn't always work because sometimes python won't give an error when we use the "wrong" encoding to load a file.
+Unfortunately, the solution above doesn't always work because sometimes python won't throw an exception when we use the "wrong" encoding to load a file.
 In particular, some byte sequences are valid in multiple encodings.
 For example,
 the GB2312 two byte sequence for 友 ("friend") is the same as the Big5 two byte sequence for 衭 (the front of a shirt):
@@ -205,6 +212,8 @@ For example, the byte sequence `b'I love \xd3\xd1'` can be interpreted either as
 >>> b'I love \xd3\xd1'.decode('big5')
 'I love 衭'
 ```
+In general, it is not possible to automatically determine which encoding to use due to this problem.
+Just because we don't get an error message doesn't mean that we decoded the bytes correctly.
 
 ### Modern Encodings and Unicode
 
@@ -245,10 +254,11 @@ Political battles over emoji [continue to this day](https://blog.emojipedia.org/
 **The Scenario:**
 
 For the rest of this lab, you will pretend to be an analyst at the US ["State Department"](https://www.quora.com/Why-does-the-CIA-famously-use-the-US-State-Department-as-cover-for-its-covert-officers?).
-<!-- https://cryptome.org/dirty-work/spot-spook.htm -->
+(The state department is one of the main official covers for CIA agents.
+The classic hacker webpage cryptome.org has a fun ["spot the spook" tutorial](https://cryptome.org/dirty-work/spot-spook.htm) that walks through how to identify which state department employees are actually CIA.)
 You've become aware that an internal source is leaking classified secrets about US nuclear submarines to the Brazilian government.
+
 A [field agent](https://www.quora.com/What-does-a-CIA-field-agent-do) has intercepted these communications.
-Unfortunately
 
 '''
 >>> f = open('secret_message.txt', 'rb')

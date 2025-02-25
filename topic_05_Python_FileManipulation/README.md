@@ -1,16 +1,34 @@
-# Week 05: Unicode + files
+# Topic 05: Unicode + files
 
 <img width=400px src=vomiting_emoji.png />
 
 You can find an explanation of this comic at <https://www.explainxkcd.com/wiki/index.php/1813:_Vomiting_Emoji>
 
-**Monday:** Unicode
+**Announcements:**
+
+1. Review quiz Thursday.
+
+    8 problems, each worth 1 point.
+
+1. Overall, grades are good.
+
+    1. Median 90%, low 80%.
+
+        Current points: 38
+
+        Markdown compiler points: 16 (40%)
+
+    1. If you missed points on a lab, I wrote in sakai why and what to do to resubmit for full credit.
+
+## Lecture Notes
+
+Unicode
 
 1. Unicode is the international standard for representing text as numbers.
 
     *References:*
 
-    1. Python tutorial: https://realpython.com/python-encodings-guide/ (**this is our main "textbook" and you are responsible for all the material in this link**)
+    1. Python tutorial: <https://realpython.com/python-encodings-guide/> (**this is our main "textbook" and you are responsible for all the material in this link**)
 
 1. This information is not in the textbook.
 
@@ -22,27 +40,25 @@ You can find an explanation of this comic at <https://www.explainxkcd.com/wiki/i
 
    <img src=unicode.jpg width=400px >
 
-*Fun links:*
+1. Fun links about Unicode
 
-1. growth of UTF-8: https://en.wikipedia.org/wiki/UTF-8#/media/File:Utf8webgrowth.svg
+    1. growth of UTF-8: <https://en.wikipedia.org/wiki/UTF-8#/media/File:Utf8webgrowth.svg>
 
-1. The story of the gun emoji
+    1. The story of the gun emoji
 
-    1. <https://blog.emojipedia.org/apple-and-the-gun-emoji/>
-    1. <https://www.businessinsider.com/apple-change-pistol-emoji-toy-confusion-precedent-meaning-retroactive-2016-8>
+        1. <https://blog.emojipedia.org/apple-and-the-gun-emoji/>
+        1. <https://www.businessinsider.com/apple-change-pistol-emoji-toy-confusion-precedent-meaning-retroactive-2016-8>
 
-1. NSA's security risks of Unicode: <https://nsacyber.github.io/publications.html#unicode-security-risks>
+    1. NSA's security risks of Unicode: <https://nsacyber.github.io/publications.html#unicode-security-risks>
 
-    <!--https://apps.nsa.gov/iaarchive/library/reports/unicode-security-risks.cfm -->
+        <!--https://apps.nsa.gov/iaarchive/library/reports/unicode-security-risks.cfm -->
 
-<!--
-1. Python is famous for it's good, native Unicode support.
-    Other languages like C/C++/Java it's technically possible to use Unicode correctly, but it's much more difficult.
+    1. Python is famous for it's good, native Unicode support.
+        Other languages like C/C++/Java it's technically possible to use Unicode correctly, but it's much more difficult.
 
-    1. Historical note:
-        Python 3 broke off from Python 2 due to fundamental differences in vision about how Unicode should be supported.
-        You can read more about [these differences from a famous pythonista here](https://lucumr.pocoo.org/2014/1/5/unicode-in-2-and-3/).
--->
+        1. Historical note:
+            Python 3 broke off from Python 2 due to fundamental differences in vision about how Unicode should be supported.
+            You can read more about [these differences from a famous pythonista here](https://lucumr.pocoo.org/2014/1/5/unicode-in-2-and-3/).
 
 <!--
 1. Unicode in the DPRK
@@ -68,15 +84,16 @@ You can find an explanation of this comic at <https://www.explainxkcd.com/wiki/i
         1. Master's thesis exploring the topic: https://www.era.lib.ed.ac.uk/bitstream/handle/1842/12253/Hwang2005.pdf
 -->
 
-**Wednesday:**
-We will cover [Chapter 9 - Reading and Writing Files](https://automatetheboringstuff.com/2e/chapter9/) of the book,
+Using Files
+
+1. We will cover [Chapter 9 - Reading and Writing Files](https://automatetheboringstuff.com/2e/chapter9/) of the book,
 but we will also talk about the interaction between files and Unicode.
 
-Reference videos:
+1. Reference videos:
 
-1. Corey Schafer's [Reading and Writing to Files](https://www.youtube.com/watch?v=Uh2ebFW8OYM)
+    1. Corey Schafer's [Reading and Writing to Files](https://www.youtube.com/watch?v=Uh2ebFW8OYM)
 
-1. Corey Schafer's [Error Handling Try/Except](https://www.youtube.com/watch?v=NIWwJbo-9_8)
+    1. Corey Schafer's [Error Handling Try/Except](https://www.youtube.com/watch?v=NIWwJbo-9_8)
 
 <!--
 **Facebook in the news:**
@@ -173,13 +190,14 @@ How does an outage like this happen?
 
 ## Lab
 
+TBA
+
 <!--
 ### Part I
 
 Please complete the following survey about how class is going so far: https://docs.google.com/forms/d/1Weuolk5Q9RsmqVFiF8Qgbc1cd_LQNiKMY-RYAq1SPlg
 
 The survey is 100% anonymous, and it will help me adjust the course moving forward.
--->
 
 ### Part I
 
@@ -223,3 +241,4 @@ We can also get the list of all supported languages using the command
 Now, to complete the assignment, all you have to do is loop over the list above, calling the translate function with `target=` each of the supported languages.
 
 To get the extra credit, paste all of your translations into sakai below the test case output for Part I of the lab.
+-->
