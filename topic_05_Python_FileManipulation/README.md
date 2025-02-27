@@ -42,7 +42,7 @@ Unicode
 
 1. Fun links about Unicode
 
-    1. growth of UTF-8: <https://en.wikipedia.org/wiki/UTF-8#/media/File:Utf8webgrowth.svg>
+    1. growth of UTF-8: <https://en.wikipedia.org/wiki/File:Utf8webgrowth.svg>
 
     1. The story of the gun emoji
 
