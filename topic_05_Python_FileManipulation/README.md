@@ -224,7 +224,7 @@ and it provides interfaces to many different translation services.
 You can find the documentation at <https://pythonrepo.com/repo/nidhaloff-deep-translator-python-miscellaneous>,
 although you won't need to look in detail at the documentation to complete this assignment.
 
-You can install `deep_translator` library similarly to how you installed `youtube-dl` library, using the `pip3` command.
+You can install `deep_translator` library similarly to how you installed `yt-dlp` library, using the `pip3` command.
 The command should look something like
 ```
 $ pip3 install deep_translator
@@ -247,6 +247,9 @@ Now, to complete the assignment, all you have to do is loop over the list above,
 
 To submit this lab part, paste your list of translations into sakai.
 I don't need to see your code.
+
+> **HINT:**
+> It's probably easier to write your code into a python file rather than to try to write it directly in interactive python.
 
 ### Part 3
 
