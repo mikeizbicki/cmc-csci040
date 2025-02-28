@@ -1,0 +1,3 @@
+[submodule "topic_05_Python_FileManipulation/lab-encodings"]
+	path = topic_05_Python_FileManipulation/lab-encodings
+	url = https://github.com/mikeizbicki/lab-encodings/
