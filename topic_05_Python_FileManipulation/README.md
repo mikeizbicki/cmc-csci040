@@ -217,9 +217,7 @@ The purpose of this lab is to get you more familiar with using python libraries 
 
 You will use google translate to convert the phrase "python is awesome" into 133 other languages.
 Fortunately, there is a python interface to google translate,
-so you don't have to do this manually...
-I feel gross just thinking about doing this manually...
-you can just use a for loop!
+so you don't have to do this manually---I feel gross just thinking about running so many manual google queries---you can just use a for loop!
 
 The python library is called `deep_translator`,
 and it provides interfaces to many different translation services.
