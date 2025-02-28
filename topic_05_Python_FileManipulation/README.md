@@ -234,7 +234,7 @@ $ pip3 install deep_translator
 Then you can translate from English to Spanish using the following commands in interactive python:
 ```
 >>> from deep_translator import GoogleTranslator
->>> translator = GoogleTranslator(source='en', target='es')
+>>> translator = GoogleTranslator(source='english', target='spanish')
 >>> translator.translate("python is awesome")
 'Python es increíble'
 ```
@@ -243,14 +243,14 @@ We can also get the list of all supported languages using the command
 >>> translator.get_supported_languages()
 ['afrikaans', 'albanian', 'amharic', 'arabic', 'armenian', 'azerbaijani', 'basque', 'belarusian', 'bengali', 'bosnian', 'bulgarian', 'catalan', 'cebuano', 'chichewa', 'chinese', 'chinese (simplified)', 'chinese (traditional)', 'corsican', 'croatian', 'czech', 'danish', 'dutch', 'english', 'esperanto', 'estonian', 'filipino', 'finnish', 'french', 'frisian', 'galician', 'georgian', 'german', 'greek', 'gujarati', 'haitian creole', 'hausa', 'hawaiian', 'hebrew', 'hindi', 'hmong', 'hungarian', 'icelandic', 'igbo', 'indonesian', 'irish', 'italian', 'japanese', 'javanese', 'kannada', 'kazakh', 'khmer', 'korean', 'kurdish (kurmanji)', 'kyrgyz', 'lao', 'latin', 'latvian', 'lithuanian', 'luxembourgish', 'macedonian', 'malagasy', 'malay', 'malayalam', 'maltese', 'maori', 'marathi', 'mongolian', 'myanmar (burmese)', 'nepali', 'norwegian', 'pashto', 'persian', 'polish', 'portuguese', 'punjabi', 'romanian', 'russian', 'samoan', 'scots gaelic', 'serbian', 'sesotho', 'shona', 'sindhi', 'sinhala', 'slovak', 'slovenian', 'somali', 'spanish', 'sundanese', 'swahili', 'swedish', 'tajik', 'tamil', 'telugu', 'thai', 'turkish', 'ukrainian', 'urdu', 'uzbek', 'vietnamese', 'welsh', 'xhosa', 'yiddish', 'yoruba', 'zulu', 'Filipino', 'Hebrew']
 ```
-Now, to complete the assignment, all you have to do is loop over the list above, changing `target=` to the language of the for loop.
+Now, to complete the assignment, all you have to do is loop over the list above, calling the translation code with each of the above target languages.
 
 To submit this lab part, paste your list of translations into sakai.
-I don't need to see your code.
+Don't submit your code, only the output.
 
 > **HINT:**
 > It's probably easier to write your code into a python file rather than to try to write it directly in interactive python.
 
 ### Part 3
 
-Implement the functions in `lab.py`, and upload the doctests to sakai.
+See the instructions in the `lab.py` file.
