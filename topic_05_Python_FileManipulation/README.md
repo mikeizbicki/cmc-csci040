@@ -253,4 +253,4 @@ I don't need to see your code.
 
 ### Part 3
 
-Complete the doctests in the file `lab.py` and upload the results to sakai.
+Implement the functions in `lab.py`, and upload the doctests to sakai.
