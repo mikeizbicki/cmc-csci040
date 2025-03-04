@@ -1,6 +1,16 @@
-# week 09: Debugging
+# Topic 06: Exceptions and Debugging
 
-<img src=debugging.png width=400px>
+<img src=img/debugging.png width=400px>
+
+**Announcements: Tuesday 04 March 2025**
+
+1. Grades updated in sakai
+
+    <img src=img/grades_markdown.png>
+
+    <img src=img/grades.png>
+
+## Lecture Notes
 
 This week we will cover some more debugging skills.
 
@@ -25,8 +35,11 @@ You're responsible for knowing the following exceptions:
 
 Also, this chart is a useful reminder when working on problems:
 
-<img src=graph.jpeg width=400px>
+<img src=img/graph.jpeg width=400px>
 
 ## Lab
 
+TBA
+<!--
 See the instructions in the [lab-wardial](lab-wardial) folder.
+-->

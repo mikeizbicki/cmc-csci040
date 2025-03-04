@@ -1,28 +1,16 @@
-# Week 06: More Files + CSV/JSON + Matplotlib
+# Topic 06: More Files + CSV/JSON + Matplotlib
 
-<img width=400px src=programming.jpg>
+<img width=400px src=img/programming.jpg>
 
-**Announcements:**
+**Announcements: Tuesday 04 March 2025**
 
-1. Download:
+1. Grades updated in sakai
 
-    1. The zip files at <https://github.com/bpb27/trump_tweet_data_archive>.
-       You'll eventually need them all for lab,
-       but any one of the files will be fine for lecture.
+    <img src=img/grades_markdown.png>
 
-    1. The `notes_json.py` file.
+    <img src=img/grades.png>
 
-1. No lab session/office hours this Friday.
-
-   But you still have a lab for this week... it will be due Tuesday (or Thursday with the collaboration extension).
-
-1. This week's quiz will be a review quiz.
-
-   Expect harder questions than previous quizzes.
-   (For example, more questions from the end of the practice packets.)
-   The questions will also focus on concepts that I see students struggling with.
-
-1. Next project posted.
+## Lecture Notes
 
 **More about files and paths:**
 <!--
@@ -40,7 +28,7 @@ Minimal required knowledge (in addition to the cheatsheet):
 
 More information about files:
 
-1. paths are how we specify the location of files
+1. *paths* are how we specify the location of files
 
     1. there are two types of paths: relative and absolute
 
@@ -50,7 +38,9 @@ More information about files:
 
        on windows machines:
        1. absolute paths start with a drive letter, e.g. `c:/`, `d:/`, `e:/`
-       1. example: `C:/Program Files/Zoom/video.mp4`
+       1. examples:
+           1. old machines: `C:/Program Files/Zoom/video.mp4`
+           1. new machines: `C:\Program Files\Zoom\video.mp4`
        1. older windows machines use backslash `\` to separate directories, newer windows machines use forwardslash `/`
 
        on non-windows machines:
@@ -114,15 +104,11 @@ More information about files:
    /Users/Mike
    ```
 
-<!--
-<img width=600px src=states-of-a-programmer.png>
--->
-
 **Data Analysis:**
 
 We will cover [Chapter 16 - Working with CSV Files and JSON Data](http://automatetheboringstuff.com/2e/chapter16/) of the book.
 
-<img src=json.jpg width=600px>
+<img src=img/json.jpg width=600px>
 
 Reference videos:
 
@@ -143,15 +129,39 @@ The main takeaway from this week is that lots of programming is just:
 
 1. Using other people's libraries
 
-   <img width=800px src=programming-libraries-comic.png />
+   <img width=800px src=img/programming-libraries-comic.png />
 
 
 1. And googling how to use their libraries
 
-   <img width=600px src=google.png />
+   <img width=600px src=img/google.png />
+
+**Class Data:**
+
+1. Download:
+
+    1. The zip files at <https://github.com/bpb27/trump_tweet_data_archive>.
+       You'll eventually need them all for lab,
+       but any one of the files will be fine for lecture.
+
+    1. The `notes_json.py` file.
+
+1. No lab session/office hours this Friday.
+
+   But you still have a lab for this week... it will be due Tuesday (or Thursday with the collaboration extension).
+
+1. This week's quiz will be a review quiz.
+
+   Expect harder questions than previous quizzes.
+   (For example, more questions from the end of the practice packets.)
+   The questions will also focus on concepts that I see students struggling with.
+
+1. Next project posted.
 
 ## Lab
 
+TBA
+<!--
 There are multiple parts to the lab assignments this week.
 Each is worth 3 points and has its own submission on sakai.
 
@@ -168,3 +178,4 @@ You may also be interested in reading [this analysis of Trump's tweets](http://v
 ### Part 2
 
 Complete the doctests in `lab_part2.py` like normal.
+-->
