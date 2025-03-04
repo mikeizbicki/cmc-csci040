@@ -6,9 +6,9 @@
 
 1. Grades updated in sakai
 
-    <img src=img/grades_markdown.png>
+    <img src=img/grades_markdown.png width=400px>
 
-    <img src=img/grades.png>
+    <img src=img/grades.png width=400px>
 
 ## Lecture Notes
 
