@@ -10,6 +10,12 @@
 
     <img src=img/grades.png width=400px>
 
+1. Quiz this Thursday on "markdown compiler" problems
+
+    4 problems
+
+    2 points / problem = 8 points total
+
 ## Lecture Notes
 
 This week we will cover some more debugging skills.
