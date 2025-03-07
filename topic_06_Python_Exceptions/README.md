@@ -45,7 +45,4 @@ Also, this chart is a useful reminder when working on problems:
 
 ## Lab
 
-TBA
-<!--
-See the instructions in the [lab-wardial](lab-wardial) folder.
--->
+See the [lab-password-cracking](https://github.com/mikeizbicki/lab-password-cracking) git repo.
