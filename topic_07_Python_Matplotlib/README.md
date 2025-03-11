@@ -8,6 +8,8 @@
 
     4 problems, 2 points / problem = 8 points total.
 
+    If you want electronic version of the python problems, you can find them at: <https://github.com/mikeizbicki/quiz/tree/master/quiz_python_with_exceptions/topic05_exceptions>
+
 ## Lecture Notes
 
 **Class Data:**
