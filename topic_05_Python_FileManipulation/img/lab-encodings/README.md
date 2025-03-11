@@ -1,10 +1,33 @@
 # Lab: Files and File Encodings
 
+<img src=img/python.jpeg width=400px />
+
+This lab presents several historic scenarios where you will have to write python code to read non-English files.
+You will practice:
+1. how to use data provided in a github repo
+1. how to load non-English text in python
+1. how to follow python tutorials
+
+## Part 0: Getting started
+
+To work on this lab, you will need to download the contents of this git repo to your computer.
+
+You should:
+
+1. download this repo as a zip archive,
+
+1. decompress the zip archive, and
+
+1. open the resulting folder in VSCode.
+
+The next two parts of the lab below will have you reading English descriptions of various computing problems,
+and entering python code to solve those problems based on the files in this folder.
+
 ## Part 1: Historical Problems with non-English Text
 
-In 1972, President Richard Nixon flew to China
+In 1972, President Richard Nixon flew to China.
 
-<img src=width=800px />
+<img src=img/Nixon-Chou-En-Lai.jpg width=400px />
 
 The [Shanghai Communiqué](https://en.wikipedia.org/wiki/Shanghai_Communiqu%C3%A9) was a joint statement by the United States and the People's Republic of China (PRC) in 1972.
 The communiqué is famous for first articulating the United States' [One China](https://en.wikipedia.org/wiki/One_China) policy with the following declaration:
@@ -20,6 +43,7 @@ https://china.usc.edu/michel-oksenberg-translation-problem-joint-communique-janu
 
 The official English version of the document was stored electronically as ASCII text.
 You can find a copy in the file `shanghai_communique.english`.
+Open this file in VSCode and verify that you can read it correctly.
 
 > **NOTE:**
 > It is possible on modern computers for filenames to contain spaces and non-ASCII characters, but these weird characters require special handling in certain edge cases, and so it is traditional not to use these characters.
@@ -32,7 +56,7 @@ Run the following code to view the communiqué from python:
 ```
 > **NOTE:**
 > For all the code blocks in this file, you should open up interactive python and type in the code exactly as it appears here, and ensure that you get the correct output.
-> You don't need to submit this output in anyway, but the actual coding tasks at the end are built off of this knowledge.
+> You don't need to submit this output.
 
 When the communiqué was first created,
 there was no encoding scheme for representing Chinese language text electronically,
@@ -42,7 +66,13 @@ The PRC recognized this was a major problem,
 and began developing their own encoding scheme for Chinese characters.
 In 1980, they introduced the first standard for encoding Chinese characters called [GB2312](https://en.wikipedia.org/wiki/GB_2312) (ASCII was invented in 1963... China was nearly 20 years behind in computer tech.).
 The file `shanghai_communique.chinese1` contains a Chinese translation of the communiqué stored in the GB2312 encoding.
-Access it in python with the following code:
+
+Try to open `shanghai_communique.chinese1` in VSCode.
+You should see a bunch of jibberish.
+That's because VSCode can't open files using the GB2312 encoding.
+
+You can open the file in python, however.
+Access it with the following code:
 ```
 >>> f = open('shanghai_communique.chinese1', encoding='gb2312')
 >>> text_gb2312 = f.read()
@@ -188,6 +218,15 @@ You should now be able to load any Chinese language document with a single funct
 >>> text1 = load_chinese_file('shanghai_communique.chinese1')
 >>> text2 = load_chinese_file('shanghai_communique.chinese2')
 ```
+Note that the two lines above shouldn't have any output.
+Your function `load_chinese_file` returned the contents of the file,
+and so these contents are now stored in the `text1` and `text2` variables.
+If you want to actually view the files, you need to print the variables.
+```
+>>> print(text1)
+>>> print(text2)
+```
+
 That seems great!
 We've solved the first problem,
 but this leads us to our second problem.
@@ -215,6 +254,8 @@ For example, the byte sequence `b'I love \xd3\xd1'` can be interpreted either as
 In general, it is not possible to automatically determine which encoding to use due to this problem.
 Just because we don't get an error message doesn't mean that we decoded the bytes correctly.
 
+This is why VSCode does not try to automatically determine which encoding to use for files.
+
 ### Modern Encodings and Unicode
 
 Since the 1980s, many more encodings for Chinese characters have been developed.
@@ -238,7 +279,7 @@ Unicode provides three standard methods for encoding characters that work in any
 The UTF stands for "Unicode Transformation Format" and the number stands for the number of bits required to store an English letter.
 Since about the year 2000, most software has shipped using UTF-8 as the default encoding scheme, and now the vast majority of websites on the internet use UTF-8:
 
-<img src=utf8.png />
+<img src=img/utf8.png />
 
 Until 2017, the PRC government officially required that all documents in China be stored using the GB2312 encoding.
 In 2017, this requirement was removed due to the success of Unicode and the UTF-8 encoding,
@@ -251,28 +292,43 @@ Political battles over emoji [continue to this day](https://blog.emojipedia.org/
 
 ## Part II
 
-**The Scenario:**
-
 For the rest of this lab, you will pretend to be an analyst at the US ["State Department"](https://www.quora.com/Why-does-the-CIA-famously-use-the-US-State-Department-as-cover-for-its-covert-officers?).
 (The state department is one of the main official covers for CIA agents.
 The classic hacker webpage cryptome.org has a fun ["spot the spook" tutorial](https://cryptome.org/dirty-work/spot-spook.htm) that walks through how to identify which state department employees are actually CIA.)
-You've become aware that an internal source is leaking classified secrets about US nuclear submarines to the Brazilian government.
 
-A [field agent](https://www.quora.com/What-does-a-CIA-field-agent-do) has intercepted these communications.
+<img src=img/cia.jpg width=400px />
+
+You've become aware that a US government employee is leaking classified secrets about US nuclear submarines to the Brazilian government.
+A [field agent](https://www.quora.com/What-does-a-CIA-field-agent-do) has intercepted a recent communication about where the US government employee will meet his Brazilian contact.
+The message is located in the file `secret_message.txt`.
+Unfortunately, this file is encoded using a Brazilian encoding and not readily readable.
 
 '''
 >>> f = open('secret_message.txt', 'rb')
 >>> f.read()
-b'Ant\xf4nio, encontre-me na embaixada \xe0 meia-noite de ter\xe7a-feira.\n'
+b'\xc1\x95\xa3\xcb\x95\x89\x96k@\x85\x95\x83\x96\x95\xa3\x99\x85`\x94\x85@\x95\x81@\x85\x94\x82\x81\x89\xa7\x81\x84\x81@D@\x94\x85\x89\x81`\x95\x96\x89\xa3\x85@\x84\x85@\xa3\x85\x99H\x81`\x86\x85\x89\x99\x81K%'
 '''
-Antônio
 
-António
-
+Your job is to figure out how to read this message so that the FBI can go to the secret meetup location and arrest the US government official.
 
 > **Historical Note:**
->
 > This scenario is not made up.
 > In 2019, an engineer working for the US Navy contacted the Brazilian military and [attempted to sell plans for the US Virginia class nuclear submarines](https://www.nytimes.com/2022/03/15/us/politics/submarine-spy-brazil.html).
-> (Brazil has a long history of attempting and failing to build their own nuclear submarines.)
-> The Brazilians didn't want to participate in the scheme, and so forwarded the information to the CIA
+> Brazil has a long history of attempting and failing to build their own nuclear submarines,
+> and so this engineer thought they would be willing to by the US submarine schematics.
+> The Brazilians didn't want to participate in the scheme,
+> and so forwarded the information to the CIA
+
+> **HINT:**
+> The list of all available encodings is located in the python documentation at <https://docs.python.org/3/library/codecs.html#standard-encodings>.
+> Try some of the encodings that are designed for languages in "Western Europe".
+> In Brazil, they speak Portuguese, and so they would use a Western European encoding.
+> There are only 9 possibilities.
+>
+> The actual contents of the message are written in Portuguese.
+> You can put it into google translate if you'd like,
+> but you're not required to.
+
+## Submission
+
+Upload the correctly decoded contents of the `secret_message.txt` file to sakai.

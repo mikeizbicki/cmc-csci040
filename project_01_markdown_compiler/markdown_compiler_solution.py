@@ -21,14 +21,6 @@ An important skill when learning a programming language is being able to work in
 when we learn a new human languages,
 we won't 100% understand everything in the new language,
 but we still have to be able to work with the parts that we do understand.)
-
-WARNING:
-Recall that the technology policy places no restriction on your ability to use AI tools like ChatGPT or copilot.
-Many of the simpler functions below can be solved directly with the tools.
-But I strongly encourage you not to just copy/paste solutions from these tools into the homework.
-The more complex functions below cannot be solved by current AI tools.
-If you use AI as a crutch to solve the simple problems for you,
-you will not be able to solve the more difficult problems.
 '''
 
 ################################################################################
@@ -62,31 +54,39 @@ def compile_headers(line):
     >>> compile_headers('      # this is not a header')
     '      # this is not a header'
     '''
-    return line
+    if line.startswith('###### '):
+        return '<h6>' + line[7:] + '</h6>'
+    elif line.startswith('##### '):
+        return '<h5>' + line[6:] + '</h5>'  
+    elif line.startswith('#### '):
+        return '<h4>' + line[5:] + '</h4>'
+    elif line.startswith('### '):
+        return '<h3>' + line[4:] + '</h3>'
+    elif line.startswith('## '):
+        return '<h2>' + line[3:] + '</h2>'
+    elif line.startswith('# '):
+        return '<h1>' + line[2:] + '</h1>'
+    else:
+        return line
 
-"""
+
 def compile_italic_star(line):
-    '''
-    Convert "*italic*" into "<i>italic</i>".
-
-    HINT:
-    Italics require carefully tracking the beginning and ending positions of the text to be replaced.
-    This is similar to the `delete_HTML` function that we implemented in class.
-    It's a tiny bit more complicated since we are not just deleting substrings from the text,
-    but also adding replacement substrings.
-
-    >>> compile_italic_star('*This is italic!* This is not italic.')
-    '<i>This is italic!</i> This is not italic.'
-    >>> compile_italic_star('*This is italic!*')
-    '<i>This is italic!</i>'
-    >>> compile_italic_star('This is *italic*!')
-    'This is <i>italic</i>!'
-    >>> compile_italic_star('This is not *italic!')
-    'This is not *italic!'
-    >>> compile_italic_star('*')
-    '*'
-    '''
-    return line
+    result = ''
+    i = 0
+    while i < len(line):
+        if line[i] == '*':
+            if i + 1 < len(line) and '*' in line[i+1:]:
+                end = line.find('*', i+1)
+                result += '<i>' + line[i+1:end] + '</i>'
+                i = end + 1
+            else:
+                result += '*'
+                i += 1
+        else:
+            result += line[i]
+            i += 1
+    return result
+compile_italiz_star('alpha *beta* gamma *delta')
 
 
 def compile_italic_underscore(line):
@@ -130,7 +130,20 @@ def compile_strikethrough(line):
     >>> compile_strikethrough('~~')
     '~~'
     '''
-    return line
+    chars = list(line)
+    i = 0
+    while i < len(chars) - 3:  # need at least 4 chars for ~~xx~~
+        if chars[i] == '~' and chars[i+1] == '~':
+            j = i + 2
+            while j < len(chars) - 1:
+                if chars[j] == '~' and chars[j+1] == '~':
+                    chars[i:i+2] = ['<', 'i', 'n', 's', '>']
+                    chars[j:j+2] = ['<', '/', 'i', 'n', 's', '>']
+                    i = j + 6
+                    break
+                j += 1
+        i += 1
+    return ''.join(chars)
 
 
 def compile_bold_stars(line):
@@ -151,7 +164,19 @@ def compile_bold_stars(line):
     >>> compile_bold_stars('**')
     '**'
     '''
-    return line
+    # Find position of first '**'
+    start = line.find('**')
+    if start == -1 or len(line) < 4:  # If no '**' found or line too short
+        return line
+
+    # Find position of second '**' after the first one
+    end = line[start + 2:].find('**')
+    if end == -1:  # If no matching '**' found
+        return line
+
+    # Convert the found pattern to HTML bold tags
+    end = end + start + 2  # Adjust end position to full string index
+    return line[:start] + '<b>' + line[start + 2:end] + '</b>' + line[end + 2:]
 
 
 def compile_bold_underscore(line):
@@ -202,6 +227,24 @@ def compile_code_inline(line):
     >>> compile_code_inline('```python3')
     '```python3'
     '''
+    # If triple backticks, return unchanged
+    if line.count('`') == 3:
+        return line
+
+    # Split by backtick
+    parts = line.split('`')
+
+    # If odd number of parts (valid backtick pairs)
+    if len(parts) > 1 and len(parts) % 2 == 0:
+        # Process every other part (the code sections)
+        for i in range(1, len(parts), 2):
+            # Replace < and > with HTML entities
+            parts[i] = parts[i].replace('<', '&lt;').replace('>', '&gt;')
+            # Wrap in code tags
+            parts[i] = f'<code>{parts[i]}</code>'
+
+        return ''.join(parts)
+
     return line
 
 
@@ -222,6 +265,30 @@ def compile_links(line):
     >>> compile_links('this is wrong: [course webpage](https://github.com/mikeizbicki/cmc-csci040')
     'this is wrong: [course webpage](https://github.com/mikeizbicki/cmc-csci040'
     '''
+    i = 0
+    while i < len(line):
+        # Find start of link
+        start = line.find('[', i)
+        if start == -1:
+            break
+
+        # Find end brackets and parentheses
+        text_end = line.find(']', start)
+        href_start = line.find('(', text_end)
+        href_end = line.find(')', href_start)
+
+        # Verify valid link format
+        if text_end == -1 or href_start == -1 or href_end == -1 or href_start != text_end + 1:
+            break
+
+        # Extract text and href
+        text = line[start+1:text_end]
+        href = line[href_start+1:href_end]
+
+        # Replace with HTML
+        line = line[:start] + f'<a href="{href}">{text}</a>' + line[href_end+1:]
+        i = start + 1
+
     return line
 
 
@@ -241,6 +308,19 @@ def compile_images(line):
     >>> compile_images('This is an image of Mike Izbicki: ![Mike Izbicki](https://avatars1.githubusercontent.com/u/1052630?v=2&s=460)')
     'This is an image of Mike Izbicki: <img src="https://avatars1.githubusercontent.com/u/1052630?v=2&s=460" alt="Mike Izbicki" />'
     '''
+    while '![' in line:
+        img_start = line.find('![')
+        text_start = img_start + 2
+        text_end = line.find(']', text_start)
+        url_start = text_end + 2
+        url_end = line.find(')', url_start)
+        
+        alt_text = line[text_start:text_end]
+        url = line[url_start:url_end]
+        
+        img_tag = f'<img src="{url}" alt="{alt_text}" />'
+        line = line[:img_start] + img_tag + line[url_end+1:]
+    
     return line
 
 
@@ -376,20 +456,44 @@ def compile_lines(text):
     </pre>
     <BLANKLINE>
     '''
-
     lines = text.split('\n')
     new_lines = []
     in_paragraph = False
+    in_code_block = False
+    code_block_lines = []
+
     for line in lines:
         line = line.strip()
-        if line=='':
+
+        # Handle code blocks
+        if line.startswith('```'):
+            if not in_code_block:
+                in_code_block = True
+                if in_paragraph:
+                    code_block_lines = ['<pre>']
+                else:
+                    code_block_lines = ['\n<pre>']
+            else:
+                in_code_block = False
+                code_block_lines.append('</pre>')
+                new_lines.extend(code_block_lines)
+                if not in_paragraph:
+                    new_lines.append('')
+            continue
+
+        if in_code_block:
+            code_block_lines.append(line)
+            continue
+
+        # Handle paragraphs and other markdown
+        if line == '':
             if in_paragraph:
-                line='</p>'
+                new_lines.append('</p>')
                 in_paragraph = False
         else:
-            if line[0] != '#' and not in_paragraph:
+            if not in_paragraph:
                 in_paragraph = True
-                line = '<p>\n'+line
+                new_lines.append('<p>')
             line = compile_headers(line)
             line = compile_strikethrough(line)
             line = compile_bold_stars(line)
@@ -399,9 +503,13 @@ def compile_lines(text):
             line = compile_code_inline(line)
             line = compile_images(line)
             line = compile_links(line)
-        new_lines.append(line)
-    new_text = '\n'.join(new_lines)
-    return new_text
+            new_lines.append(line)
+
+    if in_paragraph:
+        new_lines.append('</p>')
+
+    return '\n'.join(new_lines)
+
 
 
 def markdown_to_html(markdown, add_css):
@@ -525,4 +633,4 @@ if __name__ == '__main__':
     # call the main function
     convert_file(args.input_file, args.add_css)
 
-"""
+
