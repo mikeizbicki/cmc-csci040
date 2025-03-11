@@ -33,7 +33,7 @@ Complete the following steps to setup your project.
 
 The github repo <https://github.com/bpb27/trump_tweet_data_archive> contains an archive of tweets sent by Donald Trump.
 
-1. Download the files `condensed_*.json.zip`, where * is a year.
+1. Download the files `master_*.json.zip`, where * is a year.
     There should be 10 total files (2009-2018).
 
     > **Note:**
@@ -43,7 +43,7 @@ The github repo <https://github.com/bpb27/trump_tweet_data_archive> contains an 
     > so we will use this older archive for this assignment.
 
 2. Unzip these files into the project folder you created in Part 0 above.
-    You should get a bunch of files that look like `condensed_*.json`.
+    You should get a bunch of files that look like `master_*.json`.
 
 ## Part 2: Data Analysis
 
