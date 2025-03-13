@@ -10,6 +10,12 @@
 
     If you want electronic version of the python problems, you can find them at: <https://github.com/mikeizbicki/quiz/tree/master/quiz_python_with_exceptions/topic05_exceptions>
 
+**Announcements Thursday 13 Mar:**
+
+1. Friday lab session cancelled
+
+    Yuo will still have the assignments due by the end of spring break.
+
 ## Lecture Notes
 
 **Class Data:**
