@@ -217,4 +217,4 @@ How does an outage like this happen?
 
 ## Lab
 
-See <lab-dracula>.
+See <./lab-dracula>.
