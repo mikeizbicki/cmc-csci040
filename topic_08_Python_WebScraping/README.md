@@ -15,6 +15,7 @@ Everything is graded and updated in sakai.
 1. 4 students submitted a broken link for `lab-markdown`.
 
     You can fix and resubmit.
+    (No penalty if done before Thursday@midnight.)
 
     You will be penalized for this on your future submissions.
 
