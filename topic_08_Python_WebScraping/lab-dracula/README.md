@@ -2,17 +2,16 @@
 
 **Overview:**
 
-To celebrate Halloween, you will practice HTML and file/string operations by editing the book *Dracula* to make it even more scary.
+You will practice HTML and file/string operations by editing the book *Dracula* to make it even more scary.
 
 **Instructions:**
 
 1. The copyright on the book *Dracula* has expired, and the book is now in the public domain.
-    Project Gutenberg (https://gutenberg.org) is a website that makes all public domain books easily downloadable.
-    *Dracula* is located at http://www.gutenberg.org/files/345/345-h/345-h.htm .
-    Visit this webpage and save it to your computer in a file called `dracula.html` (use: right click -> save as).
+    Project Gutenberg (<https://gutenberg.org>) is a website that makes public domain books easily downloadable.
+    *Dracula* is located at <http://www.gutenberg.org/files/345/345-h/345-h.htm>.
 
 1. Create a python file called `dracula.py` file that:
-    1. Reads in the text from `dracula.html`.
+    1. Uses the `requests` library to download the text of *Dracula*.
     2. Replaces all occurrences of the word "Dracula" with "Izbicki".
 
        All occurrence of the word Izbicki should be in bold so that they are easy to see.
@@ -40,4 +39,3 @@ To celebrate Halloween, you will practice HTML and file/string operations by edi
        Note that your final saved file should still have all the html code that makes it a valid webpage.
 
 3. Upload both your `dracula.py` code and `izbicki.html` output file to Sakai.
-

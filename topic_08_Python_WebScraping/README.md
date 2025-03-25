@@ -1,46 +1,68 @@
-# Week 08: Web Scraping
+# Topic 08: Web Scraping
 
 <center>
-<img width=600px src=Strip-Hackers-VS-Security-team-650-finalenglish1.jpg />
+<img width=600px src=img/Strip-Hackers-VS-Security-team-650-finalenglish1.jpg />
 </center>
+
+## Announcements
 
 **Grades:**
 
 Everything is graded and updated in sakai.
 
-<img src=grades.png width=400px />
+<img src=img/grades.png width=400px />
 
-1. **WARNING:** Historically, many students lose lots of points on project 2 for not following directions.
+1. 4 students submitted a broken link for `lab-markdown`.
 
-    1. This was one of the main causes of losing points on project 1.  (Not uploading the right screenshots.)
+    You can fix and resubmit.
 
-1. My teaching philosophy:
+    You will be penalized for this on your future submissions.
 
-    1. The best way to learn a programming language is the same as the best way to learn a human language: immersion.
+Upcoming assignments:
 
-        That means you're going to feel lost at times... but that's how the professionals feel too!
+1. Quiz Thursday (on `BeautifulSoup`).
 
-        <img src=two-states-of-programmers.png width=400px />
+1. No lab session this Friday (due to Cesar Chavez).
 
-    1. Assignments should not be busy work, but actually help you get a job.
+    You still have a (hopefully easy) lab due on Sunday.
 
-        1. Should I add more work to the course?
+1. Project 2 due this Sunday.
 
-            *HINT:* [Betterridges's law of headlines](https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines) says "no".
+    **WARNING:** Historically, many students lose lots of points on project 2 for not following directions.
 
-            From the [how to become a hacker](http://www.catb.org/~esr/faqs/hacker-howto.html):
+My teaching philosophy:
 
-            > Boredom and drudgery are evil.
+1. The best way to learn a programming language is the same as the best way to learn a human language: immersion.
 
-        1. Why do we have github-based projects?
-        
-            From Google's HR Chief Laszlo Bock (via [qz.com](https://qz.com/382570/goldman-sachs-actually-google-gpas-arent-worthless)):
+    That means you're going to feel lost at times... but that's how the professionals feel too!
 
-            > We did a bunch of analysis and found that grades are a little predictive your first two years, but for the rest of your career don’t matter at all.
+    <img src=img/two-states-of-programmers.png width=400px />
 
-            So good grades aren't enough, and you need portfolios of projects to show employers.
+1. Assignments should not be busy work, but actually help you get a job.
 
-**Material:**
+    1. Should I add more work to the course?
+
+        *HINT:* [Betterridges's law of headlines](https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines) says "no".
+
+        From the [how to become a hacker](http://www.catb.org/~esr/faqs/hacker-howto.html):
+
+        > Boredom and drudgery are evil.
+
+    1. Why do we have github-based projects?
+    
+        According to Google's HR Chief Laszlo Bock (and Pomona alumn):
+
+        > GPA's are worthless as a criteria for hiring, and test scores are worthless [because they don’t predict how productive an employee will be].
+        > 
+        > see: <https://www.nytimes.com/2014/02/23/opinion/sunday/friedman-how-to-get-a-job-at-google.html>
+
+        > We did a bunch of analysis and found that grades are a little predictive your first two years, but for the rest of your career don’t matter at all.
+        >
+        > see: <https://qz.com/382570/goldman-sachs-actually-google-gpas-arent-worthless>
+
+        So good grades aren't enough, and you need portfolios of projects to show employers.
+
+## Lecture Notes
 
 1. We will go over how to download information from the internet using the `requests` library in python.
     The lecture will be based off of the following three references:
@@ -100,7 +122,6 @@ Everything is graded and updated in sakai.
 **Wednesday:**
 
 I will implement a solution to [hw\_03](https://github.com/mikeizbicki/cmc-csci040/tree/2021fall/hw_03)
--->
 
 **Facebook goes down (2021)** or Kakao goes down (2022):
 
@@ -118,7 +139,7 @@ How does an outage like this happen?
 
 1. Facebook is *complicated*
 
-   <img src=loc.png width=400px>
+   <img src=img/loc.png width=400px>
 
 1. Map of Facebook datacenters: https://baxtel.com/data-centers/facebook
 
@@ -192,12 +213,8 @@ How does an outage like this happen?
         1. So every router stopped sending traffic to facebook IPs
 
 1. Fully understanding all these details requires multiple graduate-level networking courses
+-->
 
 ## Lab
 
-Complete the functions in `lab.py`.
-Upload the output of running the doctests to sakai.
-
-It's a short lab today :)
-If you finish early, feel free to get started on the project.
-
+See <lab-dracula>.
