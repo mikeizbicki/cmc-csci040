@@ -1,8 +1,10 @@
+<!--
 **NOTE:**
 [This video](https://www.youtube.com/watch?v=IzMv8ZnSk6c&list=PLSNWQVdrBwoYFB5ZjbfBZUYApuvNrZpGL&index=14) provides a detailed overview of the assignment and completes the majority of the code.
 It's about 2hr long.
+-->
 
-# HW 3: Scraping from ebay
+# Project 3: Scraping from ebay
 
 ![comic](D1Kq7tHUYAA4CKC.jpeg)
 
@@ -12,15 +14,15 @@ You will scrape information from ebay and store the results in a json file.
 The "right way" to think of this project is as a "compiler" similar to the `markdown_compiler.py` assignment.
 In that project, we converted markdown files into html;
 and in this project, we'll convert ebay's html files into JSON.
-The vast majority of programmming projects are about converting from one type of data to another "better" type.
+The vast majority of programming projects are about converting from one type of data to another "better" type.
 
 **Due:** 
-Sunday, 6 November, midnight
+Sunday, 6 April, midnight
 
 **Learning objectives:**
 
 1. understand how web scraping works
-1. complete a python project entirely on your own (no starter code!)
+1. complete a python project from scratch
 1. integrate python knowledge with HTML knowledge+JSON knowledge
 
 ## Instructions
@@ -82,17 +84,19 @@ Submit your assignment by uploading a link to the github repo to sakai
 
 ## Grading rubric
 
-The assignment is worth 18 points total.
+The assignment is worth 16 points total.
 
-3 pts: use of the `argparse` library to pass information from the command line
+2 pts: use of the `argparse` library to pass information from the command line
 
-3 pts: use of the requests library to download the webpage
+2 pts: use of the requests library to download the webpage
 
-3 pts: use of bs4 to extract the items from the webpage
+2 pts: use of bs4 to extract the items from the webpage
 
-3 pts: outputting a json file
+4 pts: outputting a json file (with all the correct information)
 
-6 pts: extracting items from all pages in the search results
+4 pts: extracting items from all pages in the search results
+
+2 pts: the README file
 
 ### Extra Credit
 
