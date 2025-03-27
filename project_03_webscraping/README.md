@@ -1,8 +1,6 @@
-<!--
 **NOTE:**
 [This video](https://www.youtube.com/watch?v=IzMv8ZnSk6c&list=PLSNWQVdrBwoYFB5ZjbfBZUYApuvNrZpGL&index=14) provides a detailed overview of the assignment and completes the majority of the code.
 It's about 2hr long.
--->
 
 # Project 3: Scraping from ebay
 
@@ -84,19 +82,17 @@ Submit your assignment by uploading a link to the github repo to sakai
 
 ## Grading rubric
 
-The assignment is worth 16 points total.
+The assignment is worth 18 points total.
 
-2 pts: use of the `argparse` library to pass information from the command line
+3 pts: use of the argparse library to pass information from the command line
 
-2 pts: use of the requests library to download the webpage
+3 pts: use of the requests library to download the webpage
 
-2 pts: use of bs4 to extract the items from the webpage
+3 pts: use of bs4 to extract the items from the webpage
 
-4 pts: outputting a json file (with all the correct information)
+3 pts: outputting a json file
 
-4 pts: extracting items from all pages in the search results
-
-2 pts: the README file
+6 pts: extracting items from all pages in the search results
 
 ### Extra Credit
 
