@@ -36,16 +36,4 @@ References:
 
 ## Lab
 
-**Due date:** Halloween, Oct 31
-
-**Overview:**
-
-The purpose of this lab is to review all the concepts we've covered so far in class.
-The applications are "scary" and so this review lab has a special due date of Halloween.
-
-There's two parts:
-
-1. The [lab-zipbomb](lab-zipbomb) folder contains instructions on how to crack government secrets using the power of the for loop.
-
-1. And [lab-dracula](lab-dracula) folder has you practicing html and file/string operations by editing the book Dracula to make it even more scary.
-
+TBA
