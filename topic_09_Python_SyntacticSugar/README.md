@@ -1,25 +1,25 @@
-# Week 07: Syntactic Sugar
+# Topic 09: Syntactic Sugar
 
 "Syntactic Sugar" is a short way of writing common idioms in code.
 Python is famous for having lots of syntactic sugar.
 
-<img src=syntactic_sugar_everywhere.jpeg width=400px />
+<img src=img/syntactic_sugar_everywhere.jpeg width=400px />
 
 We've already seen some examples of syntactic sugar:
 
-<img src=while_for.png width=400px />
+<img src=img/while_for.png width=400px />
 
 List comprehensions are a famous and controversial form of syntactic sugar.
 They can simplify your code a lot, or make it difficult to read.
 Whether to use them or not is a matter of individual judgement and taste.
 
-<img src=pooh.jpg width=300px />
+<img src=img/pooh.jpg width=300px />
 <!--
 <br>
 <br>
 <br>
 
-<img src=hip.webp width=300px />
+<img src=img/hip.webp width=300px />
 -->
 
 In general: `while` loops > `for` loops > list comprehensions

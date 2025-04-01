@@ -220,7 +220,7 @@ print('x=', x)
     What is the output of the following code:
 \end{problem}
 \begin{lstlisting}
-xss = [ [ i for i in range(x) ] for x in [2, 3, 4]  if x%2 == 1 ]
+xss = [ [ i for i in range(x) ] for x in [2, 3, 4]  if x%2 == 0 ]
 x = xss[-1][-2]
 print('x=', x)
 \end{lstlisting}
@@ -250,6 +250,37 @@ print('xss=', xss)
 
 
 
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+xss = [ i for x in [2, 3, 4]  if x%2 == 0 for i in range(x) ]
+x = xss[-1][-2]
+print('x=', x)
+\end{lstlisting}
+\vspace{2.0in}
+
+
+\newpage
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+xss = [ i for x in [4, 5, 6]  if x%2 == 1 for i in range(x) if i%3== 1 ]
+x = xss[-1]
+print('x=', x)
+\end{lstlisting}
+\vspace{3.0in}
+
+
+\begin{problem}
+    What is the output of the following code:
+\end{problem}
+\begin{lstlisting}
+xss = [ i  for x in [4, 5, 6]  if x%2 == 1 for i in range(x) if x%3== 1 ]
+print('xss=', xss)
+\end{lstlisting}
+\vspace{2.0in}
 
 
 
