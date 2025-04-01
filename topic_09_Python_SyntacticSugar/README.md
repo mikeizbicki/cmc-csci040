@@ -1,5 +1,11 @@
 # Topic 09: Syntactic Sugar
 
+## Announcements
+
+Before Thursday class, create an account at <https://groq.com/>.
+
+## Lecture Notes
+
 "Syntactic Sugar" is a short way of writing common idioms in code.
 Python is famous for having lots of syntactic sugar.
 
