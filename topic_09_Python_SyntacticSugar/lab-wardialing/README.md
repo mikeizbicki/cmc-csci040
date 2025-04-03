@@ -191,7 +191,7 @@ In the remainder of this lab, you will write a python program that connects to e
    > One of the things I teach to North Korean students is how to properly implement this type of encryption so that their internet communications cannot be monitored.
    > Organizations like [Amnesty International](https://www.amnestyusa.org/reports/encryption-a-matter-of-human-rights/) and [Human Rights Watch](https://www.hrw.org/tag/encryption) define strong encryption to be a "human right",
    > and the DPRK actively wants their citizens to learn about encryption.
-   > Unfortunately, President Trump signed an executive order banning Americans from traveling to the DPRK (and Biden has reaffirmed this executive order),
+   > Unfortunately, President Trump in 2017 signed an executive order banning Americans from traveling to the DPRK (and Biden has reaffirmed this executive order),
    > so current US policy is effectively stopping me from increasing access to human rights in the DPRK.
    >
    > I've actually previously helped the DPRK fix some aspects of their KCNA webpage which were broken, and written a [blog post about it here](https://izbicki.me/blog/fixing-north-korea-kcna-webpage.html).
@@ -274,8 +274,8 @@ In the remainder of this lab, you will write a python program that connects to e
 
    > **HINT:**
    >
-   > You can check that you've completed the task correctly because (as of 3 Nov 2022), there are 16 servers running in North Korea.
-   > If your number is off by 1 or 2, that's probably because the server was down while you were scanning, and that's okay; you don't need to rerun your scan.)
+   > You can check that you've completed the task correctly because (as of 3 Apr 2025), there are 16 servers running in North Korea.
+   > If your number is off by 1 or 2, that's probably because the server was down while you or I were scanning, and that's okay; you don't need to rerun your scan.)
 
    Upload your completed `wardial.py` file and the list of all North Korean IP addresses running web servers to sakai.
 

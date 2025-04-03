@@ -19,12 +19,17 @@
 '''
 names = ['alice', 'bob', 'charlie', 'dave', 'eve']
 greetings = ['hello ' + name for name in names]
+#greetings = []
+#for name in names:
+#    greetings.append('hello ' + name)
+#print('greetings=', greetings)
 greeting = greetings[2]
 print('greeting=', greeting)
 '''
 
 # Problem 5
 '''
+# range(10) = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 xs = [ x*x for x in range(10) ]
 num = xs[5]
 print('num=', num)
@@ -49,17 +54,24 @@ print('num=', num)
 
 # Problem 6
 '''
-xs = [ x*x for x in range(10) if x%2 ]
+#xs = [ x*x for x in range(10) if x%2 ]
+xs = []
+for x in range(10):
+    #if x%2:
+    if x%2 != 0:
+        xs.append(x*x)
+#print('xs=', xs)
 num = xs[3]
 print('num=', num)
 '''
 
 # Problem 9
-'''
 sentence = 'This is an example sentence with a few words in it.'
+#sentence = ' is an    a in '
+# ['This', 'is', 'an', ..., 'it.']
 small_words = [ word.lower() for word in sentence.split() if len(word) <= 2]
 print('len(small_words)=', len(small_words))
-'''
+
 
 
 ########################################
@@ -73,17 +85,49 @@ print('len(small_words)=', len(small_words))
 
 # Problem 15
 '''
-xss = [[i for i in range(x)] for x in [2, 3, 4] if x%2 == 0]
-x = xss[-1][-2]
-print('x=', x)
+#xss = [[i for i in range(x)] for x in [2, 3, 4] if x%2 == 0]
+xss = []
+for x in [2, 3, 4]:
+    if x%2 == 0:
+        xs = [i for i in range(x)]
+        # x = 2: xs = [0, 1]
+        # x = 4: xs = [0, 1, 2, 3]
+        #xs = []
+        #for i in range(x):
+        #    xs.append(i)
+        xss.append(xs)
+# xss = [[0, 1], [0, 1,2, 3]]
+print('15: xss=', xss)
+#x = xss[-1][-2]
+#print('x=', x)
 '''
 
 # Problem 18
 '''
 xss = [i for x in [2, 3, 4] if x%2 == 0 for i in range(x)]
-x = xss[-2]
-print('x=', x)
+xss = []
+for x in [2, 3, 4]:
+    if x%2 == 0:
+        for i in range(x):
+            xss.append(i)
+print('18 xss=', xss)
+#x = xss[-2]
+#print('x=', x)
 '''
+
+# Problem 19:
+#xss = [ i for x in [4, 5, 6]  if x%2 == 1 for i in range(x) if i%3== 1 ]
+xss = []
+for x in [4, 5, 6]:
+    if x%2 == 1:
+        # x = 5
+        for i in range(x):
+            if i%3== 1:
+                xss.append(i)
+print('xss=', xss) # [1, 4]
+#x = xss[-1]
+#print('x=', x)
+
 
 ########################################
 # List Comprehensions (4)
@@ -126,7 +170,7 @@ tweets = [
     }]
 
 # Problem 21
-'''
 trump_tweets = [tweet for tweet in tweets if 'trump' in tweet['text'].lower()]
+#import pprint
+#pprint.pprint(trump_tweets)
 print('len(trump_tweets)=',len(trump_tweets))
-'''

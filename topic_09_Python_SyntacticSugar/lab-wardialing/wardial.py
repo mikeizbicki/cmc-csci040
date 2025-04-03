@@ -57,9 +57,22 @@ def is_server_at_hostname(hostname):
     >>> is_server_at_hostname('8.8.8.8')
     False
 
-    # HINT:
-    # Your test cases may take a LONG time to run when they can't connect to a webserver.
-    # Review the `requests.get` documentation to see how to speed up these calls and make your function faster.
+    HINT:
+    Your test cases may take a LONG time to run when they can't connect to a webserver.
+    This is because by default, the requests library will wait for a long time (minutes) for a server response.
+    You should shorten that time to something more reasonable.
+    Review the requests documentation to see how to speed up these calls and make your function faster:
+    <https://requests.readthedocs.io/en/latest/user/quickstart/#timeouts>
+    
+    Requests does not set a short timeout because the optimal value to use is application dependent.
+    When connecting to a highly reliable service like google,
+    1 second would be a sufficient timeout.
+    (Anything longer than 1 second probably means there is an error in your internet connection and not an error at google.)
+    But for our application, we will be connecting to servers far away in a country known for unreliable internet.
+    I recommend setting a timeout of 5 seconds.
+    A longer timeout would ensure that we don't miss any "slow" servers,
+    but it would also make scanning take much longer.
+    5 seconds is a reasonable tradeoff between these extremes.
     '''
 
 
