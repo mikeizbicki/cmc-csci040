@@ -230,7 +230,7 @@ In the remainder of this lab, you will write a python program that connects to e
    ```
    import requests
    r = requests.get('http://175.45.176.XXX')  
-   print('r.status=', r.status)
+   print('r.status_code=', r.status_code)
    ```
    Once again, if everything worked correctly, you should get the output
    ```
