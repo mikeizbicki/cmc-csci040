@@ -131,10 +131,13 @@ To secure API keys for github actions, see: <https://docs.github.com/en/actions/
 
 <img src=img/prompt.png width=600px />
 
-Read the following links:
+See the following links:
+
 1. Prompt injection attacks against ChatGPT 3: <https://simonwillison.net/2022/Sep/12/prompt-injection/>
 
     The post above is part of a series that tracks lots of realworld prompt injection exploits: <https://simonwillison.net/series/prompt-injection/>
+
+    The article on image prompt injection is particularly fun: <https://simonwillison.net/2023/Oct/14/multi-modal-prompt-injection/>.
 
 1. Data exfiltration from Slack AI via indirect prompt injection <https://promptarmor.substack.com/p/data-exfiltration-from-slack-ai-via>
    
