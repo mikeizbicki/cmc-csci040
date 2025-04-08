@@ -58,6 +58,15 @@ Create a file `docsum.py` that:
 >
 > <img src=img/google.jpg width=300px />
 
+> **Announcement (2025-04-08):**
+> 
+> Over the weekend, facebook released the new Llama4 series of models.
+> You can find details at <https://ai.meta.com/blog/llama-4-multimodal-intelligence/>.
+>
+> These models are available on groq,
+> and you will be required to use the llama4 model for your submission.
+> You can find details on the supported groq models at: <https://console.groq.com/docs/models>.
+
 ### Step 3: Submit Project
 
 Create a `README.md` file.
