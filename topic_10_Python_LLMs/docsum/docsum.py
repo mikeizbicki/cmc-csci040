@@ -1,22 +1,4 @@
-import argparse
-parser = argparse.ArgumentParser(
-    prog='docsum',
-    description='summarize the input document',
-    )
-parser.add_argument('filename')
-args = parser.parse_args()
-#print('filename=', args.filename)
 
-
-from dotenv import load_dotenv
-load_dotenv()
-
-import os
-from groq import Groq
-
-client = Groq(
-    api_key=os.environ.get("GROQ_API_KEY"),  # This is the default and can be omitted
-)
 
 def llm(text):
     chat_completion = client.chat.completions.create(
@@ -33,6 +15,28 @@ def llm(text):
         model="llama3-8b-8192",
     )
     return chat_completion.choices[0].message.content
+
+def split_text(text, max_chunk_size=1000):
+    '''
+    Takes a string as input and returns a list of strings
+    that are all smaller than max_chunk_size.
+
+    >>> split_text('abcdefg', max_chunk_size=2)
+    ['ab', 'cd', 'ef', 'g']
+    >>> split_text('this is an example', max_chunk_size=3)
+    ['thi', ' is', ' an', ' ex', 'amp', 'le']
+
+    This is the simplest possible way to split text.
+    Much more sophisticated possibilities.
+    Other more complex algorithms will:
+    1) try not to split words/sentences/paragraphs
+    2) provide overlaps between the chunks
+    '''
+    accumulator = []
+    while len(text) > 0:
+        accumulator.append(text[:max_chunk_size])
+        text = text[max_chunk_size:]
+    return accumulator
 
 def summarize_text(text):
     '''
@@ -54,43 +58,49 @@ def summarize_text(text):
 
     {text}
     '''
-    output = llm(prompt)
-    return output.split('\n')[-1]
+    try:
+        output = llm(prompt)
+        return output.split('\n')[-1]
+    except groq.APIStatusError:
+        chunks = split_text(text, 10000)
+        print('len(chunks)=', len(chunks))
+        accumulator = []
+        for i, chunk in enumerate(chunks):
+            print('i=', i)
+            # recursion is when you call a function inside itself
+            summary = summarize_text(chunk)
+            accumulator.append(summary)
+        summarized_text = ' '.join(accumulator)
+        summarized_text = summarize_text(summarized_text)
+        # print('summarized_text=', summarized_text)
+        return summarized_text
 
-#import requests
-#requests.get(args.filename)
+if __name__ == '__main__':
+    import argparse
+    parser = argparse.ArgumentParser(
+        prog='docsum',
+        description='summarize the input document',
+        )
+    parser.add_argument('filename')
+    args = parser.parse_args()
 
-# why error on docs/news-mx.html?
-# every LLM has a "context window size" which is the number of
-# "tokens" it is able to view at once;
-# "token" is a part of a word; roughly 1 word = 2 tokens on average
-# the context window size of the default groq model (llama3-8b-8192)
-# is 8192 tokens;
-# this is the largest document we can pass in to the model;
-# roughly means ~4000 words;
-# what we need to do to get our program to work on html is:
-# strip the contents of the html file of all the html tags;
-# get the raw text from the html
-'''
-with open(args.filename, 'r') as fin:
-    text = fin.read()
-    print(summarize_text(text))
-'''
+    from dotenv import load_dotenv
+    load_dotenv()
 
-'''
-import fulltext
-text = fulltext.get(args.filename, None)
-print('text=', text)
-#print(summarize_text(text))
-'''
+    import os
+    from groq import Groq
+    import groq
 
-# one way to solve the problem of too much text for the context window
-# is to remove the "unnecessary" text;
-# for html files, that is the html tags
-from bs4 import BeautifulSoup
-with open(args.filename, 'r') as fin:
-    html = fin.read()
-    soup = BeautifulSoup(html)
-    text = soup.text
-    #print('text=', text)
-    print(summarize_text(text))
+    client = Groq(
+        api_key=os.environ.get("GROQ_API_KEY"),  # This is the default and can be omitted
+    )
+    # one way to solve the problem of too much text for the context window
+    # is to remove the "unnecessary" text;
+    # for html files, that is the html tags
+    from bs4 import BeautifulSoup
+    with open(args.filename, 'r') as fin:
+        html = fin.read()
+        soup = BeautifulSoup(html, features="lxml")
+        text = soup.text
+        #print('text=', text)
+        print(summarize_text(text))
