@@ -54,7 +54,9 @@ Create a file `docsum.py` that:
 > **Useful links:**
 >
 > 1. <https://docs.python.org/3/library/argparse.html>
-> 1. <https://github.com/btimby/fulltext>
+> 1. ~~<https://github.com/btimby/fulltext>~~
+> 
+>   <https://github.com/deanmalmgren/textract>
 >
 > <img src=img/google.jpg width=300px />
 
