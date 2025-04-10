@@ -48,8 +48,13 @@ The python library `groq` is also compatible with the openai api: <https://conso
 ### Step 2: Create the Document Summarizer
 
 Create a file `docsum.py` that:
-1. takes a file (of any type) as a command line argument
-1. summarizes that file using the Groq API
+1. takes a file path or url as a command line argument
+1. summarizes contents using the Groq API
+1. the program must be able to work with:
+    1. ordinary text documents
+    1. html files
+    1. pdf files
+    1. images
 
 > **Useful links:**
 >
@@ -59,6 +64,19 @@ Create a file `docsum.py` that:
 >   <https://github.com/deanmalmgren/textract>
 >
 > <img src=img/google.jpg width=300px />
+
+> **Hint for images:**
+>
+> The textract library will not work for images.
+> To summarize the contents of an image,
+> you will have to pass the image data directly to the LLM.
+> The easiest way to do this is to write a new function `llm_image` for this special case.
+> The groq documentation contains example code for handling images that you can use.
+> See <https://console.groq.com/docs/vision>.
+>
+> Recall that your code must work for images stored locally and for images inside a url.
+> There are many ways to get your code to work for both use-cases,
+> and any method is fine.
 
 > **Announcement (2025-04-08):**
 > 
@@ -73,9 +91,30 @@ Create a file `docsum.py` that:
 
 Create a `README.md` file.
 1. The file should explain what your `docsum.py` file does and how to use it.
-    (You must have a code block that shows example usage and output.)
+
+    In particular, you need to have the following 4 examples in your README file:
+    ```
+    $ python3 docsum.py docs/news-mx.html
+    The US Supreme Court has lifted a lower court's suspension of a law from 1798, allowing President Donald Trump's administration to deport Venezuelan migrants accused of being part of a criminal gang. The court did not rule on the legality of the deportations, but instead allowed the administration to continue using the law. The decision has been met with criticism from progressive justices, who argue that the law is being misused to arbitrarily deport immigrants.
+    ```
+
+    ```
+    $ python3 docsum.py docs/constitution-mx.txt
+    ```
+
+    ```
+    $ python3 docsum.py docs/research_paper.pdf
+    ```
+
+    ```
+    $ python3 docsum.py https://elpais.com/us/
+    ```
+
+    ```
+    $ python3 docsum.py https://www.cmc.edu/sites/default/files/about/images/20170213-cube.jpg
+    ```
+
 1. The file should use reasonable markdown styling.
-    (Especially with code blocks vs inline code.)
 
 Create a new github project for your repo.
 Commit and upload all of your changes.
