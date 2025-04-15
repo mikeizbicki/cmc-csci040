@@ -59,7 +59,7 @@ New python techniques:
 1. `input` function
 1. `readline` module
 
-## Part 1: Prompt Engineering
+### Part 1: Prompt Engineering
 
 <img height=240px src=img/prompt.webp /> <img height=240px src=img/nice.png />
 
@@ -86,6 +86,10 @@ The "model card" for a model provides:
 1. Training cutoff date information
 1. See LLama 4 model card: <https://www.llama.com/docs/model-cards-and-prompt-formats/llama4_omni/>
 
+### Part 2: RAG
+
+TBA
+<!--
 ## Homework
 
 **Due date:** Next Sunday (15 Sep) at midnight
@@ -170,7 +174,7 @@ especially for 1-off or small projects.
 1. Lots of good SWEs use sqlite3 for everything.
 
    <img width=300px src=img/sqlite.jpg />
-<!--<img width=400px src=img/sql.jpg />-->
+   <img width=400px src=img/sql.jpg />
 
 
 > **ASIDE:**
@@ -222,3 +226,4 @@ Both postgres and sqlite3 can perform vector searches.
     1. Example usage.
 
 1. Submit the completed project link to sakai.
+-->
