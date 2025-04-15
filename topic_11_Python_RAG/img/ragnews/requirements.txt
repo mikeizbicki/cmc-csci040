@@ -28,7 +28,7 @@ metahtml==0.0.1.dev0
 nltk==3.5
 numpy==1.19.4
 od==2.0.2
-Pillow==8.0.1
+Pillow==10.3.0
 ply==3.11
 pycparser==2.22
 pydantic==2.9.0
