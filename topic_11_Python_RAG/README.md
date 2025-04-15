@@ -1,5 +1,7 @@
 # Retrieval Augmented Generation (RAG)
 
+<img src=img/debug.png width=300px />
+
 ## Announcements
 
 1. no quiz this week :)
