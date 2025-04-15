@@ -18,7 +18,7 @@ groq==0.11.0
 h11==0.14.0
 httpcore==1.0.5
 httpx==0.27.2
-idna==2.10
+idna==3.7
 joblib==0.17.0
 jsonpath-ng==1.6.1
 langid==1.1.6
