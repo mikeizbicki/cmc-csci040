@@ -84,21 +84,11 @@ One of the reasons Anthropic decided to do this is that it is "trivial" to extra
 The "model card" for a model provides:
 1. Recommended system/user prompts
 1. Training cutoff date information
-1. See LLama 4 model card: <https://www.llama.com/docs/model-cards-and-prompt-formats/llama4_omni/>
+1. See LLama 4 model card: <https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md>
 
 ### Part 2: RAG
 
-TBA
-<!--
-## Homework
-
-**Due date:** Next Sunday (15 Sep) at midnight
-
 <img width=400px src=img/rag.jpg />
-
-In your next homework, you will build a question and answer system for asking questions about an input document.
-The models hosted on Groq have no knowledge about the US election,
-so we will have to include that information in the prompt.
 
 The procedure looks like:
 1. User inputs their question.
@@ -139,7 +129,7 @@ The procedure looks like:
 
 1. **Generate** a response based on the new prompt.
 
-### The Hard Part is Retrieval (i.e. Databases)
+#### The Hard Part is Retrieval (i.e. Databases)
 
 The vast majority of RAG tutorials encourage you to use a "vector db" for storing documents.
 
@@ -174,6 +164,7 @@ especially for 1-off or small projects.
 1. Lots of good SWEs use sqlite3 for everything.
 
    <img width=300px src=img/sqlite.jpg />
+
    <img width=400px src=img/sql.jpg />
 
 
@@ -186,7 +177,7 @@ especially for 1-off or small projects.
 > 
 >    <img width=400px src=img/relational.jpg />
 
-### Document Search
+#### Document Search
 
 We will use sqlite3's built-in FTS5 system <https://www.sqlite.org/fts5.html>.
 1. uses [BM25](https://www.sqlite.org/fts5.html#the_bm25_function) ranking function
@@ -209,7 +200,8 @@ Both postgres and sqlite3 can perform vector searches.
 1. postgres: <https://github.com/pgvector/pgvector>
 1. sqlite3: <https://github.com/asg017/sqlite-vec>
 
-### What to Actually Do
+<!--
+#### What to Actually Do
 
 1. Create a new github repo based off of <https://github.com/mikeizbicki/ragnews>
 
