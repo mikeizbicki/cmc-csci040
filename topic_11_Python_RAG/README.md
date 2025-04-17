@@ -25,6 +25,10 @@
 
 1. We will start the next (and last) material next week.
 
+<br/>
+
+<img src=img/tea.png width=400px />
+
 ## Lecture Notes
 
 **Review:**
