@@ -178,6 +178,7 @@ The procedure looks like:
     | CSCI143 (big data) | 80% programming | 20% math |
     | CSCI145 (data mining) | 20% programming | 80% math | 
     | CSCI148 (graph algorithms) | 0% programming | 100% math | 
+    | MATH389 (combinatorial optimization) | 0% programming | 100% math |
 
 <!--
 The vast majority of RAG tutorials encourage you to use a "vector db" for storing documents.
