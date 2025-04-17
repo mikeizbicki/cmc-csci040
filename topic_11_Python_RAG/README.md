@@ -53,7 +53,7 @@ Example use cases:
 1. Chat with documentation <https://docs-chat.groqcloud.com/>
 1. *(Your next homework)*  Ask questions about the contents of a document
 
-### Part 0: Building a chatbot
+### Part 0: Building a Command Line Chatbot
 
 New python techniques:
 1. `input` function
@@ -116,6 +116,7 @@ The procedure looks like:
 
 1. **Augment** the user's prompt with the articles.
 
+    System:
     ```
     You are a news analyst.  You will be given several articles and a question.  Answer the question based on the articles.
 
@@ -123,14 +124,46 @@ The procedure looks like:
     ARTICLE1: ...
     ARTICLE2: ...
     ARTICLE3: ...
+    ```
 
-    QUESTION: Who are the presidential nominees?
+    User:
+    ```
+    Who are the presidential nominees?
     ```
 
 1. **Generate** a response based on the new prompt.
 
-#### The Hard Part is Retrieval (i.e. Databases)
+#### The Hard Part is Retrieval
 
+**Problem:** How do we decide which documents to put in the context?
+
+**Answer:**
+
+1. No one knows!!!
+
+1. Lots of methods have been proposed.
+
+1. They all use lots of math.
+
+    <img src=img/math.webp width=400px />
+
+1. ChatGPT can automate "mundane" coding work.
+
+    But it can't automate the mathematical understanding.
+
+    <img src=img/finally.jpeg width=300px />
+
+1. Future courses:
+
+    | course | %programming | %math |
+    | --- | --- | --- |
+    | CSCI036 (foundations of data science) | 100% programming | 0% math |
+    | CSCI046 (data structures) | 80% programming | 20% math |
+    | CSCI143 (big data) | 80% programming | 20% math |
+    | CSCI145 (data mining) | 20% programming | 80% math | 
+    | CSCI148 (graph algorithms) | 0% programming | 100% math | 
+
+<!--
 The vast majority of RAG tutorials encourage you to use a "vector db" for storing documents.
 
 <img height=240px src=img/vector1.webp /> <img height=240px src=img/vector2.jpeg />
@@ -199,6 +232,7 @@ The best way to improve results is to use non-text features:
 Both postgres and sqlite3 can perform vector searches.
 1. postgres: <https://github.com/pgvector/pgvector>
 1. sqlite3: <https://github.com/asg017/sqlite-vec>
+-->
 
 <!--
 #### What to Actually Do
