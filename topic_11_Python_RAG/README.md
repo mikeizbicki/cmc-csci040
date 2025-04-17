@@ -132,16 +132,20 @@ The procedure looks like:
 
     System:
     ```
-    You are a news analyst.  You will be given several articles and a question.  Answer the question based on the articles.
+    You are a news analyst.
+    ```
+
+    User:
+    ```
+    You will be given several articles and a question.
+    Answer the question based on the articles.
 
     ARTICLE0: ...
     ARTICLE1: ...
     ARTICLE2: ...
     ARTICLE3: ...
-    ```
 
-    User:
-    ```
+    QUESTION:
     Who are the presidential nominees?
     ```
 
