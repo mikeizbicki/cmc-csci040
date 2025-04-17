@@ -153,10 +153,12 @@ The procedure looks like:
 
     <img src=img/finally.jpeg width=300px />
 
-1. Future courses:
+1. CS courses at CMC:
 
     | course | %programming | %math |
     | --- | --- | --- |
+    | CSCI040 (intro to hacking) | 100% programming | 0% math |
+    | | | |
     | CSCI036 (foundations of data science) | 100% programming | 0% math |
     | CSCI046 (data structures) | 80% programming | 20% math |
     | CSCI143 (big data) | 80% programming | 20% math |
