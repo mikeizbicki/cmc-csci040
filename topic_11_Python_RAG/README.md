@@ -4,6 +4,8 @@
 
 ## Announcements
 
+**Tuesday 15 Apr:**
+
 1. no quiz this week :)
 1. docsum repos:
     1. lots of minor problems (resubmit for full credit)
@@ -14,6 +16,14 @@
         1. examples: `__pycache__`, `.DS_Store`
 
         <img src=img/linus.png width=300px />
+
+**Thursday 17 Apr:**
+
+1. We will do more live coding in lab tomorrow in preparation for your project.
+
+1. Project will be due Sunday 27 April.
+
+1. We will start the next (and last) material next week.
 
 ## Lecture Notes
 
