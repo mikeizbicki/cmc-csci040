@@ -127,11 +127,31 @@ So it is possible to earn up to 12 points of extra credit if you complete all ta
 
 **Extra credit:**
 
+1. (1-1000 pts)
+    Experiment with a new method for improving the quality of the RAG output.
+    The amount of extra credit will depend on the creativity and effectiveness of your experiment.
+
+    Some simple ideas are:
+    1. Ask an LLM directly to do the scoring for you.
+    1. Ask an LLM to come up with useful synonyms to the input query,
+        then use the existing `score_chunks` function.
+
+    I expect a typical attempt at this extra credit to result in +2 points.
+    But it is an open problem how to do this well,
+    and it's possible to make a legitimate discovery even as a very junior programmer these days.
+
 1. (2pts)
     Have your program support asking questions in English when the document is non-english.
 
-    An easy way to do this is to ask the LLM to translate the query from its original language to English.
-    Then use the translated query.
+    An easy way to do this is to ask the LLM to translate the query from English to the non-english language,
+    then use the translated query in your function calls.
+
+    You must still be able to support English,
+    and the program will need to automatically determine what language the document is written in.
+    The [langid library](https://pypi.org/project/py3langid/) is a standard and popular tool for determining the language of a string.
+
+1. (2pts)
+    Have your system support chatting with images in addition to text documents.
 
 1. (4pts) 
     Have your program use text-to-speech (TTS) to read its answers outloud.
