@@ -2,3 +2,4 @@ groq
 beautifulsoup4
 lxml
 python-dotenv
+nltk
