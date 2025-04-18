@@ -80,14 +80,6 @@ def score_chunk(chunk: str, query: str, language: str = "french") -> float:
     Scores a chunk against a user query using Jaccard similarity of lemmatized word sets
     with stopword removal, using spaCy for multilingual support.
 
-    Args:
-        chunk (str): The text chunk to compare.
-        query (str): The user query.
-        language (str): Language code (e.g., 'french', 'english', 'spanish').
-
-    Returns:
-        float: Jaccard similarity score.
-
     Examples (French):
         >>> round(score_chunk("Le soleil est brillant et chaud.", "Quelle est la température du soleil ?", language="french"), 2)
         0.33
@@ -132,7 +124,7 @@ def score_chunk(chunk: str, query: str, language: str = "french") -> float:
 
     return len(intersection) / len(union)
 
-    
+
 if __name__ == '__main__':
     messages = []
     messages.append({
