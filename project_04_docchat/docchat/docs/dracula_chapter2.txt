@@ -1,0 +1,496 @@
+JONATHAN HARKER’S JOURNAL--_continued_
+
+
+_5 May._--I must have been asleep, for certainly if I had been fully
+awake I must have noticed the approach of such a remarkable place. In
+the gloom the courtyard looked of considerable size, and as several dark
+ways led from it under great round arches, it perhaps seemed bigger than
+it really is. I have not yet been able to see it by daylight.
+
+When the calèche stopped, the driver jumped down and held out his hand
+to assist me to alight. Again I could not but notice his prodigious
+strength. His hand actually seemed like a steel vice that could have
+crushed mine if he had chosen. Then he took out my traps, and placed
+them on the ground beside me as I stood close to a great door, old and
+studded with large iron nails, and set in a projecting doorway of
+massive stone. I could see even in the dim light that the stone was
+massively carved, but that the carving had been much worn by time and
+weather. As I stood, the driver jumped again into his seat and shook the
+reins; the horses started forward, and trap and all disappeared down one
+of the dark openings.
+
+I stood in silence where I was, for I did not know what to do. Of bell
+or knocker there was no sign; through these frowning walls and dark
+window openings it was not likely that my voice could penetrate. The
+time I waited seemed endless, and I felt doubts and fears crowding upon
+me. What sort of place had I come to, and among what kind of people?
+What sort of grim adventure was it on which I had embarked? Was this a
+customary incident in the life of a solicitor’s clerk sent out to
+explain the purchase of a London estate to a foreigner? Solicitor’s
+clerk! Mina would not like that. Solicitor--for just before leaving
+London I got word that my examination was successful; and I am now a
+full-blown solicitor! I began to rub my eyes and pinch myself to see if
+I were awake. It all seemed like a horrible nightmare to me, and I
+expected that I should suddenly awake, and find myself at home, with
+the dawn struggling in through the windows, as I had now and again felt
+in the morning after a day of overwork. But my flesh answered the
+pinching test, and my eyes were not to be deceived. I was indeed awake
+and among the Carpathians. All I could do now was to be patient, and to
+wait the coming of the morning.
+
+Just as I had come to this conclusion I heard a heavy step approaching
+behind the great door, and saw through the chinks the gleam of a coming
+light. Then there was the sound of rattling chains and the clanking of
+massive bolts drawn back. A key was turned with the loud grating noise
+of long disuse, and the great door swung back.
+
+Within, stood a tall old man, clean shaven save for a long white
+moustache, and clad in black from head to foot, without a single speck
+of colour about him anywhere. He held in his hand an antique silver
+lamp, in which the flame burned without chimney or globe of any kind,
+throwing long quivering shadows as it flickered in the draught of the
+open door. The old man motioned me in with his right hand with a courtly
+gesture, saying in excellent English, but with a strange intonation:--
+
+“Welcome to my house! Enter freely and of your own will!” He made no
+motion of stepping to meet me, but stood like a statue, as though his
+gesture of welcome had fixed him into stone. The instant, however, that
+I had stepped over the threshold, he moved impulsively forward, and
+holding out his hand grasped mine with a strength which made me wince,
+an effect which was not lessened by the fact that it seemed as cold as
+ice--more like the hand of a dead than a living man. Again he said:--
+
+“Welcome to my house. Come freely. Go safely; and leave something of the
+happiness you bring!” The strength of the handshake was so much akin to
+that which I had noticed in the driver, whose face I had not seen, that
+for a moment I doubted if it were not the same person to whom I was
+speaking; so to make sure, I said interrogatively:--
+
+“Count Dracula?” He bowed in a courtly way as he replied:--
+
+“I am Dracula; and I bid you welcome, Mr. Harker, to my house. Come in;
+the night air is chill, and you must need to eat and rest.” As he was
+speaking, he put the lamp on a bracket on the wall, and stepping out,
+took my luggage; he had carried it in before I could forestall him. I
+protested but he insisted:--
+
+“Nay, sir, you are my guest. It is late, and my people are not
+available. Let me see to your comfort myself.” He insisted on carrying
+my traps along the passage, and then up a great winding stair, and
+along another great passage, on whose stone floor our steps rang
+heavily. At the end of this he threw open a heavy door, and I rejoiced
+to see within a well-lit room in which a table was spread for supper,
+and on whose mighty hearth a great fire of logs, freshly replenished,
+flamed and flared.
+
+The Count halted, putting down my bags, closed the door, and crossing
+the room, opened another door, which led into a small octagonal room lit
+by a single lamp, and seemingly without a window of any sort. Passing
+through this, he opened another door, and motioned me to enter. It was a
+welcome sight; for here was a great bedroom well lighted and warmed with
+another log fire,--also added to but lately, for the top logs were
+fresh--which sent a hollow roar up the wide chimney. The Count himself
+left my luggage inside and withdrew, saying, before he closed the
+door:--
+
+“You will need, after your journey, to refresh yourself by making your
+toilet. I trust you will find all you wish. When you are ready, come
+into the other room, where you will find your supper prepared.”
+
+The light and warmth and the Count’s courteous welcome seemed to have
+dissipated all my doubts and fears. Having then reached my normal state,
+I discovered that I was half famished with hunger; so making a hasty
+toilet, I went into the other room.
+
+I found supper already laid out. My host, who stood on one side of the
+great fireplace, leaning against the stonework, made a graceful wave of
+his hand to the table, and said:--
+
+“I pray you, be seated and sup how you please. You will, I trust, excuse
+me that I do not join you; but I have dined already, and I do not sup.”
+
+I handed to him the sealed letter which Mr. Hawkins had entrusted to me.
+He opened it and read it gravely; then, with a charming smile, he handed
+it to me to read. One passage of it, at least, gave me a thrill of
+pleasure.
+
+“I must regret that an attack of gout, from which malady I am a constant
+sufferer, forbids absolutely any travelling on my part for some time to
+come; but I am happy to say I can send a sufficient substitute, one in
+whom I have every possible confidence. He is a young man, full of energy
+and talent in his own way, and of a very faithful disposition. He is
+discreet and silent, and has grown into manhood in my service. He shall
+be ready to attend on you when you will during his stay, and shall take
+your instructions in all matters.”
+
+The Count himself came forward and took off the cover of a dish, and I
+fell to at once on an excellent roast chicken. This, with some cheese
+and a salad and a bottle of old Tokay, of which I had two glasses, was
+my supper. During the time I was eating it the Count asked me many
+questions as to my journey, and I told him by degrees all I had
+experienced.
+
+By this time I had finished my supper, and by my host’s desire had drawn
+up a chair by the fire and begun to smoke a cigar which he offered me,
+at the same time excusing himself that he did not smoke. I had now an
+opportunity of observing him, and found him of a very marked
+physiognomy.
+
+His face was a strong--a very strong--aquiline, with high bridge of the
+thin nose and peculiarly arched nostrils; with lofty domed forehead, and
+hair growing scantily round the temples but profusely elsewhere. His
+eyebrows were very massive, almost meeting over the nose, and with bushy
+hair that seemed to curl in its own profusion. The mouth, so far as I
+could see it under the heavy moustache, was fixed and rather
+cruel-looking, with peculiarly sharp white teeth; these protruded over
+the lips, whose remarkable ruddiness showed astonishing vitality in a
+man of his years. For the rest, his ears were pale, and at the tops
+extremely pointed; the chin was broad and strong, and the cheeks firm
+though thin. The general effect was one of extraordinary pallor.
+
+Hitherto I had noticed the backs of his hands as they lay on his knees
+in the firelight, and they had seemed rather white and fine; but seeing
+them now close to me, I could not but notice that they were rather
+coarse--broad, with squat fingers. Strange to say, there were hairs in
+the centre of the palm. The nails were long and fine, and cut to a sharp
+point. As the Count leaned over me and his hands touched me, I could not
+repress a shudder. It may have been that his breath was rank, but a
+horrible feeling of nausea came over me, which, do what I would, I could
+not conceal. The Count, evidently noticing it, drew back; and with a
+grim sort of smile, which showed more than he had yet done his
+protuberant teeth, sat himself down again on his own side of the
+fireplace. We were both silent for a while; and as I looked towards the
+window I saw the first dim streak of the coming dawn. There seemed a
+strange stillness over everything; but as I listened I heard as if from
+down below in the valley the howling of many wolves. The Count’s eyes
+gleamed, and he said:--
+
+“Listen to them--the children of the night. What music they make!”
+Seeing, I suppose, some expression in my face strange to him, he
+added:--
+
+“Ah, sir, you dwellers in the city cannot enter into the feelings of the
+hunter.” Then he rose and said:--
+
+“But you must be tired. Your bedroom is all ready, and to-morrow you
+shall sleep as late as you will. I have to be away till the afternoon;
+so sleep well and dream well!” With a courteous bow, he opened for me
+himself the door to the octagonal room, and I entered my bedroom....
+
+I am all in a sea of wonders. I doubt; I fear; I think strange things,
+which I dare not confess to my own soul. God keep me, if only for the
+sake of those dear to me!
+
+       *       *       *       *       *
+
+_7 May._--It is again early morning, but I have rested and enjoyed the
+last twenty-four hours. I slept till late in the day, and awoke of my
+own accord. When I had dressed myself I went into the room where we had
+supped, and found a cold breakfast laid out, with coffee kept hot by the
+pot being placed on the hearth. There was a card on the table, on which
+was written:--
+
+“I have to be absent for a while. Do not wait for me.--D.” I set to and
+enjoyed a hearty meal. When I had done, I looked for a bell, so that I
+might let the servants know I had finished; but I could not find one.
+There are certainly odd deficiencies in the house, considering the
+extraordinary evidences of wealth which are round me. The table service
+is of gold, and so beautifully wrought that it must be of immense value.
+The curtains and upholstery of the chairs and sofas and the hangings of
+my bed are of the costliest and most beautiful fabrics, and must have
+been of fabulous value when they were made, for they are centuries old,
+though in excellent order. I saw something like them in Hampton Court,
+but there they were worn and frayed and moth-eaten. But still in none of
+the rooms is there a mirror. There is not even a toilet glass on my
+table, and I had to get the little shaving glass from my bag before I
+could either shave or brush my hair. I have not yet seen a servant
+anywhere, or heard a sound near the castle except the howling of wolves.
+Some time after I had finished my meal--I do not know whether to call it
+breakfast or dinner, for it was between five and six o’clock when I had
+it--I looked about for something to read, for I did not like to go about
+the castle until I had asked the Count’s permission. There was
+absolutely nothing in the room, book, newspaper, or even writing
+materials; so I opened another door in the room and found a sort of
+library. The door opposite mine I tried, but found it locked.
+
+In the library I found, to my great delight, a vast number of English
+books, whole shelves full of them, and bound volumes of magazines and
+newspapers. A table in the centre was littered with English magazines
+and newspapers, though none of them were of very recent date. The books
+were of the most varied kind--history, geography, politics, political
+economy, botany, geology, law--all relating to England and English life
+and customs and manners. There were even such books of reference as the
+London Directory, the “Red” and “Blue” books, Whitaker’s Almanac, the
+Army and Navy Lists, and--it somehow gladdened my heart to see it--the
+Law List.
+
+Whilst I was looking at the books, the door opened, and the Count
+entered. He saluted me in a hearty way, and hoped that I had had a good
+night’s rest. Then he went on:--
+
+“I am glad you found your way in here, for I am sure there is much that
+will interest you. These companions”--and he laid his hand on some of
+the books--“have been good friends to me, and for some years past, ever
+since I had the idea of going to London, have given me many, many hours
+of pleasure. Through them I have come to know your great England; and to
+know her is to love her. I long to go through the crowded streets of
+your mighty London, to be in the midst of the whirl and rush of
+humanity, to share its life, its change, its death, and all that makes
+it what it is. But alas! as yet I only know your tongue through books.
+To you, my friend, I look that I know it to speak.”
+
+“But, Count,” I said, “you know and speak English thoroughly!” He bowed
+gravely.
+
+“I thank you, my friend, for your all too-flattering estimate, but yet I
+fear that I am but a little way on the road I would travel. True, I know
+the grammar and the words, but yet I know not how to speak them.”
+
+“Indeed,” I said, “you speak excellently.”
+
+“Not so,” he answered. “Well, I know that, did I move and speak in your
+London, none there are who would not know me for a stranger. That is not
+enough for me. Here I am noble; I am _boyar_; the common people know me,
+and I am master. But a stranger in a strange land, he is no one; men
+know him not--and to know not is to care not for. I am content if I am
+like the rest, so that no man stops if he see me, or pause in his
+speaking if he hear my words, ‘Ha, ha! a stranger!’ I have been so long
+master that I would be master still--or at least that none other should
+be master of me. You come to me not alone as agent of my friend Peter
+Hawkins, of Exeter, to tell me all about my new estate in London. You
+shall, I trust, rest here with me awhile, so that by our talking I may
+learn the English intonation; and I would that you tell me when I make
+error, even of the smallest, in my speaking. I am sorry that I had to be
+away so long to-day; but you will, I know, forgive one who has so many
+important affairs in hand.”
+
+Of course I said all I could about being willing, and asked if I might
+come into that room when I chose. He answered: “Yes, certainly,” and
+added:--
+
+“You may go anywhere you wish in the castle, except where the doors are
+locked, where of course you will not wish to go. There is reason that
+all things are as they are, and did you see with my eyes and know with
+my knowledge, you would perhaps better understand.” I said I was sure of
+this, and then he went on:--
+
+“We are in Transylvania; and Transylvania is not England. Our ways are
+not your ways, and there shall be to you many strange things. Nay, from
+what you have told me of your experiences already, you know something of
+what strange things there may be.”
+
+This led to much conversation; and as it was evident that he wanted to
+talk, if only for talking’s sake, I asked him many questions regarding
+things that had already happened to me or come within my notice.
+Sometimes he sheered off the subject, or turned the conversation by
+pretending not to understand; but generally he answered all I asked most
+frankly. Then as time went on, and I had got somewhat bolder, I asked
+him of some of the strange things of the preceding night, as, for
+instance, why the coachman went to the places where he had seen the blue
+flames. He then explained to me that it was commonly believed that on a
+certain night of the year--last night, in fact, when all evil spirits
+are supposed to have unchecked sway--a blue flame is seen over any place
+where treasure has been concealed. “That treasure has been hidden,” he
+went on, “in the region through which you came last night, there can be
+but little doubt; for it was the ground fought over for centuries by the
+Wallachian, the Saxon, and the Turk. Why, there is hardly a foot of soil
+in all this region that has not been enriched by the blood of men,
+patriots or invaders. In old days there were stirring times, when the
+Austrian and the Hungarian came up in hordes, and the patriots went out
+to meet them--men and women, the aged and the children too--and waited
+their coming on the rocks above the passes, that they might sweep
+destruction on them with their artificial avalanches. When the invader
+was triumphant he found but little, for whatever there was had been
+sheltered in the friendly soil.”
+
+“But how,” said I, “can it have remained so long undiscovered, when
+there is a sure index to it if men will but take the trouble to look?”
+The Count smiled, and as his lips ran back over his gums, the long,
+sharp, canine teeth showed out strangely; he answered:--
+
+“Because your peasant is at heart a coward and a fool! Those flames only
+appear on one night; and on that night no man of this land will, if he
+can help it, stir without his doors. And, dear sir, even if he did he
+would not know what to do. Why, even the peasant that you tell me of who
+marked the place of the flame would not know where to look in daylight
+even for his own work. Even you would not, I dare be sworn, be able to
+find these places again?”
+
+“There you are right,” I said. “I know no more than the dead where even
+to look for them.” Then we drifted into other matters.
+
+“Come,” he said at last, “tell me of London and of the house which you
+have procured for me.” With an apology for my remissness, I went into my
+own room to get the papers from my bag. Whilst I was placing them in
+order I heard a rattling of china and silver in the next room, and as I
+passed through, noticed that the table had been cleared and the lamp
+lit, for it was by this time deep into the dark. The lamps were also lit
+in the study or library, and I found the Count lying on the sofa,
+reading, of all things in the world, an English Bradshaw’s Guide. When I
+came in he cleared the books and papers from the table; and with him I
+went into plans and deeds and figures of all sorts. He was interested in
+everything, and asked me a myriad questions about the place and its
+surroundings. He clearly had studied beforehand all he could get on the
+subject of the neighbourhood, for he evidently at the end knew very much
+more than I did. When I remarked this, he answered:--
+
+“Well, but, my friend, is it not needful that I should? When I go there
+I shall be all alone, and my friend Harker Jonathan--nay, pardon me, I
+fall into my country’s habit of putting your patronymic first--my friend
+Jonathan Harker will not be by my side to correct and aid me. He will be
+in Exeter, miles away, probably working at papers of the law with my
+other friend, Peter Hawkins. So!”
+
+We went thoroughly into the business of the purchase of the estate at
+Purfleet. When I had told him the facts and got his signature to the
+necessary papers, and had written a letter with them ready to post to
+Mr. Hawkins, he began to ask me how I had come across so suitable a
+place. I read to him the notes which I had made at the time, and which I
+inscribe here:--
+
+“At Purfleet, on a by-road, I came across just such a place as seemed to
+be required, and where was displayed a dilapidated notice that the place
+was for sale. It is surrounded by a high wall, of ancient structure,
+built of heavy stones, and has not been repaired for a large number of
+years. The closed gates are of heavy old oak and iron, all eaten with
+rust.
+
+“The estate is called Carfax, no doubt a corruption of the old _Quatre
+Face_, as the house is four-sided, agreeing with the cardinal points of
+the compass. It contains in all some twenty acres, quite surrounded by
+the solid stone wall above mentioned. There are many trees on it, which
+make it in places gloomy, and there is a deep, dark-looking pond or
+small lake, evidently fed by some springs, as the water is clear and
+flows away in a fair-sized stream. The house is very large and of all
+periods back, I should say, to mediæval times, for one part is of stone
+immensely thick, with only a few windows high up and heavily barred with
+iron. It looks like part of a keep, and is close to an old chapel or
+church. I could not enter it, as I had not the key of the door leading
+to it from the house, but I have taken with my kodak views of it from
+various points. The house has been added to, but in a very straggling
+way, and I can only guess at the amount of ground it covers, which must
+be very great. There are but few houses close at hand, one being a very
+large house only recently added to and formed into a private lunatic
+asylum. It is not, however, visible from the grounds.”
+
+When I had finished, he said:--
+
+“I am glad that it is old and big. I myself am of an old family, and to
+live in a new house would kill me. A house cannot be made habitable in a
+day; and, after all, how few days go to make up a century. I rejoice
+also that there is a chapel of old times. We Transylvanian nobles love
+not to think that our bones may lie amongst the common dead. I seek not
+gaiety nor mirth, not the bright voluptuousness of much sunshine and
+sparkling waters which please the young and gay. I am no longer young;
+and my heart, through weary years of mourning over the dead, is not
+attuned to mirth. Moreover, the walls of my castle are broken; the
+shadows are many, and the wind breathes cold through the broken
+battlements and casements. I love the shade and the shadow, and would
+be alone with my thoughts when I may.” Somehow his words and his look
+did not seem to accord, or else it was that his cast of face made his
+smile look malignant and saturnine.
+
+Presently, with an excuse, he left me, asking me to put all my papers
+together. He was some little time away, and I began to look at some of
+the books around me. One was an atlas, which I found opened naturally at
+England, as if that map had been much used. On looking at it I found in
+certain places little rings marked, and on examining these I noticed
+that one was near London on the east side, manifestly where his new
+estate was situated; the other two were Exeter, and Whitby on the
+Yorkshire coast.
+
+It was the better part of an hour when the Count returned. “Aha!” he
+said; “still at your books? Good! But you must not work always. Come; I
+am informed that your supper is ready.” He took my arm, and we went into
+the next room, where I found an excellent supper ready on the table. The
+Count again excused himself, as he had dined out on his being away from
+home. But he sat as on the previous night, and chatted whilst I ate.
+After supper I smoked, as on the last evening, and the Count stayed with
+me, chatting and asking questions on every conceivable subject, hour
+after hour. I felt that it was getting very late indeed, but I did not
+say anything, for I felt under obligation to meet my host’s wishes in
+every way. I was not sleepy, as the long sleep yesterday had fortified
+me; but I could not help experiencing that chill which comes over one at
+the coming of the dawn, which is like, in its way, the turn of the tide.
+They say that people who are near death die generally at the change to
+the dawn or at the turn of the tide; any one who has when tired, and
+tied as it were to his post, experienced this change in the atmosphere
+can well believe it. All at once we heard the crow of a cock coming up
+with preternatural shrillness through the clear morning air; Count
+Dracula, jumping to his feet, said:--
+
+“Why, there is the morning again! How remiss I am to let you stay up so
+long. You must make your conversation regarding my dear new country of
+England less interesting, so that I may not forget how time flies by
+us,” and, with a courtly bow, he quickly left me.
+
+I went into my own room and drew the curtains, but there was little to
+notice; my window opened into the courtyard, all I could see was the
+warm grey of quickening sky. So I pulled the curtains again, and have
+written of this day.
+
+       *       *       *       *       *
+
+_8 May._--I began to fear as I wrote in this book that I was getting too
+diffuse; but now I am glad that I went into detail from the first, for
+there is something so strange about this place and all in it that I
+cannot but feel uneasy. I wish I were safe out of it, or that I had
+never come. It may be that this strange night-existence is telling on
+me; but would that that were all! If there were any one to talk to I
+could bear it, but there is no one. I have only the Count to speak with,
+and he!--I fear I am myself the only living soul within the place. Let
+me be prosaic so far as facts can be; it will help me to bear up, and
+imagination must not run riot with me. If it does I am lost. Let me say
+at once how I stand--or seem to.
+
+I only slept a few hours when I went to bed, and feeling that I could
+not sleep any more, got up. I had hung my shaving glass by the window,
+and was just beginning to shave. Suddenly I felt a hand on my shoulder,
+and heard the Count’s voice saying to me, “Good-morning.” I started, for
+it amazed me that I had not seen him, since the reflection of the glass
+covered the whole room behind me. In starting I had cut myself slightly,
+but did not notice it at the moment. Having answered the Count’s
+salutation, I turned to the glass again to see how I had been mistaken.
+This time there could be no error, for the man was close to me, and I
+could see him over my shoulder. But there was no reflection of him in
+the mirror! The whole room behind me was displayed; but there was no
+sign of a man in it, except myself. This was startling, and, coming on
+the top of so many strange things, was beginning to increase that vague
+feeling of uneasiness which I always have when the Count is near; but at
+the instant I saw that the cut had bled a little, and the blood was
+trickling over my chin. I laid down the razor, turning as I did so half
+round to look for some sticking plaster. When the Count saw my face, his
+eyes blazed with a sort of demoniac fury, and he suddenly made a grab at
+my throat. I drew away, and his hand touched the string of beads which
+held the crucifix. It made an instant change in him, for the fury passed
+so quickly that I could hardly believe that it was ever there.
+
+“Take care,” he said, “take care how you cut yourself. It is more
+dangerous than you think in this country.” Then seizing the shaving
+glass, he went on: “And this is the wretched thing that has done the
+mischief. It is a foul bauble of man’s vanity. Away with it!” and
+opening the heavy window with one wrench of his terrible hand, he flung
+out the glass, which was shattered into a thousand pieces on the stones
+of the courtyard far below. Then he withdrew without a word. It is very
+annoying, for I do not see how I am to shave, unless in my watch-case or
+the bottom of the shaving-pot, which is fortunately of metal.
+
+When I went into the dining-room, breakfast was prepared; but I could
+not find the Count anywhere. So I breakfasted alone. It is strange that
+as yet I have not seen the Count eat or drink. He must be a very
+peculiar man! After breakfast I did a little exploring in the castle. I
+went out on the stairs, and found a room looking towards the South. The
+view was magnificent, and from where I stood there was every opportunity
+of seeing it. The castle is on the very edge of a terrible precipice. A
+stone falling from the window would fall a thousand feet without
+touching anything! As far as the eye can reach is a sea of green tree
+tops, with occasionally a deep rift where there is a chasm. Here and
+there are silver threads where the rivers wind in deep gorges through
+the forests.
+
+But I am not in heart to describe beauty, for when I had seen the view I
+explored further; doors, doors, doors everywhere, and all locked and
+bolted. In no place save from the windows in the castle walls is there
+an available exit.
+
+The castle is a veritable prison, and I am a prisoner!
