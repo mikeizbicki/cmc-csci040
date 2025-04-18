@@ -3,6 +3,9 @@
 **tl;dr**
 You will make a python program that lets you chat with a document.
 
+**due date:**
+Sunday 27 April
+
 ## Rubric
 
 The project is worth 32 points.
