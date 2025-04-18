@@ -29,18 +29,18 @@ So it is possible to earn up to 12 points of extra credit if you complete all ta
         > 
         > 1. Adding a test cases "badge" to your README file.
         >
-        >   You can copy the code from my example README at <https://github.com/mikeizbicki/docchat/blob/master/README.md>.
-        >   Ensure that you cange the link location to your repo instead of mine!
+        >    You can copy the code from my example README at <https://github.com/mikeizbicki/docchat/blob/master/README.md>.
+        >    Ensure that you cange the link location to your repo instead of mine!
         > 
         > 1. If the test cases badge for your repo is gray:
-        >   You need to enable github actions.
-        >   Click the "actions" tab on your repo,
-        >   Then click "enable".
+        >    You need to enable github actions.
+        >    Click the "actions" tab on your repo,
+        >    Then click "enable".
         >
         > 1. The test cases for `llm` will fail in github actions because it does not have access to your API key.
-        >   Add your API key in the menu item `Settings > secrets and variabls > actions`.
-        >   Click `New repository secret`.
-        >   The name should be `GROQ_API_KEY` and value your API key from the `.env` file (without the `GROQ_API_KEY=` portion).
+        >    Add your API key in the menu item `Settings > secrets and variabls > actions`.
+        >    Click `New repository secret`.
+        >    The name should be `GROQ_API_KEY` and value your API key from the `.env` file (without the `GROQ_API_KEY=` portion).
 
     1. The repo must have a `README.md` file that has:
         1. a good title (inside a `#` element)
@@ -105,7 +105,7 @@ So it is possible to earn up to 12 points of extra credit if you complete all ta
         Higher scores should signify "more similar" and lower scores should signify "less similar".
 
     1. ```
-        def find_relavent_chunks(text, query, num_chunks=5)
+        def find_relevant_chunks(text, query, num_chunks=5)
         ```
 
         This function will:
@@ -116,7 +116,7 @@ So it is possible to earn up to 12 points of extra credit if you complete all ta
 1. (8pts) Your `docchat.py` should take as input from the command line a file path or url and allow the user to chat.
     In the infinite loop, you will need to:
     1. appropriately use the `system`, `user`, and `assistant` portions of the `message` parameter
-    1. construct a good prompt that uses the `find_relavent_chunks` function to include important portions of the input document
+    1. construct a good prompt that uses the `find_relevant_chunks` function to include important portions of the input document
 
     The responses from your chatbot must be reasonable and answer the questions you ask.
     You may need to experiment with different prompting styles to get good results.
