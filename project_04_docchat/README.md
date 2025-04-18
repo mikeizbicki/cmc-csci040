@@ -66,8 +66,9 @@ So it is possible to earn up to 12 points of extra credit if you complete all ta
             1. your program answers the question well
             1. your program answers the question poorly
 
+        <br/>
         > **Hint:**
-        > I recommend that you do not make references to the fact that this is a school project.
+        > I recommend that you do not make references to the fact that this is a school project in your README.
         > This will make the project look "more impressive" to future employers who might see it.
 
 1. (16pts) Your `docchat.py` file must have the following functions.
