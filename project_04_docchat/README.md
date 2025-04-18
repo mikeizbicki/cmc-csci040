@@ -33,6 +33,11 @@ So it is possible to earn up to 12 points of extra credit if you complete all ta
         >   You need to enable github actions.
         >   Click the "actions" tab on your repo,
         >   Then click "enable".
+        >
+        > 1. The test cases for `llm` will fail in github actions because it does not have access to your API key.
+        >   Add your API key in the menu item `Settings > secrets and variabls > actions`.
+        >   Click `New repository secret`.
+        >   The name should be `GROQ_API_KEY` and value your API key from the `.env` file (without the `GROQ_API_KEY=` portion).
 
     1. The repo must have a `README.md` file that has:
         1. a good title (inside a `#` element)
@@ -64,6 +69,10 @@ So it is possible to earn up to 12 points of extra credit if you complete all ta
 
 1. (16pts) Your `docchat.py` file must have the following functions.
     They are worth 4pts each.
+
+    Every function must have a good docstring and good doctests in order to get full credit on the function.
+
+    If you include any other functions, then they must also have appropriate docstrings and doctests or you will lose (at least) 2 points / function.
 
     1. ```
         def load_text(filepath_or_url)
@@ -101,9 +110,12 @@ So it is possible to earn up to 12 points of extra credit if you complete all ta
         2. compute the score for each of these chunks
         3. return the `num_chunks` chunks that have the largest score
         
-1. (4pts) Your `docchat.py` should take as input from the command line a file path or url and allow the user to chat.
+1. (8pts) Your `docchat.py` should take as input from the command line a file path or url and allow the user to chat.
+    In the infinite loop, you will need to:
+    1. appropriately use the `system`, `user`, and `assistant` portions of the `message` parameter
+    1. construct a good prompt that uses the `find_relavent_chunks` function to include important portions of the input document
 
-1. (4pts) The responses from your chatbot must be reasonable and answer the questions you ask.
+    The responses from your chatbot must be reasonable and answer the questions you ask.
     You may need to experiment with different prompting styles to get good results.
 
     > **HINT:**
@@ -150,3 +162,11 @@ So it is possible to earn up to 12 points of extra credit if you complete all ta
     > **NOTE:**
     > If you complete this task,
     > then you must include a video in your README demonstrating the output.
+
+## Submission
+
+Submit a link to your github repo in sakai.
+
+Additionally: You should submit a 1-2 sentence explanation of what you believe your grade should be.  In particular:
+1. If you completed any extra credit, say so.
+1. If there are portions of your assignment that do not work, I may be more lenient in grading if you say so.
