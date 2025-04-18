@@ -127,8 +127,11 @@ So it is possible to earn up to 12 points of extra credit if you complete all ta
 
 **Extra credit:**
 
-1. (4pts)
+1. (2pts)
     Have your program support asking questions in English when the document is non-english.
+
+    An easy way to do this is to ask the LLM to translate the query from its original language to English.
+    Then use the translated query.
 
 1. (4pts) 
     Have your program use text-to-speech (TTS) to read its answers outloud.
