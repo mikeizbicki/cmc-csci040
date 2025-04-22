@@ -220,10 +220,12 @@ The purpose of this task is to give you non-technical exposure to hacker culture
 Because the task is non-technical, it will not be graded and will not contribute to the numerical score of your grade.
 But if you do not complete the task, then you will be docked one letter grade (e.g. an A- becomes a B-).
 
-1. Watch the following shows/movies about [cracking](http://www.catb.org/~esr/jargon/html/C/cracking.html) and [hacking](http://www.catb.org/~esr/jargon/html/H/hacker.html):
+1. (simple option) Watch the following shows/movies about [cracking](http://www.catb.org/~esr/jargon/html/C/cracking.html) and [hacking](http://www.catb.org/~esr/jargon/html/H/hacker.html):
 
+    <!--
     1. Season 1 of Mr. Robot (available on [Amazon Prime](https://www.amazon.com/gp/video/detail/B00YBX664Q)).
        This is the most accurate portrayal of cracking in any movie, see for example [this article](https://www.pri.org/stories/how-realistic-are-hacks-mr-robot) and [this article](https://www.wired.com/2016/07/real-hackers-behind-mr-robot-get-right/).
+    -->
 
     1. War Games (available on [Amazon Prime](https://www.amazon.com/Wargames-Matthew-Broderick/dp/B083FY4CDG/)).
        This is a classic hacker movie and was quite realistic for what hacking looked like when the movie was released (1983).
@@ -235,6 +237,9 @@ But if you do not complete the task, then you will be docked one letter grade (e
     1. Zero Days - Security Leaks for Sale (available for free on [youtube](https://www.youtube.com/watch?v=4BTTiWkdT8Q))
         This documentary explores the [grey hat](http://www.catb.org/~esr/jargon/html/B/black-hat.html) world of hackers who develop software to break into computers and sell that software to questionable people... and it's all legal.
 
+1. (more complex option, but allows for more variety) Follow the instructions in the CSCI133 Caveat Task: <https://github.com/mikeizbicki/cmc-csci143/blob/2025spring/caveat_tasks/culture.md>
+
+<!--
 1. Read [Harry Potter and the Methods of Rationality](https://hpmor.com).
    This is a fanfic written by [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky),
    who is a famous [AI safety](https://futureoflife.org/ai-safety-research/) researcher.
@@ -244,6 +249,7 @@ But if you do not complete the task, then you will be docked one letter grade (e
    > **NOTE:**
    > This is a LONG reading (roughly the equivalent of 2-3 books).
    > Watching the shows/movies is the most efficient option time-wise.
+-->
 
 See [Issue #260](https://github.com/mikeizbicki/cmc-csci040/issues/260) for instructions on how to get credit for completing these readings / viewings.
 
