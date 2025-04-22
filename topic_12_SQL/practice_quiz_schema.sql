@@ -1,10 +1,13 @@
 /*
- * This file is the leftmost pane in https://SQLFiddle.com
+ * This file is the leftmost pane in <https://sqlite.org/fiddle/>
  */
+
+.mode markdown
 
 ----------------------------------------
 -- users
 ----------------------------------------
+
 CREATE TABLE users (
     id INTEGER PRIMARY KEY,
     username TEXT NOT NULL UNIQUE,
@@ -12,20 +15,22 @@ CREATE TABLE users (
     age INTEGER
 );
 
-insert into users (username, password, age) values ('Trump', 'TRUMP', 76);
-insert into users (username, password, age) values ('Biden', '12345', 79);
-insert into users (username, password, age) values ('Evan', 'correct horse battery staple', 4);
-insert into users (username, password, age) values ('Isaac', 'soccer', 1);
-insert into users (username, password, age) values ('Aaron', 'guaguagua', 0);
-insert into users (username, password, age) values ('Mike', '524euTjrWm6uK2C5iw8mC6aNgX1JI78o', 35);
-insert into users (username, password) values ('Kristen', 'Possible-Rich-Absolute-Battle');
+INSERT INTO users (username, password, age) VALUES ('Trump', 'TRUMP', 76);
+INSERT INTO users (username, password, age) VALUES ('Biden', '12345', 79);
+INSERT INTO users (username, password, age) VALUES ('Evan', 'correct horse battery staple', 7);
+INSERT INTO users (username, password, age) VALUES ('Isaac', 'soccer', 4);
+INSERT INTO users (username, password, age) VALUES ('Aaron', 'guaguagua', 3);
+INSERT INTO users (username, password, age) VALUES ('Aurelia', '', 2);
+INSERT INTO users (username, password, age) VALUES ('Mike', '524euTjrWm6uK2C5iw8mC6aNgX1JI78o', 38);
+INSERT INTO users (username, password) VALUES ('Kristen', 'Possible-Rich-Absolute-Battle');
 
 ----------------------------------------
 -- messages
 ----------------------------------------
+
 create table messages (
     id integer primary key,
-    sender_id integer not null REFERENCES users(id),
+    sender_id integer not null references users(id),
     message text not null,
     created_at timestamp not null default current_timestamp
 );
@@ -47,3 +52,7 @@ insert into messages (sender_id,message,created_at) values
     (6, 'SQL is the best!!', '2022-11-17 15:52:45'),
     (7, 'I''m an adult', '2022-11-17 16:12:21'),
     (7, 'WTF is SQL?!  I thought you liked the snake thing.', '2022-11-17 15:53:47');
+
+----------------------------------------
+-- copy/paste the problem below here
+----------------------------------------

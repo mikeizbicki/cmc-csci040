@@ -1,4 +1,4 @@
-# Topc 11: SQL
+# SQL
 
 <img width=600px src=dilbert5.jpg />
 

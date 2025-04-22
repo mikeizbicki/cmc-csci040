@@ -2,7 +2,7 @@
  * For each problem below, write the output of the SQL SELECT statement.
  * If there is no output, write "No Output".
  * There should be no errors given by any of these problems.
- * Your quiz will have 5 problems in a similar format.
+ * Your quiz will have 4 problems, each worth 2 points.
  */
 
 ----------------------------------------
@@ -45,7 +45,7 @@ SELECT id FROM users WHERE username LIKE 'trump';
 -- Problem 5
 ----------------------------------------
 
-SELECT id FROM users WHERE age IS NULL;
+SELECT id FROM users WHERE username LIKE 'a%';
 
 
 
@@ -54,7 +54,7 @@ SELECT id FROM users WHERE age IS NULL;
 -- Problem 6
 ----------------------------------------
 
-SELECT id FROM users ORDER BY username DESC;
+SELECT id FROM users WHERE username LIKE '%a';
 
 
 
@@ -63,7 +63,7 @@ SELECT id FROM users ORDER BY username DESC;
 -- Problem 7
 ----------------------------------------
 
-SELECT id FROM users ORDER BY age ASC;
+SELECT id FROM users WHERE username LIKE '%a%';
 
 
 
@@ -72,7 +72,7 @@ SELECT id FROM users ORDER BY age ASC;
 -- Problem 8
 ----------------------------------------
 
-SELECT id FROM users ORDER BY username ASC;
+SELECT id FROM users WHERE age IS NULL;
 
 
 
@@ -81,13 +81,40 @@ SELECT id FROM users ORDER BY username ASC;
 -- Problem 9
 ----------------------------------------
 
-SELECT count(*) FROM messages;
+SELECT id FROM users ORDER BY username DESC;
 
 
 
 
 ----------------------------------------
 -- Problem 10
+----------------------------------------
+
+SELECT id FROM users ORDER BY age ASC;
+
+
+
+
+----------------------------------------
+-- Problem 11
+----------------------------------------
+
+SELECT id FROM users ORDER BY username ASC;
+
+
+
+
+----------------------------------------
+-- Problem 12
+----------------------------------------
+
+SELECT count(*) FROM messages;
+
+
+
+
+----------------------------------------
+-- Problem 13
 ----------------------------------------
 
 SELECT count(*) FROM messages WHERE sender_id=4;
@@ -97,7 +124,7 @@ SELECT count(*) FROM messages WHERE sender_id=4;
 
 
 ----------------------------------------
--- Problem 11
+-- Problem 14
 ----------------------------------------
 
 SELECT count(*) FROM messages WHERE sender_id < 4;
@@ -108,7 +135,7 @@ SELECT count(*) FROM messages WHERE sender_id < 4;
 
 
 ----------------------------------------
--- Problem 12
+-- Problem 15
 ----------------------------------------
 
 DELETE FROM messages;
@@ -118,7 +145,7 @@ SELECT count(*) FROM messages;
 
 
 ----------------------------------------
--- Problem 13
+-- Problem 16
 ----------------------------------------
 
 DELETE FROM messages WHERE sender_id=1;
@@ -129,7 +156,7 @@ SELECT count(*) FROM messages;
 
 
 ----------------------------------------
--- Problem 14
+-- Problem 17
 ----------------------------------------
 
 DELETE FROM messages WHERE message LIKE '%a%';
@@ -140,7 +167,7 @@ SELECT count(*) FROM messages;
 
 
 ----------------------------------------
--- Problem 15
+-- Problem 18
 ----------------------------------------
 
 DELETE FROM messages WHERE sender_id=3 OR sender_id=0;
@@ -150,7 +177,7 @@ SELECT count(*) FROM messages;
 
 
 ----------------------------------------
--- Problem 16
+-- Problem 19
 ----------------------------------------
 
 UPDATE users SET password='@realdonaldtrump';
@@ -162,7 +189,7 @@ SELECT count(*) FROM users WHERE password LIKE '@%';
 
 
 ----------------------------------------
----- Problem 17
+---- Problem 20
 ------------------------------------------
 
 UPDATE users SET username='@realdonaldtrump' WHERE id=1;

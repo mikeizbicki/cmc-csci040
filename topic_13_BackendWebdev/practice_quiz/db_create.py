@@ -3,14 +3,13 @@
 Create a database for the Twitter project.
 '''
 
-# sqlite3 is built in python3, no need to pip3 install
+# sqlite3 is built in python3, no need to pip install
 import sqlite3
 
 # process command line arguments
 import argparse
 parser = argparse.ArgumentParser(description='Create a database for the twitter project')
 parser.add_argument('--db_file', default='twitter_clone.db')
-# there is no standard file extension; people use .db .sql .sql3 .database
 args = parser.parse_args()
 
 # connect to the database
@@ -30,11 +29,12 @@ cur.execute(sql)     # cur.execute() actually runs the SQL code
 con.commit()         # "commit" means "save" in SQL terminology; not always required, but never wrong
 
 # insert some dummy data
-cur.execute("insert into users (username, password, age) values ('Trump', 'Trump', 76);")
-cur.execute('''insert into users (username, password, age) values ('Biden', 'Biden', 79);''')
-cur.execute('''insert into users (username, password, age) values ('Evan', 'correct horse battery staple', 4);''')
-cur.execute('''insert into users (username, password, age) values ('Isaac', 'soccer', 1);''')
-cur.execute('''insert into users (username, password, age) values ('Aaron', 'guaguagua', 0);''')
+cur.execute("insert into users (username, password, age) values ('Trump', 'Trump', 78);")
+cur.execute('insert into users (username, password, age) values (\'Biden\', \'Biden\', 81);')
+cur.execute('''insert into users (username, password, age) values ('Evan', 'correct horse battery staple', 7);''')
+cur.execute('''insert into users (username, password, age) values ('Isaac', 'soccer', 4);''')
+cur.execute('''insert into users (username, password, age) values ('Aaron', 'guaguagua', 3);''')
+cur.execute('''insert into users (username, password, age) values ('Aurelia', '', 1);''')
 cur.execute('''insert into users (username, password, age) values ('Mike', '524euTjrWm6uK2C5iw8mC6aNgX1JI78o', 35);''')
 cur.execute('''insert into users (username, password) values ('Kristen', 'Possible-Rich-Absolute-Battle');''')
 con.commit()

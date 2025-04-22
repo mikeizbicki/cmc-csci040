@@ -3,11 +3,7 @@
 <img src=Strips-front-end-vs-le-back-end-650-finalenglish.jpg />
 
 **Description:**
-You will create a twitter clone using the Flask web framework.
-
-**Due:**
-Friday, December 16.
-See issue [#300](https://github.com/mikeizbicki/cmc-csci040/issues/300) for details.
+You will create a twitter clone using the flask web framework.
 
 **Learning objectives:**
 
@@ -16,12 +12,20 @@ See issue [#300](https://github.com/mikeizbicki/cmc-csci040/issues/300) for deta
 1. understand how social media websites work under the hood
 1. integrate the Python, HTML, CSS, Jinja2, and SQL programming languages
 
+**Due date:**
+You will schedule a time to demo your project to me.
+1. Graduating students: Before Friday May 9
+1. Non-graduating students: During Finals Week (May 12-16)
+
 ## Grading rubric
 
-The assignment is worth 40 points.
+The assignment is worth:
+1. Graduating students: 25 points
+1. Non-graduating students: 40 points
+
 There are 25 points of required tasks that you must complete.
 There are 75 points worth of optional tasks that you may choose to complete,
-so it is possible to earn up to 80/40 points on this assignment.
+so it is possible to earn up to 100/40 points on this assignment.
 
 > **WARNING:**
 > 
@@ -81,7 +85,7 @@ Each required task is worth 5 points and corresponds to one of the routes on you
        but you will also need to store the user id of the user that created a message and the time the message was created
     1. you will only get credit for this route if the message correctly shows up on the home route after creation
 
-## Optional Tasks
+### Optional Tasks
 
 The following tasks are worth 3 points each.
 These tasks do not require anything special be done with SQL.

@@ -1,11 +1,11 @@
-# Topic 12: Backend Webdev I
+# Backend Webdev
 
-<img width=400px src=6a00d8341d3df553ef01157073a04e970c-800wi.jpeg />
+<img width=200px src=6a00d8341d3df553ef01157073a04e970c-800wi.jpeg />
 
 **SQL Review:**
 
-Last week, we covered SQL by itself.
-This week, we'll integrate SQL with Python and webpages.
+Last topic covered SQL by itself.
+This topic integrate SQL with Python and webpages.
 
 Our goal is to create a **CRUD app**.
 This is a technical term that describes most interactive webpages on the internet (e.g. Facebook/Twitter).
@@ -31,7 +31,7 @@ We use SQL to store data (instead of **"flat files"** like JSON/CSV) because:
 
 - SQL is much less verbose than python
 
-  - Hundreds of lines of complex Python can be expressed in a singleline of SQL.
+  - Hundreds of lines of complex Python can be expressed in a single line of SQL.
 
 - SQL databases provide **ACID guarantees**
     - ensures that data written to the database will actually be in the database
@@ -42,7 +42,7 @@ The downside of SQL is that it makes our webpages more prone to being "hacked" (
 
 - SQL injection
 
-- <img width=600px src=exploits_of_a_mom.png />
+- <img width=600px src=img/exploits_of_a_mom.png />
 -->
 
 **Backend Web Programming:**
@@ -76,9 +76,9 @@ There are many libraries for backend webdev in python:
 
     - that's a lot of additional complexity, so we're not going to use it
 
-    - https://towardsdatascience.com/understanding-flask-vs-fastapi-web-framework-fe12bb58ee75
+    - <https://towardsdatascience.com/understanding-flask-vs-fastapi-web-framework-fe12bb58ee75>
 
-1. About 2 dozen other libraries, see: https://wsgi.readthedocs.io/en/latest/frameworks.html
+1. About 2 dozen other libraries, see: <https://wsgi.readthedocs.io/en/latest/frameworks.html>
 
 Other popular companies (e.g. Google/Facebook/Microsoft/Amazon) don't use python to serve their webpages.
 
@@ -87,6 +87,7 @@ At the end of this class, you'll know everything that Mark used to implement the
 Technically, he used a programming language called PHP and a SQL database called MySQL,
 but the principles are all the same.
 
+<!--
 How did Flask get its name?
 
 - All python web frameworks must adhere to the WSGI protocol defined in [PEP 333](https://www.python.org/dev/peps/pep-0333/)
@@ -104,6 +105,7 @@ How did Flask get its name?
   (obviously a very opinionated statement)
 
 - Programmers love obscure puns
+-->
 
 References:
 
@@ -111,6 +113,7 @@ References:
 1. basic tutorial: https://www.tutorialspoint.com/flask/index.htm 
 1. advanced tutorial: https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 
+<!--
 ## Lab
 
 For this lab, you should create a simple flask app.
@@ -178,3 +181,5 @@ This should result in every route being styled with the template.
 Since there's a lot of files,
 so I'm NOT requiring that you upload them all to sakai.
 Instead, take a screenshot of your `/` route as displayed in firefox and upload that to sakai.
+
+-->

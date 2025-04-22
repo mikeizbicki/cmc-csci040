@@ -74,8 +74,25 @@ def is_server_at_hostname(hostname):
     but it would also make scanning take much longer.
     5 seconds is a reasonable tradeoff between these extremes.
     '''
+    try:
+        # if the hostname is not an IP address,
+        # then we set the Host header variable to 'Host'
+        if hostname.replace('.', '').isdigit():
+            headers={'Host': 'Host'}
+        else:
+            headers={}
+
+        requests.get(
+            url='http://' + hostname,
+            timeout=5,
+            headers=headers,
+            )
+        return True
+    except requests.exceptions.ConnectionError:
+        return False
 
 
+"""
 def increment_ip(ip):
     '''
     Return the "next" IPv4 address.
@@ -167,3 +184,4 @@ dprk_ips_with_servers = []
 ########################################
 if __name__ == '__main__':
     print('dprk_ips_with_servers=', dprk_ips_with_servers)
+"""
