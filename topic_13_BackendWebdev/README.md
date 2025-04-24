@@ -65,12 +65,13 @@ There are many libraries for backend webdev in python:
 
     - Companies that use flask include: Airbnb, Netflix, Reddit, and Uber 
 
-    - For a full list, see: https://github.com/rochacbruno/flask-powered
+    - For a full list, see: <https://github.com/rochacbruno/flask-powered>
 
 1. The other popular python library is called **Django**.
    - This is what's called a "batteries-included" library because it does a lot of stuff for you automatically.
    - Companies that use Django include: Instagram, Pinterest, and Spotify
 
+<!--
 1. There's a new popular framework called FastAPI
 
     - lots of the companies above (esp. the flask companies) are migrating over to this framework
@@ -80,17 +81,18 @@ There are many libraries for backend webdev in python:
     - that's a lot of additional complexity, so we're not going to use it
 
     - <https://towardsdatascience.com/understanding-flask-vs-fastapi-web-framework-fe12bb58ee75>
+-->
 
 1. About 2 dozen other libraries, see: <https://wsgi.readthedocs.io/en/latest/frameworks.html>
 
-Other popular companies (e.g. Google/Facebook/Microsoft/Amazon) don't use python to serve their webpages.
+1. Other popular companies (e.g. Google/Facebook/Microsoft/Amazon/Twitter) don't use python to serve their webpages.
 
-Facebook in particular is famous for being created by Mark Zuckerberg using (originally) very simple technologies.
-At the end of this class, you'll know everything that Mark used to implement the first versions of The Facebook at Harvard.
-Technically, he used a programming language called PHP and a SQL database called MySQL,
-but the principles are all the same.
+    Facebook in particular is famous for being created by Mark Zuckerberg using (originally) very simple technologies.
+    At the end of this class, you'll know everything that Mark used to implement the first versions of The Facebook at Harvard.
+    (He used a programming language called PHP and a SQL database called MySQL,
+    but the principles are all the same,
+    and the Python/Flask/Sqlite3 stack is both simpler and faster.)
 
-<!--
 How did Flask get its name?
 
 - All python web frameworks must adhere to the WSGI protocol defined in [PEP 333](https://www.python.org/dev/peps/pep-0333/)
@@ -108,7 +110,6 @@ How did Flask get its name?
   (obviously a very opinionated statement)
 
 - Programmers love obscure puns
--->
 
 References:
 
