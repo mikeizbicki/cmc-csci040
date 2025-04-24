@@ -2,6 +2,9 @@
 
 <img width=200px src=img/6a00d8341d3df553ef01157073a04e970c-800wi.jpeg />
 
+<br />
+<img width=200px src=img/abstraction-5c17c1.jpg />
+
 **SQL Review:**
 
 Last topic covered SQL by itself.
