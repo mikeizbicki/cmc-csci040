@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Login</h2>
+
+{% if tried_to_login %}
+    {% if login_successful %}
+    Login Successful!
+    {% else %}
+    Login failed :(
+    {% endif %}
+{% endif %}
+
+<!--
+When you press submit;
+the url will be extended with ?username=value&password=value
+-->
+<form>
+    <table>
+        <tr><td>username</td><td><input name="username"></td></tr>
+        <tr><td>password</td><td><input name="password"></td></tr>
+        <tr><td></td><td><input type="submit" value="Log in"><td></tr>
+    </table>
+</form>
+{% endblock %}

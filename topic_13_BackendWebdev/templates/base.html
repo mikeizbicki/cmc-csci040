@@ -1,0 +1,26 @@
+<!--
+Even though this is a file that ends in .html
+and it contains a lot of html in it.
+All of the files in the templates folder
+are actually written in whats called the "jinja2" language.
+-->
+
+<html>
+    <head>
+        <title>Twitter Clone</title>
+        <style>
+            li {background: cyan};
+        </style>
+    </head>
+    <body>
+        <h1>Twitter Clone</h1>
+        <ol>
+            <li><a href='/'>Home</a></li>
+            <li><a href='/login'>Login</a></li>
+            <li><a href='/logout'>Logout</a></li>
+            <li><a href='/search'>Search</a></li>
+        </ol>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>

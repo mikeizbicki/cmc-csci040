@@ -10,7 +10,7 @@ so you must run pip install in order to get it.
 After doing do, this file should "just work".
 '''
 
-from flask import Flask
+from flask import Flask, render_template, request
 app = Flask(__name__)
 
 # Anything that starts with a @ is called a "decorator" in python.
@@ -19,9 +19,54 @@ app = Flask(__name__)
 # A route is a *path* that is visible in the web server.
 @app.route('/')
 def root():
-    text = 'hello <strong>cs40</strong>'
-    return text
+    return render_template('index.html')
 
+
+def verify_login_info():
+    '''
+    Return True if the user is correctly logged in.
+    '''
+    # Do the username/password checks.
+    username = request.args.get('username')
+    print('username=', username)
+    password = request.args.get('password')
+    print('password=', password)
+
+    return username, password, False
+
+
+@app.route('/login')
+def login():
+    # the request.args.get will give us the query parameters
+    # NOTE:
+    # request (singular) use in flask to process the query args
+    # requests (plural) download from the internet
+
+    username, password, is_logged_in = verify_login_info()
+
+    if username is None and password is None:
+        tried_to_login = False
+    else:
+        tried_to_login = True
+
+    login_successful = False
+    if username == 'Mike' and password == '123':
+        login_successful = True
+
+    return render_template(
+        'login.html', 
+        login_successful=login_successful,
+        tried_to_login=tried_to_login,
+        )
+
+@app.route('/logout')
+def logout():
+    return render_template('logout.html')
+
+# urls have the form of scheme://hostname/route
+# scheme = http
+# hostname = 127.0.0.1:5000
+# route = /example
 @app.route('/example')
 def example():
     text = 'example'
