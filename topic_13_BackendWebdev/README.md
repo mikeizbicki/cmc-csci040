@@ -40,13 +40,11 @@ We use SQL to store data (instead of **"flat files"** like JSON/CSV) because:
     - ensures that data written to the database will actually be in the database
     - even in the event of "catastrophic hardware failures"
 
-<!--
 The downside of SQL is that it makes our webpages more prone to being "hacked" (in the muggle sense of the word).
 
 - SQL injection
 
 - <img width=600px src=img/exploits_of_a_mom.png />
--->
 
 **Backend Web Programming:**
 
@@ -117,7 +115,6 @@ References:
 1. basic tutorial: https://www.tutorialspoint.com/flask/index.htm 
 1. advanced tutorial: https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 
-<!--
 ## Lab
 
 For this lab, you should create a simple flask app.
@@ -185,5 +182,3 @@ This should result in every route being styled with the template.
 Since there's a lot of files,
 so I'm NOT requiring that you upload them all to sakai.
 Instead, take a screenshot of your `/` route as displayed in firefox and upload that to sakai.
-
--->
