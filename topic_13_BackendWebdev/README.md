@@ -1,5 +1,19 @@
 # Backend Webdev
 
+**Announcements Thursday 1 May:**
+
+1. chatgpt updated:
+
+    <https://openai.com/index/sycophancy-in-gpt-4o/>
+
+    <https://news.ycombinator.com/item?id=43840842>
+
+    <https://gist.github.com/simonw/51c4f98644cf62d7e0388d984d40f099/revisions>
+
+1. 9-11AM next week (Wednesday 7 May - Friday 9 May)
+
+   9-11AM finals week (Monday 12 May - Friday 16 May)
+
 <img width=200px src=img/6a00d8341d3df553ef01157073a04e970c-800wi.jpeg />
 
 <br />
@@ -147,6 +161,7 @@ For each message, you must display:
 > Divide this task up into two steps.
 > First, create a list of dictionaries;
 > each dictionary would contain one message and would have the 4 key/value pairs specified above. 
+>
 > Then, pass this list of dictionaries to the `render_template` function,
 > and adjust your jinja2 code to process this list of dictionaries.
 >

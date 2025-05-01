@@ -15,7 +15,17 @@ You will create a twitter clone using the flask web framework.
 **Due date:**
 You will schedule a time to demo your project to me.
 1. Graduating students: Before Friday May 9
+
 1. Non-graduating students: During Finals Week (May 12-16)
+
+    1. You will have to demo your project to me 1-1 over zoom.
+    1. I will be on zoom starting at 9AM every day of finals week.
+    1. Login whichever day you would like to submit.
+    1. I will admit 1 student at a time into the meeting.
+    1. Grading will take ~10 minutes. I will give your grade on the project + grade in the course.
+    1. You might have to wait a long time (up to 2-3 hours?) if you wait until Friday.
+
+
 
 ## Grading rubric
 
