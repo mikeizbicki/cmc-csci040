@@ -3,5 +3,16 @@
 {% block content %}
 <h2>Index</h2>
 
-This some example text.
+Here are the current messages:
+
+<table>
+{% for message in messages %}
+    <tr>
+    {% for key, value in message.items() %}
+        <td>{{value}}</td>
+    {% endfor %}
+    </tr>
+{% endfor %}
+</table>
+
 {% endblock %}

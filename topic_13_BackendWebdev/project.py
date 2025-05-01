@@ -20,7 +20,18 @@ app = Flask(__name__)
 # A route is a *path* that is visible in the web server.
 @app.route('/')
 def root():
-    return render_template('index.html')
+
+    # first construct a [{}]
+    # that contains the info about the messages
+    messages = [
+        {'username': 'Mike', 'text': 'hello world'},
+        {'username': 'Mike', 'text': 'hola mundo'},
+        {'username': 'Trump', 'text': 'derpity derp'},
+    ]
+    # last step to get this to work is to:
+    # load the messages list from the database
+
+    return render_template('index.html', messages=messages)
 
 
 def verify_login_info():
