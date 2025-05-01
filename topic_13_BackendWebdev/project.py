@@ -10,6 +10,7 @@ so you must run pip install in order to get it.
 After doing do, this file should "just work".
 '''
 
+import sqlite3
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
@@ -32,7 +33,26 @@ def verify_login_info():
     password = request.args.get('password')
     print('password=', password)
 
-    return username, password, False
+    login_successful = False
+    con = sqlite3.connect('twitter_clone.db')
+    cur = con.cursor()
+    sql = """
+    SELECT password, id FROM users WHERE username=?;
+    """
+    cur.execute(sql, [username])
+    for row in cur.fetchall():
+        print('row[0]=', row[0])
+        if password == row[0]:
+            login_successful = True
+            print('login_successful = True')
+
+
+    '''
+    if username == 'Mike' and password == '123':
+        login_successful = True
+    '''
+
+    return username, password, login_successful
 
 
 @app.route('/login')
@@ -42,16 +62,12 @@ def login():
     # request (singular) use in flask to process the query args
     # requests (plural) download from the internet
 
-    username, password, is_logged_in = verify_login_info()
+    username, password, login_successful = verify_login_info()
 
     if username is None and password is None:
         tried_to_login = False
     else:
         tried_to_login = True
-
-    login_successful = False
-    if username == 'Mike' and password == '123':
-        login_successful = True
 
     return render_template(
         'login.html', 
