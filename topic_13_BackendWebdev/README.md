@@ -14,6 +14,10 @@
 
    9-11AM finals week (Monday 12 May - Friday 16 May)
 
+1. No lab class tomorrow (due to data science capstone presentations)
+
+    Still a lab assignment due (detailed below)
+
 <img width=200px src=img/6a00d8341d3df553ef01157073a04e970c-800wi.jpeg />
 
 <br />
