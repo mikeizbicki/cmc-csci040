@@ -13,8 +13,8 @@ You will create a twitter clone using the flask web framework.
 1. integrate the Python, HTML, CSS, Jinja2, and SQL programming languages
 
 **Due date:**
-You will schedule a time to demo your project to me.
-1. Graduating students: Before Friday May 9
+You will live demo your project to me.
+1. Graduating students: Schedule a time before Friday May 9 noon
 
 1. Non-graduating students: During Finals Week (May 12-16)
 
