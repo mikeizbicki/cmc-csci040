@@ -55,5 +55,5 @@ tzlocal==2.1
 ujson==5.10.0
 uritools==4.0.3
 url-normalize==1.4.3
-urllib3==1.26.5
+urllib3==2.6.0
 warcio==1.7.4
