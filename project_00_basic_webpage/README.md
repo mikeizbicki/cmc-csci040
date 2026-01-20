@@ -1,10 +1,10 @@
-# Homework 0: Building a webpage
+# Project 0: Building a webpage
 
 <center>
 <img width='100%' src=webbish-web-design-comic.gif />
 </center>
 
-**Description:** 
+**Description:**
 You will build a simple webpage and publish it to the internet.
 You get to choose any topic for the webpage (must be [SFW](https://en.wiktionary.org/wiki/SFW)!),
 and you can earn extra credit by having a large number of people visit your webpage.
@@ -104,7 +104,7 @@ If you complete all checkboxes, then you will get 8/8 points.
 
      - [ ] *be archived by the Internet Archive; see instructions [here](https://www.bitsgalore.org/2014/08/02/How-to-save-a-web-page-to-the-Internet-Archive) for submitting your webpage*
 
-> **NOTE:** 
+> **NOTE:**
 > If you believe that one of these checkboxes is not appropriate for your webpage for some reason,
 > post an issue to github and I may grant you an exception.
 
@@ -125,22 +125,22 @@ Instead, you can earn extra credit points by making your webpage look nice and h
 In particular, you can get 1 pt of extra credit by completing either of the following tasks.
 (Thus the maximum score on this assignment is 9/8.)
 
- - [ ] 
+ - [ ]
     Post your site to reddit and get at least 100 upvotes.
     These upvotes must be on a single submission, and not cumulative over several submissions.
     To get ideas on how to make a successful post, [read this reddit thread on getting upvotes](https://www.reddit.com/r/NoStupidQuestions/comments/729fo8/how_do_some_reddit_posts_get_thousands_of_upvotes/) and [learn about reddit's ranking algorithms here](https://medium.com/hacking-and-gonzo/how-reddit-ranking-algorithms-work-ef111e33d0d9).
 
- - [ ] 
+ - [ ]
     Get more than 1000 unique visitors to your webpage in a single 48 hour period, as shown by your Google Analytics tracker.
 
 For any of these extra credit tasks, feel free to get creative and use whatever [black hat](https://blog.hubspot.com/marketing/black-hat-seo) techniques you can think of.
 
 ## Submission
 
-You must upload two URLs to sakai:
+You must upload two URLs to canvas:
 1. the URL to your webpage, and
 1. the URL to the Internet Archive's copy of your webpage.
 
 If you also completed extra credit,
 take a screenshot proving you completed the extra credit,
-and upload that to sakai.
+and upload that to canvas.
