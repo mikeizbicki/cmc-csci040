@@ -1,7 +1,4 @@
 ## CSCI040: ~Computing for the Web~ Introduction to Hacking
-<!--
-see: http://nifty.stanford.edu/2020/color-my-world/
--->
 
 <center>
 <img width='100%' src=img/hacker-way.jpg />
@@ -17,17 +14,17 @@ Important links:
 
 |||
 |-|-|
-| Name | Mike Izbicki (call me Mike) |
-| Email | mizbicki@cmc.edu |
+| Name | Mike Izbicki, call me Mike |
+| Email | mizbicki@cmc.edu You should probably post a github issue instead of email |
 | Office | Adams 216 |
-| Office Hours | See [Issue #321](https://github.com/mikeizbicki/cmc-csci040/issues/321) |
-| Zoom | See [Issue #322](https://github.com/mikeizbicki/cmc-csci040/issues/322) |
+| Office Hours | TBA |
+| Zoom | TBA |
 | Webpage | <https://izbicki.me> |
-| Research | Machine Learning (see [izbicki.me/research.html](https://izbicki.me/research.html) for some past projects) |
+| Research | Machine Learning (see [https://izbicki.me/research.html](https://izbicki.me/research.html) for some past projects) |
 
 Fun facts:
-1. grew up in San Clemente (~1 hr south of Claremont)
-1. 7 years in the navy
+1. grew up in San Clemente (~1 hr south of Claremont on the beach)
+1. 7 years in the US Navy
     1. nuclear submarine officer, personally converted >10g of uranium into pure energy
     1. worked at National Security Agency (NSA)
     1. left Navy as a [conscientious objector](https://www.nytimes.com/2011/02/23/nyregion/23objector.html)
@@ -51,7 +48,7 @@ Fun facts:
        (Audit is okay.)
     1. If you are majoring in computer science,
        then you cannot take this course.
-    1. This course is designed for CMC's 
+    1. This course is designed for CMC's
         1. data science major,
         1. data science sequence,
         1. and computer science sequence.
@@ -60,7 +57,8 @@ Fun facts:
             but I've included them directly in this intro course.
         1. You will:
             1. Use LLMs (e.g. ChatGPT) to code.
-                (And learn what they can/can't do.)
+                1. And learn what they can/can't do.
+                1. And "build your own" ChatGPT.
             1. Count the number of computers in North Korea connected to the internet.
             1. Build your own Twitter clone.
         1. This course is especially designed to connect computer science to non-STEM subjects like
@@ -81,7 +79,7 @@ Fun facts:
     1. CSS
     1. JavaScript
     1. Markdown
-    1. Jinja
+    1. Jinja2
     1. SQL
     1. and **Python** <-- this is the main focus of the course
 
@@ -181,7 +179,7 @@ This will be a low-stress but **very** challenging class.
     | 1   | Markdown compiler       | Hard          |
     | 2   | Data visualization      | Medium        |
     | 3   | Scraping ebay           | Medium        |
-    | 4   | Reddit propaganda bot (maybe swap out with LLM-specific RAG assignment)  | Hard          |
+    | 4   | Build your own ChatGPT  | Hard          |
     | 5   | Twitter clone           | Hard          |
 
     This class has fewer projects than in CS4/CS5/CS51.
@@ -238,18 +236,6 @@ But if you do not complete the task, then you will be docked one letter grade (e
         This documentary explores the [grey hat](http://www.catb.org/~esr/jargon/html/B/black-hat.html) world of hackers who develop software to break into computers and sell that software to questionable people... and it's all legal.
 
 1. (more complex option, but allows for more variety) Follow the instructions in the CSCI133 Caveat Task: <https://github.com/mikeizbicki/cmc-csci143/blob/2025spring/caveat_tasks/culture.md>
-
-<!--
-1. Read [Harry Potter and the Methods of Rationality](https://hpmor.com).
-   This is a fanfic written by [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky),
-   who is a famous [AI safety](https://futureoflife.org/ai-safety-research/) researcher.
-   The premise is that Harry Potter's parents were both wizards and scientists,
-   and the story introduces a lot of concepts important for AI safety and the philosophy of data science.
-
-   > **NOTE:**
-   > This is a LONG reading (roughly the equivalent of 2-3 books).
-   > Watching the shows/movies is the most efficient option time-wise.
--->
 
 See [Issue #260](https://github.com/mikeizbicki/cmc-csci040/issues/260) for instructions on how to get credit for completing these readings / viewings.
 

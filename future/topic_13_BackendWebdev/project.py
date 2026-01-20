@@ -11,7 +11,7 @@ After doing do, this file should "just work".
 '''
 
 import sqlite3
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, make_response
 app = Flask(__name__)
 
 # Anything that starts with a @ is called a "decorator" in python.
@@ -20,6 +20,14 @@ app = Flask(__name__)
 # A route is a *path* that is visible in the web server.
 @app.route('/')
 def root():
+
+    username = request.cookies.get('username')
+    print('username=', username)
+    password = request.cookies.get('password')
+    print('password=', password) 
+
+    is_logged_in = db_check_username_password(username, password)
+    print('is_logged_in=', is_logged_in)
 
     # first construct a [{}]
     # that contains the info about the messages
@@ -31,7 +39,12 @@ def root():
     # last step to get this to work is to:
     # load the messages list from the database
 
-    return render_template('index.html', messages=messages)
+    return render_template(
+        'index.html',
+        messages=messages,
+        is_logged_in=is_logged_in,
+        username=username,
+        )
 
 
 def verify_login_info():
@@ -39,11 +52,19 @@ def verify_login_info():
     Return True if the user is correctly logged in.
     '''
     # Do the username/password checks.
-    username = request.args.get('username')
+    # request.args.get is for the GET method
+    # request.form.get is for the POST method
+    username = request.form.get('username')
     print('username=', username)
-    password = request.args.get('password')
+    password = request.form.get('password')
     print('password=', password)
 
+    login_successful = db_check_username_password(username, password)
+
+    return username, password, login_successful
+
+
+def db_check_username_password(username, password):
     login_successful = False
     con = sqlite3.connect('twitter_clone.db')
     cur = con.cursor()
@@ -56,17 +77,20 @@ def verify_login_info():
         if password == row[0]:
             login_successful = True
             print('login_successful = True')
+            
+    return login_successful
 
 
-    '''
-    if username == 'Mike' and password == '123':
-        login_successful = True
-    '''
+# our next and last task:
+# session "persistence"
+# we will do this using cookies
+# what a cookies is:
+# information stored in the web browser
+# we will store the username/password inside the web browser
 
-    return username, password, login_successful
 
-
-@app.route('/login')
+#@app.route('/login', methods=['GET'])
+@app.route('/login', methods=['GET', 'POST'])
 def login():
     # the request.args.get will give us the query parameters
     # NOTE:
@@ -80,11 +104,18 @@ def login():
     else:
         tried_to_login = True
 
-    return render_template(
+    # set a cookie when you return from a route
+    template_string = render_template(
         'login.html', 
         login_successful=login_successful,
         tried_to_login=tried_to_login,
         )
+    response = make_response(template_string)
+    #if username is None:
+    #    username = 'no_user'
+    response.set_cookie('username', username or 'iuhrliuhflisufhliuhrflksjdhlfsuehlifsuhlkrjfhsliurh')
+    response.set_cookie('password', password or 'no_password')
+    return response
 
 @app.route('/logout')
 def logout():

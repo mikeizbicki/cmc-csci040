@@ -4,19 +4,17 @@
 <img width='100%' src=img/ft111002-foxtrot-comics-bill-amend-html-tag-jason-marcus-sunday-comic-strip.png />
 </center>
 
-**Monday:** Course Intro
-
 **Wednesday:** HTML
 
 1. Prelecture videos:
 
     > **NOTE:**
     > You will not be directly graded on the content of these videos,
-    > but they provide useful background information that will make lectures much easier to follow.
+    > but they provide useful background information that will make lectures easier to follow.
     > I understand the temptation to not watch them---and I probably wouldn't have as a student either---but even the most technically inclined students will not have seen a lot of the information in these videos.
     >
     > One of the [three virtues of a programmer is laziness](https://thethreevirtues.com/).
-    > I am lazy and I hope to train you all to be lazy in this course. 
+    > I am lazy and I hope to train you all to be lazy in this course.
     > So one of my commitments to you all is that I will never ask you to do busywork.
 
     1. [Inside a google data center](https://www.youtube.com/watch?v=XZmGGAbHqa0)
@@ -26,10 +24,6 @@
     1. (Optional) [Inside Amazon web services (AWS)](https://www.youtube.com/watch?v=94PO2-TL4Vs)
 
     1. (optional) [How a philosophy major from a liberal arts college with 2.4 GPA got jobs at Facebook and Uber making $300k as a data scientist](https://www.youtube.com/watch?v=YGflHj1SjA4&t=2m15s)
-
-    <!--
-    1. (optional) [Data science expectations vs reality](https://www.youtube.com/watch?v=8LucP1wiX1g)
-    -->
 
     Watch the following videos if you don't already understand the key terms listed below.
 
@@ -130,7 +124,7 @@ Ensure that you have pressed the "watch" button at the top of this webpage.
 Read and follow the instructions in [Issue #320: the meet and greet thread](https://github.com/mikeizbicki/cmc-csci040/issues/236).
 
 Watch the following videos if you're not already familiar with their contents:
-    
+
 1. [What is github?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 
 1. [Understanding GitHub Issues](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)

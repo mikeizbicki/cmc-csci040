@@ -5,9 +5,9 @@
 
 {% if tried_to_login %}
     {% if login_successful %}
-    Login Successful!
+    <strong>Login Successful!</strong>
     {% else %}
-    Login failed :(
+    <strong>Login failed :(</strong>
     {% endif %}
 {% endif %}
 
@@ -15,7 +15,7 @@
 When you press submit;
 the url will be extended with ?username=value&password=value
 -->
-<form>
+<form method="post">
     <table>
         <tr><td>username</td><td><input name="username"></td></tr>
         <tr><td>password</td><td><input name="password"></td></tr>
