@@ -11,13 +11,13 @@ https://www.bellingcat.com/resources/2024/03/01/using-open-source-internet-routi
 
 |||
 |-|-|
-| Name | Mike Izbicki (please call me Mike---titles are insults to programmers) |
+| Name | Mike Izbicki (please call me Mike---[titles are lowkey insults to hackers](http://www.catb.org/jargon/html/appendixb.html)) |
 | Office | Adams 216 |
-| Office Hours | [see #372](https://github.com/mikeizbicki/cmc-csci040/issues/372) |
+| Office Hours | [see #712](https://github.com/mikeizbicki/cmc-csci143/issues/712) |
 | Zoom | TBA |
 | Email | mizbicki@cmc.edu (you should probably [post a github issue](https://github.com/mikeizbicki/cmc-csci040/issues) instead of email) |
 | Webpage | <https://izbicki.me> |
-| Research | Machine Learning (see [https://izbicki.me/research.html](https://izbicki.me/research.html) for some past projects) |
+| Research | Machine Learning (see <https://izbicki.me/research.html> for some past projects) |
 
 Fun facts:
 1. grew up in San Clemente (~1 hr south of Claremont on the beach)
@@ -243,7 +243,9 @@ But if you do not complete the task, then you will be docked one letter grade (e
     1. Zero Days - Security Leaks for Sale (available for free on [youtube](https://www.youtube.com/watch?v=4BTTiWkdT8Q))
         This documentary explores the [grey hat](http://www.catb.org/~esr/jargon/html/B/black-hat.html) world of hackers who develop software to break into computers and sell that software to questionable people... and it's all legal.
 
-1. (more complex option, but allows for more variety) Follow the instructions in the CSCI133 Caveat Task: <https://github.com/mikeizbicki/cmc-csci143/blob/2025spring/caveat_tasks/culture.md>
+    1. Also [read my essay on programmer English](https://github.com/mikeizbicki/programmer-english).
+
+1. (more complex option, but allows for more variety) Follow the instructions in the CSCI143 Caveat Task: <https://github.com/mikeizbicki/cmc-csci143/blob/2026spring/caveat_tasks/culture.md>
 
 See [Issue #260](https://github.com/mikeizbicki/cmc-csci040/issues/260) for instructions on how to get credit for completing these readings / viewings.
 
