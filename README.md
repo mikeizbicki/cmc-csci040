@@ -201,7 +201,7 @@ This will be a **challenging** but **low-stress** class that is **career advanci
 
         (Those courses have 1 project per week, we have 1 every 2-3 weeks.)
 
-    1. Our projects more fun/interesting (e.g. build a chatgpt clone and a twitter clone).
+    1. Our projects more fun/interesting.
 
         (But also a bit harder.)
 
