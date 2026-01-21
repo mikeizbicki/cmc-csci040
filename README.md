@@ -40,7 +40,7 @@ Other links:
 
     1. You are encouraged to take [SCI010: Codes of Life](https://catalog.claremontmckenna.edu/preview_course_nopop.php?catoid=40&coid=44348) first.
 
-    1. Python sections of the course will have some review, but start fast.
+    1. Python sections of the course will have some review, but start faster and more technical than SCI10.
 
 1. This course fulfills the math general ed requirements for CMC students.
 
@@ -86,6 +86,7 @@ Other links:
     1. Markdown
     1. Jinja2
     1. SQL
+    1. bash/shell
     1. and **Python** <-- this is the main focus of the course
 
 **Secondary Learning Objectives:**
@@ -93,6 +94,18 @@ Other links:
 1. Introduction to [hacker culture](http://www.catb.org/esr/faqs/hacker-howto.html) and [open source software](https://opensource.com/resources/what-open-source)
 
     <img src='img/open-source.jpg' width=200px />
+
+1. Use real-world programming tools
+    1. Python libraries actually in use at [FAANG companies](https://www.investopedia.com/terms/f/faang-stocks.asp)
+    1. git + github
+    1. LLMs
+
+        <img src=img/llm.webp width=400px />
+
+    1. prove that LLM-generated code is correct
+        1. continuous integration via github actions
+        1. doctest / pytest packages
+        1. code coverage
 
 1. Understand basic:
     1. internet infrastructure
@@ -102,18 +115,23 @@ Other links:
     1. [accessible development](https://www.w3.org/standards/webdesign/accessibility)
         1. allow blind people to use webpages
         1. allow non-English speaking / non-Americans to use your software
+    1. [search engine optimization](https://moz.com/beginners-guide-to-seo)
     1. web security
         1. technical details (you will learn to commit fraud in this class... but obviously you shouldn't!)
         1. social implications
         1. government policy
         1. legal issues
-    1. [search engine optimization](https://moz.com/beginners-guide-to-seo)
-1. Use real-world programming tools
-    1. Python libraries actually in use at [FAANG companies](https://www.investopedia.com/terms/f/faang-stocks.asp)
-    1. git + github
-    1. LLMs
 
-        <img src=img/llm.webp width=400px />
+        > **Example:**
+        > It is legal to link to the webpage <https://libgen.li>,
+        > which provides a non-peer-to-peer method for downloading expensive textbooks for free.
+        >
+        > We will learn how to determine that the webpage is [hosted in Switzerland](https://hackertarget.com/geoip-ip-location-lookup/) and Lichtenstein, which is out of the juristiction of the US.
+        > We will also learn that there is no technical means by which a "man-in-the middle" (e.g. the FBI) can determine that a US end user has downloaded copyright infringing material.
+        > This makes it very difficult for the US to prosecute copyright infringement.
+        >
+        > It is well known that AI companies have trained their LLMs on the libgen archive.
+        > For example, [Anthropic settled a lawsuit for $1.5B](https://www.npr.org/2025/09/05/g-s1-87367/anthropic-authors-settlement-pirated-chatbot-training-material) for using this data.
 
 **Textbook:**
 
@@ -125,16 +143,6 @@ Some of them are also [free as in speech](https://en.wiktionary.org/wiki/free_as
 1. Al Sweigart's [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/).
 1. Lots of other online resources as provided in the weekly schedule.
 
-<!--
-Hackers believe in the free exchange of information and often use the following websites to share textbooks and other knowledge:
-
-1. https://b-ok.org
-1. https://sci-hub.tw
-1. https://thepiratebay.org
-
-But most of the people who use these sites are [script kiddies](https://en.wikipedia.org/wiki/Script_kiddie).
--->
-
 **Grades:**
 
 | category                      | points/assignment         | *approximate* percentage |
@@ -143,7 +151,7 @@ But most of the people who use these sites are [script kiddies](https://en.wikip
 | quizzes (weekly)              | `2**2` - `2**3`             | 40%  |
 | projects (every 2-3 weeks)    | `2**3` - `2**6`             | 40%  |
 
-This will be a low-stress but **very** challenging class.
+This will be a low-stress but challenging class.
 
 1. The course is low-stress because you have full control over what your grade will be.
     1. **No midterm/final exam.**
@@ -178,26 +186,21 @@ This will be a low-stress but **very** challenging class.
 
 1. The projects are designed to be fun, real-world projects:
 
-    |     | Project                 | Difficulty    |
-    | --- | ----------------------- | ------------- |
-    | 0   | Building a Webpage      | Easy          |
-    | 1   | Markdown compiler       | Hard          |
-    | 2   | Data visualization      | Medium        |
-    | 3   | Scraping ebay           | Medium        |
-    | 4   | Build your own ChatGPT  | Hard          |
-    | 5   | Twitter clone           | Hard          |
+    1. This class has fewer projects than in CS4/CS5/CS51.
 
-    This class has fewer projects than in CS4/CS5/CS51.
-    (Those courses have 1 project per week.)
+        (Those courses have 1 project per week, we have 1 every 2-3 weeks.)
 
-    Our projects more fun/interesting.
-    (But maybe a bit harder.)
+    1. Our projects more fun/interesting (e.g. build a chatgpt clone and a twitter clone).
 
-    Our projects emphasize techniques that LLMs cannot do by themselves.
-    (And I will teach you how to use LLMs productively to improve your work.)
+        (But also a bit harder.)
 
-    Our projects are "light" versions of projects from [CSCI046 data structures](https://github.com/mikeizbicki/cmc-csci046) and [CSCI143 big data](https://github.com/mikeizbicki/cmc-csci143).
-    (Completing these projects gets you a head start in those future classes.)
+    1. Our projects emphasize techniques that LLMs cannot do by themselves.
+
+        (And I will teach you how to use LLMs productively to improve your work.)
+
+    1. Our projects are "light" versions of projects from [CSCI046 data structures](https://github.com/mikeizbicki/cmc-csci046) and [CSCI143 big data](https://github.com/mikeizbicki/cmc-csci143).
+
+        (Completing these projects gets you a head start in those future classes.)
 
 Your final grade will be computed according to the following table,
 with one caveat.
