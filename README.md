@@ -35,6 +35,10 @@ Other links:
 
 1. There are no prerequisites for this course.
 
+    1. You are encouraged to take [SCI010: Codes of Life](https://catalog.claremontmckenna.edu/preview_course_nopop.php?catoid=40&coid=44348) first.
+
+    1. Python sections of the course will have some review, but start fast.
+
 1. This course fulfills the math general ed requirements for CMC students.
 
    But, most students find it much harder than taking MATH030 (Calculus I).
@@ -103,7 +107,7 @@ Other links:
     1. [search engine optimization](https://moz.com/beginners-guide-to-seo)
 1. Use real-world programming tools
     1. Python libraries actually in use at [FAANG companies](https://www.investopedia.com/terms/f/faang-stocks.asp)
-    1. GitHub (which is different than git, something we'll learn in the follow-on class CS46)
+    1. git + github
     1. LLMs
 
         <img src=img/llm.webp width=400px />
