@@ -1,4 +1,7 @@
 ## CSCI040: ~Computing for the Web~ Introduction to Hacking
+<!--
+https://www.bellingcat.com/resources/2024/03/01/using-open-source-internet-routing-tools-to-monitor-a-sanctioned-russian-bank/
+-->
 
 <center>
 <img width='100%' src=img/hacker-way.jpg />
@@ -8,7 +11,7 @@
 
 |||
 |-|-|
-| Name | Mike Izbicki (call me Mike) |
+| Name | Mike Izbicki (call me Mike---titles are insults to programmers) |
 | Office | Adams 216 |
 | Office Hours | [see #372](https://github.com/mikeizbicki/cmc-csci040/issues/372) |
 | Zoom | TBA |
