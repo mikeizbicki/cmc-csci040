@@ -11,7 +11,7 @@ https://www.bellingcat.com/resources/2024/03/01/using-open-source-internet-routi
 
 |||
 |-|-|
-| Name | Mike Izbicki (call me Mike---titles are insults to programmers) |
+| Name | Mike Izbicki (please call me Mike---titles are insults to programmers) |
 | Office | Adams 216 |
 | Office Hours | [see #372](https://github.com/mikeizbicki/cmc-csci040/issues/372) |
 | Zoom | TBA |
