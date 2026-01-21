@@ -1,4 +1,4 @@
-# Week 00: Front-end web development
+# Week 00: HTML + git
 
 <center>
 <img width='100%' src=img/ft111002-foxtrot-comics-bill-amend-html-tag-jason-marcus-sunday-comic-strip.png />
@@ -6,10 +6,29 @@
 
 **Wednesday:** HTML
 
-1. Prelecture tasks:
+1. Cheatsheets
+
+    In this class, you are encouraged to use cheatsheets for all labs, projects, and quizzes.
+
+    You can find links to the electronic versions of the [cheatsheets in this project folder](/cheatsheets).
+
+    Quizzes will be open note.
+
+## Lab
+
+<center>
+<img width='100%' src=img/dt160320.jpg />
+</center>
+
+**tl;dr**
+The goal of this lab is to publish a simple webpage online using git.
+This is the first step in completing [project\_00](/project_00/).
+
+### Prelab Instructions:
+
+1. Install the following software:
 
     > **NOTE:**
-    >
     > Throughout this course we will be installing lots of software.
     > You are welcome to use lab computers, but most students choose to use your own laptops.
     > Unlike in other classes, all of the software we use is open source, so you can freely download it on your own machine and keep access to it after the semester/graduation.
@@ -19,11 +38,22 @@
 
     1. [Install VSCodium](https://vscodium.com/).
         VSCodium is the open source version of [Microsoft's VSCode](https://code.visualstudio.com/Download).
-        The only difference is that VSCode contains additional tracking plugins that allows Microsoft to monitor what you do and run code on your computer,
-        which.
+        The only difference is that VSCode contains additional tracking plugins that allows Microsoft to monitor what you do and run code on your computer.
+        If you already have VSCode installed, you may use that instead.
+
+    1. Install git.
+
+        1. (Non-windows users)
+            Go to <https://git-scm.com/install/> and follow the instructions for your OS.
+            VSCodium will automatically be integrated with git after the install.
+
+        1. (Windows-users)
+            You will need to follow some special steps to integrate git with VSCodium.
+            Find instructions for installing and configuring with VSCodium at on [this stackoverflow question](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994).
 
     1. [Install Firefox](https://www.mozilla.org/en-US/exp/firefox/new/).
         Chome/Safari/Internet Explorer are not acceptable alternatives for this class.
+        We will be doing things with firefox that do not work with these other browsers.
 
     1. Install and enable the following Firefox plugins:
 
@@ -52,32 +82,16 @@
        Job applications commonly ask for GitHub profiles,
        so you should pick something professional that you would want to share with them.
 
+       > **NOTE:**
+       > In the programming world, an alias like `phantomHaxor1337` would be considered professional.
+       > Anything that is not sexual or racist is acceptable.
+
        When prompted for the account type, choose the free account option.
 
-1. Cheatsheets
+1. Ensure that you have pressed the "watch" button at the top of this webpage.
+    Read and follow the instructions in [Issue #320: the meet and greet thread](https://github.com/mikeizbicki/cmc-csci040/issues/236).
 
-    In this class, you are encouraged to use cheatsheets for all labs, projects, and quizzes.
-
-    You can find links to the electronic versions of the cheatsheets in this project folder.
-
-    Quizzes will be open note.
-
-## Lab
-
-<center>
-<img width='100%' src=img/dt160320.jpg />
-</center>
-
-**tl;dr**
-The goal of this lab is to publish a simple webpage online so that others can view it.
-This is the first step in completing [project\_00](/project_00/).
-
-**Prelab Instructions:**
-
-Ensure that you have pressed the "watch" button at the top of this webpage.
-Read and follow the instructions in [Issue #320: the meet and greet thread](https://github.com/mikeizbicki/cmc-csci040/issues/236).
-
-Watch the following videos if you're not already familiar with their contents:
+1. Watch the following videos if you're not already familiar with their contents:
 
 > **NOTE:**
 > You will not be directly graded on the content of these videos,
@@ -90,36 +104,36 @@ Watch the following videos if you're not already familiar with their contents:
 
 1. [Inside a google data center](https://www.youtube.com/watch?v=XZmGGAbHqa0)
 
-    1. (Optional) [Inside a Facebook data center](https://www.youtube.com/watch?v=_r97qdyQtIk)
+1. (Optional) [Inside a Facebook data center](https://www.youtube.com/watch?v=_r97qdyQtIk)
 
-    1. (Optional) [Inside Amazon web services (AWS)](https://www.youtube.com/watch?v=94PO2-TL4Vs)
+1. (Optional) [Inside Amazon web services (AWS)](https://www.youtube.com/watch?v=94PO2-TL4Vs)
 
-Watch the following videos if you don't already understand the key terms listed below.
+1. Watch the following videos if you don't already understand the key terms listed below.
 
-1. [How the web works - the big picture](https://www.youtube.com/watch?v=hJHvdBlSxug)
+    1. [How the web works - the big picture](https://www.youtube.com/watch?v=hJHvdBlSxug)
 
-    Key terms you should understand:
+        Key terms you should understand:
 
-    * Browser
-    * Server
-    * URL
-    * Domain
-    * IP Address
-    * DNS
-    * HTML
-    * CSS
-    * Javascript
-    * HTTP
-    * HTTPS
+        * Browser
+        * Server
+        * URL
+        * Domain
+        * IP Address
+        * DNS
+        * HTML
+        * CSS
+        * Javascript
+        * HTTP
+        * HTTPS
 
-1. [Three types of web development](https://www.youtube.com/watch?v=Kg0Q_YaQ3Gk)
+    1. [Three types of web development](https://www.youtube.com/watch?v=Kg0Q_YaQ3Gk)
 
-    Key terms you should understand:
+        Key terms you should understand:
 
-    * Static websites
-    * Static site generator
-    * Dynamic websites
-    * Single page apps
+        * Static websites
+        * Static site generator
+        * Dynamic websites
+        * Single page apps
 
 <!--
 1. [What is github?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
@@ -134,16 +148,41 @@ Watch the following videos if you don't already understand the key terms listed 
 1. [Quick Google Analytics introduction](https://www.youtube.com/watch?v=RL61v47WyHs)
 -->
 
-**Instructions:**
+### Instructions
 
 The lectures/videos have not explicitly covered how to do most of the tasks in this lab.
 The main purpose of this lab is to get you comfortable trying to read and figure out documentation...
 even if that means just trying random stuff until it works.
 
-1. [Follow these directions](https://pages.github.com/) to create a GitHub Pages webpage.
+1. (This is the only step we will do in class together)
+
+    Create a github pages webpage.
+
+    Follow the <https://docs.github.com/en/pages/quickstart> to create a repo with github pages enabled.
+
+    Then create a file `index.html` in VSCodium with the following content:
+    ```
+    <b>hello</b> <i>world</i>!
+    ```
+    Upload the file to github by running the following commands:
+    ```
+    $ git init
+    $ git remote add origin <your_url_here>
+    $ git add index.html
+    $ git commit -m 'initial commit'
+    $ git push origin master
+    ```
+
+    > **NOTE:**
+    > Whenever you make a change to your files locally, you will need to re-run the `git add`, `git commit`, and `git push` commands to upload to github.
+    > Each of the steps below will implicitly require you to run these commands, but they will not actually state what these commands are.
+
+    <!--
+    [Follow these directions](https://pages.github.com/) to create a GitHub Pages webpage.
    In the step marked `?` (after step `1` and before step `2`),
    select `I don't know` for `What git client are you using?`.
    This will give you instructions on how to install the GitHub Desktop program for your operating system.
+   -->
 
 1. [Follow these directions](https://creativecommons.org/choose/) to include a creative commons license on your webpage.
    You may select any version of the license.
@@ -184,4 +223,4 @@ even if that means just trying random stuff until it works.
    > For the project, you will also have to get links from other webpages.
    > So now would also be a good time to trade these links (although it's not explicitly required for the lab).
 
-1. Upload the url to your completed webpage to sakai.
+1. Upload the url to your completed webpage to canvas.
