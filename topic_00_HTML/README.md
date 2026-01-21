@@ -6,52 +6,6 @@
 
 **Wednesday:** HTML
 
-1. Prelecture videos:
-
-    > **NOTE:**
-    > You will not be directly graded on the content of these videos,
-    > but they provide useful background information that will make lectures easier to follow.
-    > I understand the temptation to not watch them---and I probably wouldn't have as a student either---but even the most technically inclined students will not have seen a lot of the information in these videos.
-    >
-    > One of the [three virtues of a programmer is laziness](https://thethreevirtues.com/).
-    > I am lazy and I hope to train you all to be lazy in this course.
-    > So one of my commitments to you all is that I will never ask you to do busywork.
-
-    1. [Inside a google data center](https://www.youtube.com/watch?v=XZmGGAbHqa0)
-
-    1. (Optional) [Inside a Facebook data center](https://www.youtube.com/watch?v=_r97qdyQtIk)
-
-    1. (Optional) [Inside Amazon web services (AWS)](https://www.youtube.com/watch?v=94PO2-TL4Vs)
-
-    1. (optional) [How a philosophy major from a liberal arts college with 2.4 GPA got jobs at Facebook and Uber making $300k as a data scientist](https://www.youtube.com/watch?v=YGflHj1SjA4&t=2m15s)
-
-    Watch the following videos if you don't already understand the key terms listed below.
-
-    1. [How the web works - the big picture](https://www.youtube.com/watch?v=hJHvdBlSxug)
-
-        Key terms you should understand:
-
-        * Browser
-        * Server
-        * URL
-        * Domain
-        * IP Address
-        * DNS
-        * HTML
-        * CSS
-        * Javascript
-        * HTTP
-        * HTTPS
-
-    1. [Three types of web development](https://www.youtube.com/watch?v=Kg0Q_YaQ3Gk)
-
-        Key terms you should understand:
-
-        * Static websites
-        * Static site generator
-        * Dynamic websites
-        * Single page apps
-
 1. Prelecture tasks:
 
     > **NOTE:**
@@ -125,6 +79,49 @@ Read and follow the instructions in [Issue #320: the meet and greet thread](http
 
 Watch the following videos if you're not already familiar with their contents:
 
+> **NOTE:**
+> You will not be directly graded on the content of these videos,
+> but they provide useful background information that will make lectures easier to follow.
+> I understand the temptation to not watch them---and I probably wouldn't have as a student either---but even the most technically inclined students will not have seen a lot of the information in these videos.
+>
+> One of the [three virtues of a programmer is laziness](https://thethreevirtues.com/).
+> I am lazy and I hope to train you all to be lazy in this course.
+> So one of my commitments to you all is that I will never ask you to do busywork.
+
+1. [Inside a google data center](https://www.youtube.com/watch?v=XZmGGAbHqa0)
+
+    1. (Optional) [Inside a Facebook data center](https://www.youtube.com/watch?v=_r97qdyQtIk)
+
+    1. (Optional) [Inside Amazon web services (AWS)](https://www.youtube.com/watch?v=94PO2-TL4Vs)
+
+Watch the following videos if you don't already understand the key terms listed below.
+
+1. [How the web works - the big picture](https://www.youtube.com/watch?v=hJHvdBlSxug)
+
+    Key terms you should understand:
+
+    * Browser
+    * Server
+    * URL
+    * Domain
+    * IP Address
+    * DNS
+    * HTML
+    * CSS
+    * Javascript
+    * HTTP
+    * HTTPS
+
+1. [Three types of web development](https://www.youtube.com/watch?v=Kg0Q_YaQ3Gk)
+
+    Key terms you should understand:
+
+    * Static websites
+    * Static site generator
+    * Dynamic websites
+    * Single page apps
+
+<!--
 1. [What is github?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 
 1. [Understanding GitHub Issues](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
@@ -135,6 +132,7 @@ Watch the following videos if you're not already familiar with their contents:
     Watch [this video explaining Creative Commons licences](https://www.youtube.com/watch?v=4ZvJGV6YF6Y).
 
 1. [Quick Google Analytics introduction](https://www.youtube.com/watch?v=RL61v47WyHs)
+-->
 
 **Instructions:**
 
