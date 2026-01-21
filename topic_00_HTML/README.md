@@ -95,9 +95,7 @@ This is the first step in completing [project\_00](/project_00/).
        When prompted for the account type, choose the free account option.
 
 1. Ensure that you have pressed the "watch" button at the top of this webpage.
-    Read and follow the instructions in [#371: the meet and greet thread](https://github.com/mikeizbicki/cmc-csci040/issues/371).
-
-    Read #371
+    Read and follow the instructions in [#371: the meet and greet thread](https://github.com/mikeizbicki/cmc-csci040/issues/371) and #371.
 
 1. Watch the following videos.
 
