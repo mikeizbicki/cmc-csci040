@@ -4,21 +4,15 @@
 <img width='100%' src=img/hacker-way.jpg />
 </center>
 
-Important links:
-
-1. [What Hackers get Paid](https://www.levels.fyi/comp.html?track=Data%20Scientist)
-
-1. [Tech employers illegally collude to reduce salaries](https://en.wikipedia.org/wiki/High-Tech_Employee_Antitrust_Litigation)
-
 ## About the Instructor
 
 |||
 |-|-|
-| Name | Mike Izbicki, call me Mike |
-| Email | mizbicki@cmc.edu You should probably post a github issue instead of email |
+| Name | Mike Izbicki (call me Mike) |
 | Office | Adams 216 |
-| Office Hours | TBA |
+| Office Hours | [see #372](https://github.com/mikeizbicki/cmc-csci040/issues/372) |
 | Zoom | TBA |
+| Email | mizbicki@cmc.edu (you should probably [post a github issue](https://github.com/mikeizbicki/cmc-csci040/issues) instead of email) |
 | Webpage | <https://izbicki.me> |
 | Research | Machine Learning (see [https://izbicki.me/research.html](https://izbicki.me/research.html) for some past projects) |
 
@@ -30,6 +24,10 @@ Fun facts:
     1. left Navy as a [conscientious objector](https://www.nytimes.com/2011/02/23/nyregion/23objector.html)
 1. phd/postdoc at UC Riverside
 1. taught in [DPRK (i.e. North Korea)](https://pust.co)
+
+Other links:
+
+1. [My CS/DS career prospects page](https://github.com/mikeizbicki/cmc-csci143/tree/2026spring/career)
 
 ## About the Course
 
