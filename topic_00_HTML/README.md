@@ -81,8 +81,16 @@ This is the first step in completing [project\_00](/project_00/).
        so you should pick something professional that you would want to share with them.
 
        > **NOTE:**
-       > In the programming world, an alias like `phantomHaxor1337` would be considered professional.
+       > In the programming world, an alias like `phantomHaxor1337` [would be considered professional](https://archive.nytimes.com/www.nytimes.com/library/review/031200hacker-handles-review.html).
        > Anything that is not sexual or racist is acceptable.
+       >
+       > Using an alias that is not your legal name is particularly advisable if your legal name is hard for native English speakers to pronounce.
+       > (It's not fair, but it's true.)
+
+       > **NOTE:**
+       > My primary github account name is `mikeizbicki`.
+       > I have other accounts with more hacker pseudonymns.
+       > If you are able to find any of these other pseudonymns that I use online, you will earn my respect :)
 
        When prompted for the account type, choose the free account option.
 
