@@ -181,6 +181,7 @@ This will be a **challenging** but **low-stress** class that is **career advanci
         Lots of "choose your own adventure" style assignments where you get to decide which tasks you want to complete.
 
         In the past, some students have:
+
             1. ended the course with a 150%,
             1. choosen not to complete certain projects because they would get an A without completing them,
             1. go from a 70% to a 100% in the class with the final project.
