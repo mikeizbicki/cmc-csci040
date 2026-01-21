@@ -148,6 +148,9 @@ This is the first step in completing [project\_00](/project_00/).
 
 ### Instructions
 
+TBA
+
+<!--
 The lectures/videos have not explicitly covered how to do most of the tasks in this lab.
 The main purpose of this lab is to get you comfortable trying to read and figure out documentation...
 even if that means just trying random stuff until it works.
@@ -222,3 +225,4 @@ even if that means just trying random stuff until it works.
    > So now would also be a good time to trade these links (although it's not explicitly required for the lab).
 
 1. Upload the url to your completed webpage to canvas.
+-->
