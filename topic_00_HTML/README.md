@@ -10,9 +10,7 @@
 
     In this class, you are encouraged to use cheatsheets for all labs, projects, and quizzes.
 
-    You can find links to the electronic versions of the [cheatsheets in this project folder](/cheatsheets).
-
-    Quizzes will be open note.
+    You can find links to the electronic versions of the cheatsheets in this topic folder above.
 
 ## Lab
 
