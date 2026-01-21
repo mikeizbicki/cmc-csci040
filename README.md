@@ -151,9 +151,21 @@ Some of them are also [free as in speech](https://en.wiktionary.org/wiki/free_as
 | quizzes (weekly)              | `2**2` - `2**3`             | 40%  |
 | projects (every 2-3 weeks)    | `2**3` - `2**6`             | 40%  |
 
-This will be a low-stress but challenging class.
+This will be a **challenging** but **low-stress** class that is **career advancing**.
 
-1. The course is low-stress because you have full control over what your grade will be.
+1. **Challenging:** The material is intrinsically *very* hard.
+    1. That's why CS/DS majors get paid so much money... there's not many people willing to work hard enough to master these concepts.
+    1. That's why we have an extra lab session each week (and so 50% more in-person instruction time).
+        Also take advantage of office hours and the QCL.
+
+        Historically:
+        1. The average student needs to spend about 10 hours per week outside of class to get an A.
+        1. About 50% of students choose to either:
+            1. spend 15-20 hours per week and get an A-/A,
+            1. or spend 10 hours per week and get a B/C.
+
+1. **Low-stress:** You have full control over what your grade will be.
+
     1. **No midterm/final exam.**
        Weekly quizzes ensure you don't fall behind on material, and if you bomb a quiz it's not a big deal.
 
@@ -173,18 +185,16 @@ This will be a low-stress but challenging class.
             1. choosen not to complete certain projects because they would get an A without completing them,
             1. go from a 70% to a 100% in the class with the final project.
 
-1. The material is intrinsically *very* hard.
-    1. That's why CS/DS majors get paid so much money... there's not many people willing to work hard enough to master these concepts.
-    1. That's why we have an extra lab session each week (and so 50% more in-person instruction time).
-        Also take advantage of office hours and the QCL.
+1. **Career advancing:** The projects are designed to be fun, real-world projects.
 
-        Historically:
-        1. The average student needs to spend about 10 hours per week outside of class to get an A.
-        1. About 50% of students choose to either:
-            1. spend 15-20 hours per week and get an A-/A,
-            1. or spend 10 hours per week and get a B/C.
-
-1. The projects are designed to be fun, real-world projects:
+    |     | Project                 | Difficulty    |
+    | --- | ----------------------- | ------------- |
+    | 0   | Building a Webpage      | Easy          |
+    | 1   | Markdown compiler       | Medium        |
+    | 2   | Data visualization      | Medium        |
+    | 3   | Scraping ebay           | Medium        |
+    | 4   | Home-made chatgpt       | Hard          |
+    | 5   | Twitter clone           | Hard          |
 
     1. This class has fewer projects than in CS4/CS5/CS51.
 
@@ -193,6 +203,10 @@ This will be a low-stress but challenging class.
     1. Our projects more fun/interesting (e.g. build a chatgpt clone and a twitter clone).
 
         (But also a bit harder.)
+
+    1. Our projects build your github portfolio.
+
+        (Which employers look at to determine who to hire.)
 
     1. Our projects emphasize techniques that LLMs cannot do by themselves.
 
