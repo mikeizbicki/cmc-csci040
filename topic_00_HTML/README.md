@@ -186,13 +186,6 @@ even if that means just trying random stuff until it works.
     > Whenever you make a change to your files locally, you will need to re-run the `git add`, `git commit`, and `git push` commands to upload to github.
     > Each of the steps below will implicitly require you to run these commands, but they will not actually state what these commands are.
 
-    <!--
-    [Follow these directions](https://pages.github.com/) to create a GitHub Pages webpage.
-   In the step marked `?` (after step `1` and before step `2`),
-   select `I don't know` for `What git client are you using?`.
-   This will give you instructions on how to install the GitHub Desktop program for your operating system.
-   -->
-
 1. [Follow these directions](https://creativecommons.org/choose/) to include a creative commons license on your webpage.
    You may select any version of the license.
 
