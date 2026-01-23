@@ -141,50 +141,72 @@ This is the first step in completing [project\_00](/project_00/).
             * Dynamic websites
             * Single page apps
 
+1. (optional) [What is github?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
+
+1. (optional) [Understanding GitHub Issues](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
+
+1. (optional) [Quick Google Analytics introduction](https://www.youtube.com/watch?v=RL61v47WyHs)
+
 <!--
-1. [What is github?](https://www.youtube.com/watch?v=w3jLJU7DT5E)
-
-1. [Understanding GitHub Issues](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
-
 1. [The rise of open source software](https://www.youtube.com/watch?v=SpeDK1TPbew)
 
 1. "Creative Commons" is a type of open source license for non-code (books, webpages, music, images, etc.).
     Watch [this video explaining Creative Commons licences](https://www.youtube.com/watch?v=4ZvJGV6YF6Y).
-
-1. [Quick Google Analytics introduction](https://www.youtube.com/watch?v=RL61v47WyHs)
 -->
 
 ### Instructions
 
-TBA
+I will walk through the following steps with you in class.
 
-<!--
-The lectures/videos have not explicitly covered how to do most of the tasks in this lab.
-The main purpose of this lab is to get you comfortable trying to read and figure out documentation...
-even if that means just trying random stuff until it works.
+1. [Follow these instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) to create a *personal access token* (PAT) for github.
 
-1. (This is the only step we will do in class together)
+1. [Follow these instructions](<https://docs.github.com/en/pages/quickstart>) to create a github pages website.
 
-    Create a github pages webpage.
+1. Upload a file to your webpage by:
 
-    Follow the <https://docs.github.com/en/pages/quickstart> to create a repo with github pages enabled.
+    1. In the terminal, run the following commands to download your github repository onto your local computer:
+        ```
+        $ git clone https://github.com/<username>/<username>.github.io
+        $ cd <username>.github.io
+        ```
 
-    Then create a file `index.html` in VSCodium with the following content:
-    ```
-    <b>hello</b> <i>world</i>!
-    ```
-    Upload the file to github by running the following commands:
-    ```
-    $ git init
-    $ git remote add origin <your_url_here>
-    $ git add index.html
-    $ git commit -m 'initial commit'
-    $ git push origin master
-    ```
+        > **NOTE:**
+        > The `$` is called the *prompt*.
+        > This symbol indicates that everything following the `$` is a terminal command (and not for example an HTML command or python command).
+        > When entering these commands into the terminal, you should copy/paste everything to the right of the `$` but not the `$`.
+        > Whenever you see `<username>` in the commands above, you should replace that with your actual github username.
 
-    > **NOTE:**
-    > Whenever you make a change to your files locally, you will need to re-run the `git add`, `git commit`, and `git push` commands to upload to github.
-    > Each of the steps below will implicitly require you to run these commands, but they will not actually state what these commands are.
+    1. Create a file `index.html` inside the `<username>.github.io` folder with the following content:
+
+        ```
+        <b>hello</b> <i>world</i>!
+        ```
+
+    1. Run the following terminal commands to upload your `index.html` file to github.
+
+        ```
+        $ git add index.html
+        $ git commit -m 'initial commit'
+        $ git push origin master
+        ```
+
+        > **NOTE:**
+        > Whenever you make a change to your files locally, you will need to re-run the `git add`, `git commit`, and `git push` commands above to upload to github.
+        > You will need to do this several times throughout the lab in the steps below.
+
+**Part 2:**
+
+Complete the instructions in the [messages repo](https://github.com/mikeizbicki/messages/) to practice github and meet your classmates.
+
+**Part 3:**
+
+You will complete the following steps without a live demo from me.
+I encourage you to work with your neighbors and ask me questions.
+
+> **NOTE:**
+> Our lectures have not explicitly covered how to do most of the tasks in this lab.
+> The main purpose of this lab is to get you comfortable trying to read and figure out documentation...
+> even if that means just trying random stuff until it works.
 
 1. [Follow these directions](https://creativecommons.org/choose/) to include a creative commons license on your webpage.
    You may select any version of the license.
@@ -193,13 +215,12 @@ even if that means just trying random stuff until it works.
    > This requires that you add a snippet of HTML to your webpage.
    > (I recommend the very bottom, but any location is fine.)
    > Whenever you modify your webpage,
-   > you will have to go through the process of uploading your files to github using GitHub Desktop again.
+   > you will have to go through the process of uploading your files to github again.
 
 1. [Follow these instructions](https://support.google.com/analytics/answer/1008015?hl=en) to create a Google Analytics account and add Google Analytics to your webpage.
 
    > **NOTE:**
-   > Once again, you must modify your HTML in order to insert the required `<script>` tag into your webpage.
-   > Every time you modify your webpage, you must go through the process of uploading with GitHub Desktop.
+   > Don't forget to upload your modified file to github!
 
    > **NOTE:**
    > Google Analytics does NOT work when you have uBlock Origin activated.
@@ -209,11 +230,10 @@ even if that means just trying random stuff until it works.
 
 1. [Follow these instructions](https://developers.facebook.com/docs/plugins/like-button/) to create a Facebook Like button for your webpage.
 
-   Like with Google Analytics, Facebook Like buttons do not work when the adblock plugins are enabled.
+   Similar to Google Analytics, Facebook Like buttons do not work when the adblock plugins are enabled.
 
    > **NOTE:**
-   > Don't forget to upload with GitHub Desktop!
-   > Facebook's like button and google analytics will both be broken if your webpage is only served "locally" from your own computer and not from a web server like github.
+   > Don't forget to upload to github!
 
 1. Get at least 5 people to like your webpage on Facebook,
    and 5 people to star your webpage's repo on GitHub.
@@ -226,4 +246,6 @@ even if that means just trying random stuff until it works.
    > So now would also be a good time to trade these links (although it's not explicitly required for the lab).
 
 1. Upload the url to your completed webpage to canvas.
--->
+
+    The lab is nominally due on Sunday at midnight,
+    but I won't deduct any late points if you miss this first deadline so that you have a chance to get any help that you need.
