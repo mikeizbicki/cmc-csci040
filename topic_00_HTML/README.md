@@ -187,7 +187,7 @@ I will walk through the following steps with you in class.
         ```
         $ git add index.html
         $ git commit -m 'initial commit'
-        $ git push origin master
+        $ git push origin main
         ```
 
         > **NOTE:**
