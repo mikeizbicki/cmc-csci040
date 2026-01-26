@@ -2,12 +2,20 @@
 
 <img width='50%' src=img/Strip-Vengeance-de-codeur-650-finalenglish.jpg />
 
-**Announcements (Tuesday 28 Jan):**
+**Announcements (Monday 26 Jan):**
 
-1. Labs graded in sakai.
+1. 3/21 labs submitted.
 
-    All submissions got 2/2 points :)
+    - No late penalty, so no problem.
 
+    - If you did submit, you didn't have a working like button, and I didn't give full credit.
+        You may resubmit with fixed page for full credit.
+
+    - Your first project will require you to have completed everything in the lab.
+        - It is due Tuesday, Feb 3.
+        - You will need the lab material complete before then.
+
+<!--
 1. Modified schedule this week.
 
     Tuesday: CSS Quiz Prep
@@ -17,6 +25,7 @@
     Friday: Start topic 02 python
 
     1. Do the [prelecture tasks](https://github.com/mikeizbicki/cmc-csci040/tree/2025spring/topic_02_Python_ControlFlow#prelecture-tasks) to install python before class on Friday.
+-->
 
 ## Lecture Notes: Cascading Style Sheets (CSS)
 
@@ -26,17 +35,19 @@
 1. The most important concept to learn is the *CSS selector*.
     1. Must understand the parent/child/sibling/etc relationship between HTML nodes.
     1. CSS selectors will be vital for understanding web scraping.
-    1. Quiz on Thursday.
+    1. Quiz next week Wednesday.
 
         See `practice_quiz1.pdf` and `practice_quiz2.pdf` for example problems.
 
+        <!--
         You will have the first 10 minutes of class to complete the quiz.
 
         I will arrive 10 minutes early, and you can also start before class if you'd like.
+        -->
     1. The following Javascript can be used to get the answer to any quiz problem.
         Enter it the Firefox *debug console* (which you can open by pressing F12).
         ```
-        document.querySelectorAll('selector') 
+        document.querySelectorAll('selector');
         ```
 
 1. Starting next week, we will focus on back-end dev rather than front-end dev.
@@ -49,8 +60,9 @@
     -->
     <img width='50%' src=img/Strip-CSS-respect-650-finalenglish1.jpg />
 
-## Lab (on Thursday)
+## Lab
 
+<!--
 <img width=40% src=img/photoshop.jpg>
 
 (optional) Prelab videos:
@@ -77,23 +89,22 @@ Instructions:
 
     <img width='400px' src=img/comic14.gif />
 
-<!--
 1. (Optional) How to remove ads/popups/other crap from websites:
 
     1. uBlock Origin internally uses css selectors to block ads on webpages.
        It contains a large list of these selectors that have been manually curated,
        and all elements on a page that match one of these selectors will be removed from the webpage.
        In this portion of the lab, you will explore how to create these rules for yourself to block content on a webpage.
-       
+
     1. First, you'll need to find a webpage that has content on it that you want to block.
        I recommend using https://nytimes.com and blocking the blue login buttons on the top-right of the screen.
        (Because this is a popular webpage, there are already rules for blocking all the ads and paywall popups,
        so we can't add rules for these.)
 
-    1. Follow the instructions on [this webpage](https://www.ghacks.net/2017/02/21/ublock-origin-how-to-remove-any-element-from-a-page-permanently/) to create a rule for blocking the popup permanently with uBlock Origin. 
+    1. Follow the instructions on [this webpage](https://www.ghacks.net/2017/02/21/ublock-origin-how-to-remove-any-element-from-a-page-permanently/) to create a rule for blocking the popup permanently with uBlock Origin.
 
     1. If you'd like to learn more details about the rules uBlock Origin uses,
        you can visit [this webpage](https://adblockplus.org/filter-cheatsheet#elementhideemulation).
--->
 
 There is nothing to submit on sakai for this lab.
+-->
