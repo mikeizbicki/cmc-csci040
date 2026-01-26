@@ -9,11 +9,19 @@
     - No late penalty, so no problem.
 
     - If you did submit, you didn't have a working like button, and I didn't give full credit.
-        You may resubmit with fixed page for full credit.
+        - You may resubmit with fixed page for full credit.
+
+    - Handful of questions about the like button over email.
+        - In the future, always use github issues.
+
+            (I will not answer technical questions over email.)
+        - We will review what to do in class.
 
     - Your first project will require you to have completed everything in the lab.
         - It is due Tuesday, Feb 3.
         - You will need the lab material complete before then.
+
+1. See [#377](https://github.com/mikeizbicki/cmc-csci040/issues/377) for collaboration policy.
 
 <!--
 1. Modified schedule this week.
@@ -29,8 +37,15 @@
 
 ## Lecture Notes: Cascading Style Sheets (CSS)
 
-1. We will be covering Chapter 3 in Shay Howe's [HTML & CSS](https://learn.shayhowe.com/html-css/) book.
-    Last week we covered chapters 1-2.
+1. References:
+
+    1. HTML Theory: Chapter 2 in Shay Howe's [HTML & CSS](https://learn.shayhowe.com/html-css/) book:
+        <https://learn.shayhowe.com/html-css/getting-to-know-html/>.
+
+    1. CSS Theory: Chapter 3 in Shay Howe's [HTML & CSS](https://learn.shayhowe.com/html-css/) book:
+        <https://learn.shayhowe.com/html-css/getting-to-know-css/>.
+
+    1. How to make a CSS Navigation Bar: <https://www.w3schools.com/css/css_navbar_horizontal.asp>
 
 1. The most important concept to learn is the *CSS selector*.
     1. Must understand the parent/child/sibling/etc relationship between HTML nodes.
