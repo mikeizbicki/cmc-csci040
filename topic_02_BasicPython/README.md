@@ -1,25 +1,33 @@
 # Topic 02: Python
 
-<center>
-<img width='100%' src=img/python.png />
-</center>
+<img width=500px src=img/two-states-of-programmers.png />
+
 
 ## Prelecture Tasks
 
-1. Download and install the latest version of python for your system from <https://python.org/downloads/>.
+<!--
+NOTE:
+    Need raw strings for homework doctests!
+    Need \n \t \r
+-->
 
-1. (optional) Prelecture videos:
+1. Download and install the latest version of python for your system by following the [VSCode Python quickstart tutorial](https://code.visualstudio.com/docs/python/python-quick-start).
 
-    We will cover all of the material in these videos in class,
-    but if you haven't done any programming before this class,
-    you will probably find our in-class discussions to very fast and confusing.
-    Watching these videos first will help.
+    If you can get to the step labeled [run](https://code.visualstudio.com/docs/python/python-quick-start#_run), then you have correctly installed python.
 
-    1. [Lesson 1](https://www.youtube.com/watch?v=1F_OgqRuSdI&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW)
+1. (optional) Python review:
 
-        In this class, you are allowed to use either the IDLE editor or VSCode.
-        I will use VSCode in lectures because most students find VSCode to be easier to work with than IDLE,
-        but Al Sweigart uses IDLE in his videos.
+    We will cover chapters 1-7 in [Al Sweigart's *Automate the Boring Stuff*](https://automatetheboringstuff.com/2e/).
+    Al has made a series of videos that accompany his textbook.
+    If you do not have prior python experience, you are encouraged to review the book and videos before class.
+    The videos are less than 2 hours in length total.
+
+    1. (okay to skip) [Lesson 1](https://www.youtube.com/watch?v=1F_OgqRuSdI&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW)
+
+        Al Swigart uses a text editor called IDLE in his videos.
+        You are welcome to install IDLE in order to more closely follow allong with Al's videos.
+
+        We will continue to use VSCode in class.
 
     1. [Lesson 2](https://www.youtube.com/watch?v=7qHMXu99d88&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=2)
 
@@ -170,17 +178,133 @@
 
         1. `print`'s `end` and `sep` keyword arguments
 
+    1. (okay to skip) [Lesson 10](https://www.youtube.com/watch?v=M-CoVBK_bLE&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=10)
+
+       <!--
+       Key terms:
+
+       1. local scope
+
+       1. global scope
+
+       1. local variable
+
+       1. global variable
+
+       How can you tell if a variable is local or global?
+       -->
+
+    1. (okay to skip) [Lesson 11](https://www.youtube.com/watch?v=qS0UkqaYmfU&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=11)
+
+        <!--
+        Key terms:
+
+        1. `try`
+
+        1. `except`
+
+        1. input validation
+        -->
+
+     1. (okay to skip) [Lesson 12](https://www.youtube.com/watch?v=48WXHT0dfEY&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=12)
+
+     1. [Lesson 13](https://www.youtube.com/watch?v=48WXHT0dfEY&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=13)
+
+        Key terms:
+
+        1. list
+
+        1. item
+
+        1. comma deliminated
+
+        1. `[]`
+
+        1. index
+
+        1. negative indexes
+
+        1. slice
+
+        1. slice shortcuts
+
+        1. `del`
+
+        1. `list()`
+
+        1. `in`
+
+        1. `not in`
+
+        <!-- len is polymorphic -->
+
+    1. [Lesson 14](https://www.youtube.com/watch?v=umTnflPbYww&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=14)
+
+       Key terms:
+
+       1. list-like / sequences
+
+       1. range object
+
+       1. multiple assignment
+
+       1. swapping variables
+
+       1. augmented assignment operators
+
+    1. [Lesson 15](https://www.youtube.com/watch?v=Z9IxxW7428A&list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW&index=15)
+
+       Key terms:
+
+       1. method vs function
+
+       1. `.index`
+
+       1. `.append` <-- important
+
+       1. `.insert`
+
+       1. `.remove`
+
+       1. `.sort` <-- important
+
+       1. ASCII-betical order
+
+    1. [Dictionaries](https://www.youtube.com/watch?v=daefaLgNkw0)        
+
+        Key Terms:
+
+        1. dictionary, map, key-value pair
+
+        1. key
+
+        1. value
+
+        1. `{}`
+
+        1. `[]`
+
+        1. `.get`
+
+        1. `.update`
+
+        1. `del`
+
+        1. `.keys`
+
+        1. `.values`
+
+        1. `.items`
+
 ## Lecture Notes
 
-1. We will cover chapters 0-3 of Al Sweigart's [Automate the Borting Stuff](https://automatetheboringstuff.com/).
+1. About Python:
 
     1. HTML/CSS are **markup** languages;
         you specify WHAT you want done, and firefox figures out HOW.
 
        Python is a **procedural** language;
         you directly specify HOW to do something.
-
-    1. Python is much more powerful.
 
     1. Most people find python MUCH harder than HTML/CSS.
         If you don't have prior programming experience,
@@ -189,7 +313,7 @@
 
 1. Important resources:
 
-    1. You can use https://pythontutor.com to visualize what python is doing "step-by-step".
+    1. You can use <https://pythontutor.com> to visualize what python is doing "step-by-step".
 
     1. I will distribute the [Python cheat sheet](https://perso.limsi.fr/pointal/python:memento) in class.
        I recommend having this paper with you at all of our lectures and whenever you are coding in python.
@@ -228,9 +352,10 @@ After this week, you should understand all the jokes in the following memes.
 
 ## Lab
 
+TBA
+<!--
 Instructions for your lab are contained in the `lab.py` file.
 
-<!--
 The file `lab.py` contains several incomplete functions that you must write.
 Each function has several test cases provided in the docstring,
 and currently all of these test cases are failing.

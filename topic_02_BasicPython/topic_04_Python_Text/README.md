@@ -2,14 +2,6 @@
 
 <img src=img/4rules.jpg width=300px>
 
-We will cover [Chapter 6 - Strings](https://automatetheboringstuff.com/2e/chapter6/).
-
-<!--
-NOTE:
-    Need raw strings for homework doctests!
-    Need \n \t \r
--->
-
 Recommended videos:
 
 1. We've watched all of the textbook's premade videos now,
