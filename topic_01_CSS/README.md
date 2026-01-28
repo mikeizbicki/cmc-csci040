@@ -52,21 +52,20 @@
     1. CSS selectors will be vital for understanding web scraping.
     1. Quiz next week Wednesday.
 
-        See `practice_quiz1.pdf` and `practice_quiz2.pdf` for example problems.
+        We will review `practice_quiz1.pdf` in class.
 
-        <!--
-        You will have the first 10 minutes of class to complete the quiz.
+        I encourage you to work on `practice_quiz2.pdf` on your own.
 
-        I will arrive 10 minutes early, and you can also start before class if you'd like.
-        -->
+        The quiz will contain the same HTML as `practice_quiz2.pdf`.
+
     1. The following Javascript can be used to get the answer to any quiz problem.
         Enter it the Firefox *debug console* (which you can open by pressing F12).
         ```
         document.querySelectorAll('selector');
         ```
 
-1. Starting next week, we will focus on back-end dev rather than front-end dev.
-    There's a LOT more to front-end dev that we're not covering (we're only doing like 10% of Shay Howe's book),
+1. Starting next week, we will focus on backend dev rather than frontend dev.
+    There's a LOT more to frontend dev that we're not covering (we're only doing like 10% of Shay Howe's book),
     and backend devs tend to not know much about frontend dev...
 
     <!--
@@ -77,11 +76,6 @@
 
 ## Lab
 
-TBA
-
-<!--
-<img width=40% src=img/photoshop.jpg>
-
 (optional) Prelab videos:
 
 1. Matt Cutts was formerly the head of Google's web spam team,
@@ -89,6 +83,13 @@ TBA
    Watch his video on [How Google Search Works](https://www.youtube.com/watch?v=KyCYyoGusqs).
 
 1. [Whitehat vs blackhat SEO](https://www.youtube.com/watch?v=jOSz-uutUfc)
+
+### Instructions
+
+TBA
+
+<!--
+<img width=40% src=img/photoshop.jpg>
 
 Instructions:
 
