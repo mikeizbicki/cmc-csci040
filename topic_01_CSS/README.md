@@ -86,26 +86,18 @@
 
 ### Instructions
 
-TBA
-
-<!--
 <img width=40% src=img/photoshop.jpg>
 
 Instructions:
 
 1. Select a high profile user from [X/Twitter](https://x.com/), [BlueSky](https://bsky.app/), or [Mastodon](https://mstdn.social/explore).
     Use Firefox's developer console to edit one of their messages to say something they would never say.
-    Take a screenshot and post the screenshot to GitHub Issues here: <https://github.com/mikeizbicki/cmc-csci040/issues/324>.
+    Take a screenshot and post the screenshot to GitHub Issues here: <https://github.com/mikeizbicki/cmc-csci040/issues/379>.
 
     You can find examples from previous semesters at:
+    1. <https://github.com/mikeizbicki/cmc-csci040/issues/324>
     1. <https://github.com/mikeizbicki/cmc-csci040/issues/242>
     1. <https://github.com/mikeizbicki/cmc-csci040/issues/86>
-
-1. Start working on project00.
-
-    I recommend sharing backlinks to each other's websites.
-
-    <img width='400px' src=img/comic14.gif />
 
 1. (Optional) How to remove ads/popups/other crap from websites:
 
@@ -115,7 +107,7 @@ Instructions:
        In this portion of the lab, you will explore how to create these rules for yourself to block content on a webpage.
 
     1. First, you'll need to find a webpage that has content on it that you want to block.
-       I recommend using https://nytimes.com and blocking the blue login buttons on the top-right of the screen.
+       I recommend using <https://nytimes.com> and blocking the blue login buttons on the top-right of the screen.
        (Because this is a popular webpage, there are already rules for blocking all the ads and paywall popups,
        so we can't add rules for these.)
 
@@ -124,5 +116,10 @@ Instructions:
     1. If you'd like to learn more details about the rules uBlock Origin uses,
        you can visit [this webpage](https://adblockplus.org/filter-cheatsheet#elementhideemulation).
 
-There is nothing to submit on sakai for this lab.
--->
+1. Start working on project00.
+
+    I recommend sharing backlinks to each other's websites.
+
+    <img width='400px' src=img/comic14.gif />
+
+There is nothing to submit on canvas for this lab.
