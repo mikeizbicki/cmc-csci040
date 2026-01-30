@@ -57,11 +57,11 @@ If you complete all checkboxes, then you will get 8/8 points.
 
      - [ ] have consistent formatting between pages
 
-     - [ ] use the `<link>` tag to include the CSS file
+     - [ ] *use the `<link>` tag to include the CSS file*
 
      - [ ] have an appropriate `<title>` tag
 
-     - [ ] *have a CSS navigation bar with links to every other HTML file*
+     - [ ] have a CSS navigation bar with links to every other HTML file
 
         > **Note:** See [this tutorial](https://www.w3schools.com/css/css_navbar.asp) for details.  Either a vertical or horizontal navigation bar is fine.
 
