@@ -2,6 +2,20 @@
 
 <img width=500px src=img/two-states-of-programmers.png />
 
+**Announcements (Mon 2026-02-02):**
+
+1. Quiz Wednesday on CSS selectors
+
+    1. any physical notes allowed (both printed/handwritten)
+    1. no electronic devices
+
+1. Homework due Tuesday (or Thursday with collaboration)
+
+1. Grades updated (still 4 students who need to submit/resubmit lab)
+
+1. Today in class: prepare for python quiz
+
+    1. quiz notes packet can be found at: <https://github.com/mikeizbicki/quiz/blob/master/quiz_python/topic02_basics.pdf>.
 
 ## Prelecture Tasks
 
