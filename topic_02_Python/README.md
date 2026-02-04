@@ -17,6 +17,19 @@
 
     1. quiz notes packet can be found at: <https://github.com/mikeizbicki/quiz/blob/master/quiz_python/topic02_basics.pdf>.
 
+**Announcements (Wed 2026-02-04):**
+
+All submitted webpages graded.
+
+- Most 8/8
+
+- Several 7/8 for forgetting a requirement.
+    If that's you, I gave you the option to fix and resubmit for full credit.
+
+    Those of you who still haven't submitted will not get this "second change".
+
+Still a few labs not submitted.
+
 ## Prelecture Tasks
 
 <!--
