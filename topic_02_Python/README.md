@@ -30,6 +30,8 @@ All submitted webpages graded.
 
 Still a few labs not submitted.
 
+Today's lecture notes are posted in the example-doctests submodule <https://github.com/mikeizbicki/example-doctests>.
+
 ## Prelecture Tasks
 
 <!--

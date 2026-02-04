@@ -4,3 +4,6 @@
 [submodule "topic_06_Python_Exceptions/lab-password-cracking"]
 	path = future/topic_06_Python_Exceptions/lab-password-cracking
 	url = https://github.com/mikeizbicki/lab-password-cracking
+[submodule "topic_02_Python/example-doctests"]
+	path = topic_02_Python/example-doctests
+	url = https://github.com/mikeizbicki/example-doctests
