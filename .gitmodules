@@ -7,3 +7,6 @@
 [submodule "topic_02_Python/example-doctests"]
 	path = topic_02_Python/example-doctests
 	url = https://github.com/mikeizbicki/example-doctests
+[submodule "topic_02_Python/lab-doctests"]
+	path = topic_02_Python/lab-doctests
+	url = https://github.com/mikeizbicki/lab-doctests
