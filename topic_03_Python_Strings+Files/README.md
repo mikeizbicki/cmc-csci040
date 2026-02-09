@@ -4,21 +4,15 @@
 
 You can find an explanation of this comic at <https://www.explainxkcd.com/wiki/index.php/1813:_Vomiting_Emoji>
 
-**Announcements:**
+**Announcements (Monday 9 Feb 2026):**
 
-1. Review quiz Thursday.
+1. Everything graded in canvas.
 
-    8 problems, each worth 1 point.
+    Overall grades are good... but next 2-3 weeks much harder than first 2 weeks.
 
-1. Overall, grades are good.
+1. Quiz Wednesday.
 
-    1. Median 90%, low 80%.
-
-        Current points: 38
-
-        Markdown compiler points: 16 (40%)
-
-    1. If you missed points on a lab, I wrote in sakai why and what to do to resubmit for full credit.
+    - first python notes packet
 
 ## Lecture Notes
 
