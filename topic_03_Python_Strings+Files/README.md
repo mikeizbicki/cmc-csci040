@@ -282,6 +282,8 @@ How does an outage like this happen?
 
 ## Lab
 
+TBA
+
 <!--
 ### Part 0
 
@@ -290,6 +292,7 @@ Please complete the following survey about how class is going so far: https://do
 The survey is 100% anonymous, and it will help me adjust the course moving forward.
 -->
 
+<!--
 This lab has 3 parts, each with their own submissions in sakai worth 2 points.
 Each part should be shorter/easier than previous labs,
 so the total amount of work should be about the same.
@@ -346,3 +349,4 @@ Don't submit your code, only the output.
 ### Part 3
 
 See the instructions in the `lab.py` file.
+-->
