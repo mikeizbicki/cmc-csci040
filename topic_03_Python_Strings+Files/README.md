@@ -10,6 +10,10 @@ You can find an explanation of this comic at <https://www.explainxkcd.com/wiki/i
 
     Overall grades are good... but next 2-3 weeks much harder than first 2 weeks.
 
+1. Lab due Monday (Wednesday with collaboration)
+
+    - after 2-3 more weeks: labs shorter/feel less "weird"
+
 1. Quiz Wednesday.
 
     - first python notes packet

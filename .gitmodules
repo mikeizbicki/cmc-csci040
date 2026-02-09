@@ -1,5 +1,5 @@
 [submodule "topic_05_Python_FileManipulation/lab-encodings"]
-	path = topic_03_Python_Strings+Files/lab-encodings
+	path = topic_03_Python_Strings+Files/notes/lab-encodings
 	url = https://github.com/mikeizbicki/lab-encodings/
 [submodule "topic_06_Python_Exceptions/lab-password-cracking"]
 	path = future/topic_06_Python_Exceptions/lab-password-cracking
