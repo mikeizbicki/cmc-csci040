@@ -1,4 +1,4 @@
-# Topic 05: Unicode + files
+# Topic 03: Strings and Files
 
 <img width=400px src=img/vomiting_emoji.png />
 
@@ -14,9 +14,11 @@ You can find an explanation of this comic at <https://www.explainxkcd.com/wiki/i
 
     - after 2-3 more weeks: labs shorter/feel less "weird"
 
-1. Quiz Wednesday.
+1. Quiz this Wednesday.
 
     - first python notes packet
+
+    - handouts for quiz next Wednesday.
 
 ## Lecture Notes
 
