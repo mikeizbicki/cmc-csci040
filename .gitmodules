@@ -13,3 +13,6 @@
 [submodule "topic_03_Python_Strings+Files/lab-youtube-download"]
 	path = topic_03_Python_Strings+Files/lab-youtube-download
 	url = https://github.com/mikeizbicki/lab-youtube-download
+[submodule "topic_03_Python_Strings+Files/lab-encodings"]
+	path = topic_03_Python_Strings+Files/lab-encodings
+	url = https://github.com/mikeizbicki/lab-encodings
