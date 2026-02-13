@@ -282,15 +282,11 @@ How does an outage like this happen?
 
 ## Lab
 
-TBA
+There are two parts to today's lab.
+(Both of them should be easier than last week's.)
 
-<!--
-### Part 0
-
-Please complete the following survey about how class is going so far: https://docs.google.com/forms/d/1Weuolk5Q9RsmqVFiF8Qgbc1cd_LQNiKMY-RYAq1SPlg
-
-The survey is 100% anonymous, and it will help me adjust the course moving forward.
--->
+1. <https://github.com/mikeizbicki/lab-youtube-download>
+1. <https://github.com/mikeizbicki/lab-encodings>
 
 <!--
 This lab has 3 parts, each with their own submissions in sakai worth 2 points.

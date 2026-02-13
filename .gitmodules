@@ -10,3 +10,6 @@
 [submodule "topic_02_Python/lab-doctests"]
 	path = topic_02_Python/lab-doctests
 	url = https://github.com/mikeizbicki/lab-doctests
+[submodule "topic_03_Python_Strings+Files/lab-youtube-download"]
+	path = topic_03_Python_Strings+Files/lab-youtube-download
+	url = https://github.com/mikeizbicki/lab-youtube-download

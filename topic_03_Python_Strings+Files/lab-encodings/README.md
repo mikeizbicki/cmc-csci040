@@ -3,22 +3,41 @@
 <img src=img/python.jpeg width=400px />
 
 This lab presents several historic scenarios where you will have to write python code to read non-English files.
+
 You will practice:
 1. how to use data provided in a github repo
+1. how to use relative file paths
 1. how to load non-English text in python
 1. how to follow python tutorials
 
 ## Part 0: Getting started
 
-To work on this lab, you will need to download the contents of this git repo to your computer.
+First download the contents of this git repo to your computer.
 
-You should:
-
-1. download this repo as a zip archive,
-
-1. decompress the zip archive, and
-
-1. open the resulting folder in VSCode.
+> **Recall:**
+> To download content from github, you need to run the `git clone` command and then `cd` into the downloaded folder.
+> The commands to do that will look something like
+> ```
+> $ git clone https://github.com/mikeizbicki/lab-encodings
+> $ cd lab-encodings
+> ```
+> Then you can verify that everything is working correctly by running `ls` to see the contents of your current working directory.
+> ```
+> $ ls
+> files  img  part2  README.md  dprk-unicode.md
+> $ ls files
+> shanghai_communique.chinese1      shanghai_communique.english
+> shanghai_communique.chinese2      shanghai_communique.gb2312
+> shanghai_communique.chinese.utf8  shanghai_communique.txt
+> $ ls part2
+> secret_message.txt
+> ```
+> The lines that do not begin with the prompt `$` are example outputs of the command above, and you can check that your output matches the contents of the git repo to verify that you downloaded the content correctly.
+> (The `ls` command by itself lists the contents of the current folder.  The `ls files` command lists the contents of the `files` folder within the current folder.)
+>
+> To a hacker, it is "obvious" that these commands need to be run.
+> Realworld documentation generally does not include these instructions,
+> and I will stop including these instructions in future labs/homeworks.
 
 The next two parts of the lab below will have you reading English descriptions of various computing problems,
 and entering python code to solve those problems based on the files in this folder.
@@ -42,42 +61,61 @@ https://china.usc.edu/michel-oksenberg-translation-problem-joint-communique-janu
 -->
 
 The official English version of the document was stored electronically as ASCII text.
-You can find a copy in the file `shanghai_communique.english`.
+You can find a copy in the file `files/shanghai_communique.english`.
 Open this file in VSCode and verify that you can read it correctly.
+
+> **NOTE:**
+> Whenever we refer to a file in a git repo, we always use a *relative path*.
+> A relative path includes the names of any folders that the file is located inside of.
+> In this case, the file `shanghai_communique.english` is inside the `files` folder, and so the relative path to the file is `files/shanghai_communique.english`.
 
 > **NOTE:**
 > It is possible on modern computers for filenames to contain spaces and non-ASCII characters, but these weird characters require special handling in certain edge cases, and so it is traditional not to use these characters.
 
 Run the following code to view the communiqué from python:
 ```
->>> f = open('shanghai_communique.english', mode='tr', encoding='ascii')
+>>> f = open('files/shanghai_communique.english', encoding='ascii')
 >>> text_english = f.read()
 >>> print(text_english[:1000])
 ```
+
 > **NOTE:**
 > For all the code blocks in this file, you should open up interactive python and type in the code exactly as it appears here, and ensure that you get the correct output.
 > You don't need to submit this output.
 
+> **NOTE:**
+> The `open` function is how we access the contents of a file in python.
+> It has two parameters:
+> 1. The first is a *relative path* to the file.  If you do not include the folders that the file is contained in, then you will get error messages about the file not existing:
+>   ```
+>   >>> f = open('shanghai_communique.english', encoding='ascii')
+>   Traceback (most recent call last):
+>     File "<stdin>", line 1, in <module>
+>   FileNotFoundError: [Errno 2] No such file or directory: 'shanghai_communique.english'
+>   ```
+> 2. Recall that files on a computer can only contain binary 1s and 0s.  The `encoding` parameter specifies how to convert these numbers to strings. The code above uses ASCII, which supports English letters but no non-English letters.
+
 When the communiqué was first created,
-there was no encoding scheme for representing Chinese language text electronically,
+there was no encoding for representing Chinese language text electronically,
 and so it was impossible to store the Chinese translation on a computer.
 
 The PRC recognized this was a major problem,
 and began developing their own encoding scheme for Chinese characters.
 In 1980, they introduced the first standard for encoding Chinese characters called [GB2312](https://en.wikipedia.org/wiki/GB_2312) (ASCII was invented in 1963... China was nearly 20 years behind in computer tech.).
-The file `shanghai_communique.chinese1` contains a Chinese translation of the communiqué stored in the GB2312 encoding.
+The file `files/shanghai_communique.chinese1` contains a Chinese translation of the communiqué stored in the GB2312 encoding.
 
-Try to open `shanghai_communique.chinese1` in VSCode.
+Try to open `files/shanghai_communique.chinese1` in VSCode.
 You should see a bunch of jibberish.
 That's because VSCode can't open files using the GB2312 encoding.
 
 You can open the file in python, however.
 Access it with the following code:
 ```
->>> f = open('shanghai_communique.chinese1', encoding='gb2312')
+>>> f = open('files/shanghai_communique.chinese1', encoding='gb2312')
 >>> text_gb2312 = f.read()
 >>> print(text_gb2312[:1000])
 ```
+Notice that we changed both the file path and the encoding in the `open` command above.
 
 ### Encoding details
 
@@ -89,21 +127,50 @@ For example, the letter `A` is associated with the number 65 (which is 0x41 in h
 >>> b'\x41'.decode('ASCII')
 'A'
 ```
+
+> **NOTE:**
+> Notice that the string `b'\x41'` above starts with a `b`.
+> This means that the string is actually a python `bytes` object,
+> and stores raw binary 1s and 0s instead of letters.
+> We need to use the `.decode` function to convert these 1s and 0s into the actual letter `A`.
+> Notice that the returned string of the `.decode` function `'A'` does not start with a `b` and so is an actual string.
+> Strings and `bytes` can never be compared directly in python even when they represent the same information.
+> Observe:
+> ```
+> >>> b'\x41' == 'A'
+> False
+> >>> b'\x41' == '\x41'
+> False
+> >>> '\x41' == 'A'
+> True
+> ```
+> If it doesn't make sense why the last line is `True`, recall that `\x` is the *escape code* for entering a letter based on its hexidecimal number in the ASCII table:
+> ```
+> >>> 0x41
+> 65
+> >>> ord('\x41')
+> 65
+> >>> ord('A')
+> 65
+> ```
+
 The Chinese encoding GB2312 works in a similar way,
 but it associates each Chinese character (called a Hanzi) with TWO bytes instead of just one.
+
 For example, the Hanzi 友 means "friend" and is represented with the two bytes `\xd3` and `\xd1`:
 ```
 >>> b'\xd3\xd1'.decode('gb2312')
 '友'
 ```
+
 With two bytes, any number between 0-65335 can be represented.
 Although there are over 100,000 Chinese characters that have been created,
 most of these characters are only used in rare historical contexts.
 Modern Chinese text uses only about 3000 common characters,
 and so GB2312's 2 byte encoding is enough for representing modern text.
-<!--
-You can find the full list of the 6675 Hanzi supported by the GB2312 encoding [on wiktionary](https://en.wiktionary.org/wiki/Appendix:Chinese_hanzi_by_GB_2312_quwei_code).
--->
+
+> **NOTE:**
+> Those of you who know some Chinese may be interested in looking through the full list of the 6675 Hanzi supported by the GB2312 encoding [on wiktionary](https://en.wiktionary.org/wiki/Appendix:Chinese_hanzi_by_GB_2312_quwei_code).
 
 ### Alternative representations of Hanzi
 
@@ -111,11 +178,6 @@ Unfortunately, the GB2312 encoding is not the only way to represent Hanzi on the
 The GB2312 encoding scheme was designed specifically to use the [simplified Chinese characters](https://en.wikipedia.org/wiki/Simplified_Chinese_characters) characters in use in mainland-China,
 but does not support the [traditional Chinese characters](https://en.wikipedia.org/wiki/Traditional_Chinese_characters) used in Taiwan.
 Taiwanese programmers therefore independently created their own system for storing Hanzi called the [Big5 encoding](https://en.wikipedia.org/wiki/Big5).
-
-<!--
-For example, Taiwanese programmers did not want to have to use the GB2312 encoding scheme,
-and so they developed their own standard called the [Big5 encoding](https://en.wikipedia.org/wiki/Big5) in 1984.
--->
 
 > **Historical Background:**
 >
@@ -160,7 +222,7 @@ If we try to load a file that contains one of these "bad byte sequences" with th
 Python will throw an error.
 For example, the following python code tries to open our GB2312 encoded file in python using the Big5 encoding:
 ```
->>> f = open('shanghai_communique.chinese1', encoding='big5')
+>>> f = open('files/shanghai_communique.chinese1', encoding='big5')
 >>> f.read()
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -198,6 +260,11 @@ and if that doesn't work, then we could open the file using the Big5 encoding.
 The following Python function uses python's built-in `try`/`except` blocks to achieve this goal:
 ```
 def load_chinese_file(filename):
+    # in the open command above, notice that we do not specify the encoding
+    # that is because we are opening the file in *binary* mode
+    # (the 'b' stands for binary, and the 'r' for read) 
+    # files opened in binary mode return bytes objects
+    # these need to be manually converted to strings using the .decode method
     f = open(filename, 'br')
     bs = f.read()
     try:
@@ -209,19 +276,23 @@ def load_chinese_file(filename):
     return text
 ```
 Create a new python file called `chinese.py` that contains the above function.
+(Notice that I did not specify a folder above, which means that the file should be created in the project folder and not the `files` subfolder.)
 Then enter interactive python with the command
 ```
 $ python3 -i chinese.py
 ```
 You should now be able to load any Chinese language document with a single function call:
 ```
->>> text1 = load_chinese_file('shanghai_communique.chinese1')
->>> text2 = load_chinese_file('shanghai_communique.chinese2')
+>>> text1 = load_chinese_file('files/shanghai_communique.chinese1')
+gb2312
+>>> text2 = load_chinese_file('files/shanghai_communique.chinese2')
+big5
 ```
-Note that the two lines above shouldn't have any output.
-Your function `load_chinese_file` returned the contents of the file,
+Note that the two commands above don't print the *contents* of the file,
+they print the *encoding* of the file.
+Your function `load_chinese_file` *returned* the contents of the file,
 and so these contents are now stored in the `text1` and `text2` variables.
-If you want to actually view the files, you need to print the variables.
+If you want to actually view the contents, you need to print the variables.
 ```
 >>> print(text1)
 >>> print(text2)
@@ -290,6 +361,12 @@ The United Nations' [Minimum standards of multilingualism for United Nations web
 
 Political battles over emoji [continue to this day](https://blog.emojipedia.org/apple-hides-taiwan-flag-in-hong-kong/).
 
+> **NOTE:**
+> There are 7 emojis in the current Unicode standard that were added at the request of North Korea. The DPRK originally suggested that the HOT BEVERAGE emoji ☕ should be called the HOT TEA emoji, but an American suggested the emoji be renamed so that Americans could use it to represent coffee. The North Koreans agreed, and so the emoji was renamed. This is an example of technical experts working on narrow technical problems being able to work together in a way that diplomats can't. There are many historical examples of low-level technical cooperation like this leading to high-level diplomatic cooperation. This process is closely related to [Track II Diplomacy](https://en.wikipedia.org/wiki/Track_II_diplomacy) and [Citizen Diplomacy](https://en.wikipedia.org/wiki/Citizen_diplomacy).
+>
+> Part of my work in North Korea was to help the Koreans adopt international standards like Unicode.
+> If you're interested, you can find a summary of how technical problems with character encodings are hindering diplomatic negotions with North Korea [in the repo's dprk-unicode.md file](dprk-unicode.md).
+
 ## Part II
 
 For the rest of this lab, you will pretend to be an analyst at the US ["State Department"](https://www.quora.com/Why-does-the-CIA-famously-use-the-US-State-Department-as-cover-for-its-covert-officers?).
@@ -300,11 +377,11 @@ The classic hacker webpage cryptome.org has a fun ["spot the spook" tutorial](ht
 
 You've become aware that a US government employee is leaking classified secrets about US nuclear submarines to the Brazilian government.
 A [field agent](https://www.quora.com/What-does-a-CIA-field-agent-do) has intercepted a recent communication about where the US government employee will meet his Brazilian contact.
-The message is located in the file `secret_message.txt`.
+The message is located in the file `part2/secret_message.txt`.
 Unfortunately, this file is encoded using a Brazilian encoding and not readily readable.
 
 '''
->>> f = open('secret_message.txt', 'rb')
+>>> f = open('part2/secret_message.txt', 'rb')
 >>> f.read()
 b'\xc1\x95\xa3\xcb\x95\x89\x96k@\x85\x95\x83\x96\x95\xa3\x99\x85`\x94\x85@\x95\x81@\x85\x94\x82\x81\x89\xa7\x81\x84\x81@D@\x94\x85\x89\x81`\x95\x96\x89\xa3\x85@\x84\x85@\xa3\x85\x99H\x81`\x86\x85\x89\x99\x81K%'
 '''
@@ -317,7 +394,10 @@ Your job is to figure out how to read this message so that the FBI can go to the
 > Brazil has a long history of attempting and failing to build their own nuclear submarines,
 > and so this engineer thought they would be willing to by the US submarine schematics.
 > The Brazilians didn't want to participate in the scheme,
-> and so forwarded the information to the CIA
+> and so forwarded the information to the CIA,
+> and the FBI successfully arrested the leaker.
+>
+> Multiple students who have taken CS40 have gone on to work at 3-letter agencies doing this exact kind of work.
 
 > **HINT:**
 > The list of all available encodings is located in the python documentation at <https://docs.python.org/3/library/codecs.html#standard-encodings>.
@@ -331,4 +411,16 @@ Your job is to figure out how to read this message so that the FBI can go to the
 
 ## Submission
 
-Upload the correctly decoded contents of the `secret_message.txt` file to sakai.
+Create a file `part2/secret_message.utf8` that contains the decoded contents of `secret_message.txt` encoded in utf8.
+
+> **HINT:**
+> If you create/save the file in VSCode, it will be in utf8.
+> Ensure that you place it in the correct location for full credit.
+
+Then create a new github repo,
+add all of the contents of this lab and your new `secret_message.utf8` file to the repo,
+and submit a link to the repo in canvas.
+There are no doctests for this lab.
+
+> **HINT:**
+> Recall that you can follow "STEP 3: Put your updated code on github" from the [example-doctests repo](https://github.com/mikeizbicki/example-doctests) to upload content to github.
