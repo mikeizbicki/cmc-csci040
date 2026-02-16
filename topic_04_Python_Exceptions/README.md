@@ -1,20 +1,10 @@
-# Topic 06: Exceptions and Debugging
+# Topic 04: Exceptions and Debugging
 
 <img src=img/debugging.png width=400px>
 
-**Announcements: Tuesday 04 March 2025**
+**Announcements (Monday 16 Feb):**
 
-1. Grades updated in sakai
-
-    <img src=img/grades_markdown.png width=400px>
-
-    <img src=img/grades.png width=400px>
-
-1. Quiz this Thursday on "markdown compiler" problems
-
-    4 problems
-
-    2 points / problem = 8 points total
+1. next project posted
 
 ## Lecture Notes
 
@@ -45,4 +35,8 @@ Also, this chart is a useful reminder when working on problems:
 
 ## Lab
 
+TBA
+
+<!--
 See the [lab-password-cracking](https://github.com/mikeizbicki/lab-password-cracking) git repo.
+-->

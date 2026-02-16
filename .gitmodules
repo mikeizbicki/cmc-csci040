@@ -2,7 +2,7 @@
 	path = topic_03_Python_Strings+Files/img/notes/lab-encodings
 	url = https://github.com/mikeizbicki/lab-encodings/
 [submodule "topic_06_Python_Exceptions/lab-password-cracking"]
-	path = future/topic_06_Python_Exceptions/lab-password-cracking
+	path = topic_04_Python_Exceptions/img/lab-password-cracking
 	url = https://github.com/mikeizbicki/lab-password-cracking
 [submodule "topic_02_Python/example-doctests"]
 	path = topic_02_Python/example-doctests
@@ -16,3 +16,6 @@
 [submodule "topic_03_Python_Strings+Files/lab-encodings"]
 	path = topic_03_Python_Strings+Files/lab-encodings
 	url = https://github.com/mikeizbicki/lab-encodings
+[submodule "project_01_markdown_compiler"]
+	path = project_01_markdown_compiler
+	url = https://github.com/mikeizbicki/markdown-compiler
