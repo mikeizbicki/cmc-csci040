@@ -4,6 +4,7 @@
 
 **Announcements (Monday 16 Feb):**
 
+1. quiz Wednesday on python strings
 1. next project posted
 
 ## Lecture Notes
