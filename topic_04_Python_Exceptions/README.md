@@ -18,7 +18,8 @@ References include:
 1. https://realpython.com/lessons/introduction-exceptions/
 1. https://docs.python.org/3/library/exceptions.html
 
-<!--
+Next quiz practice problems at: <https://github.com/mikeizbicki/quiz/blob/master/quiz_python_with_exceptions/topic04_exceptions.pdf>
+
 You're responsible for knowing the following exceptions:
 1. `AssertionError`
 1. `AttributeError`
@@ -28,7 +29,6 @@ You're responsible for knowing the following exceptions:
 1. `UnboundLocalError`
 1. `TypeError`
 1. `ZeroDivisionError`
--->
 
 Also, this chart is a useful reminder when working on problems:
 
