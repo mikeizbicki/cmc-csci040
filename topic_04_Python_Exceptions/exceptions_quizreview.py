@@ -244,4 +244,4 @@ maximum_value2([2])
 
 def example():
     raise ValueError('hello')
-example()
+#example()
