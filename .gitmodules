@@ -1,9 +1,6 @@
 [submodule "topic_05_Python_FileManipulation/lab-encodings"]
 	path = topic_03_Python_Strings+Files/img/notes/lab-encodings
 	url = https://github.com/mikeizbicki/lab-encodings/
-[submodule "topic_06_Python_Exceptions/lab-password-cracking"]
-	path = topic_04_Python_Exceptions/img/lab-password-cracking
-	url = https://github.com/mikeizbicki/lab-password-cracking
 [submodule "topic_02_Python/example-doctests"]
 	path = topic_02_Python/example-doctests
 	url = https://github.com/mikeizbicki/example-doctests
