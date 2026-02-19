@@ -16,3 +16,6 @@
 [submodule "project_01_markdown_compiler"]
 	path = project_01_markdown_compiler
 	url = https://github.com/mikeizbicki/markdown-compiler
+[submodule "topic_04_Python_Exceptions/lab-password-cracking"]
+	path = topic_04_Python_Exceptions/lab-password-cracking
+	url = https://github.com/mikeizbicki/lab-password-cracking
