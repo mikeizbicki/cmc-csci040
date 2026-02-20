@@ -36,7 +36,10 @@ Also, this chart is a useful reminder when working on problems:
 
 ## Lab
 
-TBA
+There are three parts to this week's lab:
+1. Visit [Issue #257](https://github.com/mikeizbicki/cmc-csci040/issues/257) and follow the instructions to practice writing markdown.
+2. Follow the instructions at <https://github.com/mikeizbicki/lab-cowsay>
+3. Follow the instructions at <https://github.com/mikeizbicki/lab-password-cracking>
 
 <!--
 See the [lab-password-cracking](https://github.com/mikeizbicki/lab-password-cracking) git repo.

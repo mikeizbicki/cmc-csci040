@@ -19,3 +19,6 @@
 [submodule "topic_04_Python_Exceptions/lab-password-cracking"]
 	path = topic_04_Python_Exceptions/lab-password-cracking
 	url = https://github.com/mikeizbicki/lab-password-cracking
+[submodule "topic_04_Python_Exceptions/lab-cowsay"]
+	path = topic_04_Python_Exceptions/lab-cowsay
+	url = https://github.com/mikeizbicki/lab-cowsay
