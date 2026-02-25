@@ -205,4 +205,8 @@ How does an outage like this happen?
 
 ## Lab
 
+TBA
+
+<!--
 See [lab-dracula](https://github.com/mikeizbicki/cmc-csci040/tree/2025spring/topic_08_Python_WebScraping/lab-dracula).
+-->
