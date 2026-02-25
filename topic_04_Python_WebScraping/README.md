@@ -4,32 +4,19 @@
 <img width=600px src=img/Strip-Hackers-VS-Security-team-650-finalenglish1.jpg />
 </center>
 
-## Announcements
-
-**Grades:**
-
-Everything is graded and updated in sakai.
-
-<img src=img/grades.png width=400px />
-
-1. 4 students submitted a broken link for `lab-markdown`.
-
-    You can fix and resubmit.
-    (No penalty if done before Thursday@midnight.)
-
-    You will be penalized for this on your future submissions.
+**Announcements (Wed 25 Feb):**
 
 Upcoming assignments:
 
-1. Quiz Thursday (on `BeautifulSoup`).
+1. 8/19 cowsay submissions
 
-1. No lab session this Friday (due to Cesar Chavez).
+    4/19 password-cracking submissions
 
-    You still have a (hopefully easy) lab due on Sunday.
+1. Another lab this week
 
-1. Project 2 due this Sunday.
+1. Project-markdown due next Tuesday
 
-    **WARNING:** Historically, many students lose lots of points on project 2 for not following directions.
+1. Quiz (on web scraping) next week
 
 My teaching philosophy:
 
