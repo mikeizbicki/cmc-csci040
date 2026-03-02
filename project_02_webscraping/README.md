@@ -2,11 +2,11 @@
 [This video](https://www.youtube.com/watch?v=IzMv8ZnSk6c&list=PLSNWQVdrBwoYFB5ZjbfBZUYApuvNrZpGL&index=14) provides a detailed overview of the assignment and completes the majority of the code.
 It's about 2hr long.
 
-# Project 3: Scraping from ebay
+# Project: Scraping from ebay
 
-![comic](D1Kq7tHUYAA4CKC.jpeg)
+![comic](img/dilbert.jpeg)
 
-**Description:** 
+**Description:**
 You will scrape information from ebay and store the results in a json file.
 
 The "right way" to think of this project is as a "compiler" similar to the `markdown_compiler.py` assignment.
@@ -14,8 +14,8 @@ In that project, we converted markdown files into html;
 and in this project, we'll convert ebay's html files into JSON.
 The vast majority of programming projects are about converting from one type of data to another "better" type.
 
-**Due:** 
-Sunday, 6 April, midnight
+**Due:**
+Sunday, 22 March, midnight
 
 **Learning objectives:**
 
@@ -78,7 +78,7 @@ Create a github repo that:
 
 **Submission:**
 
-Submit your assignment by uploading a link to the github repo to sakai
+Submit your assignment by uploading a link to the github repo to canvas
 
 ## Grading rubric
 
@@ -96,9 +96,9 @@ The assignment is worth 18 points total.
 
 ### Extra Credit
 
-You can earn 2 points of extra credit if you complete the following tasks:
+You can earn +1 point of extra credit if you complete the following tasks:
 
-1. Modify `ebay-dl.py` so that it accepts a new command line flag `--csv`. 
+1. Modify `ebay-dl.py` so that it accepts a new command line flag `--csv`.
    Whenever this flag is specified, the output file should be saved in csv format instead of json format.
 
 1. Generate 3 csv files in addition to the 3 json files, and include them in your repo.
