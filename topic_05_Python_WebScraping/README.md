@@ -1,4 +1,4 @@
-# Topic 08: Web Scraping
+# Python: Web Scraping
 
 <center>
 <img width=600px src=img/Strip-Hackers-VS-Security-team-650-finalenglish1.jpg />
