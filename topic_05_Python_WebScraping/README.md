@@ -50,6 +50,16 @@ My teaching philosophy:
 
         So good grades aren't enough, and you need portfolios of projects to show employers.
 
+**Announcements (Mon 02 Mar):**
+
+1. 3 assignments due last night (cowsay/password cracking/tweets)
+
+1. markdown compiler due date extended until Tuesday
+
+1. next project posted (due by end of spring break)
+
+1. quiz Wednesday on bs4/css
+
 ## Lecture Notes
 
 1. We will go over how to download information from the internet using the `requests` library in python.
