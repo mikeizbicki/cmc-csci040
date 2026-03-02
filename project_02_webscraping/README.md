@@ -1,6 +1,12 @@
-**NOTE:**
-[This video](https://www.youtube.com/watch?v=IzMv8ZnSk6c&list=PLSNWQVdrBwoYFB5ZjbfBZUYApuvNrZpGL&index=14) provides a detailed overview of the assignment and completes the majority of the code.
-It's about 2hr long.
+> **NOTE:**
+> [This video](https://www.youtube.com/watch?v=IzMv8ZnSk6c&list=PLSNWQVdrBwoYFB5ZjbfBZUYApuvNrZpGL&index=19&t=175s) provides a detailed overview of the assignment and completes the majority of the code.
+> It's about 2hr long.
+>
+> The best way to "level up" as a programmer is to "pair program" with a more experienced programmer to see how they approach problems and debug.
+>
+> For this video, focus on:
+> 1. How do I debug my code when it doesn't do what I expect?
+> 2. How do I structure my code to use doctests to prove that certain parts work correctly?
 
 # Project: Scraping from ebay
 
