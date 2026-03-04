@@ -1,10 +1,6 @@
-# Topic 09: Syntactic Sugar
+# Syntactic Sugar
 
-## Announcements
-
-Before Thursday class, create an account at <https://groq.com/>.
-
-## Lecture Notes
+Your next quiz notes is posted at <>
 
 "Syntactic Sugar" is a short way of writing common idioms in code.
 Python is famous for having lots of syntactic sugar.
@@ -14,6 +10,13 @@ Python is famous for having lots of syntactic sugar.
 We've already seen some examples of syntactic sugar:
 
 <img src=img/while_for.png width=400px />
+
+> **IMPORTANT:**
+>
+> We will only cover list comprehensions in class.
+> You must learn the other material in the notes on your own.
+>
+> Practice "learning how to learn".
 
 List comprehensions are a famous and controversial form of syntactic sugar.
 They can simplify your code a lot, or make it difficult to read.
