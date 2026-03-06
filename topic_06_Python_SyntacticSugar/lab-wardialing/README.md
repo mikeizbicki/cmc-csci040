@@ -1,5 +1,7 @@
 # Lab: War Dialing
 
+<img align=right src=img/hackerman.jpg width=250px />
+
 **Description:**
 
 You will "war dial" ALL web servers located in the DPRK (i.e. North Korea),
