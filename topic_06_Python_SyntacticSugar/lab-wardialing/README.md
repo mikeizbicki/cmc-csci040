@@ -40,7 +40,12 @@ War dialing is the process of scanning a segment of the internet to list all the
 The [name comes from the WarGames movie](https://en.wikipedia.org/wiki/Wardialing#Etymology),
 where David Lightman (the main character) uses war dialing to discover a US military nuclear control computer in this scene:
 
-<img src=wargames.jpg width=600px />
+<img src=img/wargames.jpg width=600px />
+
+> **NOTE:**
+> Recall that you have to complete the [caveat task](https://github.com/mikeizbicki/cmc-csci040/issues/260) for this class of watching/reading certain "hacker culture art".
+> The *War Games* movie is one of the movies you can watch for this task,
+> and I recommend watching it soon while this lab is fresh in your mind.
 
 There's a great [stack overflow discussion of how realistic this movie is](https://scifi.stackexchange.com/questions/66882/how-does-david-lightman-in-wargames-manage-to-hack-a-computer-by-dialing-a-numbe/66899).
 Basically, all the technical details of war dialing in the movie are correct,
@@ -52,6 +57,13 @@ Actually, you can find lots of information online about US networks for classifi
 - and [NSANet](https://en.wikipedia.org/wiki/National_Security_Agency#NSANet) (used for sharing intelligence information classified as TOP SECRET/SCI).
 Nuclear secrets are allowed to be shared on some of these networks,
 but [nuclear command and control (NC2)](https://en.wikipedia.org/wiki/Nuclear_command_and_control) infrastructure is required to be [air gapped](https://en.wikipedia.org/wiki/Air_gap_(networking)) from all networks---even the most exclusive and top secret ones like NSANet---in order to prevent a scenario like in the WarGames movie.
+
+Wikipedia has the following image of what a typical workstation looks like for someone who has to deal with classified systems.
+
+<img src=img/battlestation.jpg width=400px />
+
+Notice that there is a different computer for each network and that they are physically disconnected from each other.
+This ensures that software bugs cannot cause top secret information to leak onto the internet.
 
 **History of the Internet:**
 
@@ -98,7 +110,7 @@ we're [running out](https://en.wikipedia.org/wiki/IPv4_address_exhaustion) and s
 
 <!--
 > **HINT:**
-> 
+>
 > For muggle-style internet usage,
 > NAT usually works okay,
 > but it's likely to cause you problems for this assignment.
@@ -108,19 +120,19 @@ we're [running out](https://en.wikipedia.org/wiki/IPv4_address_exhaustion) and s
 > That's not too big of a deal since most people don't access DPRK webpages on a regular basis.
 > But it means that two people from this class can't be working on the same IP address at the same time,
 > or you'll interfere with each other.
-> 
+>
 > In order to complete this assignment,
 > I recommend working with a different IP address than the campus wifi.
 > You can get a different IP address by any of the following methods:
 > 1. plugging your computer directly into the wall of your dorm (or if you're living off-campus, just use your off-campus internet),
 > 1. using any of the lab computers (since they're plugged into the walls, they are assigned their own unique IPs),
-> 1. use wifi tethering with your cellphone (completing this lab should use up less than 100MB of data since we'll only be downloading text documents),
+> 1. use wifi tethering with your cellphone (completing this lab should use up less than 10MB of data since we'll only be downloading text documents),
 > 1. or working at a coffee shop out in town.
 > Or, you can use the campus wifi but just work at an off-time when no one else will be working on this assignment.
 -->
- 
+
 **Finding an organization's IP addresses:**
- 
+
 In order to war dial an organization,
 we need to know all of their IP addresses.
 This information is all public knowledge,
@@ -229,7 +241,7 @@ In the remainder of this lab, you will write a python program that connects to e
    Run the following command (again, replacing `XXX`):
    ```
    import requests
-   r = requests.get('http://175.45.176.XXX')  
+   r = requests.get('http://175.45.176.XXX')
    print('r.status_code=', r.status_code)
    ```
    Once again, if everything worked correctly, you should get the output
@@ -251,7 +263,7 @@ In the remainder of this lab, you will write a python program that connects to e
    ```
    By catching this exception (with the `try`/`except` syntax), we can therefore determine whether a server exists at a given IP.
 
-   This function is still less-than-optimal, however, because it takes a LONG time when there is no IP address on the server.
+   This code is still less-than-optimal, however, because it takes a LONG time when there is no IP address on the server.
    [According to the documentation, `requests.get` can technically take forever](https://requests.readthedocs.io/en/latest/user/quickstart/).
    You should read the documentation above to figure out how to modify the call to the `requests.get` function so that it waits at most 5 seconds for a response from a server.
    (HINT: search for the phrase "timeout".)
@@ -268,16 +280,14 @@ In the remainder of this lab, you will write a python program that connects to e
    -->
 
 5. We're finally ready to war dial.
-   The file `wardial.py` contains three `FIXME` statements.
+   The file `wardial.py` contains several `FIXME` statements.
    Fix those and run the program.
    The completed program will output a list of all IP addresses in the DPRK running web servers.
 
    > **HINT:**
-   >
-   > You can check that you've completed the task correctly because (as of 3 Apr 2025), there are 16 servers running in North Korea.
-   > If your number is off by 1 or 2, that's probably because the server was down while you or I were scanning, and that's okay; you don't need to rerun your scan.)
+   > Expect to get a number somewhere between 10-50.
 
-   Upload your completed `wardial.py` file and the list of all North Korean IP addresses running web servers to sakai.
+   Submission instructions are contained in the python file.
 
 ## Shodan
 
@@ -287,7 +297,11 @@ In the remainder of this lab, you will write a python program that connects to e
 You can find detailed a detailed list of all internet devices connected on North Korean IPs at <https://www.shodan.io/search?query=net%3A175.45.176.0%2F24>.
 This list contains more than just web servers, so has a few more results than you'll get from the war dial in this lab.
 You can also find all the servers hosted by the claremont colleges at <https://www.shodan.io/search?query=net%3A134.173.0.0%2F16>.
-If you dig through the results, for example, you can find an internal tool used by the Athenaeum that is not intended for the public to view.
+
+> **EXTRA CREDIT:**
+> If you dig through the results above, you can find an internal tool used by the Athenaeum that is not intended for the public to view.
+> You can get +1 point of extra credit on this assignment if you submit to me the url/ip address to this special Athenaeum login page.
+> You may not collaborate on this extra credit.
 
 One of the really trippy things about shodan is that they scan the servers for security vulnerabilities,
 and looking at the results list for North Korea,
@@ -302,5 +316,7 @@ There's a good tutorial about shodan online at: <https://danielmiessler.com/stud
 There's also some good video tutorials from a conference called DEFCON.
 DEFCON is a hacking conference that has a weird mix of academic researchers, black hat criminals, and FBI agents all presenting and sharing their work.
 Some shodan videos from the conference are:
-1. https://www.youtube.com/watch?v=js840O9zHTE
-1. https://www.youtube.com/watch?v=-T-3buBwMEQ
+1. <https://www.youtube.com/watch?v=js840O9zHTE>
+1. <https://www.youtube.com/watch?v=-T-3buBwMEQ>
+
+<img src=img/news.jpg width=600px />

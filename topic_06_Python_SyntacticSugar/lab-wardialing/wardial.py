@@ -1,3 +1,8 @@
+'''
+This is a lab for CSCI040.
+Complete the lab by fixing the FIXME annotations below.
+'''
+
 import requests
 
 ########################################
@@ -74,25 +79,8 @@ def is_server_at_hostname(hostname):
     but it would also make scanning take much longer.
     5 seconds is a reasonable tradeoff between these extremes.
     '''
-    try:
-        # if the hostname is not an IP address,
-        # then we set the Host header variable to 'Host'
-        if hostname.replace('.', '').isdigit():
-            headers={'Host': 'Host'}
-        else:
-            headers={}
-
-        requests.get(
-            url='http://' + hostname,
-            timeout=5,
-            headers=headers,
-            )
-        return True
-    except requests.exceptions.ConnectionError:
-        return False
 
 
-"""
 def increment_ip(ip):
     '''
     Return the "next" IPv4 address.
@@ -182,6 +170,37 @@ dprk_ips_with_servers = []
 # the following code should output the list of IP addresses.
 # You don't have to modify anything here.
 ########################################
-if __name__ == '__main__':
-    print('dprk_ips_with_servers=', dprk_ips_with_servers)
-"""
+print('dprk_ips_with_servers=', dprk_ips_with_servers)
+
+########################################
+# FIXME 3:
+# Create a new repo on github.
+# The repo must have:
+# 1. Your modified python code
+# 2. A github action that runs the test cases
+# 3. a README.md file that has:
+#    1. a brief 1 sentence explanation of what your project does.
+#    2. a badge showing the test cases pass
+#    3. all IP addresses that host web servers in the DPRK
+#       you must format this output as a codeblock that shows the terminal command that you ran and its output
+#       that is, something like:
+#       ```
+#       $ python3 wardial.py
+#       ip1
+#       ip2
+#       ip3
+#       ```
+#
+# NOTE:
+# The code from FIXME 1 and 2 is "top level" (i.e. has no indents).
+# That means it will always be run.
+# You do not want this code to run when your doctests are running, however,
+# because this code takes a long time to run and the doctests need to finish quickly.
+# You should put this top level code inside an if statement that looks like
+# ```
+# if __name__ == '__main__':
+# ```
+# This will ensure that the code only gets run when the file is run as a script;
+# the code will not be run when the file is run as doctests.
+########################################
+
