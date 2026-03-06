@@ -46,3 +46,7 @@ References:
 ## Lab
 
 See the [lab-wardialing](lab-wardialing) folder.
+
+> **NOTE:**
+> Next week's lab is posted at <https://github.com/mikeizbicki/pullrequest-tutorial/>.
+> You are encouraged to complete it early so that you don't have to worry about it over spring break.
