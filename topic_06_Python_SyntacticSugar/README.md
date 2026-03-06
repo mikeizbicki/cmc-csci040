@@ -45,8 +45,4 @@ References:
 
 ## Lab
 
-TBA
-
-<!--
-See the `lab-wardialing` folder.
--->
+See the [lab-wardialing](lab-wardialing) folder.

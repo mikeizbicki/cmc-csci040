@@ -28,9 +28,7 @@ The reality of the modern internet is that all computers connected to the intern
 1. Review using the `requests` library
 1. Review working with exceptions
 1. Learn how to monitor the internet connectivity of a country/organization
-<!--
-1. Learn how to circumvent anti-scraping measures
--->
+1. Practice "learning how to learn" by reading about network technology that we have not covered in class
 
 ## Background
 

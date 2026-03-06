@@ -16,19 +16,21 @@
 
 
 # Problem 21
-'''
 names = ['alice', 'bob', 'charlie', 'dave', 'eve']
 greetings = ['hello ' + name for name in names]
+#greetings = []
+#for name in names:
+#    greetings.append('hello ' + name)
+# anytime you see the keyword for inside of a list
+# you have a "comprehension"
 greeting = greetings[2]
-print('greeting=', greeting)
-'''
+print('21: greeting=', greeting)
 
 # Problem 22
-'''
+# range(10) = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 xs = [ x*x for x in range(10) ]
 num = xs[5]
-print('num=', num)
-'''
+print('22: num=', num)
 
 ########################################
 # List Comprehensions (2)
@@ -48,18 +50,22 @@ print('num=', num)
 
 
 # Problem 25
-'''
+# it will find the squares of all odd numbers
+# 1, 9, 25, 49 ...
 xs = [ x*x for x in range(10) if x%2 ]
+xs = []
+for x in range(10):
+    # in python, 0 is falsey
+    # everything else truthy
+    if x%2:
+        xs.append(x*x)
 num = xs[3]
-print('num=', num)
-'''
+print('25: num=', num)
 
 # Problem 26
-'''
 sentence = 'This is an example sentence with a few words in it.'
 small_words = [ word.lower() for word in sentence.split() if len(word) <= 2]
 print('len(small_words)=', len(small_words))
-'''
 
 
 ########################################
@@ -70,11 +76,10 @@ print('len(small_words)=', len(small_words))
 # repeat the desugaring steps above from outside to inside.
 
 # Problem 35
-'''
 xss = [[i for i in range(x)] for x in [2, 3, 4] if x%2 == 0]
 x = xss[-1][-2]
 print('x=', x)
-'''
+
 
 ########################################
 # List Comprehensions (4)
@@ -84,11 +89,15 @@ print('x=', x)
 # repeat the desugaring steps above from left to right.
 
 # Problem 40
-'''
 xss = [i for x in [2, 3, 4] if x%2 == 0 for i in range(x)]
-x = xss[-1][-2]
+#x = xss[-1][-2]
 print('x=', x)
-'''
+
+# list comp. inside list comp. gives me a list of lists as a result
+# makes sense to have 2 [][] indexing
+
+# two for loops in the same list comp.
+# the result will always be just an individual list (not list of lists)
 
 ########################################
 # List Comprehensions (4)
@@ -131,7 +140,7 @@ tweets = [
     }]
 
 # Problem 21
-'''
+# list comprehensions extremely common for transforming data
 trump_tweets = [tweet for tweet in tweets if 'trump' in tweet['text'].lower()]
 print('len(trump_tweets)=',len(trump_tweets))
-'''
+
