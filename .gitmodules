@@ -22,3 +22,6 @@
 [submodule "topic_04_Python_Exceptions/lab-cowsay"]
 	path = topic_04_Python_Exceptions/lab-cowsay
 	url = https://github.com/mikeizbicki/lab-cowsay
+[submodule "topic_07_Python_OOP/pullrequest-tutorial"]
+	path = topic_07_Python_OOP/pullrequest-tutorial
+	url = https://github.com/mikeizbicki/pullrequest-tutorial
