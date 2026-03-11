@@ -25,3 +25,6 @@
 [submodule "topic_07_Python_OOP/pullrequest-tutorial"]
 	path = topic_07_Python_OOP/pullrequest-tutorial
 	url = https://github.com/mikeizbicki/pullrequest-tutorial
+[submodule "how-internet-works"]
+	path = how-internet-works
+	url = https://github.com/mikeizbicki/how-internet-works
