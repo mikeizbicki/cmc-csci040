@@ -1,6 +1,6 @@
 # Syntactic Sugar
 
-Your next quiz notes is posted at <https://github.com/mikeizbicki/quiz/blob/master/quiz_python_with_exceptions/topic04_exceptions.pdf>.
+Your next quiz notes is posted at <https://github.com/mikeizbicki/quiz/blob/master/quiz_python_with_exceptions/topic05_sugar.pdf>.
 
 "Syntactic Sugar" is a short way of writing common idioms in code.
 Python is famous for having lots of syntactic sugar.
