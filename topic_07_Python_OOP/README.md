@@ -40,7 +40,7 @@
         | --- | --- |
         | Project 3 - AI retrieval augmented generation (RAG) | Tuesday, Apr 7 |
         | Project 4 - AI coding agent | Tuesday, Apr 21 |
-        | Project 5 - Twitter Clone | (graduating) Wed May 6, (non-graduating) Fri, May 15 |
+        | Project 5 - Twitter Clone | (graduating) Wed May 6<br/> (non-graduating) Fri, May 15 |
 
 1. For Wednesday:
 
