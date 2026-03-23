@@ -23,6 +23,37 @@
 
 4. After spring break quiz on <https://github.com/mikeizbicki/quiz/blob/master/quiz_python_with_exceptions/topic06_oop.pdf>
 
+**Announcements (Monday 23 March):**
+
+1. Everything graded
+
+1. Reminder: quiz Wednesday on OOP
+
+1. Map of rest of semester
+    1. you've completed about 40% of the points in this class
+    1. weekly quizzes / labs
+    1. 3 projects
+
+        due dates no earlier than:
+
+        | project | date |
+        | --- | --- |
+        | Project 3 - AI retrieval augmented generation (RAG) | Tuesday, Apr 7 |
+        | Project 4 - AI coding agent | Tuesday, Apr 21 |
+        | Project 5 - Twitter Clone | (graduating) Wed May 6, (non-graduating) Fri, May 15 |
+
+1. For Wednesday:
+
+    Create an API key with groq.com: <https://console.groq.com/keys>
+    - faster than OpenAI, but 1-2 year old models
+    - free LLM access, but limited number of requests
+    - you can complete all required tasks for this class with the free tier
+
+    (optional) Create an API key at: <https://openrouter.ai/>
+    - allows access to *every* AI system from one location (e.g. OpenAI/Anthropic/Google/Grok)
+    - costs money ($10 will be enough for this class)
+    - some extra credits will require using these AI systems
+
 ## Lecture Notes
 
 1. References:
