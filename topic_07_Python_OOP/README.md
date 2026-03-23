@@ -27,7 +27,9 @@
 
 1. Everything graded
 
-1. Reminder: quiz Wednesday on OOP
+1. Reminder:
+    1. quiz Wednesday on OOP
+    1. no class Friday (Cesar Chavez day)
 
 1. Map of rest of semester
     1. you've completed about 40% of the points in this class
