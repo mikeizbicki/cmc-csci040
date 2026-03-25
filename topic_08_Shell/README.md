@@ -1,6 +1,6 @@
 # The Unix Shell
 
-<img src=img/dilbert.gif width=300px />
+<img src=img/dilbert.gif width=400px />
 
 We will need to understand the Unix shell in order to complete the groq quickstart tutorial: <https://console.groq.com/docs/quickstart>.
 
