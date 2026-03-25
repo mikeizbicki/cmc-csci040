@@ -30,7 +30,7 @@ My teaching philosophy:
 
     1. Should I add more work to the course?
 
-        *HINT:* [Betterridges's law of headlines](https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines) says "no".
+        *HINT:* [Betteridge's law of headlines](https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines) says "no".
 
         From the [how to become a hacker](http://www.catb.org/~esr/faqs/hacker-howto.html):
 
