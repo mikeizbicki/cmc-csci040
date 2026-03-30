@@ -1,14 +1,10 @@
-# Topic 10: Using LLMs from within Python
+# Using LLMs from within Python
 
 <img src=img/chatgpt.png width=300px />
 
-**Learning objectives:**
-
-1. Understand how to use LLMs from python
-1. Understand 2 common security mistakes with LLMs
-    1. key leaking
-    1. prompt injection
-1. Get more practice using real world documentation
+**Announcements (30 Mar 2026):**
+1. github pull requests
+2. quiz Wednesday (shell / git)
 
 ## Lecture Notes
 
@@ -16,19 +12,77 @@ We will write a simple program to summarize an input document.
 
 I will do most of the steps in class, and you get to follow along.
 
-You will still have to submit your finished product to sakai.
+You will still have to submit your finished product to canvas (as part of your next lab).
+
+**Learning objectives:**
+
+1. Understand how to use LLMs from python
+1. Understand 2 common security mistakes with LLMs
+    1. key leaking
+    1. prompt injection
+1. Get more practice using:
+    1. real world documentation
+    1. git
+    1. classes/OOP
 
 ### Step 0: Project Setup
 
-Create a new project folder `docsum`.
+1. Create an account and API key at <https://groq.com/>.
 
-Create an account and API key at <https://groq.com/>.
-Groq is a [pre-revenue LLM startup](https://www.youtube.com/watch?v=BzAdXyPYKQo) focused on developing faster hardware to compete with NVIDIA.
+    > **NOTE:**
+    > Groq is not a competitor to OpenAI/Anthropic/Google/Meta developing new models.
+    > Instead, they are a competitor to NVIDIA, developing hardware that runs models.
+    > They are:
+    > - a [pre-revenue LLM startup](https://www.youtube.com/watch?v=BzAdXyPYKQo) focused on developing faster hardware to compete with NVIDIA;
+    > - (as of 24 Dec 2025) [a supplier of new chipsets to NVIDIA](https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale)
 
-Create a file `.env` that contains your API key in the form
-```
-GROQ_API_KEY=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
-```
+1. Setup a new project folder with the commands:
+    ```
+    $ mkdir docsum
+    $ cd docsum
+    $ git init
+    ```
+
+1. Create a file `.env` that contains your API key in the form
+    ```
+    GROQ_API_KEY=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
+    ```
+
+    > **NOTE:**
+    > It is common in tutorials to see code that looks like
+    > ```
+    > $ echo "GROQ_API_KEY=<key>" > .env
+    > ```
+    > You are expected to understand that this creates a file `.env` with the appropriate content.
+
+1. Create a `.gitignore` file:
+    ```
+    $ cat > .gitignore <<EOF
+    .env
+    EOF
+    ```
+
+    > **NOTE:**
+    > The `.gitignore` file can help prevent accidentally adding "bad" files into a github repo.
+
+    > **NOTE:**
+    > For future assignments, you will get penalized if your repo contains any "extra" / "bad" files.
+
+1. Setup your project library dependencies.
+
+    We will be using two different python libraries in this project: `groq` and `python-dotenv`.
+
+    Run the following commands to prepare your library environment:
+    ```
+    $ cat > requirements.txt <<EOF
+    groq
+    python-dotenv
+    EOF
+    $ pip3 install -r requirements.txt
+    ```
+
+    > **NOTE:**
+    > This is the standard way in python to specify what libraries your project requires.
 
 ### Step 1: Get a Basic Example Working
 
@@ -38,8 +92,6 @@ You can find basic examples here: <https://github.com/groq/groq-python#usage>
 Under the hood, the python library uses a web API.
 The documentation at <https://console.groq.com/docs/> uses this API,
 but you do not need to interact with the API directly.
-
-You will need to use the `python-dotenv` library to store your API keys: <https://github.com/theskumar/python-dotenv>
 
 <!--
 The python library `groq` is also compatible with the openai api: <https://console.groq.com/docs/openai>
@@ -59,9 +111,7 @@ Create a file `docsum.py` that:
 > **Useful links:**
 >
 > 1. <https://docs.python.org/3/library/argparse.html>
-> 1. ~~<https://github.com/btimby/fulltext>~~
-> 
->   <https://github.com/deanmalmgren/textract>
+> 1. <https://github.com/deanmalmgren/textract>
 >
 > <img src=img/google.jpg width=300px />
 
@@ -70,7 +120,6 @@ Create a file `docsum.py` that:
 > The textract library will not work for images.
 > To summarize the contents of an image,
 > you will have to pass the image data directly to the LLM.
-> The easiest way to do this is to write a new function `llm_image` for this special case.
 > The groq documentation contains example code for handling images that you can use.
 > See <https://console.groq.com/docs/vision>.
 >
@@ -78,17 +127,20 @@ Create a file `docsum.py` that:
 > There are many ways to get your code to work for both use-cases,
 > and any method is fine.
 
+<!--
 > **Announcement (2025-04-08):**
-> 
+>
 > Over the weekend, facebook released the new Llama4 series of models.
 > You can find details at <https://ai.meta.com/blog/llama-4-multimodal-intelligence/>.
 >
 > These models are available on groq,
 > and you will be required to use the llama4 model for your submission.
 > You can find details on the supported groq models at: <https://console.groq.com/docs/models>.
+-->
 
-### Step 3: Submit Project
+### Step 3+: TBA
 
+<!--
 Create a `README.md` file.
 1. The file should explain what your `docsum.py` file does and how to use it.
 
@@ -120,6 +172,7 @@ Create a new github project for your repo.
 Commit and upload all of your changes.
 
 Submit the link to your github repo on sakai.
+-->
 
 <!--
 > **NOTE:** (Wednesday, 4 Sep 2024)
@@ -190,7 +243,7 @@ See the following links:
     The article on image prompt injection is particularly fun: <https://simonwillison.net/2023/Oct/14/multi-modal-prompt-injection/>.
 
 1. Data exfiltration from Slack AI via indirect prompt injection <https://promptarmor.substack.com/p/data-exfiltration-from-slack-ai-via>
-   
+
    and the corresponding hacker news post <https://news.ycombinator.com/item?id=41302597>
 
 <!--
