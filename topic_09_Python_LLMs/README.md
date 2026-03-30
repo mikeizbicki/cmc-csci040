@@ -27,33 +27,35 @@ You will still have to submit your finished product to canvas (as part of your n
 
 ### Step 0: Project Setup
 
-1. Create an account and API key at <https://groq.com/>.
-
-    > **NOTE:**
-    > Groq is not a competitor to OpenAI/Anthropic/Google/Meta developing new models.
-    > Instead, they are a competitor to NVIDIA, developing hardware that runs models.
-    > They are:
-    > - a [pre-revenue LLM startup](https://www.youtube.com/watch?v=BzAdXyPYKQo) focused on developing faster hardware to compete with NVIDIA;
-    > - (as of 24 Dec 2025) [a supplier of new chipsets to NVIDIA](https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale)
-
-1. Setup a new project folder with the commands:
+1. Setup a new project folder by running the commands
     ```
     $ mkdir docsum
     $ cd docsum
     $ git init
     ```
 
-1. Create a file `.env` that contains your API key in the form
-    ```
-    GROQ_API_KEY=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
-    ```
+1. Setup API keys.
 
-    > **NOTE:**
-    > It is common in tutorials to see code that looks like
-    > ```
-    > $ echo "GROQ_API_KEY=<key>" > .env
-    > ```
-    > You are expected to understand that this creates a file `.env` with the appropriate content.
+    1. Create an account and API key at <https://groq.com/>.
+
+        > **NOTE:**
+        > Groq is not a competitor to OpenAI/Anthropic/Google/Meta developing new models.
+        > Instead, they are a competitor to NVIDIA, developing hardware that runs models.
+        > They are:
+        > - a [pre-revenue LLM startup](https://www.youtube.com/watch?v=BzAdXyPYKQo) focused on developing faster hardware to compete with NVIDIA;
+        > - (as of 24 Dec 2025) [a supplier of new chipsets to NVIDIA](https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale)
+
+    1. Create a file `.env` that contains your API key in the form
+        ```
+        GROQ_API_KEY=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
+        ```
+
+        > **NOTE:**
+        > It is common in tutorials to see code that looks like
+        > ```
+        > $ echo "GROQ_API_KEY=<key>" > .env
+        > ```
+        > You are expected to understand that this creates a file `.env` with the appropriate content.
 
 1. Create a `.gitignore` file:
     ```
@@ -84,19 +86,26 @@ You will still have to submit your finished product to canvas (as part of your n
     > **NOTE:**
     > This is the standard way in python to specify what libraries your project requires.
 
-### Step 1: Get a Basic Example Working
+### Step 1: Create a class for working with LLMs
 
-The Groq company has a python library called `groq`.
-You can find basic examples here: <https://github.com/groq/groq-python#usage>
+We will create a class "in class" for working with LLMs.
 
-Under the hood, the python library uses a web API.
-The documentation at <https://console.groq.com/docs/> uses this API,
-but you do not need to interact with the API directly.
+We will reference the following docs:
+
+1. basic examples: <https://github.com/groq/groq-python#usage>
+
+1. models list: <https://console.groq.com/docs/models>
+
+    > **NOTE:**
+    > Pay attention to your rate limits: <https://console.groq.com/docs/rate-limits>.
+
+1. more examples: <https://console.groq.com/docs/text-chat#streaming-a-chat-completion>
+
+1. prompting guide: <https://console.groq.com/docs/prompting>
+
+2. structured output: <https://console.groq.com/docs/structured-outputs>
 
 <!--
-The python library `groq` is also compatible with the openai api: <https://console.groq.com/docs/openai>
--->
-
 ### Step 2: Create the Document Summarizer
 
 Create a file `docsum.py` that:
@@ -126,6 +135,7 @@ Create a file `docsum.py` that:
 > Recall that your code must work for images stored locally and for images inside a url.
 > There are many ways to get your code to work for both use-cases,
 > and any method is fine.
+-->
 
 <!--
 > **Announcement (2025-04-08):**
@@ -211,6 +221,7 @@ Submit the link to your github repo on sakai.
 >   1. but you're behind, and we should chat about how to catch up
 -->
 
+<!--
 ## Stupid Mistakes Programmers Make With LLMs
 
 ### Mistake 1: Leaking API keys
@@ -226,9 +237,7 @@ Very common support request on the OpenAI forums:
 Tools for stealing API keys:
 1. <https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/API%20Key%20Leaks>
 
-<!--
 To secure API keys for github actions, see: <https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions>
--->
 
 ### Stupid Mistake 2: Trusting User Input
 
@@ -246,7 +255,6 @@ See the following links:
 
    and the corresponding hacker news post <https://news.ycombinator.com/item?id=41302597>
 
-<!--
 ## Capture the Flag
 
 <img src=img/ctf.png width=300px />
