@@ -99,6 +99,8 @@ We will reference the following docs:
     > **NOTE:**
     > Pay attention to your rate limits: <https://console.groq.com/docs/rate-limits>.
 
+1. roles: <https://console.groq.com/docs/prompting#role-channels>
+
 1. more examples: <https://console.groq.com/docs/text-chat#streaming-a-chat-completion>
 
 1. prompting guide: <https://console.groq.com/docs/prompting>
