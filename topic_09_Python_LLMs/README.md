@@ -27,6 +27,8 @@ You will still have to submit your finished product to canvas (as part of your n
 
 ### Step 0: Project Setup
 
+The following steps are needed for all new python projects.
+
 1. Setup a new project folder by running the commands
     ```
     $ mkdir docsum
@@ -69,6 +71,14 @@ You will still have to submit your finished product to canvas (as part of your n
 
     > **NOTE:**
     > For future assignments, you will get penalized if your repo contains any "extra" / "bad" files.
+
+1. (optional) Create a project-specific `venv`
+
+    ```
+    $ python3 -m venv venv
+    $ source venv/bin/activate
+    $ echo venv >> .gitignore
+    ```
 
 1. Setup your project library dependencies.
 
