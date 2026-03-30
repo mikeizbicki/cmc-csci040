@@ -3,8 +3,8 @@
 <img src=img/chatgpt.png width=300px />
 
 **Announcements (30 Mar 2026):**
-1. github pull requests
-2. quiz Wednesday (shell / git)
+1. quiz Wednesday (shell / git)
+2. github pull requests
 
 ## Lecture Notes
 
