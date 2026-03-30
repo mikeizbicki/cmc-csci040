@@ -105,7 +105,9 @@ We will reference the following docs:
 
 1. prompting guide: <https://console.groq.com/docs/prompting>
 
-2. structured output: <https://console.groq.com/docs/structured-outputs>
+1. structured output: <https://console.groq.com/docs/structured-outputs>
+
+### Step 2+: Continued in lab...
 
 <!--
 ### Step 2: Create the Document Summarizer
@@ -149,8 +151,6 @@ Create a file `docsum.py` that:
 > and you will be required to use the llama4 model for your submission.
 > You can find details on the supported groq models at: <https://console.groq.com/docs/models>.
 -->
-
-### Step 3+: TBA
 
 <!--
 Create a `README.md` file.
