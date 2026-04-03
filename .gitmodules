@@ -28,3 +28,6 @@
 [submodule "how-internet-works"]
 	path = how-internet-works
 	url = https://github.com/mikeizbicki/how-internet-works
+[submodule "topic_09_Python_LLMs/lab-more-project-setup"]
+	path = topic_09_Python_LLMs/lab-more-project-setup
+	url = https://github.com/mikeizbicki/lab-more-project-setup

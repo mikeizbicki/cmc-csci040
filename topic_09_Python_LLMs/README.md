@@ -115,11 +115,19 @@ We will reference the following docs:
 
 1. prompting guide: <https://console.groq.com/docs/prompting>
 
+<!--
 1. tool use: <https://console.groq.com/docs/tool-use/local-tool-calling>
 
 1. structured output: <https://console.groq.com/docs/structured-outputs>
+-->
 
-### Step 2+: Continued in lab...
+### Step 2+:
+
+Continued in lab...
+
+## Lab
+
+See <https://github.com/mikeizbicki/lab-more-project-setup>.
 
 <!--
 ### Step 2: Create the Document Summarizer
