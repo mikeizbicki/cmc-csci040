@@ -14,9 +14,10 @@ Announcements:
 
     Both glob and regex have reputations as:
     1. having scary, non-intuitive syntax
-    1. being easy once you work through examples
+    1. being straightforward (but not "easy") once you work through some examples
     1. being *very* useful
 
+    <br/>
     <img width=400px src=img/cat.jpeg />
 
     <img width=400px src=img/you-dont.jpg />
