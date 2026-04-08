@@ -48,10 +48,12 @@ You will be extending the project you started from [lab-more-project-setup](http
 
 **grading:**
 The project is worth 32 points.
-There are also 16 possible points of extra credit,
-so it is possible to get 48/32 on this assignment.
+There are also 20 possible points of extra credit,
+so it is possible to get 52/32 on this assignment.
 
 ## Project Specification
+
+1. Your project must meet all of the specifications in <https://github.com/mikeizbicki/lab-more-project-setup>.
 
 1. Coding tasks.
 
@@ -146,6 +148,13 @@ so it is possible to get 48/32 on this assignment.
         1. The doctest does not help me as a user understand when to use this function.
         1. The function could totally change behavior and my test suite won't alert me to this change.
 
+1. Integration tests
+
+    1. Your repo must include a folder `test_projects`
+    1. In the `test_projects` folder, you should have "submodules" for all of the previous class projects
+        1. The three previous projects are: creating your own webpage, markdown compiler, and ebay scraper
+        1. Recall that a submodule is a "git repo inside another git repo".  They should be added using the command `git submodule add <url>`. YOU SHOULD NEVER CLONE A REPO INSIDE OF ANOTHER REPO!
+
 1. Github repo organization.
 
     > **Hint:**
@@ -185,11 +194,26 @@ so it is possible to get 48/32 on this assignment.
             > We will not cover in class how to do this because it will depend on your specific computer settings.
             > If you don't already have a screen recording program that you like, you can find some links and instructions at <https://dev.to/kelli/demo-your-app-in-your-github-readme-with-an-animated-gif-2o3c>.
 
-        1. a text-based usage example inside of a code block
-           
-            you must have an example where:
-            1. your program answers the question well
-            1. your program answers the question poorly
+        1. a text-based usage example inside of a code block, one for each of the git submodules
+
+            1. some examples of such code blocks are:
+                ```
+                $ cd markdown_compiler
+                $ chat
+                chat> does this project use regular expressions?
+                No. I grepped all of the python files for any uses of the `re` library and did not find any.
+                ```
+                or
+                ```
+                $ cd ebay_scraper
+                $ chat
+                chat> tell me about this project
+                The README says this project is designed to scrape product information off of ebay.
+                chat> is this legal?
+                Yes. It is generally legal to scrape webpages, but ebay offers an API that would be more efficient to use.
+                ```
+            1. these examples should be inside of their own markdown section
+            1. you must have a 1 sentence explanation for each example that explains why it is good
 
 **Extra credit:**
 
@@ -200,6 +224,7 @@ so it is possible to get 48/32 on this assignment.
 
 1. (1pts)
     Allow your program to take a command line argument that is a message to pass to the llm.
+
     For example:
     ```
     $ chat 'what files are in the .github folder?'
@@ -210,6 +235,7 @@ so it is possible to get 48/32 on this assignment.
 
 1. (1pts)
     Allow your program to support a `--debug` flag that prints out tool use calls.
+
     For example:
     ```
     $ chat
@@ -224,8 +250,39 @@ so it is possible to get 48/32 on this assignment.
     To get this extra credit, you must have both doctests and an integration test demonstrating this behavior works.
 
 1. (2pts)
+    Allow your program to support a `--provider` flag that lets you specify which provider to use.
+
+    You should support the following providers:
+    1. `openai`: use the latest gpt model
+    1. `anthropic`: use the latest claude opus 4.6 model
+    1. `google`: use the latest gemini model
+    1. `groq` (default): use whichever groq model you like the best
+
+    > **NOTE:**
+    > You will need an <https://openrouter.ai> API key to complete this task.
+    > All of your queries should cost less than a penny, so spending $10 on credits should be more than enough.
+
+1. (2pts)
+    Add a new tool `compact`.
+
+    This tool will call the LLM to summarize the current chat session (i.e. everything in `chat.messages` into just 1-5 lines of text.
+    Then it will replace the contents of the `chat.messages` list with a single entry that contains the summary.
+
+    This is useful for reducing the number of tokens in the current chat.
+    Reducing the number of tokens is useful for:
+    1. getting quicker responses from the LLMs
+    1. improving LLM accuracy (they can often get distracted by lots of unnecessary previous chat messages)
+    1. preventing API rate limits (remember that you have only a certain number of tokens per day you are allowed to use, and reducing the number of tokens in the chat prevents you from hitting those limits)
+    1. reducing the cost of running the chat (you are using a free API, but normally we pay per token)
+
+    > **NOTE:**
+    > The compact command will need to create its own instance of the `Chat` class.
+    > This is technically called a "subagent".
+
+1. (2pts)
     Have your chat program support tab completion in `/` commands.
-    Pressing tab while in the command portion should complete the command, and pressing tab 
+
+    Pressing tab while in the command portion should complete the command, and pressing tab in a parameter section should complete based on filenames.
 
     For example:
     1. if someone types `/` and then presses tab, they will get a list of supported tools
