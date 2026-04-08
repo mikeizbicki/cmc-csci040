@@ -109,6 +109,11 @@ so it is possible to get 52/32 on this assignment.
 
             1. Modify the `repl` function so that it checks to see if the first character of a line begins with `/`
 
+            1. **WARNING:**
+                
+                It is not enough to get these manual/automatic tool calls are working.
+                You must *prove* to me that these are working via doctests/integration tests.
+
     1. **WARNING:**
 
         Each of the tools above allows the LLM to read contents from your computer.
