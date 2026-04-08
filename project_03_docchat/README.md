@@ -53,6 +53,12 @@ so it is possible to get 52/32 on this assignment.
 
 ## Project Specification
 
+> **NOTE:**
+> Unlike previous assignments, I am not writing the doctests for you.
+> You will have to write the doctests yourself based on the specification below.
+> You should observe that this assignment would have been much easier if I had directly provided doctests.
+> Later in the course, you will observe that writing doctests is often actually easier/shorter than writing English-language specifications.
+
 1. Your project must meet all of the specifications in <https://github.com/mikeizbicki/lab-more-project-setup>.
 
 1. Coding tasks.
