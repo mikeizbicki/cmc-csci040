@@ -82,7 +82,7 @@ These tools will turn your docchat program into a full-fledged autonomous AI age
                 > Lots of AI researchers these days use terminator
                 > memes/analogies when talking about AI.
                 >
-                > <img width=300px src=img/terminator.jpg />
+                > <img width=300px src=img/terminator.jpeg />
             1. If the file is a python file, then you should run the
                 doctest tool on the python file and return the output.
 
