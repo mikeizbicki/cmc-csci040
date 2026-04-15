@@ -140,6 +140,9 @@ These tools will turn your docchat program into a full-fledged autonomous AI age
         You will need to use shell commands like (`ls`, `cat`, and `git`) and proper prompt formatting.
 
         One possible example is:
+
+        The session below demonstrates that `docchat` can create files when asked
+        and these files are automatically added to the git repo.
         ```
         $ ls -a
         .git  AGENTS.md  README.md
@@ -152,12 +155,9 @@ These tools will turn your docchat program into a full-fledged autonomous AI age
         $ ls -a
         .git  AGENTS.md  README.md  hello_world.py
         $ git log --oneline
-        $ git log --oneline
         3cfb0a6 (HEAD -> master) create basic hello world python project
         c21103f init commit
         ```
-        Notice that the session above demonstrates that a file is being
-        created and successfully added to the git repo.
 
 **Extra credit:**
 
