@@ -18,3 +18,8 @@ import json
 dump = json.dumps(data, indent=2)
 print(dump)
 ```
+
+**Fun links:**
+1. <https://github.com/toon-format/toon>
+1. <https://www.reddit.com/r/LocalLLaMA/comments/1pa3ok3/toon_is_terrible_so_i_invented_a_new_format_tron/>
+1. <https://tron-format.github.io/>
