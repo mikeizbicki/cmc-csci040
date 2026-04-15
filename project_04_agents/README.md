@@ -179,6 +179,10 @@ These tools will turn your docchat program into a full-fledged autonomous AI age
 
     You may choose to have the loop always enabled or to make it something that can be turned on/off.
 
+    > **NOTE:**
+    > Anthropic recently renamed their Ralph Wiggum implementation to just "Ralph" for copyright reasons.
+    > We can follow along with their github repo at <https://github.com/anthropics/claude-plugins-official/commit/44328beed48874d8e00da6c4ca5daaa5f0f3183c>.
+
 1. (4pts) Get your AI agent to autonomously complete the markdown compiler assignment.
 
     To claim this extra credit, you will need to include in your README file a link to a branch of your markdown compiler assignment that has only commits from your AI agent inside of it.
