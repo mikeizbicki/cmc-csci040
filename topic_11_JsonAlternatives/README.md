@@ -26,3 +26,5 @@ print(dump)
     1. <https://tron-format.github.io/>
 1. "soft CS": measuring developer productivity with LLMs:
     1. <https://arxiv.org/abs/2507.09089>
+1. real CS happens in "weird" places:
+    1. <https://www.theatlantic.com/technology/2026/04/4chan-ai-dungeon-thinking-reasoning/686794/>
