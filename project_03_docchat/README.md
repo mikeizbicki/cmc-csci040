@@ -134,7 +134,7 @@ so it is possible to get 52/32 on this assignment.
     1. Every class must have a docstring.
         1. The docstring must contain a brief 2-3 sentence English language description of what the class does.
         1. The docstring must contain doctests that demonstrate what the class does.
-    1. Every file must have a docstring that contains a brief 1-2 sentence description of the file. Not doctests are required.
+    1. Every file must have a docstring that contains a brief 1-2 sentence description of the file. No doctests are required.
     1. You must have a file `chat.py` that contains the "main code" for your program.
     1. Every tool must be in its own file inside of a `tools` subfolder.
         For example, the `ls` tools should have a file `tools/ls` that contains the code/json necessary for that tool.
