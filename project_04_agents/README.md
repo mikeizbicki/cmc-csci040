@@ -178,7 +178,7 @@ These tools will turn your docchat program into a full-fledged autonomous AI age
     > (on purpose or on accident) to destroy your computer.
     >
     > For example:
-    > The popular `LiteLLM` pacakge had a recent "supply chain attack".
+    > The popular `LiteLLM` package had a recent "supply chain attack".
     > 1. <https://docs.litellm.ai/blog/security-hardening-april-2026>
     > 1. <https://www.trendmicro.com/en_us/research/26/c/inside-litellm-supply-chain-compromise.html>
     > 1. <https://console.groq.com/docs/litellm>
