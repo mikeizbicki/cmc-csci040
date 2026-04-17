@@ -29,3 +29,15 @@ print(dump)
 1. real CS happens in "weird" places:
     1. <https://www.theatlantic.com/technology/2026/04/4chan-ai-dungeon-thinking-reasoning/686794/>
     1. <https://www.lesswrong.com/posts/gpyqWzWYADWmLYLeX/how-ai-is-learning-to-think-in-secret>
+
+## Lab
+
+This is just a working period for you all.
+
+Those of you who have submitted the project should have grades and a pull request with my detailed comments.
+These include comments about:
+1. why your grade is the way it is
+1. stylistic comments about how to improve your code
+1. any changes to make before the 2nd submission
+
+I encourage you all to work through/merge this pr and ask me any clarifying questions.

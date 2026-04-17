@@ -123,6 +123,12 @@ These tools will turn your docchat program into a full-fledged autonomous AI age
             1. It should create a commit with the file removed
                 1. The commit message should be `[docchat] rm <path>`
 
+            > **WARNING:**
+            > The `rm` command is dangerous when implemented incorrectly.
+            > See these fun/scary links:
+            > 1. Meta director of AI Alignment research Summer Yue had Claude accidentally delete her inbox due to a bad combination of the `rm` and `compact` commands: <https://www.pcmag.com/news/meta-security-researchers-openclaw-ai-agent-accidentally-deleted-her-emails>
+            > 1. Toy Story 2 was almost permanently deleted due to a bad `rm` command combined with the glob: <https://thenextweb.com/news/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good>
+
     > **WARNING:**
     > All of the tools above must validate their paths before running.
     > Like your previous tools, they should not run on absolute paths
