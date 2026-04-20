@@ -4,7 +4,7 @@
 
 So far we've seen two types of languages:
 
-1. **Procedural**: Python, Shell/Bash
+1. **Procedural**: Python, Shell (sometimes called Bash/Zsh)
 
     Tell the computer step by step exactly HOW to accomplish ANY TASK.
     The instructions are STEP-BY-STEP.
