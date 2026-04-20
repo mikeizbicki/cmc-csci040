@@ -21,17 +21,22 @@ So far we've seen four types of languages:
 
     Tell the computer WHAT information to FIND.
 
+<img width=500px src=img/quote.jpg />
+
 SQL is an example of a **declarative** language.
 In SQL, you tell the computer WHAT to COMPUTE,
 and the computer figures out HOW automatically.
-
-<img width=500px src=img/quote.jpg />
 
 SQL is arguably the most important language for data scientists.
 For example:
 
 1. All interactive webpages use a SQL database to store user content.
     Data scientists run SQL code to extract and process this information.
+
+1. SQL is "provably efficient".
+    Python libraries like Pandas are "guaranteed" to be slower than SQL.
+
+    <img width=400px src=img/meme.jpg />
 
 1. Most technical interviews will do advanced SQL problems.
     To get a job as a data scientist, you'll have to write SQL code live in front of your future boss.
