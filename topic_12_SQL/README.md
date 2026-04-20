@@ -59,7 +59,7 @@ How to run quiz problems:
 ```
 $ pip3 install litecli
 $ litecli quiz.db < quiz_schema.sql
-$ liteclie quiz.db
+$ litecli quiz.db
 quiz.db> /* enter problem here */
 ```
 
