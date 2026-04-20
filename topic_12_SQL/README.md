@@ -53,8 +53,10 @@ You'll need to know the following SQL commands:
 1. INSERT: <https://www.w3schools.com/sql/sql_insert.asp>
 
 1. SELECT: <https://www.w3schools.com/sql/sql_select.asp>
+    <!--
     1. WHERE <https://www.w3schools.com/sql/sql_where.asp>
     1. JOIN <https://www.w3schools.com/sql/sql_join_inner.asp>
+    -->
 
 1. UPDATE: <https://www.w3schools.com/sql/sql_update.asp>
 
