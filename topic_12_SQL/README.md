@@ -91,3 +91,6 @@ We'll use the following reference for connecting SQL to python:
     - <https://openai.com/index/sycophancy-in-gpt-4o/>
 1. master vs main:
     - <https://github.com/mikeizbicki/cmc-csci143/issues/750>
+1. Github's fake star economy:
+    - <https://awesomeagents.ai/news/github-fake-stars-investigation/>
+    - <https://news.ycombinator.com/item?id=47831621>
