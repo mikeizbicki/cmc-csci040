@@ -256,3 +256,4 @@ Submit a link to *the new branch of your github repo* in canvas.
 Additionally: You should submit a 1-2 sentence explanation of what you believe your grade should be.  In particular:
 1. If you completed any extra credit, say so.
 1. If there are portions of your assignment that do not work, I may be more lenient in grading if you say so.
+1. If you are requesting points back from your previous assignment, you must explicitly say so.
