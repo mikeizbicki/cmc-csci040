@@ -106,7 +106,7 @@ These tools will turn your docchat program into a full-fledged autonomous AI age
             > <img width=300px src=img/dry.jpg />
 
             > **NOTE:**
-            > Why even both with having a `write_file` tool if it is just
+            > Why even bother with having a `write_file` tool if it is just
             > a thin wrapper around the `write_files` tool?
             > The answer is because LLMs (and humans) generally understand
             > how to use the more specific tools better than the more
