@@ -2,7 +2,7 @@
  * This file is the leftmost pane in <https://sqlite.org/fiddle/>
  */
 
-.mode markdown
+-- .mode markdown
 
 ----------------------------------------
 -- users
