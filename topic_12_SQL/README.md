@@ -2,7 +2,7 @@
 
 <img width=500px src=img/dilbert5.jpg />
 
-So far we've seen two types of languages:
+So far we've seen four types of languages:
 
 1. **Procedural**: Python, Shell (sometimes called Bash/Zsh)
 
