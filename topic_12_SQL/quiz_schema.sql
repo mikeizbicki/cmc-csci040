@@ -1,9 +1,3 @@
-/*
- * This file is the leftmost pane in <https://sqlite.org/fiddle/>
- */
-
--- .mode markdown
-
 ----------------------------------------
 -- users
 ----------------------------------------
@@ -52,7 +46,3 @@ insert into messages (sender_id,message,created_at) values
     (6, 'SQL is the best!!', '2022-11-17 15:52:45'),
     (7, 'I''m an adult', '2022-11-17 16:12:21'),
     (7, 'WTF is SQL?!  I thought you liked the snake thing.', '2022-11-17 15:53:47');
-
-----------------------------------------
--- copy/paste the problem below here
-----------------------------------------
