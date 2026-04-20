@@ -1,6 +1,6 @@
 # SQL
 
-<img width=400px src=img/dilbert5.jpg />
+<img width=500px src=img/dilbert5.jpg />
 
 So far we've seen two types of languages:
 
@@ -24,6 +24,8 @@ So far we've seen two types of languages:
 SQL is an example of a **declarative** language.
 In SQL, you tell the computer WHAT to COMPUTE,
 and the computer figures out HOW automatically.
+
+<img width=500px src=img/quote.jpg />
 
 SQL is arguably the most important language for data scientists.
 For example:
