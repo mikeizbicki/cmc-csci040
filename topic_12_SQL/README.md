@@ -86,7 +86,7 @@ We'll use the following reference for connecting SQL to python:
 -->
 
 **Interesting Links** (that we might get to today)
-1. ChatGPT 4o sycophany:
+1. ChatGPT 4o sycophant:
     - <https://www.lesswrong.com/posts/zi6SsECs5CCEyhAop/gpt-4o-is-an-absurd-sycophant>
     - <https://openai.com/index/sycophancy-in-gpt-4o/>
 1. master vs main:
