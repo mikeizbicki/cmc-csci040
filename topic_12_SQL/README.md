@@ -275,6 +275,11 @@ And a sign of a truely good programmer is to know which functions should get tes
 <img width=400px src=img/tests-meme-anti2.jpg /><br/>
 
 **AI SYSYEMS SUCK AT WRITING TEST CASES!**
+1. their tests are:
+    1. not simple
+    1. confusing for humans (and AI!)
+    1. often don't actually test the code
+1. we can prove that this is a fundamental limit of transformer-based AI systems
 1. if your human-facing code smells like AI, you will not get a good job
 
     what is "human-facing"?
