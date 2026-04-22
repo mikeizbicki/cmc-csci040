@@ -261,11 +261,12 @@ def cat(path):
     '''
 ```
 
-n00bs are infamous for writing crappy tests:
+n00bs are infamous for writing crappy tests.
+Real Programmers (TM) love shitting on n00bs for this.
 
-<img width=400px src=img/tests-meme-anti1.jpg /><br/>
 <img width=400px src=img/tests-meme3.webp /><br/>
 <img width=400px src=img/tests-meme4.jpg /><br/>
+<img width=400px src=img/tests-meme-anti1.jpg /><br/>
 
 But writing good tests is legitimately hard to do.
 And a sign of a truely good programmer is to know which functions should get tested.
@@ -339,6 +340,7 @@ And a sign of a truely good programmer is to know which functions should get tes
         False
         '''
     ```
+    **You may not use the `in` keyword for demonstrating deterministic slash command behavior.**
 
 ### Interesting Links
 1. ChatGPT 4o sycophany:
