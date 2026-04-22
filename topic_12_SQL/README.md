@@ -263,14 +263,14 @@ def cat(path):
 
 n00bs are infamous for writing crappy tests:
 
-<img width=400px src=img/tests-meme2.jpeg /><br/>
+<img width=400px src=img/tests-meme-anti1.jpg /><br/>
 <img width=400px src=img/tests-meme3.webp /><br/>
 <img width=400px src=img/tests-meme4.jpg /><br/>
 
 But writing good tests is legitimately hard to do.
 And a sign of a truely good programmer is to know which functions should get tested.
 
-<img width=400px src=img/tests-meme-anti1.jpg /><br/>
+<img width=400px src=img/tests-meme2.jpeg /><br/>
 <img width=400px src=img/tests-meme-anti2.jpg /><br/>
 
 **AI SYSYEMS SUCK AT WRITING TEST CASES!**
