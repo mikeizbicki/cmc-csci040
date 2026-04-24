@@ -31,3 +31,6 @@
 [submodule "topic_09_Python_LLMs/lab-more-project-setup"]
 	path = topic_09_Python_LLMs/lab-more-project-setup
 	url = https://github.com/mikeizbicki/lab-more-project-setup
+[submodule "topic_12_SQL/lab-fastapi"]
+	path = topic_12_SQL/lab-fastapi
+	url = https://github.com/mikeizbicki/lab-fastapi
