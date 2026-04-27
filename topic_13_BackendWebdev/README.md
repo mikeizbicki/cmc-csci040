@@ -1,6 +1,21 @@
 # Backend Webdev
 
+<img width=200px src=img/6a00d8341d3df553ef01157073a04e970c-800wi.jpeg />
+
+<br />
+<img width=200px src=img/abstraction-5c17c1.jpg />
+
 **Announcements 27 May 2026:**
+
+1. Sorry I've been slow to grade projects :(
+
+1. No lab class this week (due to data science capstone presentations)
+
+    Still a lab assignment due (detailed below)
+
+1. No quiz this week
+
+    Last quiz will be last day of class: Wed 6 May
 
 <!--
 1. chatgpt updated:
@@ -15,14 +30,6 @@
 
    9-11AM finals week (Monday 12 May - Friday 16 May)
 
-1. No lab class this week (due to data science capstone presentations)
-
-    Still a lab assignment due (detailed below)
-
-<img width=200px src=img/6a00d8341d3df553ef01157073a04e970c-800wi.jpeg />
-
-<br />
-<img width=200px src=img/abstraction-5c17c1.jpg />
 -->
 
 ## Notes
