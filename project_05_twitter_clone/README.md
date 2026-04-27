@@ -3,50 +3,53 @@
 <img src=Strips-front-end-vs-le-back-end-650-finalenglish.jpg />
 
 **Description:**
-You will create a twitter clone using the flask web framework.
+You will create a twitter clone using the FastAPI web framework and sqlite3.
 
 **Learning objectives:**
 
 1. create large Python programs that span multiple files
 1. develop a CRUD (Create Read Update Delete) web app
 1. understand how social media websites work under the hood
-1. integrate the Python, HTML, CSS, Jinja2, and SQL programming languages
+1. integrate the Python, Markdown, HTML, CSS, Jinja2, and SQL programming languages
+1. practice using git
 
 **Due date:**
 You will live demo your project to me.
-1. Graduating students: Schedule a time before Friday May 9 noon
-
-1. Non-graduating students: During Finals Week (May 12-16)
-
+1. Graduating students: Schedule a time before Friday May 8 noon
+1. Non-graduating students: During Finals Week (May 11-15)
     1. You will have to demo your project to me 1-1 over zoom.
     1. I will be on zoom starting at 9AM every day of finals week.
     1. Login whichever day you would like to submit.
     1. I will admit 1 student at a time into the meeting.
-    1. Grading will take ~10 minutes. I will give your grade on the project + grade in the course.
+    1. Grading will take 5-15 minutes. I will give your grade on the project + grade in the course.
     1. You might have to wait a long time (up to 2-3 hours?) if you wait until Friday.
-
-
 
 ## Grading rubric
 
 The assignment is worth:
 1. Graduating students: 25 points
-1. Non-graduating students: 40 points
+1. Non-graduating students: 48 points
 
 There are 25 points of required tasks that you must complete.
 There are 75 points worth of optional tasks that you may choose to complete,
-so it is possible to earn up to 100/40 points on this assignment.
+so it is possible to earn up to 100/48 points on this assignment.
 
 > **WARNING:**
-> 
-> If I can hack your webpage using  a [SQL injection attack](https://en.wikipedia.org/wiki/SQL_injection),
+> If I can hack your webpage using a [SQL injection attack](https://en.wikipedia.org/wiki/SQL_injection),
 > then you will get a -10 point penalty added to your grade.
-> Note that this is a less severe penalty than getting a -10 on the assignment overall like from the login credentials penalty on the reddit assignment.
 
 > **WARNING:**
->
+> If I can hack your webpage using an [HTML injection attack](https://www.softwaretestinghelp.com/html-injection-tutorial/),
+> then you will get a -4 point penalty added to your grade.
+
+> **WARNING:**
 > When grading, I will be trying to cause your webpage to get an `Internal Server Error`.
 > If I ever get this error, you won't receive any points for the task that caused the error.
+
+> **HINT:**
+> I strongly encourage you to complete more tasks than you think you need to.
+> That way you will have a "buffer" in case I am able to break your webpage
+> or I do not award points for some task.
 
 ### Required Tasks
 
@@ -58,6 +61,8 @@ Each required task is worth 5 points and corresponds to one of the routes on you
     1. the messages should be ordered chronologically with the most recent message at the top
     1. each message should include the user account that created it, the time of creation, and the message contents
     1. at least one message must contain a single quote `'` and a double quote `"`
+
+        (the purpose of this check is to help you prevent SQL/HTML injection attacks)
 
 1. Log in
     1. a link to this page should only be visible in your menu if the user is not logged in
@@ -98,10 +103,9 @@ Each required task is worth 5 points and corresponds to one of the routes on you
 ### Optional Tasks
 
 The following tasks are worth 3 points each.
-These tasks do not require anything special be done with SQL.
 
 1. Create a nicely themed webpage with HTML/CSS.
-   
+
    I will use my subjective aesthetic judgement to determine what is and is not "nicely themed",
    but you don't have to do anything fancy.
    Just the simple CSS we covered at the beginning of class would be fine.
@@ -111,8 +115,7 @@ These tasks do not require anything special be done with SQL.
 1. Populate your twitter clone with at least 200 user accounts, each with 200 random messages (for 40000 messages total).
 
    > **HINT:**
-   >
-   > Modify the `db_create.py` file to randomly generate comments in a for loop using your code from the madlibs lab.
+   > Modify the `db_create.py` file to randomly generate comments.
 
 1. Allow deleting individual messages.
 
@@ -132,12 +135,16 @@ These tasks do not require anything special be done with SQL.
 
 1. Add a json endpoint for your messages route that returns the list of messages in json format instead of HTML format.
 
-1. Publish your website so that it can be accessed from other computers (see for example https://stackoverflow.com/questions/7023052/configure-flask-dev-server-to-be-visible-across-the-network).
+1. Publish your website so that it can be accessed from other computers.
    In order to get this credit, I must be able to access your webpage directly from my own computer by connecting to your IP address.
    This will likely require you to do a bit of research into networking.
 
+   > **HINT:**
+   > If you haven't actually tested connecting from a different computer that is not yours,
+   > you will not have done the extra credit correctly and will not get the points.
+
 The following tasks are worth 6 points each.
-Each of these tasks requires either more advanced SQL queries (i.e. `SELECT` statements) or modifying the underlying table schemas. 
+Each of these tasks requires either more advanced SQL queries (i.e. `SELECT` statements) or modifying the underlying table schemas.
 
 1. Display only 50 messages at a time in the messages route,
    and include a button at the bottom to go to the "next" and "previous" message pages.
@@ -168,24 +175,26 @@ Each of these tasks requires either more advanced SQL queries (i.e. `SELECT` sta
 1. Support switching the language of your interface.
    You must have at least 3 different languages that can be selected.
 
-1. Use the `flask-login` package and password hashing (as described in the [Flask Mega-Tutorial Section V](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins)) to make your login system more secure.
+1. Allow Markdown formatting in your messages.
+
+   > **HINT:**
+   > You can use your hw1 to convert the markdown message into the html that will be displayed.
+
+   > **HINT:**
+   > This task is easy to combine with the URL 3 point optional task.
 
 The following tasks are worth 9 points of extra credit:
 
-1. Allow Markdown formatting in your messages.
-   
-   > **HINT:**
-   > 
-   > You can use your hw1 to convert the markdown message into the html that will be displayed.
-   
-   > **HINT:**
-   > 
-   > This task is easy to combine with the URL 3 point optional task for a total of 12 points.
+1. Use Javascript to dynamically create/edit/remove posts without refreshing the webpage.
 
-   > **NOTE:**
-   >
-   > In order to get credit,
-   > you need to ensure that your code does not have an [HTML injection](https://www.softwaretestinghelp.com/html-injection-tutorial/) or vulnerability.
-   > You can find a discussion of how to safely pass HTML into Jinja2 variables [on stackoverflow](https://stackoverflow.com/questions/3206344/passing-html-to-template-using-flask-jinja2).
-   > I personally recommend using the [bleach](https://bleach.readthedocs.io/en/latest/index.html) library,
-   > but you're welcome to use whichever technique makes sense to you.
+    Your FastAPI server should serve JSON endpoints for all of the tasks.
+    Then you should have JavaScript code that modifies the DOM without actually refreshing the webpage.
+    We won't be covering how to do this in Javascript, so you'll have to research this yourself.
+
+1. Create a special AI user account.
+    Whenever a message @mentions this user account,
+    the AI will automatically reply to this message.
+    The reply should use an LLM and the behavior should be similar to @grok on X.
+
+    > **HINT:**
+    > This is a good task to combine with the "reply" extra credit task worth 6 points.
