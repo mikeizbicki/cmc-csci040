@@ -1,7 +1,8 @@
 # Backend Webdev
 
-**Announcements Thursday 1 May:**
+**Announcements 27 May 2026:**
 
+<!--
 1. chatgpt updated:
 
     <https://openai.com/index/sycophancy-in-gpt-4o/>
@@ -14,7 +15,7 @@
 
    9-11AM finals week (Monday 12 May - Friday 16 May)
 
-1. No lab class tomorrow (due to data science capstone presentations)
+1. No lab class this week (due to data science capstone presentations)
 
     Still a lab assignment due (detailed below)
 
@@ -22,6 +23,9 @@
 
 <br />
 <img width=200px src=img/abstraction-5c17c1.jpg />
+-->
+
+## Notes
 
 **SQL Review:**
 
@@ -76,28 +80,42 @@ Types of web programming:
 
 There are many libraries for backend webdev in python:
 
-1. **Flask** is the most popular "easy to use" library,
-    so that's what we'll use.
+1. **Django** is the most popular python framework.
+   - Companies that use Django include: Instagram, Pinterest, and Spotify
+   - This is what's called a "batteries-included" library because it does a lot of stuff for you automatically.
+   - But the "batteries" are relatively complicated and so we will not use this project.
 
-    - Companies that use flask include: Airbnb, Netflix, Reddit, and Uber 
-
+1. **Flask** used to be the most popular "simple" web framework.
+    - Companies that use flask include: Airbnb, Netflix, Reddit, and Uber
     - For a full list, see: <https://github.com/rochacbruno/flask-powered>
 
-1. The other popular python library is called **Django**.
-   - This is what's called a "batteries-included" library because it does a lot of stuff for you automatically.
-   - Companies that use Django include: Instagram, Pinterest, and Spotify
+    > *ASIDE:*
+    > How did Flask get its name?
+    >
+    > - All python web frameworks must adhere to the WSGI protocol defined in [PEP 333](https://www.python.org/dev/peps/pep-0333/)
+    >
+    > - PEP stands for "Python Enhancement Proposal" and is Guido's system for standardizing the python development process
+    >
+    > - WSGI is pronounced like "whiskey", not W-S-G-I
+    >
+    > - The simplest/best way to drink whiskey is in a flask
+    >
+    > (obviously a very opinionated statement)
+    >
+    > - By analogy, Flask is the simplest/best WSGI library
+    >
+    > (obviously a very opinionated statement)
+    >
+    > - Programmers love obscure puns
 
-<!--
-1. There's a new popular framework called FastAPI
-
+1. There's a new popular framework called **FastAPI**
     - lots of the companies above (esp. the flask companies) are migrating over to this framework
-
-    - requires something called "async" programming
-
-    - that's a lot of additional complexity, so we're not going to use it
-
+        - almost a "drop in replacement" for Flask
+        - uses ASGI instead of WSGI: <https://asgi.readthedocs.io/en/latest/introduction.html>
+        - the A in ASGI stands for "async" programming (2-100x faster for some tasks, slightly more complicated)
+        - FastAPI makes developing APIs much easier than flask
+        - very popular for something called "microservices" used internally at companies
     - <https://towardsdatascience.com/understanding-flask-vs-fastapi-web-framework-fe12bb58ee75>
--->
 
 1. About 2 dozen other libraries, see: <https://wsgi.readthedocs.io/en/latest/frameworks.html>
 
@@ -107,36 +125,20 @@ There are many libraries for backend webdev in python:
     At the end of this class, you'll know everything that Mark used to implement the first versions of The Facebook at Harvard.
     (He used a programming language called PHP and a SQL database called MySQL,
     but the principles are all the same,
-    and the Python/Flask/Sqlite3 stack is both simpler and faster.)
-
-How did Flask get its name?
-
-- All python web frameworks must adhere to the WSGI protocol defined in [PEP 333](https://www.python.org/dev/peps/pep-0333/)
-
-    - PEP stands for "Python Enhancement Proposal" and is Guido's system for standardizing the python development process
-
-- WSGI is pronounced like "whiskey", not W-S-G-I
-
-- The simplest/best way to drink whiskey is in a flask
-
-  (obviously a very opinionated statement)
-
-- By analogy, Flask is the simplest/best WSGI library
-
-  (obviously a very opinionated statement)
-
-- Programmers love obscure puns
-
-References:
-
-1. flask documentation: https://flask.palletsprojects.com/en/2.0.x/
-1. basic tutorial: https://www.tutorialspoint.com/flask/index.htm 
-1. advanced tutorial: https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+    and the Python/FastAPI/Sqlite3 stack is both simpler and faster.)
 
 ## Lab
 
 For this lab, you should create a simple flask app.
 Your final homework will extend the code you write in this lab.
+
+**Requirement 0:**
+
+Your project should be contained in a "reasonably structured" github repo.
+
+> *HINT:*
+> I am being intentionally vague about the phrase "reasonably structured" to get you all practice creating nice repos without step-by-step guidelines.
+> You can see the requirements from previous assignments to get a sense of what makes a repo reasonable.
 
 **Requirement 1:**
 
@@ -146,6 +148,7 @@ Your webpage should have 5 routes:
 1. `/logout`
 1. `/create_message`
 1. `/create_user`
+
 Each route should have a corresponding html file in the `templates` folder,
 and each of these html templates should extend a `base.html` template that contains the menu for your webpage.
 The `base.html` template should have an `<h1>` tag that is the title of your webpage,
@@ -164,17 +167,17 @@ For each message, you must display:
 >
 > Divide this task up into two steps.
 > First, create a list of dictionaries;
-> each dictionary would contain one message and would have the 4 key/value pairs specified above. 
+> each dictionary would contain one message and would have the 4 key/value pairs specified above.
 >
 > Then, pass this list of dictionaries to the `render_template` function,
 > and adjust your jinja2 code to process this list of dictionaries.
 >
-> The basic flask tutorial has a [section on using templates with dictionaries](https://www.tutorialspoint.com/flask/flask_templates.htm) that might be helpful as a reference for this requirement.
+> You can use this reference to learn about all the jinja2 syntax (e.g. how to use lists/dictionaries/for loops): <https://realpython.com/primer-on-jinja-templating/>.
 
 **Requirement 3:**
 
 > *NOTE:*
-> 
+>
 > We will not cover in class how to complete this requirement.
 > Instead, you should use [this reference](https://www.tutorialspoint.com/flask/flask_static_files.htm).
 > The decision not to cover this material in class is intentional to force you to get practice using references.
@@ -191,13 +194,19 @@ You must modify your `base.html` template to include the style sheet.
 This should result in every route being styled with the template.
 
 > *HINT:*
->
 > One of the optional tasks in the Project 5 is to create a nice looking webpage,
 > with nice navigation buttons and styling.
 > Now would be a good time to do this.
 
 **Submission:**
 
-Since there's a lot of files,
-so I'm NOT requiring that you upload them all to sakai.
-Instead, take a screenshot of your `/` route as displayed in firefox and upload that to sakai.
+1. Add a screenshot that demonstrates the functionality of your `/` route to your README.
+1. Create a new branch `lab-submission` that contains all of the code for this lab.
+1. Submit a link to this branch on canvas.
+
+> *WARNING:*
+> After submitting, you should not modify the `lab-submission` branch,
+> and instead should do all of your work in the `main`/`master` branch.
+> Your final project will lose points if your `lab-submission` branch gets updated.
+> It is very common when programming to need to have multiple branches of a project being updated at the same time,
+> and part of the purpose of this project is to get you practice with this technique.
