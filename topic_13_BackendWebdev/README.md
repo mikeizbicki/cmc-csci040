@@ -36,6 +36,10 @@
 
 1. Everything graded in canvas.
 
+    1. Lots of students said you fixed the doctests, but you didn't :(
+    1. You know project score you need to get the final grade you want.
+    1. Don't forget caveat tasks.
+
 1. Github outages:
     1. <https://mrshu.github.io/github-statuses/>
     1. <https://news.ycombinator.com/item?id=47939579>
