@@ -246,7 +246,7 @@ These tools will turn your docchat program into a full-fledged autonomous AI age
     > 1. Rewriting the whole file wastes a lot of tokens,
     >    which makes using the agent more expensive.
     > 1. LLMs often make typos (like forgetting a to match `(` and `)`).
-    >    These small typos will make code "look correct" but be have
+    >    These small typos will make code "look correct" but have
     >    very wrong behavior.
 
 ## Submission
