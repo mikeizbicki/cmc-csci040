@@ -32,6 +32,14 @@
 
 -->
 
+**Announcements (29 Apr 2026):**
+
+1. Everything graded in canvas.
+
+1. Github outages:
+    1. <https://mrshu.github.io/github-statuses/>
+    1. <https://news.ycombinator.com/item?id=47939579>
+
 ## Notes
 
 **SQL Review:**
@@ -171,15 +179,21 @@ For each message, you must display:
 1. and the age of the user who created it.
 
 > *HINT:*
->
 > Divide this task up into two steps.
-> First, create a list of dictionaries;
+
+> STEP1:
+> Create a list of dictionaries;
 > each dictionary would contain one message and would have the 4 key/value pairs specified above.
->
 > Then, pass this list of dictionaries to the `render_template` function,
 > and adjust your jinja2 code to process this list of dictionaries.
->
 > You can use this reference to learn about all the jinja2 syntax (e.g. how to use lists/dictionaries/for loops): <https://realpython.com/primer-on-jinja-templating/>.
+>
+> STEP2:
+> After you can successfully get "fake" data rendered,
+> extract "real" data from the database.
+> You can use `practice_quiz/problem6.py` as a template for how to extract real data and get the appropriate info.
+> (The problem shows how to get all the information for a particular username;
+> but if you remove the WHERE clause you should get all the information for all the users.)
 
 **Requirement 3:**
 
