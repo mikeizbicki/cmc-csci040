@@ -148,7 +148,7 @@ There are many libraries for backend webdev in python:
 
 ## Lab
 
-For this lab, you should create a simple flask app.
+For this lab, you should create a simple FastAPI app.
 Your final homework will extend the code you write in this lab.
 
 **Requirement 0:**
@@ -204,7 +204,7 @@ For each message, you must display:
 > *NOTE:*
 >
 > We will not cover in class how to complete this requirement.
-> Instead, you should use [this reference](https://www.tutorialspoint.com/flask/flask_static_files.htm).
+> Instead, you should use [this reference](https://medium.com/featurepreneur/serving-with-speed-static-files-in-fastapi-66af61c203e9).
 > The decision not to cover this material in class is intentional to force you to get practice using references.
 > I'm still happy to answer any questions you have about this task.
 
