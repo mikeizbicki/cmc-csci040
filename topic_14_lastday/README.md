@@ -115,7 +115,7 @@ Main takeaways from this class:
         1. what can AI never do?
         1. it's basically all math
 
-            <img src=alwayshasbeen.jpg width=400px />
+            <img src=alwayshasbeen.jpeg width=400px />
 
     1. I'd love to see you all in future CS classes :)
 
