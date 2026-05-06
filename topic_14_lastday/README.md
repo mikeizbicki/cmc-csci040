@@ -91,7 +91,7 @@ Main takeaways from this class:
     1. What they do is hard
         1. If code isn't basically perfect, then it's basically worthless
 
-            <img src=img/debugging.png width=400px />
+            <img src=debugging.png width=400px />
 
         1. But it's not TOO hard:
            
