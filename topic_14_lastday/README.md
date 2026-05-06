@@ -1,29 +1,21 @@
-# Week 14: Flask II
+# Topic 14: Last Day of Class :)
 
 <center>
 <img width=400px src=lkiuta60nio31.jpg />
 </center>
 
-We'll be creating a login/logout system for our Twitter clone project.
-The references for this week are the same as last week.
+**Announcements (6 May 2026)**
 
-There's 3 topics we'll need to cover:
 
-**Topic 1:** HTML Forms
+- Project demos: <https://github.com/mikeizbicki/cmc-csci040/tree/2026spring/project_05_twitter_clone>
 
-1. pass key/value pairs to ONE route
-1. two methods:
-    1. GET: key/value pairs in the URL
-    1. POST: key/value pairs not in the URL
+- Coding help:
 
-**Topic 2:** Cookies
+    - I will be in my office most of Thursday/Friday.  Feel free to drop in or post an issue to schedule a concrete time.
 
-1. pass key/value pairs to ALL routes
-1. key/value pairs not in the URL
+## Notes
 
-**Topic 3:** SQL Injection
-
-1. Common method for breaking poorly designed sites
+Beware of SQL injection in your project.
 
 <img src=exploits_of_a_mom.png width=600px>
 
@@ -37,12 +29,12 @@ There's 3 topics we'll need to cover:
 
 **About:**
 
-This is an optional lab worth +5pts EC.
+This is an optional lab worth +4pts EC.
 It's hard, but fun :)
 
 **Due:**
 
-Friday 16 Dec (same day as the project)
+Whenever you demo the project.
 
 **Background:**
 
@@ -81,7 +73,6 @@ For this lab, you should:
 > If you work with other people on this lab (which is still 100% okay),
 > you'll all need to meet with me at the same time to walk through your solution.
 
-<!--
 ## Closing remarks
 
 Main takeaways from this class:
@@ -95,31 +86,41 @@ Main takeaways from this class:
 
 1. Hackers get paid a lot of money
 
+    1. <https://www.levels.fyi>
+
     1. What they do is hard
         1. If code isn't basically perfect, then it's basically worthless
+
+            <img src=img/debugging.png width=400px />
+
         1. But it's not TOO hard:
            
            You can all learn to do it if you're willing to put in the effort
 
-    1. What they do impacts everything in society
-        1. Build webpages (HW0 / HW5)
-        1. Monitor foreign governments (lab)
-        1. Scrape webpages for business information (HW3)
-        1. Build cool visualizations (HW2)
-        1. Unicode => not just English speakers
-
     1. Good hackers (as in high-quality, not righteous) know how to break stuff, because strong defense requires knowing offense
-        1. SQL injection (HW5)
+        1. SQL injection
             - always validate your inputs
         1. Password cracking (lab)
             - use good passwords
             - don't reuse passwords between sensitive accounts
-        1. Fake news bots (HW4)
-            - legal defenses require a deep understanding of the good bots so that you don't make those illegal as well
-            - CSCI145/MATH166 Data Mining covers techniquess for finding and stopping the bad bots
         1. **If you see someone talking about computer security, but they don't know how to code, they're a fraud.**
+
            This applies to basically all government/defense workers/contractors...
            To see why, compare the salaries for Google employees to government employees.
 
-I'd love to see you all in future CS classes :)
--->
+1. We haven't yet studied "real computer science"
+
+    1. "real CS" studies
+        1. how to prove code is correct?
+        1. what can AI never do?
+        1. it's basically all math
+
+    1. I'd love to see you all in future CS classes :)
+
+**Course Evals**
+
+Please submit them!
+
+The following specific feedback is particularly useful:
+- which assignments were fun/hard/useful/etc
+- where you found the best help (AI/QCL/classmates/office hours/etc)
