@@ -173,7 +173,7 @@ so it is possible to get 52/32 on this assignment.
     > This will make the project look "more impressive" to future employers who might see it.
 
     1. The repo must have no non-necessary files (e.g. `.DS_Store`, `__pycache__`).
-    1. The repo mush have no `.env` file (and no hard-coded credentials anywhere else) uploaded.
+    1. The repo must have no `.env` file (and no hard-coded credentials anywhere else) uploaded.
     1. The repo must have a valid `requirements.txt` file that contains all of the required dependencies, and any other files required for building the project with `pip`.
     1. The repo must have the following github actions:
         1. doctests
